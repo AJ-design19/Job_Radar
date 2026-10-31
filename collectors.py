@@ -1,4 +1,5 @@
-"""Fetch jobs from public ATS APIs / search API and check whether a URL is still open."""
+"""Fetch jobs from public ATS APIs / search APIs, extract pay, check whether a URL is still open."""
+import html
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor
@@ -21,9 +22,49 @@ def _get(url, **kw):
     return r
 
 
-def _job(jid, title, company, location, url, posted="", desc=""):
+# ---------------- pay helpers (INR only; most Indian intern posts don't list pay) ----------------
+def to_month_inr(amount, interval=None):
+    """Monthly INR from an amount. Unknown interval: below 2 lakh is read as monthly, above as yearly."""
+    try:
+        amount = float(amount)
+    except (TypeError, ValueError):
+        return None
+    iv = str(interval or "").lower()
+    if "hour" in iv or "day" in iv or "week" in iv:
+        return None
+    if "month" in iv:
+        monthly = amount
+    elif any(w in iv for w in ("year", "annual", "annum")):
+        monthly = amount / 12
+    else:
+        monthly = amount if amount < 200000 else amount / 12
+    return int(monthly) if monthly >= 1000 else None
+
+
+_PAY = re.compile(r"(?:stipend|compensation|salary|ctc|remuneration)[^.\n]{0,80}?(?:₹|rs\.?|inr)\s?"
+                  r"(\d[\d,]*(?:\.\d+)?)\s*(k|lakhs?|lpa|l)?\b(.{0,30})", re.S)
+
+
+def parse_pay(text):
+    """Find a stated stipend/salary in free text, e.g. 'Stipend: ₹50,000 per month' or 'CTC Rs 12 LPA'."""
+    for m in _PAY.finditer((text or "").lower()):
+        amt = float(m.group(1).replace(",", ""))
+        unit, tail = m.group(2) or "", m.group(3) or ""
+        if unit == "k":
+            amt *= 1000
+        elif unit:
+            amt *= 100000
+        annual = unit == "lpa" or any(w in tail for w in ("per annum", "/year", "per year", "annum", "p.a", "annual"))
+        monthly = amt / 12 if annual else amt
+        if monthly >= 1000:
+            return int(monthly)
+    return None
+
+
+# ---------------- collectors ----------------
+def _job(jid, title, company, location, url, posted="", desc="", pay=None):
     return {"id": jid, "title": title or "", "company": company, "location": location or "",
-            "url": url or "", "posted": posted or "", "desc": (desc or "")[:1500]}
+            "url": url or "", "posted": posted or "", "desc": (desc or "")[:3000], "stipend_inr_month": pay}
 
 
 def greenhouse(slug):
@@ -32,17 +73,49 @@ def greenhouse(slug):
                  j["absolute_url"], j.get("updated_at")) for j in data.get("jobs", [])]
 
 
+def greenhouse_detail(slug, gid):
+    """Full description + pay range for ONE Greenhouse posting (used only for likely matches)."""
+    try:
+        d = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{gid}",
+                 params={"pay_transparency": "true"}).json()
+    except Exception:
+        return {}
+    text = re.sub(r"<[^>]+>", " ", html.unescape(d.get("content") or ""))
+    out = {"desc": re.sub(r"\s+", " ", text)[:4000]}
+    for r in d.get("pay_input_ranges") or []:
+        if str(r.get("currency_type", "")).upper() == "INR":
+            pay = to_month_inr((r.get("min_cents") or 0) / 100)
+            if pay:
+                out["stipend_inr_month"] = pay
+                break
+    return out
+
+
 def lever(slug):
     data = _get(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"}).json()
-    return [_job(f"lv:{slug}:{j['id']}", j["text"], slug.title(), (j.get("categories") or {}).get("location"),
-                 j["hostedUrl"], desc=j.get("descriptionPlain")) for j in data]
+    out = []
+    for j in data:
+        sr = j.get("salaryRange") or {}
+        pay = to_month_inr(sr.get("min"), sr.get("interval")) if str(sr.get("currency", "")).upper() == "INR" else None
+        out.append(_job(f"lv:{slug}:{j['id']}", j["text"], slug.title(), (j.get("categories") or {}).get("location"),
+                        j["hostedUrl"], desc=j.get("descriptionPlain"), pay=pay))
+    return out
 
 
 def ashby(slug):
-    data = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}").json()
-    return [_job(f"ab:{slug}:{j['id']}", j["title"], slug.title(), j.get("location"), j.get("jobUrl"),
-                 j.get("publishedAt"), j.get("descriptionPlain"))
-            for j in data.get("jobs", []) if j.get("isListed", True)]
+    data = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", params={"includeCompensation": "true"}).json()
+    out = []
+    for j in data.get("jobs", []):
+        if not j.get("isListed", True):
+            continue
+        pay = None
+        for c in (j.get("compensation") or {}).get("summaryComponents") or []:
+            if c.get("compensationType") == "Salary" and str(c.get("currencyCode", "")).upper() == "INR":
+                pay = to_month_inr(c.get("minValue"), c.get("interval"))
+                break
+        out.append(_job(f"ab:{slug}:{j['id']}", j["title"], slug.title(), j.get("location"), j.get("jobUrl"),
+                        j.get("publishedAt"), j.get("descriptionPlain"), pay))
+    return out
 
 
 def adzuna(cfg):
@@ -58,9 +131,11 @@ def adzuna(cfg):
             if j["id"] in seen:
                 continue
             seen.add(j["id"])
+            real = str(j.get("salary_is_predicted", "0")) != "1" and j.get("salary_min")
             out.append(_job(f"az:{j['id']}", j["title"], (j.get("company") or {}).get("display_name", "?"),
                             (j.get("location") or {}).get("display_name"), j["redirect_url"],
-                            j.get("created"), j.get("description")))
+                            j.get("created"), j.get("description"),
+                            to_month_inr(j["salary_min"], "year") if real else None))
     return out
 
 
@@ -105,25 +180,19 @@ def collect_all(cfg):
                 j.update(src=key, verifiable=True)
                 jobs.append(j)
 
-    if cfg.get("adzuna"):
+    for name, fn in (("adzuna", adzuna), ("themuse", themuse)):
+        conf = cfg.get(name)
+        if not conf or (name == "themuse" and not conf.get("enabled")):
+            continue
         try:
-            res = adzuna(cfg["adzuna"])
+            res = fn(conf)
             if res is not None:
-                ok.add("adzuna")
+                ok.add(name)
                 for j in res:
-                    j.update(src="adzuna", verifiable=False)
+                    j.update(src=name, verifiable=False)
                     jobs.append(j)
         except Exception as e:
-            failed["adzuna"] = f"{type(e).__name__}: {str(e)[:100]}"
-    if (cfg.get("themuse") or {}).get("enabled"):
-        try:
-            res = themuse(cfg["themuse"])
-            ok.add("themuse")
-            for j in res:
-                j.update(src="themuse", verifiable=False)
-                jobs.append(j)
-        except Exception as e:
-            failed["themuse"] = f"{type(e).__name__}: {str(e)[:100]}"
+            failed[name] = f"{type(e).__name__}: {str(e)[:100]}"
     return jobs, ok, failed
 
 

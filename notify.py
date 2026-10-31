@@ -103,12 +103,20 @@ def digest_push_text(date_str, stats, new24, closed24, by_company):
 def telegram_job_text(j):
     extra = f"\n<i>{_e(j['reason'])}</i>" if j.get("reason") else ""
     dl = f"\nDeadline: {_e(j['deadline'])}" if j.get("deadline") else ""
+    dl += f"\nStipend: {_pay(j)}" if _pay(j) else ""
     return (f"🔔 <b>{_e(j['title'])}</b>\n{_e(j['company'])} · {_e(j['location'] or '-')} · match {j['score']}/10"
             f"{dl}{extra}\n{_e(j['url'])}")
 
 
+def _pay(j):
+    p = j.get("stipend_inr_month")
+    return f"₹{int(p):,}/month" if p else ""
+
+
 def _job_html(j):
     bits = [j["company"], j["location"] or "-", f"match {j['score']}/10"]
+    if _pay(j):
+        bits.append(_pay(j))
     if j.get("deadline"):
         bits.append(f"deadline {j['deadline']}")
     reason = f"<br><span style='color:#777;font-size:13px'>{_e(j['reason'])}</span>" if j.get("reason") else ""
@@ -208,6 +216,7 @@ def _md_job(j):
     title = str(j["title"]).replace("[", "(").replace("]", ")")
     extra = f" - {j['reason']}" if j.get("reason") else ""
     dl = f" · deadline **{j['deadline']}**" if j.get("deadline") else ""
+    dl += f" · {_pay(j)}" if _pay(j) else ""
     url = str(j["url"]).replace(" ", "%20").replace(")", "%29")
     return f"- [{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}"
 

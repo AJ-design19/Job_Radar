@@ -5,17 +5,18 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 import yaml
 
-from collectors import check_url, collect_all
+from collectors import check_url, collect_all, greenhouse_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown)
-from scoring import heuristic_score, llm_enrich, passes_filters
+from scoring import heuristic_score, llm_enrich, passes_batch, passes_filters, passes_pay
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "state.json"
+IST = timezone(timedelta(hours=5, minutes=30))  # fixed offset: no tz database needed (works on Windows)
+MAX_DETAIL_CALLS = 60   # Greenhouse posting-detail fetches per run (description + pay)
 MAX_LLM_CALLS = 15      # Gemini screenings per run
 MAX_URL_CHECKS = 15     # open/closed page checks per digest for search-API jobs
 
@@ -34,13 +35,13 @@ def parse(s):
 
 def load_state():
     if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text())
+        return json.loads(STATE_PATH.read_text(encoding="utf-8"))
     return {"initialized": False, "jobs": {}, "watch": {}, "failures": {}}
 
 
 def save_state(state):
     STATE_PATH.parent.mkdir(exist_ok=True)
-    STATE_PATH.write_text(json.dumps(state, indent=1, sort_keys=True))
+    STATE_PATH.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")
 
 
 def check_watch(cfg, state, ts):
@@ -68,7 +69,8 @@ def scan(cfg, state):
     first_run = not state.get("initialized")
     known = set(state.get("sources_seen", []))
     new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
-    seen, new_jobs, llm_calls = set(), [], 0
+    seen, new_jobs, llm_calls, detail_calls = set(), [], 0, 0
+    rejected = state.setdefault("rejected", {})  # postings already judged unsuitable: never re-fetched
 
     for j in jobs:
         seen.add(j["id"])
@@ -79,10 +81,18 @@ def scan(cfg, state):
                 rec["status"] = "open"
                 rec.pop("closed_at", None)
             continue
-        if not passes_filters(j, profile):
+        if j["id"] in rejected or not passes_filters(j, profile):
             continue
+        if j["src"].startswith("gh:"):  # Greenhouse lists carry no text: fetch it for likely matches only
+            if detail_calls >= MAX_DETAIL_CALLS:
+                continue  # try again next run
+            detail_calls += 1
+            j.update(greenhouse_detail(j["src"][3:], j["id"].rsplit(":", 1)[1]))
+        if j.get("stipend_inr_month") is None:
+            j["stipend_inr_month"] = parse_pay(j.get("desc", ""))
         score = heuristic_score(j, profile)
-        if score < acfg["digest_min_score"]:
+        if not (passes_batch(j, profile) and passes_pay(j, profile)) or score < acfg["digest_min_score"]:
+            rejected[j["id"]] = ts
             continue
         extra = {}
         if llm_calls < MAX_LLM_CALLS and os.getenv("GEMINI_API_KEY"):
@@ -94,7 +104,7 @@ def scan(cfg, state):
                 status = "ignored"  # remembered so we don't re-screen it every run
             elif isinstance(extra.get("score"), (int, float)):
                 score = round((score + extra["score"]) / 2)
-        rec = {**j, "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
+        rec = {**j, "desc": "", "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
                "first_seen": ts, "last_seen": ts, "status": status}
         state["jobs"][j["id"]] = rec
         if status == "open" and score >= acfg["instant_min_score"] and j["src"] not in new_srcs:
@@ -116,6 +126,8 @@ def scan(cfg, state):
     cutoff = now() - timedelta(days=30)
     for jid in [k for k, r in state["jobs"].items() if parse(r["last_seen"]) < cutoff]:
         del state["jobs"][jid]
+    for k in [k for k, v in rejected.items() if parse(v) < cutoff]:
+        del rejected[k]
 
     watch_changes = check_watch(cfg, state, ts)
 
@@ -125,8 +137,8 @@ def scan(cfg, state):
         send_email(*alert_email(new_jobs, watch_changes))
         title, body = alert_markdown(new_jobs, watch_changes)  # picked up by the workflow -> GitHub issue
         (ROOT / "out").mkdir(exist_ok=True)
-        (ROOT / "out" / "alert_title.txt").write_text(title)
-        (ROOT / "out" / "alert.md").write_text(body)
+        (ROOT / "out" / "alert_title.txt").write_text(title, encoding="utf-8")
+        (ROOT / "out" / "alert.md").write_text(body, encoding="utf-8")
         for j in sorted(new_jobs, key=lambda x: -x["score"])[:10]:
             push(telegram_job_text(j))
         for c in watch_changes:
@@ -162,7 +174,7 @@ def digest(cfg, state):
     by_company = {}
     for r in sorted(open_jobs, key=lambda r: -r["score"]):
         by_company.setdefault(r["company"], []).append(r)
-    date_str = n.astimezone(ZoneInfo("Asia/Kolkata")).strftime("%d %b %Y")
+    date_str = n.astimezone(IST).strftime("%d %b %Y")
     failures = {k: v for k, v in state["failures"].items() if v["count"] >= 3}
     send_email(*digest_email(date_str, {"open": len(open_jobs), "companies": len(by_company)},
                              new24, soon, closed24, state["watch"], failures, by_company))
@@ -170,8 +182,8 @@ def digest(cfg, state):
                          new24, soon, closed24, state["watch"], failures, by_company)
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
-    (rdir / "latest.md").write_text(md)
-    (rdir / f"{n.astimezone(ZoneInfo('Asia/Kolkata')).strftime('%Y-%m-%d')}.md").write_text(md)
+    (rdir / "latest.md").write_text(md, encoding="utf-8")
+    (rdir / f"{n.astimezone(IST).strftime('%Y-%m-%d')}.md").write_text(md, encoding="utf-8")
     for old in sorted(rdir.glob("20*.md"))[:-14]:  # keep the last 14 days
         old.unlink()
     summary = os.getenv("GITHUB_STEP_SUMMARY")
@@ -183,8 +195,13 @@ def digest(cfg, state):
 
 
 def main():
+    for stream in (sys.stdout, sys.stderr):  # Windows consoles default to cp1252 and choke on emoji
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
     cmd = sys.argv[1] if len(sys.argv) > 1 else "scan"
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     if cmd == "test":
         ok = send_email("✅ Job Radar test", "<p>Email works. You're all set.</p>", "Email works. You're all set.")
         tg = send_telegram("✅ Job Radar test: Telegram works.")

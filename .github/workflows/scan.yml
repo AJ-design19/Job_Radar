@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
+  issues: write
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -39,9 +40,17 @@ jobs:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python agent.py ${{ github.event.inputs.command || 'scan' }}
+      - name: Post alert as GitHub issue
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f out/alert.md ]; then
+            gh issue create --title "$(cat out/alert_title.txt)" --body-file out/alert.md
+          fi
       - name: Save state
         run: |
           git config user.name "job-radar-bot"
           git config user.email "job-radar-bot@users.noreply.github.com"
-          git add state/ 2>/dev/null || true
+          git add state/ reports/ 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "chore: update state [skip ci]" && git pull --rebase && git push)

@@ -11,7 +11,7 @@ import yaml
 
 from collectors import check_url, collect_all
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
-                    send_whatsapp, telegram_job_text)
+                    send_whatsapp, telegram_job_text, alert_markdown, digest_markdown)
 from scoring import heuristic_score, llm_enrich, passes_filters
 
 ROOT = Path(__file__).parent
@@ -61,6 +61,8 @@ def check_watch(cfg, state, ts):
 
 def scan(cfg, state):
     ts = iso(now())
+    for f in (ROOT / "out").glob("alert*"):
+        f.unlink()
     profile, acfg = cfg["profile"], cfg["alerts"]
     jobs, ok, failed = collect_all(cfg)
     first_run = not state.get("initialized")
@@ -121,6 +123,10 @@ def scan(cfg, state):
         print(f"First run: baseline saved ({len(state['jobs'])} matches). No instant alerts; see the daily digest.")
     elif new_jobs or watch_changes:
         send_email(*alert_email(new_jobs, watch_changes))
+        title, body = alert_markdown(new_jobs, watch_changes)  # picked up by the workflow -> GitHub issue
+        (ROOT / "out").mkdir(exist_ok=True)
+        (ROOT / "out" / "alert_title.txt").write_text(title)
+        (ROOT / "out" / "alert.md").write_text(body)
         for j in sorted(new_jobs, key=lambda x: -x["score"])[:10]:
             push(telegram_job_text(j))
         for c in watch_changes:
@@ -160,6 +166,18 @@ def digest(cfg, state):
     failures = {k: v for k, v in state["failures"].items() if v["count"] >= 3}
     send_email(*digest_email(date_str, {"open": len(open_jobs), "companies": len(by_company)},
                              new24, soon, closed24, state["watch"], failures, by_company))
+    md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
+                         new24, soon, closed24, state["watch"], failures, by_company)
+    rdir = ROOT / "reports"
+    rdir.mkdir(exist_ok=True)
+    (rdir / "latest.md").write_text(md)
+    (rdir / f"{n.astimezone(ZoneInfo('Asia/Kolkata')).strftime('%Y-%m-%d')}.md").write_text(md)
+    for old in sorted(rdir.glob("20*.md"))[:-14]:  # keep the last 14 days
+        old.unlink()
+    summary = os.getenv("GITHUB_STEP_SUMMARY")
+    if summary:  # also shows on the workflow run page
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write(md)
     push(digest_push_text(date_str, {"companies": len(by_company)}, new24, closed24, by_company))
     print(f"digest sent: {len(new24)} new, {len(closed24)} closed, {len(open_jobs)} open")
 

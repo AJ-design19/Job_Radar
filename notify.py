@@ -201,3 +201,61 @@ def digest_email(date_str, stats, new24, soon, closed24, watch, failures, by_com
     subject = (f"📋 Job Radar {date_str}: {stats.get('companies', 0)} companies hiring interns, "
                f"{len(new24)} new, {len(closed24)} closed")
     return subject, _wrap(f"Daily report - {date_str}", "".join(parts)), "\n".join(text)
+
+
+# ---------------- GitHub-only output (markdown) ----------------
+def _md_job(j):
+    title = str(j["title"]).replace("[", "(").replace("]", ")")
+    extra = f" - {j['reason']}" if j.get("reason") else ""
+    dl = f" · deadline **{j['deadline']}**" if j.get("deadline") else ""
+    url = str(j["url"]).replace(" ", "%20").replace(")", "%29")
+    return f"- [{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}"
+
+
+def _mention():
+    owner = os.getenv("GITHUB_REPOSITORY_OWNER")
+    return [f"@{owner}", ""] if owner else []
+
+
+def alert_markdown(new_jobs, watch_changes):
+    new_jobs = sorted(new_jobs, key=lambda j: -j["score"])
+    L = _mention()
+    if new_jobs:
+        L += ["## New matches"] + [_md_job(j) for j in new_jobs] + [""]
+    if watch_changes:
+        L += ["## Watchlist changes"] + [f"- **{c['name']}** is now **{c['status'].upper()}** - {c['url']} ({c['note']})"
+                                         for c in watch_changes]
+    if new_jobs:
+        top = new_jobs[0]
+        title = f"🔔 {len(new_jobs)} new match{'es' if len(new_jobs) > 1 else ''}: {top['title']} @ {top['company']}"
+    else:
+        c = watch_changes[0]
+        title = f"{'✅' if c['status'] == 'open' else '⛔'} {c['name']} is now {c['status'].upper()}"
+    return title, "\n".join(L)
+
+
+def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_company):
+    L = _mention() + [f"# Job Radar daily report - {date_str}",
+                      f"**{stats.get('companies', 0)} companies** hiring interns · {stats['open']} open roles · "
+                      f"{len(new24)} new in 24h · {len(closed24)} closed in 24h", ""]
+    if soon:
+        L += ["## ⏰ Deadline within 7 days"] + [_md_job(j) for j in soon] + [""]
+    top = sorted(new24, key=lambda j: -j["score"])[:40]
+    L += ["## New in the last 24 hours"] + ([_md_job(j) for j in top] or ["_Nothing new._"]) + [""]
+    if by_company:
+        items = sorted(by_company.items(), key=lambda kv: (-len(kv[1]), kv[0].lower()))[:100]
+        L += [f"## 🏢 Companies hiring interns right now ({len(by_company)})", ""]
+        for comp, js in items:
+            L += [f"<details><summary><b>{_e(comp)}</b> ({len(js)})</summary>", ""]
+            L += [_md_job(j) for j in js[:10]]
+            if len(js) > 10:
+                L.append(f"- _+{len(js) - 10} more_")
+            L += ["", "</details>", ""]
+    if closed24:
+        L += ["## Closed since yesterday"] + [_md_job(j) for j in closed24[:15]] + [""]
+    if watch:
+        L += ["## Watchlist"] + [f"- **{n}**: {w['status'].upper()} ({w['note']})" for n, w in watch.items()] + [""]
+    if failures:
+        L += ["## Source problems (check slug / network)"] + [f"- `{k}`: {v['error']} (x{v['count']})"
+                                                               for k, v in failures.items()]
+    return "\n".join(L)

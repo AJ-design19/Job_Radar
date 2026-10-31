@@ -1,0 +1,101 @@
+{
+ "failures": {
+  "gh:browserstack": {
+   "count": 1,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs"
+  },
+  "gh:postman": {
+   "count": 1,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/postman/jobs"
+  },
+  "gh:thoughtspot": {
+   "count": 1,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs"
+  },
+  "lv:groww": {
+   "count": 1,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/groww?mode=json"
+  }
+ },
+ "initialized": true,
+ "jobs": {
+  "gh:stripe:8031833": {
+   "company": "Stripe",
+   "deadline": "",
+   "desc": "",
+   "first_seen": "2026-10-31T18:24:42+00:00",
+   "id": "gh:stripe:8031833",
+   "last_seen": "2026-10-31T18:24:42+00:00",
+   "location": "Bengaluru",
+   "posted": "2026-10-29T10:42:09-04:00",
+   "reason": "",
+   "score": 8,
+   "src": "gh:stripe",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Software Engineer, Intern",
+   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+   "verifiable": true
+  },
+  "gh:stripe:8130876": {
+   "company": "Stripe",
+   "deadline": "",
+   "desc": "",
+   "first_seen": "2026-10-31T18:24:42+00:00",
+   "id": "gh:stripe:8130876",
+   "last_seen": "2026-10-31T18:24:42+00:00",
+   "location": "Bangalore",
+   "posted": "2026-10-29T10:42:09-04:00",
+   "reason": "",
+   "score": 8,
+   "src": "gh:stripe",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Software Engineer, New Grad",
+   "url": "https://stripe.com/jobs/search?gh_jid=8130876",
+   "verifiable": true
+  }
+ },
+ "rejected": {},
+ "sources_seen": [
+  "ab:linear",
+  "ab:notion",
+  "ab:openai",
+  "ab:ramp",
+  "ab:replit",
+  "ab:supabase",
+  "gh:airbnb",
+  "gh:anthropic",
+  "gh:asana",
+  "gh:carta",
+  "gh:cloudflare",
+  "gh:coinbase",
+  "gh:databricks",
+  "gh:datadog",
+  "gh:discord",
+  "gh:dropbox",
+  "gh:duolingo",
+  "gh:elastic",
+  "gh:figma",
+  "gh:gitlab",
+  "gh:lyft",
+  "gh:mongodb",
+  "gh:okta",
+  "gh:pinterest",
+  "gh:reddit",
+  "gh:robinhood",
+  "gh:samsara",
+  "gh:scaleai",
+  "gh:stripe",
+  "gh:twilio",
+  "gh:vercel",
+  "gh:webflow",
+  "lv:cred",
+  "lv:meesho",
+  "lv:palantir",
+  "lv:paytm",
+  "lv:spotify",
+  "themuse"
+ ],
+ "watch": {}
+}

@@ -1,6 +1,7 @@
 """Email (Gmail SMTP) + optional Telegram notifications and HTML rendering."""
 import html
 import os
+import re
 import smtplib
 import ssl
 from email.header import Header
@@ -42,6 +43,61 @@ def send_telegram(text):
         return r.ok
     except Exception:
         return False
+
+
+def _wa(text):
+    """Telegram-style HTML -> WhatsApp formatting (*bold*, _italic_)."""
+    text = re.sub(r"<b>(.*?)</b>", r"*\1*", text, flags=re.S)
+    text = re.sub(r"<i>(.*?)</i>", r"_\1_", text, flags=re.S)
+    return html.unescape(re.sub(r"<[^>]+>", "", text))
+
+
+def send_whatsapp(text):
+    """CallMeBot (free, personal use) and/or Twilio WhatsApp. Either one, both or none."""
+    text, sent = _wa(text)[:1500], False
+    phone, key = os.getenv("CALLMEBOT_PHONE"), os.getenv("CALLMEBOT_APIKEY")
+    if phone and key:
+        try:
+            r = requests.get("https://api.callmebot.com/whatsapp.php", timeout=30,
+                             params={"phone": phone, "text": text, "apikey": key})
+            sent = r.ok
+            if not r.ok:
+                print(f"[callmebot failed] HTTP {r.status_code}")
+        except Exception as e:
+            print(f"[callmebot failed] {type(e).__name__}")
+    sid, tok, to = os.getenv("TWILIO_ACCOUNT_SID"), os.getenv("TWILIO_AUTH_TOKEN"), os.getenv("WHATSAPP_TO")
+    if sid and tok and to:
+        try:
+            r = requests.post(f"https://api.twilio.com/2010-04-01/Accounts/{sid}/Messages.json", timeout=30,
+                              auth=(sid, tok),
+                              data={"From": os.getenv("TWILIO_WHATSAPP_FROM", "whatsapp:+14155238886"),
+                                    "To": f"whatsapp:{to}", "Body": text})
+            sent = sent or r.ok
+            if not r.ok:
+                print(f"[twilio failed] HTTP {r.status_code}")
+        except Exception as e:
+            print(f"[twilio failed] {type(e).__name__}")
+    return sent
+
+
+def push(text):
+    """Send one short message to every phone channel that is configured."""
+    a = send_telegram(text)
+    b = send_whatsapp(text)
+    return a or b
+
+
+def digest_push_text(date_str, stats, new24, closed24, by_company):
+    lines = [f"📋 <b>Job Radar {date_str}</b>",
+             f"{stats['companies']} companies hiring interns · {len(new24)} new · {len(closed24)} closed"]
+    top = sorted(new24, key=lambda j: -j["score"])[:6]
+    if top:
+        lines.append("\n<b>New:</b>")
+        lines += [f"• {_e(j['title'])} @ {_e(j['company'])} ({j['score']}/10)\n{_e(j['url'])}" for j in top]
+    if by_company:
+        items = sorted(by_company.items(), key=lambda kv: (-len(kv[1]), kv[0].lower()))[:15]
+        lines.append("\n<b>Hiring now:</b> " + ", ".join(f"{_e(c)} ({len(js)})" for c, js in items))
+    return "\n".join(lines)
 
 
 def telegram_job_text(j):

@@ -26,6 +26,11 @@ jobs:
           NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python agent.py digest
       - name: Save state

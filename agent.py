@@ -10,7 +10,8 @@ from zoneinfo import ZoneInfo
 import yaml
 
 from collectors import check_url, collect_all
-from notify import alert_email, digest_email, send_email, send_telegram, telegram_job_text
+from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
+                    send_whatsapp, telegram_job_text)
 from scoring import heuristic_score, llm_enrich, passes_filters
 
 ROOT = Path(__file__).parent
@@ -121,9 +122,9 @@ def scan(cfg, state):
     elif new_jobs or watch_changes:
         send_email(*alert_email(new_jobs, watch_changes))
         for j in sorted(new_jobs, key=lambda x: -x["score"])[:10]:
-            send_telegram(telegram_job_text(j))
+            push(telegram_job_text(j))
         for c in watch_changes:
-            send_telegram(f"{'✅' if c['status'] == 'open' else '⛔'} <b>{c['name']}</b> is now {c['status'].upper()}\n{c['url']}")
+            push(f"{'✅' if c['status'] == 'open' else '⛔'} <b>{c['name']}</b> is now {c['status'].upper()}\n{c['url']}")
     state["initialized"] = True
     print(f"scan: {len(jobs)} postings seen, {len(new_jobs)} new matches, {len(watch_changes)} watch changes, "
           f"{len(failed)} source failures")
@@ -159,6 +160,7 @@ def digest(cfg, state):
     failures = {k: v for k, v in state["failures"].items() if v["count"] >= 3}
     send_email(*digest_email(date_str, {"open": len(open_jobs), "companies": len(by_company)},
                              new24, soon, closed24, state["watch"], failures, by_company))
+    push(digest_push_text(date_str, {"companies": len(by_company)}, new24, closed24, by_company))
     print(f"digest sent: {len(new24)} new, {len(closed24)} closed, {len(open_jobs)} open")
 
 
@@ -167,8 +169,10 @@ def main():
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     if cmd == "test":
         ok = send_email("✅ Job Radar test", "<p>Email works. You're all set.</p>", "Email works. You're all set.")
-        send_telegram("✅ Job Radar test: Telegram works.")
-        print("test email sent" if ok else "email NOT sent (check secrets)")
+        tg = send_telegram("✅ Job Radar test: Telegram works.")
+        wa = send_whatsapp("✅ <b>Job Radar test</b>: WhatsApp works.")
+        print("email:", "sent" if ok else "not sent", "| telegram:", "sent" if tg else "not sent",
+              "| whatsapp:", "sent" if wa else "not sent")
         return
     state = load_state()
     {"scan": scan, "digest": digest}[cmd](cfg, state)

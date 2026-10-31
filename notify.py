@@ -97,7 +97,7 @@ def alert_email(new_jobs, watch_changes):
     return subject, _wrap("Job Radar alert", "".join(parts)), "\n".join(text)
 
 
-def digest_email(date_str, stats, new24, soon, closed24, watch, failures):
+def digest_email(date_str, stats, new24, soon, closed24, watch, failures, by_company=None):
     parts, text = [], []
     s = (f"<p style='color:#555'>{stats['open']} open matches tracked · {len(new24)} new in 24h · "
          f"{len(closed24)} closed in 24h</p>")
@@ -110,6 +110,24 @@ def digest_email(date_str, stats, new24, soon, closed24, watch, failures):
     parts.append(_section("New in the last 24 hours (best first)",
                           "".join(_job_html(j) for j in top) or "<tr><td style='color:#777'>Nothing new.</td></tr>"))
     text += ["NEW (24h)"] + ([_job_text(j) for j in top] or ["Nothing new."])
+    if by_company:
+        total = sum(len(v) for v in by_company.values())
+        items = sorted(by_company.items(), key=lambda kv: (-len(kv[1]), kv[0].lower()))[:80]
+        rows, lines = "", []
+        for comp, js in items:
+            links = "<br>".join(
+                f"<a href='{_e(j['url'])}' style='color:#1a56db;text-decoration:none'>{_e(j['title'])}</a> "
+                f"<span style='color:#777;font-size:13px'>({_e(j['location'] or '-')}, {j['score']}/10)</span>"
+                for j in js[:6])
+            more = (f"<br><span style='color:#777;font-size:13px'>+{len(js) - 6} more</span>"
+                    if len(js) > 6 else "")
+            rows += (f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'><b>{_e(comp)}</b> "
+                     f"<span style='color:#777'>- {len(js)} role{'s' if len(js) != 1 else ''}</span>"
+                     f"<br>{links}{more}</td></tr>")
+            lines.append(f"{comp} ({len(js)}): " + "; ".join(j["title"] for j in js[:6]))
+        title = f"🏢 Companies hiring interns right now ({len(by_company)} companies, {total} roles)"
+        parts.append(_section(title, rows))
+        text += [title.upper()] + lines
     if closed24:
         parts.append(_section("Closed since yesterday", "".join(_job_html(j) for j in closed24[:15])))
         text += ["CLOSED"] + [_job_text(j) for j in closed24[:15]]
@@ -124,5 +142,6 @@ def digest_email(date_str, stats, new24, soon, closed24, watch, failures):
                        f"(x{v['count']})</td></tr>" for k, v in failures.items())
         parts.append(_section("Source problems (check slug / network)", rows))
         text += ["SOURCE PROBLEMS"] + [f"- {k}: {v['error']}" for k, v in failures.items()]
-    subject = f"📋 Job Radar daily report - {date_str}: {len(new24)} new, {stats['open']} open"
+    subject = (f"📋 Job Radar {date_str}: {stats.get('companies', 0)} companies hiring interns, "
+               f"{len(new24)} new, {len(closed24)} closed")
     return subject, _wrap(f"Daily report - {date_str}", "".join(parts)), "\n".join(text)

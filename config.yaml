@@ -13,26 +13,32 @@ profile:
   priority_keywords: [ai, ml, "machine learning", "software engineer", sde, swe, backend, cloud, "data science"]
   skills: [python, "c++", java, "machine learning", ai, aws, tensorflow, pytorch, llm, fastapi, docker]
   target_year: 2027
+  tech_only: true   # set false to report internships in every field (marketing, design, finance...)
   # Empty location = always allowed. Otherwise the job location must contain one of these.
   locations: [india, remote, bangalore, bengaluru, hyderabad, pune, gurgaon, gurugram, delhi, noida, mumbai, chennai, anywhere]
 
 alerts:
-  digest_min_score: 5     # jobs below this are ignored completely
+  digest_min_score: 4     # jobs below this are ignored completely (lower = wider report)
   instant_min_score: 6    # jobs at/above this trigger an immediate alert
 
 # Companies on public ATS boards (slug = the last part of their board URL).
 #   boards.greenhouse.io/<slug>   jobs.lever.co/<slug>   jobs.ashbyhq.com/<slug>
 # A wrong slug is harmless: it shows up under "Source problems" in the digest.
 companies:
-  greenhouse: [stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta]
-  lever: [palantir, spotify]
-  ashby: [openai, notion, ramp]
+  greenhouse: [stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta, anthropic, reddit, pinterest, lyft, asana, vercel, scaleai, dropbox, duolingo, samsara, carta, webflow]
+  lever: [palantir, spotify, cred, meesho, paytm]
+  ashby: [openai, notion, ramp, linear, replit, supabase]
 
 # Optional job search API (free key at developer.adzuna.com). Needs ADZUNA_APP_ID / ADZUNA_APP_KEY secrets.
 adzuna:
   country: in
   max_days_old: 3
   queries: ["software engineer intern", "machine learning intern", "sde intern", "ai intern"]
+
+# The Muse: free, no key. Lists internships (level = Internship) from hundreds of companies.
+themuse:
+  enabled: true
+  pages: 5
 
 # Pages with no API (Google, Microsoft, a specific posting...). You get an alert when
 # the status flips open <-> closed. JavaScript-heavy pages may be inconclusive.

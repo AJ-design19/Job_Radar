@@ -63,6 +63,8 @@ def scan(cfg, state):
     profile, acfg = cfg["profile"], cfg["alerts"]
     jobs, ok, failed = collect_all(cfg)
     first_run = not state.get("initialized")
+    known = set(state.get("sources_seen", []))
+    new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
     seen, new_jobs, llm_calls = set(), [], 0
 
     for j in jobs:
@@ -92,7 +94,7 @@ def scan(cfg, state):
         rec = {**j, "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
                "first_seen": ts, "last_seen": ts, "status": status}
         state["jobs"][j["id"]] = rec
-        if status == "open" and score >= acfg["instant_min_score"]:
+        if status == "open" and score >= acfg["instant_min_score"] and j["src"] not in new_srcs:
             new_jobs.append(rec)
 
     # a job that vanished from a board that loaded fine is closed
@@ -100,6 +102,7 @@ def scan(cfg, state):
         if rec["status"] == "open" and rec.get("verifiable") and rec["src"] in ok and jid not in seen:
             rec["status"], rec["closed_at"] = "closed", ts
 
+    state["sources_seen"] = sorted(known | ok)
     for src in ok:
         state["failures"].pop(src, None)
     for src, err in failed.items():
@@ -149,9 +152,13 @@ def digest(cfg, state):
             continue
         if n <= d <= n + timedelta(days=7):
             soon.append(r)
+    by_company = {}
+    for r in sorted(open_jobs, key=lambda r: -r["score"]):
+        by_company.setdefault(r["company"], []).append(r)
     date_str = n.astimezone(ZoneInfo("Asia/Kolkata")).strftime("%d %b %Y")
     failures = {k: v for k, v in state["failures"].items() if v["count"] >= 3}
-    send_email(*digest_email(date_str, {"open": len(open_jobs)}, new24, soon, closed24, state["watch"], failures))
+    send_email(*digest_email(date_str, {"open": len(open_jobs), "companies": len(by_company)},
+                             new24, soon, closed24, state["watch"], failures, by_company))
     print(f"digest sent: {len(new24)} new, {len(closed24)} closed, {len(open_jobs)} open")
 
 

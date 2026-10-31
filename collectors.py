@@ -1,5 +1,6 @@
 """Fetch jobs from public ATS APIs / search API and check whether a URL is still open."""
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
 
 import requests
@@ -63,6 +64,21 @@ def adzuna(cfg):
     return out
 
 
+def themuse(cfg):
+    """The Muse public API: every posting tagged level=Internship (no API key)."""
+    out = []
+    for page in range(cfg.get("pages", 5)):
+        data = _get("https://www.themuse.com/api/public/jobs", params={"level": "Internship", "page": page}).json()
+        for j in data.get("results", []):
+            locs = ", ".join(l.get("name", "") for l in j.get("locations", []))
+            out.append(_job(f"tm:{j['id']}", j.get("name"), (j.get("company") or {}).get("name", "?"), locs,
+                            (j.get("refs") or {}).get("landing_page"), j.get("publication_date"),
+                            re.sub(r"<[^>]+>", " ", j.get("contents") or "")))
+        if page + 1 >= data.get("page_count", 0):
+            break
+    return out
+
+
 def collect_all(cfg):
     """Returns (jobs, ok_sources, failed_sources). Only ATS sources are 'verifiable':
     if a job disappears from a board that loaded fine, it is closed."""
@@ -99,6 +115,15 @@ def collect_all(cfg):
                     jobs.append(j)
         except Exception as e:
             failed["adzuna"] = f"{type(e).__name__}: {str(e)[:100]}"
+    if (cfg.get("themuse") or {}).get("enabled"):
+        try:
+            res = themuse(cfg["themuse"])
+            ok.add("themuse")
+            for j in res:
+                j.update(src="themuse", verifiable=False)
+                jobs.append(j)
+        except Exception as e:
+            failed["themuse"] = f"{type(e).__name__}: {str(e)[:100]}"
     return jobs, ok, failed
 
 

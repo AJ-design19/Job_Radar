@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------
+# Job Radar configuration. Edit this file, commit, push. No secrets here.
+# ---------------------------------------------------------------
+
+profile:
+  # Title must contain one of these (internship / entry-level signal)
+  include_keywords: [intern, interns, internship, trainee, "new grad", graduate, fresher, "entry level", "entry-level", apprentice, "early career"]
+  # ...and one of these (tech role signal)
+  role_keywords: [software, engineer, developer, sde, swe, "machine learning", ml, ai, "data scientist", "data science", backend, "back end", frontend, "full stack", fullstack, research, cloud, devops, security, python, java, "c++"]
+  # Titles containing these are dropped
+  exclude_keywords: [senior, sr, staff, principal, manager, director, lead, head, vp, "phd"]
+  # Extra points in ranking
+  priority_keywords: [ai, ml, "machine learning", "software engineer", sde, swe, backend, cloud, "data science"]
+  skills: [python, "c++", java, "machine learning", ai, aws, tensorflow, pytorch, llm, fastapi, docker]
+  target_year: 2027
+  # Empty location = always allowed. Otherwise the job location must contain one of these.
+  locations: [india, remote, bangalore, bengaluru, hyderabad, pune, gurgaon, gurugram, delhi, noida, mumbai, chennai, anywhere]
+
+alerts:
+  digest_min_score: 5     # jobs below this are ignored completely
+  instant_min_score: 6    # jobs at/above this trigger an immediate alert
+
+# Companies on public ATS boards (slug = the last part of their board URL).
+#   boards.greenhouse.io/<slug>   jobs.lever.co/<slug>   jobs.ashbyhq.com/<slug>
+# A wrong slug is harmless: it shows up under "Source problems" in the digest.
+companies:
+  greenhouse: [stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta]
+  lever: [palantir, spotify]
+  ashby: [openai, notion, ramp]
+
+# Optional job search API (free key at developer.adzuna.com). Needs ADZUNA_APP_ID / ADZUNA_APP_KEY secrets.
+adzuna:
+  country: in
+  max_days_old: 3
+  queries: ["software engineer intern", "machine learning intern", "sde intern", "ai intern"]
+
+# Pages with no API (Google, Microsoft, a specific posting...). You get an alert when
+# the status flips open <-> closed. JavaScript-heavy pages may be inconclusive.
+watch_urls: []
+#  - name: "Google SWE Intern 2027"
+#    url: "https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineering%20intern&target_level=INTERN_AND_APPRENTICE"
+#    must_contain: ["intern"]          # open only if all of these appear on the page
+#    closed_phrases: ["no results"]    # extra phrases that mean closed

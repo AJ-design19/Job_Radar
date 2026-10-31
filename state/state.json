@@ -1,0 +1,41 @@
+{
+ "failures": {},
+ "initialized": true,
+ "jobs": {
+  "gh:stripe:8031833": {
+   "company": "Stripe",
+   "deadline": "",
+   "desc": "",
+   "first_seen": "2026-10-31T07:30:19+00:00",
+   "id": "gh:stripe:8031833",
+   "last_seen": "2026-10-31T07:30:19+00:00",
+   "location": "Bengaluru",
+   "posted": "2026-10-29T10:42:09-04:00",
+   "reason": "",
+   "score": 7,
+   "src": "gh:stripe",
+   "status": "open",
+   "title": "Software Engineer, Intern",
+   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+   "verifiable": true
+  },
+  "gh:stripe:8130876": {
+   "company": "Stripe",
+   "deadline": "",
+   "desc": "",
+   "first_seen": "2026-10-31T07:30:19+00:00",
+   "id": "gh:stripe:8130876",
+   "last_seen": "2026-10-31T07:30:19+00:00",
+   "location": "Bangalore",
+   "posted": "2026-10-29T10:42:09-04:00",
+   "reason": "",
+   "score": 6,
+   "src": "gh:stripe",
+   "status": "open",
+   "title": "Software Engineer, New Grad",
+   "url": "https://stripe.com/jobs/search?gh_jid=8130876",
+   "verifiable": true
+  }
+ },
+ "watch": {}
+}

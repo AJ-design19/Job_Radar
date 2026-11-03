@@ -326,10 +326,18 @@ def _prog_when(a):
     return " · ".join(parts)
 
 
+def _prog_links(a):
+    """(label, url) pairs: register/apply links found on the page, plus the official pages you configured."""
+    out = [("Register / apply link", u) for u in a.get("links") or []]
+    out += [("Official page", u) for u in a.get("official") or [] if u != a.get("url")]
+    return out
+
+
 def program_push_text(a):
     what = "Headline" if a["kind"] == "news" else "Official page"
     return (f"🚨 <b>{_e(a['program'])}</b> - possible opening\n{what}: {_e(a['text'])}\n"
-            f"🕒 {_e(_prog_when(a))}\n{_e(a['batch'])}\n{_e(a['url'])}")
+            f"🕒 {_e(_prog_when(a))}\n{_e(a['batch'])}\n{_e(a['url'])}"
+            + "".join(f"\n{lbl}: {_e(u)}" for lbl, u in _prog_links(a)))
 
 
 def program_email(alerts):
@@ -337,8 +345,11 @@ def program_email(alerts):
         f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'><b>{_e(a['program'])}</b><br>"
         f"{_e(a['text'])}<br><span style='color:#555;font-size:14px'>{_e(a['batch'])}</span><br>"
         f"<span style='color:#777;font-size:13px'>🕒 {_e(_prog_when(a))}</span><br>"
-        f"<a href='{_e(a['url'])}'>{_e(a['url'])}</a></td></tr>" for a in alerts)
-    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}\n  {_prog_when(a)}\n  {a['url']}" for a in alerts)
+        f"<a href='{_e(a['url'])}'>{_e(a['url'])}</a>"
+        + "".join(f"<br>{lbl}: <a href='{_e(u)}'>{_e(u)}</a>" for lbl, u in _prog_links(a)) + "</td></tr>"
+        for a in alerts)
+    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}\n  {_prog_when(a)}\n  {a['url']}"
+                     + "".join(f"\n  {lbl}: {u}" for lbl, u in _prog_links(a)) for a in alerts)
     return (_prog_subject(alerts), _wrap("Program alert", _section("Possible registration opening", rows)), text)
 
 
@@ -346,5 +357,6 @@ def program_markdown(alerts):
     L = _mention() + ["## Possible registration opening", ""]
     for a in alerts:
         L += [f"### {a['program']}", a["text"], "", f"🕒 {_prog_when(a)}", "", a["batch"], "", a["url"], ""]
+        L += [f"- {lbl}: {u}" for lbl, u in _prog_links(a)] + [""]
     L.append("_You will not get another alert for this program for a while. Always confirm dates and eligibility on the official page._")
     return _prog_subject(alerts), "\n".join(L)

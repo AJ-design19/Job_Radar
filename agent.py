@@ -29,6 +29,15 @@ def fingerprint(j):
     return "|".join(re.sub(r"[^a-z0-9]", "", (j.get(k) or "").lower()) for k in ("company", "title"))
 
 
+def posted_dt(s):
+    """Posting time as an aware datetime, or None if unknown."""
+    try:
+        d = datetime.fromisoformat(str(s).strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+
+
 def now():
     return datetime.now(timezone.utc)
 
@@ -114,12 +123,15 @@ def scan(cfg, state):
             elif isinstance(extra.get("score"), (int, float)):
                 score = round((score + extra["score"]) / 2)
         rec = {**j, "desc": "", "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
-               "first_seen": ts, "last_seen": ts, "status": status}
+               "first_seen": ts, "last_seen": ts, "status": status,
+               "baseline": j["src"] in new_srcs}  # existing listings of a newly added source are not "new"
         state["jobs"][j["id"]] = rec
         fp = fingerprint(j)
         already = fp in alerted  # re-posted under a new id? it is the same hiring: no second alert
         alerted.setdefault(fp, ts)
-        if status == "open" and score >= acfg["instant_min_score"] and j["src"] not in new_srcs and not already:
+        pd = posted_dt(j.get("posted"))
+        fresh = not (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14)))  # old posting: report only
+        if status == "open" and score >= acfg["instant_min_score"] and j["src"] not in new_srcs and not already and fresh:
             new_jobs.append(rec)
 
     # a job that vanished from a board that loaded fine is closed
@@ -191,7 +203,12 @@ def digest(cfg, state):
 
     jobs = list(state["jobs"].values())
     open_jobs = [r for r in jobs if r["status"] == "open"]
-    new24 = [r for r in open_jobs if parse(r["first_seen"]) >= since]
+    max_age = timedelta(days=cfg["alerts"].get("max_age_days", 14))
+
+    def fresh(r):  # genuinely new: found in the last 24h, not a baseline of a new source, not an old posting
+        pd = posted_dt(r.get("posted"))
+        return not r.get("baseline") and not (pd and n - pd > max_age)
+    new24 = [r for r in open_jobs if parse(r["first_seen"]) >= since and fresh(r)]
     closed24 = [r for r in jobs if r["status"] == "closed" and r.get("closed_at") and parse(r["closed_at"]) >= since]
     soon = []
     for r in open_jobs:

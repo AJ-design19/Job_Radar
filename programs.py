@@ -43,13 +43,23 @@ def news_items(query, days=3):
     return out
 
 
-def page_text(url):
+def fetch_page(url):
+    """Returns (visible text lowercased, register/apply links found on the page)."""
     r = requests.get(url, headers=UA, timeout=TIMEOUT, allow_redirects=True)
     if r.status_code >= 400:
-        return None
+        return None, []
     t = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", r.text)
     t = re.sub(r"<[^>]+>", " ", t)
-    return re.sub(r"\s+", " ", html.unescape(t)).strip().lower()
+    text = re.sub(r"\s+", " ", html.unescape(t)).strip().lower()
+    links = []
+    for m in re.finditer(r"(?is)<a\s[^>]*?href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", r.text):
+        href, label = m.group(1).strip(), re.sub(r"<[^>]+>", " ", m.group(2))
+        if re.search(r"regist|apply|sign\s*up|enrol|participate", label, re.I) or \
+                re.search(r"unstop|dare2compete|rsvp\.withgoogle|hirepro", href, re.I):
+            full = urllib.parse.urljoin(r.url, html.unescape(href))
+            if full.startswith("http") and full not in links:
+                links.append(full)
+    return text, links[:3]
 
 
 def batch_note(years, grad_year):
@@ -93,14 +103,15 @@ def check_programs(cfg, state, grad_year=None):
                     continue
                 cands.append({"program": name, "kind": "news", "text": it["title"], "url": it["link"],
                               "published": it["pub"].isoformat(timespec="seconds") if it["pub"] else "",
+                              "links": [], "official": p.get("urls") or [],
                               "batch": "check the batch on the official page"})
             st["news_seen"] = seen[-300:]
 
         for url in p.get("urls") or []:
             try:
-                txt = page_text(url)
+                txt, links = fetch_page(url)
             except Exception:
-                txt = None
+                txt, links = None, []
             if not txt:
                 continue
             years = sorted(batch_years(txt))
@@ -117,6 +128,7 @@ def check_programs(cfg, state, grad_year=None):
                 reason = "the official page changed a lot (possibly a new edition)"
             if reason:
                 cands.append({"program": name, "kind": "page", "text": reason, "url": url, "published": "",
+                              "links": links, "official": p.get("urls") or [],
                               "batch": batch_note(years, grad_year)})
 
         # ONE alert per program: merge this scan's signals, then stay quiet for the cooldown

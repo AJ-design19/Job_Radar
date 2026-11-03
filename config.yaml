@@ -68,3 +68,36 @@ watch_urls: []
 #    url: "https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineering%20intern&target_level=INTERN_AND_APPRENTICE&location=India"
 #    must_contain: ["intern"]          # open only if all of these appear on the page
 #    closed_phrases: ["no results"]    # extra phrases that mean closed
+
+# ---------------------------------------------------------------
+# PROGRAMS: hackathons / hiring challenges you want to hear about the moment registrations open.
+# Each is checked on every scan by (1) Google News headlines and (2) the official pages listed in urls.
+#   must_match  - words the headline must contain          also_match - (optional) at least one of these too
+#   urls        - official pages to watch (add the real registration page when it exists)
+# ---------------------------------------------------------------
+programs:
+  - name: "Google Girl Hackathon"
+    news: '"Girl Hackathon" Google India'
+    must_match: ["girl hackathon"]
+    urls: ["https://goo.gle/GirlHackathon"]
+  - name: "Flipkart GRiD"
+    news: '"Flipkart GRiD"'
+    must_match: ["grid"]
+    urls: ["https://flipkartearlycareers.hirepro.in/"]
+  - name: "Flipkart Girls Wanna Code"
+    news: '"Girls Wanna Code" Flipkart'
+    must_match: ["girls wanna code"]
+    urls: []
+  - name: "Uber HackTag"
+    news: '"Uber HackTag"'
+    must_match: ["hacktag"]
+    urls: []
+  - name: "Walmart CodeHers"
+    news: '"CodeHers" Walmart'
+    must_match: ["codehers"]
+    urls: []
+  - name: "Salesforce AI Challenge"
+    news: 'Salesforce (hackathon OR challenge) students India'
+    must_match: ["salesforce"]
+    also_match: [hackathon, challenge, student, campus, fresher, intern, bootcamp]
+    urls: []

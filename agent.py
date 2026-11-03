@@ -8,9 +8,11 @@ from pathlib import Path
 
 import yaml
 
+from programs import check_programs
 from collectors import check_url, collect_all, greenhouse_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
-                    send_whatsapp, telegram_job_text, alert_markdown, digest_markdown)
+                    send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
+                    program_markdown, program_push_text)
 from scoring import heuristic_score, llm_enrich, passes_batch, passes_filters, passes_pay
 
 ROOT = Path(__file__).parent
@@ -131,6 +133,20 @@ def scan(cfg, state):
 
     watch_changes = check_watch(cfg, state, ts)
 
+    try:  # hackathons / challenges: news + official pages
+        prog_alerts = check_programs(cfg, state, profile.get("graduation_year"))
+    except Exception as e:
+        prog_alerts = []
+        print(f"[programs skipped] {type(e).__name__}: {str(e)[:100]}")
+    if prog_alerts:
+        send_email(*program_email(prog_alerts))
+        title, body = program_markdown(prog_alerts)  # picked up by the workflow -> GitHub issue
+        (ROOT / "out").mkdir(exist_ok=True)
+        (ROOT / "out" / "alert_program_title.txt").write_text(title, encoding="utf-8")
+        (ROOT / "out" / "alert_program.md").write_text(body, encoding="utf-8")
+        for a in prog_alerts:
+            push(program_push_text(a))
+
     if first_run:
         print(f"First run: baseline saved ({len(state['jobs'])} matches). No instant alerts; see the daily digest.")
     elif new_jobs or watch_changes:
@@ -178,8 +194,14 @@ def digest(cfg, state):
     failures = {k: v for k, v in state["failures"].items() if v["count"] >= 3}
     send_email(*digest_email(date_str, {"open": len(open_jobs), "companies": len(by_company)},
                              new24, soon, closed24, state["watch"], failures, by_company))
+    progs = []
+    for p in cfg.get("programs") or []:
+        ps = state.get("programs", {}).get(p["name"], {})
+        bits = ["news" if p.get("news") else "", f"{len(p.get('urls') or [])} official page(s)" if p.get("urls") else ""]
+        note = ", ".join(b for b in bits if b) or "no sources set"
+        progs.append((p["name"], note + (f" - news check failing: {ps['error']}" if ps.get("error") else "")))
     md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
-                         new24, soon, closed24, state["watch"], failures, by_company)
+                         new24, soon, closed24, state["watch"], failures, by_company, progs)
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
     (rdir / "latest.md").write_text(md, encoding="utf-8")

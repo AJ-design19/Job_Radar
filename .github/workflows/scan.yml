@@ -48,6 +48,9 @@ jobs:
           if [ -f out/alert.md ]; then
             gh issue create --title "$(cat out/alert_title.txt)" --body-file out/alert.md
           fi
+          if [ -f out/alert_program.md ]; then
+            gh issue create --title "$(cat out/alert_program_title.txt)" --body-file out/alert_program.md
+          fi
       - name: Save state
         run: |
           git config user.name "job-radar-bot"

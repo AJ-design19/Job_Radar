@@ -243,7 +243,7 @@ def alert_markdown(new_jobs, watch_changes):
     return title, "\n".join(L)
 
 
-def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_company):
+def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_company, programs=None):
     L = _mention() + [f"# Job Radar daily report - {date_str}",
                       f"**{stats.get('companies', 0)} companies** hiring interns · {stats['open']} open roles · "
                       f"{len(new24)} new in 24h · {len(closed24)} closed in 24h", ""]
@@ -260,6 +260,8 @@ def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_
             if len(js) > 10:
                 L.append(f"- _+{len(js) - 10} more_")
             L += ["", "</details>", ""]
+    if programs:
+        L += ["## 🎯 Programs being watched"] + [f"- **{n}** - {d}" for n, d in programs] + [""]
     if closed24:
         L += ["## Closed since yesterday"] + [_md_job(j) for j in closed24[:15]] + [""]
     if watch:
@@ -268,3 +270,32 @@ def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_
         L += ["## Source problems (check slug / network)"] + [f"- `{k}`: {v['error']} (x{v['count']})"
                                                                for k, v in failures.items()]
     return "\n".join(L)
+
+
+# ---------------- program (hackathon / challenge) alerts ----------------
+def _prog_subject(alerts):
+    names = sorted({a["program"] for a in alerts})
+    return f"🚨 {', '.join(names)}: registrations may be OPEN"
+
+
+def program_push_text(a):
+    what = "Headline" if a["kind"] == "news" else "Official page"
+    return (f"🚨 <b>{_e(a['program'])}</b> - possible opening\n{what}: {_e(a['text'])}\n"
+            f"{_e(a['batch'])}\n{_e(a['url'])}")
+
+
+def program_email(alerts):
+    rows = "".join(
+        f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'><b>{_e(a['program'])}</b><br>"
+        f"{_e(a['text'])}<br><span style='color:#555;font-size:14px'>{_e(a['batch'])}</span><br>"
+        f"<a href='{_e(a['url'])}'>{_e(a['url'])}</a></td></tr>" for a in alerts)
+    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}\n  {a['url']}" for a in alerts)
+    return (_prog_subject(alerts), _wrap("Program alert", _section("Possible registration opening", rows)), text)
+
+
+def program_markdown(alerts):
+    L = _mention() + ["## Possible registration opening", ""]
+    for a in alerts:
+        L += [f"### {a['program']}", a["text"], "", a["batch"], "", a["url"], ""]
+    L.append("_Always confirm dates and eligibility on the official page before applying._")
+    return _prog_subject(alerts), "\n".join(L)

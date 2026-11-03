@@ -75,6 +75,8 @@ watch_urls: []
 #   must_match  - words the headline must contain          also_match - (optional) at least one of these too
 #   urls        - official pages to watch (add the real registration page when it exists)
 # ---------------------------------------------------------------
+# After a program alerts once, stay quiet about it for this many days (no repeats for the same hiring).
+program_cooldown_days: 30
 programs:
   - name: "Google Girl Hackathon"
     news: '"Girl Hackathon" Google India'

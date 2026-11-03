@@ -4,6 +4,7 @@ import os
 import re
 import smtplib
 import ssl
+from datetime import datetime, timedelta, timezone
 from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -13,6 +14,38 @@ import requests
 
 def _e(s):
     return html.escape(str(s if s is not None else ""))
+
+
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
+def fmt_dt(v):
+    """'30 Oct 2026, 07:42 PM IST' from an ISO string; date-only values stay date-only; '' if unknown."""
+    if not v:
+        return ""
+    s = str(v).strip()
+    try:
+        if len(s) == 10:
+            return datetime.strptime(s, "%Y-%m-%d").strftime("%d %b %Y")
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(IST).strftime("%d %b %Y, %I:%M %p IST")
+
+
+def _when(j):
+    """Posted / detected / alert-sent times for one job."""
+    parts = []
+    p = fmt_dt(j.get("posted"))
+    if p:
+        parts.append(f"{'last updated' if j.get('posted_kind') == 'updated' else 'posted'} {p}")
+    if fmt_dt(j.get("first_seen")):
+        parts.append(f"detected {fmt_dt(j['first_seen'])}")
+    if fmt_dt(j.get("alerted_at")):
+        parts.append(f"🔔 alert sent {fmt_dt(j['alerted_at'])}")
+    return " · ".join(parts)
 
 
 def send_email(subject, body_html, body_text):
@@ -104,8 +137,9 @@ def telegram_job_text(j):
     extra = f"\n<i>{_e(j['reason'])}</i>" if j.get("reason") else ""
     dl = f"\nDeadline: {_e(j['deadline'])}" if j.get("deadline") else ""
     dl += f"\nStipend: {_pay(j)}" if _pay(j) else ""
+    when = f"\n🕒 {_e(_when(j))}" if _when(j) else ""
     return (f"🔔 <b>{_e(j['title'])}</b>\n{_e(j['company'])} · {_e(j['location'] or '-')} · match {j['score']}/10"
-            f"{dl}{extra}\n{_e(j['url'])}")
+            f"{dl}{when}{extra}\n{_e(j['url'])}")
 
 
 def _pay(j):
@@ -120,13 +154,15 @@ def _job_html(j):
     if j.get("deadline"):
         bits.append(f"deadline {j['deadline']}")
     reason = f"<br><span style='color:#777;font-size:13px'>{_e(j['reason'])}</span>" if j.get("reason") else ""
+    when = f"<br><span style='color:#777;font-size:13px'>🕒 {_e(_when(j))}</span>" if _when(j) else ""
     return (f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'>"
             f"<a href='{_e(j['url'])}' style='font-weight:600;color:#1a56db;text-decoration:none'>{_e(j['title'])}</a>"
-            f"<br><span style='color:#555;font-size:14px'>{_e(' · '.join(bits))}</span>{reason}</td></tr>")
+            f"<br><span style='color:#555;font-size:14px'>{_e(' · '.join(bits))}</span>{when}{reason}</td></tr>")
 
 
 def _job_text(j):
-    return f"- {j['title']} @ {j['company']} ({j['location'] or '-'}) [{j['score']}/10]\n  {j['url']}"
+    when = f"\n  {_when(j)}" if _when(j) else ""
+    return f"- {j['title']} @ {j['company']} ({j['location'] or '-'}) [{j['score']}/10]{when}\n  {j['url']}"
 
 
 def _section(title, rows_html):
@@ -218,7 +254,8 @@ def _md_job(j):
     dl = f" · deadline **{j['deadline']}**" if j.get("deadline") else ""
     dl += f" · {_pay(j)}" if _pay(j) else ""
     url = str(j["url"]).replace(" ", "%20").replace(")", "%29")
-    return f"- [{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}"
+    when = f"\n  - 🕒 {_when(j)}" if _when(j) else ""
+    return f"- [{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}{when}"
 
 
 def _mention():
@@ -278,24 +315,36 @@ def _prog_subject(alerts):
     return f"🚨 {', '.join(names)}: registrations may be OPEN"
 
 
+def _prog_when(a):
+    parts = []
+    if fmt_dt(a.get("published")):
+        parts.append(f"headline published {fmt_dt(a['published'])}")
+    if fmt_dt(a.get("detected")):
+        parts.append(f"detected {fmt_dt(a['detected'])}")
+    if a.get("more"):
+        parts.append(f"+{a['more']} more signal{'s' if a['more'] > 1 else ''} merged into this alert")
+    return " · ".join(parts)
+
+
 def program_push_text(a):
     what = "Headline" if a["kind"] == "news" else "Official page"
     return (f"🚨 <b>{_e(a['program'])}</b> - possible opening\n{what}: {_e(a['text'])}\n"
-            f"{_e(a['batch'])}\n{_e(a['url'])}")
+            f"🕒 {_e(_prog_when(a))}\n{_e(a['batch'])}\n{_e(a['url'])}")
 
 
 def program_email(alerts):
     rows = "".join(
         f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'><b>{_e(a['program'])}</b><br>"
         f"{_e(a['text'])}<br><span style='color:#555;font-size:14px'>{_e(a['batch'])}</span><br>"
+        f"<span style='color:#777;font-size:13px'>🕒 {_e(_prog_when(a))}</span><br>"
         f"<a href='{_e(a['url'])}'>{_e(a['url'])}</a></td></tr>" for a in alerts)
-    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}\n  {a['url']}" for a in alerts)
+    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}\n  {_prog_when(a)}\n  {a['url']}" for a in alerts)
     return (_prog_subject(alerts), _wrap("Program alert", _section("Possible registration opening", rows)), text)
 
 
 def program_markdown(alerts):
     L = _mention() + ["## Possible registration opening", ""]
     for a in alerts:
-        L += [f"### {a['program']}", a["text"], "", a["batch"], "", a["url"], ""]
-    L.append("_Always confirm dates and eligibility on the official page before applying._")
+        L += [f"### {a['program']}", a["text"], "", f"🕒 {_prog_when(a)}", "", a["batch"], "", a["url"], ""]
+    L.append("_You will not get another alert for this program for a while. Always confirm dates and eligibility on the official page._")
     return _prog_subject(alerts), "\n".join(L)

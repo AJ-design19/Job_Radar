@@ -3,6 +3,7 @@ import html
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 
 import requests
 
@@ -62,15 +63,24 @@ def parse_pay(text):
 
 
 # ---------------- collectors ----------------
-def _job(jid, title, company, location, url, posted="", desc="", pay=None):
+def _iso(v):
+    """Posting time as an ISO string. Accepts ISO strings, dates, or epoch seconds / milliseconds."""
+    if v in (None, ""):
+        return ""
+    if isinstance(v, (int, float)):
+        return datetime.fromtimestamp(v / 1000 if v > 1e11 else v, tz=timezone.utc).isoformat(timespec="seconds")
+    return str(v)
+
+
+def _job(jid, title, company, location, url, posted="", desc="", pay=None, kind="posted"):
     return {"id": jid, "title": title or "", "company": company, "location": location or "",
-            "url": url or "", "posted": posted or "", "desc": (desc or "")[:3000], "stipend_inr_month": pay}
+            "url": url or "", "posted": _iso(posted), "posted_kind": kind, "desc": (desc or "")[:3000], "stipend_inr_month": pay}
 
 
 def greenhouse(slug):
     data = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs").json()
     return [_job(f"gh:{slug}:{j['id']}", j["title"], slug.title(), (j.get("location") or {}).get("name"),
-                 j["absolute_url"], j.get("updated_at")) for j in data.get("jobs", [])]
+                 j["absolute_url"], j.get("updated_at"), kind="updated") for j in data.get("jobs", [])]
 
 
 def greenhouse_detail(slug, gid):
@@ -98,7 +108,7 @@ def lever(slug):
         sr = j.get("salaryRange") or {}
         pay = to_month_inr(sr.get("min"), sr.get("interval")) if str(sr.get("currency", "")).upper() == "INR" else None
         out.append(_job(f"lv:{slug}:{j['id']}", j["text"], slug.title(), (j.get("categories") or {}).get("location"),
-                        j["hostedUrl"], desc=j.get("descriptionPlain"), pay=pay))
+                        j["hostedUrl"], j.get("createdAt"), desc=j.get("descriptionPlain"), pay=pay))
     return out
 
 

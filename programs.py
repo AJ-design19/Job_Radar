@@ -68,6 +68,7 @@ def check_programs(cfg, state, grad_year=None):
         name = p["name"]
         st = store.setdefault(name, {"news_seen": [], "pages": {}, "init": False})
         first = not st["init"]
+        cands = []  # everything that fired for this program in this scan
 
         if p.get("news"):
             try:
@@ -90,8 +91,9 @@ def check_programs(cfg, state, grad_year=None):
                     continue
                 if it["pub"] and now - it["pub"] > timedelta(days=3):
                     continue
-                alerts.append({"program": name, "kind": "news", "text": it["title"], "url": it["link"],
-                               "batch": "check the batch on the official page"})
+                cands.append({"program": name, "kind": "news", "text": it["title"], "url": it["link"],
+                              "published": it["pub"].isoformat(timespec="seconds") if it["pub"] else "",
+                              "batch": "check the batch on the official page"})
             st["news_seen"] = seen[-300:]
 
         for url in p.get("urls") or []:
@@ -114,7 +116,19 @@ def check_programs(cfg, state, grad_year=None):
             elif cur["hash"] != prev["hash"] and abs(cur["len"] - prev["len"]) >= max(300, 0.2 * prev["len"]):
                 reason = "the official page changed a lot (possibly a new edition)"
             if reason:
-                alerts.append({"program": name, "kind": "page", "text": reason, "url": url,
-                               "batch": batch_note(years, grad_year)})
+                cands.append({"program": name, "kind": "page", "text": reason, "url": url, "published": "",
+                              "batch": batch_note(years, grad_year)})
+
+        # ONE alert per program: merge this scan's signals, then stay quiet for the cooldown
+        if cands:
+            cooldown = timedelta(days=p.get("cooldown_days", cfg.get("program_cooldown_days", 30)))
+            last = st.get("last_alert")
+            if last and now - datetime.fromisoformat(last) < cooldown:
+                st["suppressed"] = st.get("suppressed", 0) + len(cands)  # same hiring, already reported
+            else:
+                best = next((c for c in cands if c["kind"] == "page"), cands[0])  # official page beats a headline
+                stamp = now.isoformat(timespec="seconds")
+                alerts.append({**best, "more": len(cands) - 1, "detected": stamp})
+                st["last_alert"] = stamp
         st["init"] = True
     return alerts

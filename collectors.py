@@ -154,6 +154,26 @@ def themuse(cfg):
     return out
 
 
+def internscan(cfg):
+    """InternScan (internscan.vercel.app): free, MIT-licensed feed of tech internships scraped daily from the
+    official career portals of Google, Microsoft, Meta, NVIDIA, Qualcomm, Walmart and ~60 more employers.
+    Jobs that employers pull are removed from the feed, so absence = closed."""
+    data = _get(cfg.get("url", "https://internscan.vercel.app/in/api/active.json")).json()
+    skip = set(cfg.get("exclude_categories") or [])
+    rows = data.get("jobs") or []
+    if not rows:
+        raise ValueError("empty feed")  # never treat a glitchy empty feed as 'everything closed'
+    out = []
+    for j in rows:
+        if j.get("category") in skip or not j.get("url"):
+            continue
+        job = _job(f"is:{j['url']}", j.get("title"), j.get("company"), ", ".join(j.get("locations") or []),
+                   j["url"], j.get("posted"))
+        job["tech_checked"] = True  # InternScan only lists engineering/tech roles
+        out.append(job)
+    return out
+
+
 def collect_all(cfg):
     """Returns (jobs, ok_sources, failed_sources). Only ATS sources are 'verifiable':
     if a job disappears from a board that loaded fine, it is closed."""
@@ -180,19 +200,25 @@ def collect_all(cfg):
                 j.update(src=key, verifiable=True)
                 jobs.append(j)
 
-    for name, fn in (("adzuna", adzuna), ("themuse", themuse)):
+    for name, fn in (("internscan", internscan), ("adzuna", adzuna), ("themuse", themuse)):
         conf = cfg.get(name)
-        if not conf or (name == "themuse" and not conf.get("enabled")):
+        if not conf or conf.get("enabled") is False:
             continue
         try:
             res = fn(conf)
             if res is not None:
                 ok.add(name)
                 for j in res:
-                    j.update(src=name, verifiable=False)
+                    j.update(src=name, verifiable=(name == "internscan"))
                     jobs.append(j)
         except Exception as e:
             failed[name] = f"{type(e).__name__}: {str(e)[:100]}"
+
+    # the same posting can come from a company board and from InternScan: keep the direct one
+    def norm(s):
+        return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    direct = {(norm(j["company"]), norm(j["title"])) for j in jobs if j["src"] != "internscan"}
+    jobs = [j for j in jobs if j["src"] != "internscan" or (norm(j["company"]), norm(j["title"])) not in direct]
     return jobs, ok, failed
 
 

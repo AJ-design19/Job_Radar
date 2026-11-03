@@ -26,7 +26,8 @@ def passes_filters(job, profile):
         return False
     if not any(_has(title, k) for k in profile["include_keywords"]):
         return False
-    if profile.get("tech_only", True) and not any(_has(title, k) for k in profile["role_keywords"]):
+    if profile.get("tech_only", True) and not job.get("tech_checked") \
+            and not any(_has(title, k) for k in profile["role_keywords"]):
         return False
     return _loc_ok((job.get("location") or "").lower(), profile)
 

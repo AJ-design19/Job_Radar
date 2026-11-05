@@ -1,11 +1,10 @@
 @AJ-design19
 
-# Job Radar daily report - 04 Nov 2026
-**9 companies** hiring interns · 18 open roles · 1 new in 24h · 0 closed in 24h
+# Job Radar daily report - 05 Nov 2026
+**9 companies** hiring interns · 18 open roles · 0 new in 24h · 0 closed in 24h
 
 ## New in the last 24 hours
-- [Software Engineer (CPD) - Winter Intern](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) - Rubrik · Bangalore · **7/10**
-  - 🕒 posted 03 Nov 2026 · detected 04 Nov 2026, 07:47 AM IST · 🔔 alert sent 04 Nov 2026, 07:47 AM IST
+_Nothing new._
 
 ## 🏢 Companies hiring interns right now (9)
 

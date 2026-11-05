@@ -122,16 +122,20 @@ def scan(cfg, state):
                 status = "ignored"  # remembered so we don't re-screen it every run
             elif isinstance(extra.get("score"), (int, float)):
                 score = round((score + extra["score"]) / 2)
+        pd = posted_dt(j.get("posted"))
+        recent = bool(pd and now() - pd <= timedelta(days=acfg.get("catchup_days", 7)))
+        # a newly added source: its RECENT postings still alert (you want to hear about them), old ones are baseline
+        baseline = first_run or (j["src"] in new_srcs and not recent)
         rec = {**j, "desc": "", "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
                "first_seen": ts, "last_seen": ts, "status": status,
-               "baseline": j["src"] in new_srcs}  # existing listings of a newly added source are not "new"
+               "baseline": baseline}  # old listings of a newly added source are not "new"
         state["jobs"][j["id"]] = rec
         fp = fingerprint(j)
         already = fp in alerted  # re-posted under a new id? it is the same hiring: no second alert
         alerted.setdefault(fp, ts)
         pd = posted_dt(j.get("posted"))
         fresh = not (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14)))  # old posting: report only
-        if status == "open" and score >= acfg["instant_min_score"] and j["src"] not in new_srcs and not already and fresh:
+        if status == "open" and score >= acfg["instant_min_score"] and not baseline and not already and fresh:
             new_jobs.append(rec)
 
     # a job that vanished from a board that loaded fine is closed

@@ -11,7 +11,7 @@ profile:
   # Titles containing these are dropped
   exclude_keywords: [senior, sr, staff, principal, manager, director, lead, head, vp, "phd"]
   # Extra points in ranking
-  priority_keywords: [ai, ml, "machine learning", "software engineer", sde, swe, backend, cloud, "data science"]
+  priority_keywords: [ai, ml, "machine learning", "software engineer", "software engineering", sde, swe, backend, cloud, "data science"]
   skills: [python, "c++", java, "machine learning", ai, aws, tensorflow, pytorch, llm, fastapi, docker]
   target_year: 2027          # internship year you are aiming for
   graduation_year: 2028      # your batch. Postings that name other batches (e.g. "2026 graduates") are dropped.
@@ -27,11 +27,12 @@ profile:
   pay:
     min_stipend_inr_month: 40000
     only_known_good: false   # true = if pay is NOT stated, report only companies on top_companies
-    top_companies: [google, microsoft, meta, apple, linkedin, hpe, amazon, atlassian, adobe, uber, stripe, databricks, nvidia, salesforce, "goldman sachs", "morgan stanley", jpmorgan, "american express", intuit, paypal, walmart, flipkart, phonepe, razorpay, cred, meesho, swiggy, zomato, "d e shaw", "de shaw", "tower research", graviton, "jane street", optiver, arcesium, rubrik, nutanix, oracle, sap, cisco, qualcomm, intel, "texas instruments", samsung, vmware, broadcom, servicenow, "palo alto networks", cloudflare, datadog, mongodb, coinbase, figma, openai, anthropic, postman, browserstack, thoughtspot, groww, paytm, airbnb, pinterest, twilio, okta, elastic, gitlab, lyft, asana, vercel, dropbox, duolingo, samsara, carta, webflow, notion, ramp, linear, replit, supabase, palantir, spotify]
+    top_companies: [google, microsoft, visa, mastercard, meta, apple, linkedin, hpe, amazon, atlassian, adobe, uber, stripe, databricks, nvidia, salesforce, "goldman sachs", "morgan stanley", jpmorgan, "american express", intuit, paypal, walmart, flipkart, phonepe, razorpay, cred, meesho, swiggy, zomato, "d e shaw", "de shaw", "tower research", graviton, "jane street", optiver, arcesium, rubrik, nutanix, oracle, sap, cisco, qualcomm, intel, "texas instruments", samsung, vmware, broadcom, servicenow, "palo alto networks", cloudflare, datadog, mongodb, coinbase, figma, openai, anthropic, postman, browserstack, thoughtspot, groww, paytm, airbnb, pinterest, twilio, okta, elastic, gitlab, lyft, asana, vercel, dropbox, duolingo, samsara, carta, webflow, notion, ramp, linear, replit, supabase, palantir, spotify]
 
 alerts:
   digest_min_score: 4     # jobs below this are ignored completely
   instant_min_score: 6    # jobs at/above this trigger an immediate alert (a top company, good stated pay or a 2028 mention gets you there)
+  catchup_days: 7         # when you add a new source, postings from the last N days still alert once; older ones only go in the report
   max_age_days: 14        # a posting older than this never triggers an instant alert and never counts as "new" in the report
 
 # Companies on public ATS boards (slug = the last part of their board URL).
@@ -41,6 +42,11 @@ companies:
   greenhouse: [stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta, anthropic, reddit, pinterest, lyft, asana, vercel, scaleai, dropbox, duolingo, samsara, carta, webflow]
   lever: [palantir, spotify, cred, meesho, paytm]
   ashby: [openai, notion, ramp, linear, replit, supabase]
+  # Workday employers: paste the careers-page URL (the one you land on when you click "Careers" -> "Search jobs").
+  # Visa is confirmed. To add another: open its careers page, copy the URL that contains ".myworkdayjobs.com".
+  workday:
+    - "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal"
+#   - "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe"
 
 # InternScan: free, no key. Reads the official career portals of Google, Microsoft, Meta, NVIDIA, Qualcomm,
 # Walmart and ~60 other India employers (the ones with no public API), refreshed by them every few hours.
@@ -56,6 +62,12 @@ adzuna:
   country: in
   max_days_old: 7
   queries: ["software engineer intern", "sde intern", "machine learning intern", "ai intern", "software intern 2028 batch", "summer intern 2027"]
+
+# InternDoor: free RSS of new engineering internships / entry-level jobs in India, listed within minutes of going live.
+# It reads employers on Workday, Oracle and Greenhouse (Visa, Amazon, Amex, Cisco...), so it fills gaps no single API can.
+interndoor:
+  enabled: true
+  url: https://interndoor.com/feed.xml
 
 # The Muse: free, no key. Lists internships from hundreds of companies.
 themuse:

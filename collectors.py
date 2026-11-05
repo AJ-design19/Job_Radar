@@ -2,8 +2,10 @@
 import html
 import os
 import re
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 
 import requests
 
@@ -13,7 +15,7 @@ TIMEOUT = 20
 CLOSED_PHRASES = [
     "no longer accepting", "no longer available", "no longer open", "position has been filled",
     "job has expired", "this job has expired", "applications are closed", "posting has been closed",
-    "this position is closed", "job not found", "page not found",
+    "this position is closed", "job not found", "page not found", "role has closed", "listing has closed",
 ]
 
 
@@ -184,6 +186,87 @@ def internscan(cfg):
     return out
 
 
+# ---------------- Workday (Visa, HPE, Nvidia, Salesforce... most big employers) ----------------
+_WD = re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Za-z]{2}/)?([^/?#]+)", re.I)
+WD_PAGES = 10  # 10 x 20 = 200 postings per employer
+
+
+def _wd_posted(text):
+    """Workday only says 'Posted 3 Days Ago'. Turn it into a date (India time)."""
+    t = (text or "").lower()
+    if "today" in t:
+        days = 0
+    elif "yesterday" in t:
+        days = 1
+    else:
+        m = re.search(r"(\d+)\+?\s*day", t)
+        if not m:
+            return ""
+        days = int(m.group(1))
+    ist = timezone(timedelta(hours=5, minutes=30))
+    return (datetime.now(ist).date() - timedelta(days=days)).isoformat()
+
+
+def workday(entry):
+    """entry: a Workday careers URL (or {url, name}). Reads the public job-search endpoint behind the careers page."""
+    url, name = (entry["url"], entry.get("name")) if isinstance(entry, dict) else (entry, None)
+    m = _WD.match(url)
+    if not m:
+        raise ValueError("not a Workday careers URL")
+    tenant, wd, site = m.groups()
+    base = f"https://{tenant}.{wd}.myworkdayjobs.com"
+    out = []
+    for page in range(WD_PAGES):
+        r = requests.post(f"{base}/wday/cxs/{tenant}/{site}/jobs", timeout=TIMEOUT,
+                          headers={**UA, "Content-Type": "application/json", "Accept": "application/json"},
+                          json={"appliedFacets": {}, "limit": 20, "offset": page * 20, "searchText": "intern"})
+        r.raise_for_status()
+        posts = r.json().get("jobPostings") or []
+        for p in posts:
+            path = p.get("externalPath") or ""
+            if not path:
+                continue
+            out.append(_job(f"wd:{tenant}:{path}", p.get("title"), name or tenant.title(), p.get("locationsText"),
+                            f"{base}/en-US/{site}{path}", _wd_posted(p.get("postedOn")), kind="listed"))
+        if len(posts) < 20:
+            break
+    return out
+
+
+def workday_key(entry):
+    m = _WD.match(entry["url"] if isinstance(entry, dict) else entry)
+    return f"wd:{m.group(1)}" if m else f"wd:{entry}"
+
+
+# ---------------- InternDoor (India engineering internships, listed within minutes) ----------------
+def interndoor(cfg):
+    """InternDoor RSS: newest engineering roles in India, incl. employers on Workday / Oracle / Greenhouse."""
+    root = ET.fromstring(_get(cfg.get("url", "https://interndoor.com/feed.xml")).content)
+    out = []
+    for it in root.iter("item"):
+        title = html.unescape(it.findtext("title") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        desc = html.unescape(it.findtext("description") or "")
+        role, _, company = title.rpartition(" \u2014 ")
+        if not role:
+            role, company = title, ""
+        c = re.search(r"Company:\s*([^\u00b7\n]+)", desc)
+        loc = re.search(r"Location:\s*([^\u00b7\n]+)", desc)
+        try:
+            pub = parsedate_to_datetime(it.findtext("pubDate")).isoformat(timespec="seconds")
+        except Exception:
+            pub = ""
+        if not link:
+            continue
+        job = _job(f"id:{link}", role, (c.group(1).strip() if c else company), loc.group(1).strip() if loc else "",
+                   link, pub, desc, kind="listed")
+        job["tech_checked"] = True  # InternDoor lists engineering roles only
+        out.append(job)
+    if not out:
+        raise ValueError("empty feed")  # a glitchy empty feed must never look like 'everything vanished'
+    return out
+
+
 def collect_all(cfg):
     """Returns (jobs, ok_sources, failed_sources). Only ATS sources are 'verifiable':
     if a job disappears from a board that loaded fine, it is closed."""
@@ -191,6 +274,7 @@ def collect_all(cfg):
     tasks = [(f"gh:{s}", greenhouse, s) for s in comp.get("greenhouse") or []]
     tasks += [(f"lv:{s}", lever, s) for s in comp.get("lever") or []]
     tasks += [(f"ab:{s}", ashby, s) for s in comp.get("ashby") or []]
+    tasks += [(workday_key(e), workday, e) for e in comp.get("workday") or []]
 
     def run(t):
         key, fn, arg = t
@@ -206,11 +290,12 @@ def collect_all(cfg):
                 failed[key] = err
                 continue
             ok.add(key)
+            capped = key.startswith("wd:") and len(res) >= WD_PAGES * 20  # list cut off: absence proves nothing
             for j in res:
-                j.update(src=key, verifiable=True)
+                j.update(src=key, verifiable=not capped)
                 jobs.append(j)
 
-    for name, fn in (("internscan", internscan), ("adzuna", adzuna), ("themuse", themuse)):
+    for name, fn in (("internscan", internscan), ("interndoor", interndoor), ("adzuna", adzuna), ("themuse", themuse)):
         conf = cfg.get(name)
         if not conf or conf.get("enabled") is False:
             continue
@@ -224,11 +309,14 @@ def collect_all(cfg):
         except Exception as e:
             failed[name] = f"{type(e).__name__}: {str(e)[:100]}"
 
-    # the same posting can come from a company board and from InternScan: keep the direct one
-    def norm(s):
-        return re.sub(r"[^a-z0-9]", "", (s or "").lower())
-    direct = {(norm(j["company"]), norm(j["title"])) for j in jobs if j["src"] != "internscan"}
-    jobs = [j for j in jobs if j["src"] != "internscan" or (norm(j["company"]), norm(j["title"])) not in direct]
+    # the same posting can come from several places: keep the most direct copy (company board > InternScan > InternDoor)
+    def key(j):
+        return re.sub(r"[^a-z0-9]", "", (j["company"] or "").lower()), re.sub(r"[^a-z0-9]", "", (j["title"] or "").lower())
+    second = ("internscan", "interndoor")
+    direct = {key(j) for j in jobs if j["src"] not in second}
+    jobs = [j for j in jobs if j["src"] not in second or key(j) not in direct]
+    scanned = {key(j) for j in jobs if j["src"] == "internscan"}
+    jobs = [j for j in jobs if j["src"] != "interndoor" or key(j) not in scanned]
     return jobs, ok, failed
 
 

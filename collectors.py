@@ -188,7 +188,7 @@ def internscan(cfg):
 
 # ---------------- Workday (Visa, HPE, Nvidia, Salesforce... most big employers) ----------------
 _WD = re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Za-z]{2}/)?([^/?#]+)", re.I)
-WD_PAGES = 10  # 10 x 20 = 200 postings per employer
+WD_PAGES = 5  # default: 5 x 20 = 100 postings per site (override with pages: in config)
 
 
 def _wd_posted(text):
@@ -208,34 +208,40 @@ def _wd_posted(text):
 
 
 def workday(entry):
-    """entry: a Workday careers URL (or {url, name}). Reads the public job-search endpoint behind the careers page."""
-    url, name = (entry["url"], entry.get("name")) if isinstance(entry, dict) else (entry, None)
-    m = _WD.match(url)
+    """entry: a Workday careers URL, or {url, name, search, pages}. Reads the public job-search endpoint behind the page."""
+    e = entry if isinstance(entry, dict) else {"url": entry}
+    m = _WD.match(e["url"])
     if not m:
         raise ValueError("not a Workday careers URL")
     tenant, wd, site = m.groups()
     base = f"https://{tenant}.{wd}.myworkdayjobs.com"
+    pages = int(e.get("pages", WD_PAGES))
     out = []
-    for page in range(WD_PAGES):
+    for page in range(pages):
         r = requests.post(f"{base}/wday/cxs/{tenant}/{site}/jobs", timeout=TIMEOUT,
                           headers={**UA, "Content-Type": "application/json", "Accept": "application/json"},
-                          json={"appliedFacets": {}, "limit": 20, "offset": page * 20, "searchText": "intern"})
+                          json={"appliedFacets": {}, "limit": 20, "offset": page * 20,
+                                "searchText": e.get("search", "intern")})
         r.raise_for_status()
         posts = r.json().get("jobPostings") or []
         for p in posts:
             path = p.get("externalPath") or ""
             if not path:
                 continue
-            out.append(_job(f"wd:{tenant}:{path}", p.get("title"), name or tenant.title(), p.get("locationsText"),
-                            f"{base}/en-US/{site}{path}", _wd_posted(p.get("postedOn")), kind="listed"))
+            out.append(_job(f"wd:{tenant}:{site}:{path}", p.get("title"), e.get("name") or tenant.title(),
+                            p.get("locationsText"), f"{base}/en-US/{site}{path}", _wd_posted(p.get("postedOn")),
+                            kind="listed"))
         if len(posts) < 20:
             break
+    capped = len(out) >= pages * 20  # list was cut off: a missing job proves nothing
+    for j in out:
+        j["capped"] = capped
     return out
 
 
 def workday_key(entry):
     m = _WD.match(entry["url"] if isinstance(entry, dict) else entry)
-    return f"wd:{m.group(1)}" if m else f"wd:{entry}"
+    return f"wd:{m.group(1)}/{m.group(3)}" if m else f"wd:{entry}"
 
 
 # ---------------- InternDoor (India engineering internships, listed within minutes) ----------------
@@ -290,7 +296,7 @@ def collect_all(cfg):
                 failed[key] = err
                 continue
             ok.add(key)
-            capped = key.startswith("wd:") and len(res) >= WD_PAGES * 20  # list cut off: absence proves nothing
+            capped = any([j.pop("capped", False) for j in res])  # list cut off: absence proves nothing
             for j in res:
                 j.update(src=key, verifiable=not capped)
                 jobs.append(j)

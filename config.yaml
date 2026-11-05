@@ -27,7 +27,7 @@ profile:
   pay:
     min_stipend_inr_month: 40000
     only_known_good: false   # true = if pay is NOT stated, report only companies on top_companies
-    top_companies: [google, microsoft, visa, mastercard, meta, apple, linkedin, hpe, amazon, atlassian, adobe, uber, stripe, databricks, nvidia, salesforce, "goldman sachs", "morgan stanley", jpmorgan, "american express", intuit, paypal, walmart, flipkart, phonepe, razorpay, cred, meesho, swiggy, zomato, "d e shaw", "de shaw", "tower research", graviton, "jane street", optiver, arcesium, rubrik, nutanix, oracle, sap, cisco, qualcomm, intel, "texas instruments", samsung, vmware, broadcom, servicenow, "palo alto networks", cloudflare, datadog, mongodb, coinbase, figma, openai, anthropic, postman, browserstack, thoughtspot, groww, paytm, airbnb, pinterest, twilio, okta, elastic, gitlab, lyft, asana, vercel, dropbox, duolingo, samsara, carta, webflow, notion, ramp, linear, replit, supabase, palantir, spotify]
+    top_companies: [google, microsoft, visa, mastercard, dell, meta, apple, linkedin, hpe, amazon, atlassian, adobe, uber, stripe, databricks, nvidia, salesforce, "goldman sachs", "morgan stanley", jpmorgan, "american express", intuit, paypal, walmart, flipkart, phonepe, razorpay, cred, meesho, swiggy, zomato, "d e shaw", "de shaw", "tower research", graviton, "jane street", optiver, arcesium, rubrik, nutanix, oracle, sap, cisco, qualcomm, intel, "texas instruments", samsung, vmware, broadcom, servicenow, "palo alto networks", cloudflare, datadog, mongodb, coinbase, figma, openai, anthropic, postman, browserstack, thoughtspot, groww, paytm, airbnb, pinterest, twilio, okta, elastic, gitlab, lyft, asana, vercel, dropbox, duolingo, samsara, carta, webflow, notion, ramp, linear, replit, supabase, palantir, spotify]
 
 alerts:
   digest_min_score: 4     # jobs below this are ignored completely
@@ -42,11 +42,25 @@ companies:
   greenhouse: [stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta, anthropic, reddit, pinterest, lyft, asana, vercel, scaleai, dropbox, duolingo, samsara, carta, webflow]
   lever: [palantir, spotify, cred, meesho, paytm]
   ashby: [openai, notion, ramp, linear, replit, supabase]
-  # Workday employers: paste the careers-page URL (the one you land on when you click "Careers" -> "Search jobs").
-  # Visa is confirmed. To add another: open its careers page, copy the URL that contains ".myworkdayjobs.com".
+  # Workday employers (big companies run their careers sites on Workday). Each line is one careers site.
+  # Add more: open the company's careers page, copy the address that contains ".myworkdayjobs.com", paste it as url.
+  # Optional per line: search (default "intern"), pages (default 5 = 100 postings).
+  # These addresses come from public job links; a wrong one shows up under "Source problems" in the daily report.
   workday:
-    - "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal"
-#   - "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe"
+    - {url: "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal", name: Visa}
+    - {url: "https://visa.wd5.myworkdayjobs.com/en-US/Visa", name: Visa}
+    - {url: "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite", name: NVIDIA}
+    - {url: "https://adobe.wd5.myworkdayjobs.com/external_university", name: Adobe}
+    - {url: "https://adobe.wd5.myworkdayjobs.com/external_experienced", name: Adobe}
+    - {url: "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site", name: Salesforce}
+    - {url: "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers", name: Mastercard}
+    - {url: "https://mastercard.wd1.myworkdayjobs.com/Campus", name: Mastercard}
+    - {url: "https://dell.wd1.myworkdayjobs.com/External", name: Dell Technologies}
+    - {url: "https://intel.wd1.myworkdayjobs.com/External", name: Intel}
+    - {url: "https://hpe.wd5.myworkdayjobs.com/Jobsathpe", name: HPE}
+    - {url: "https://paypal.wd1.myworkdayjobs.com/jobs", name: PayPal}
+    - {url: "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers", name: Cisco}
+    - {url: "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal", name: Walmart}
 
 # InternScan: free, no key. Reads the official career portals of Google, Microsoft, Meta, NVIDIA, Qualcomm,
 # Walmart and ~60 other India employers (the ones with no public API), refreshed by them every few hours.

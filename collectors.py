@@ -244,6 +244,41 @@ def workday_key(entry):
     return f"wd:{m.group(1)}/{m.group(3)}" if m else f"wd:{entry}"
 
 
+# ---------------- Amazon (amazon.jobs public search; biggest India intern recruiter) ----------------
+def _amazon_date(s):
+    try:
+        return datetime.strptime(" ".join(str(s).split()), "%B %d, %Y").date().isoformat()
+    except ValueError:
+        return ""
+
+
+def amazon(cfg):
+    """amazon.jobs search endpoint behind the careers site. Qualifications text is included, so the batch check works."""
+    pages, out = int(cfg.get("pages", 3)), []
+    for page in range(pages):
+        data = _get("https://www.amazon.jobs/en/search.json", params={
+            "base_query": cfg.get("query", "intern"), "loc_query": "India", "country": "IND",
+            "sort": "recent", "result_limit": 100, "offset": page * 100}).json()
+        jobs = data.get("jobs") or []
+        for j in jobs:
+            path = j.get("job_path") or ""
+            if not path:
+                continue
+            text = " ".join(str(j.get(k) or "") for k in ("basic_qualifications", "description_short", "preferred_qualifications"))
+            out.append(_job(f"am:{j.get('id_icims') or path}", j.get("title"), "Amazon",
+                            j.get("normalized_location") or j.get("location"), "https://www.amazon.jobs" + path,
+                            _amazon_date(j.get("posted_date")), re.sub(r"<[^>]+>", " ", html.unescape(text)),
+                            kind="posted"))
+        if len(jobs) < 100:
+            break
+    if not out:
+        raise ValueError("no results (endpoint changed or blocked)")
+    capped = len(out) >= pages * 100
+    for j in out:
+        j["capped"] = capped
+    return out
+
+
 # ---------------- InternDoor (India engineering internships, listed within minutes) ----------------
 def interndoor(cfg):
     """InternDoor RSS: newest engineering roles in India, incl. employers on Workday / Oracle / Greenhouse."""
@@ -301,7 +336,8 @@ def collect_all(cfg):
                 j.update(src=key, verifiable=not capped)
                 jobs.append(j)
 
-    for name, fn in (("internscan", internscan), ("interndoor", interndoor), ("adzuna", adzuna), ("themuse", themuse)):
+    for name, fn in (("internscan", internscan), ("amazon", amazon), ("interndoor", interndoor), ("adzuna", adzuna),
+                     ("themuse", themuse)):
         conf = cfg.get(name)
         if not conf or conf.get("enabled") is False:
             continue
@@ -309,8 +345,9 @@ def collect_all(cfg):
             res = fn(conf)
             if res is not None:
                 ok.add(name)
+                capped = any([j.pop("capped", False) for j in res])
                 for j in res:
-                    j.update(src=name, verifiable=(name == "internscan"))
+                    j.update(src=name, verifiable=(name in ("internscan", "amazon")) and not capped)
                     jobs.append(j)
         except Exception as e:
             failed[name] = f"{type(e).__name__}: {str(e)[:100]}"

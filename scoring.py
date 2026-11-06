@@ -56,6 +56,11 @@ def is_top_company(job, profile):
     return any(_has(name, k) for k in (profile.get("pay") or {}).get("top_companies", []))
 
 
+def is_elite(job, profile):
+    name = (job.get("company") or "").lower()
+    return any(_has(name, k) for k in (profile.get("pay") or {}).get("elite_companies", []))
+
+
 def passes_pay(job, profile):
     pay = profile.get("pay") or {}
     stipend = job.get("stipend_inr_month")
@@ -79,8 +84,12 @@ def heuristic_score(job, profile):
         s += 1
     if any(_has(blob, k) for k in profile.get("skills", [])):
         s += 1
-    if is_top_company(job, profile):
+    if is_elite(job, profile):
+        s += 3  # the best-paying employers
+    elif is_top_company(job, profile):
         s += 2
+    if re.search(r"pre-?final|penultimate|third[- ]year|3rd[- ]year", blob):
+        s += 1  # explicitly open to students in their 3rd year (your situation)
     stipend = job.get("stipend_inr_month")
     if stipend is not None and stipend >= pay.get("min_stipend_inr_month", 0):
         s += 1

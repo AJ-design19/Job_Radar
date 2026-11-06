@@ -12,7 +12,7 @@ from programs import check_programs
 from collectors import check_url, collect_all, greenhouse_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
-                    program_markdown, program_push_text, fmt_dt)
+                    program_markdown, program_push_text, fmt_dt, opportunities_markdown)
 from scoring import heuristic_score, llm_enrich, passes_batch, passes_filters, passes_pay
 
 ROOT = Path(__file__).parent
@@ -237,11 +237,13 @@ def digest(cfg, state):
         if ps.get("last_alert"):
             note += f" - alerted {fmt_dt(ps['last_alert'])}"
         progs.append((p["name"], note + (f" - news check failing: {ps['error']}" if ps.get("error") else "")))
+    opps = opportunity_sections(cfg, n.astimezone(IST).month)
     md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
-                         new24, soon, closed24, state["watch"], failures, by_company, progs)
+                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps)
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
     (rdir / "latest.md").write_text(md, encoding="utf-8")
+    (rdir / "opportunities.md").write_text(opportunities_markdown(opps, date_str), encoding="utf-8")
     (rdir / f"{n.astimezone(IST).strftime('%Y-%m-%d')}.md").write_text(md, encoding="utf-8")
     for old in sorted(rdir.glob("20*.md"))[:-14]:  # keep the last 14 days
         old.unlink()
@@ -251,6 +253,20 @@ def digest(cfg, state):
             fh.write(md)
     push(digest_push_text(date_str, {"companies": len(by_company)}, new24, closed24, by_company))
     print(f"digest sent: {len(new24)} new, {len(closed24)} closed, {len(open_jobs)} open")
+
+
+def opportunity_sections(cfg, month):
+    """(check now, usually opens within ~3 months, later) from the static tracker in config.yaml."""
+    soon_months = {((month - 1 + k) % 12) + 1 for k in range(4)}
+    now_, soon, later = [], [], []
+    for o in cfg.get("opportunities") or []:
+        if o.get("now"):
+            now_.append(o)
+        elif soon_months & set(o.get("months", [])):
+            soon.append(o)
+        else:
+            later.append(o)
+    return now_, soon, later
 
 
 def main():

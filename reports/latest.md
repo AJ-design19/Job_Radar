@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 06 Nov 2026
-**10 companies** hiring interns · 18 open roles · 2 new in 24h · 13 closed in 24h
+# Job Radar daily report - 07 Nov 2026
+**9 companies** hiring interns · 17 open roles · 2 new in 24h · 17 closed in 24h
 
 ## New in the last 24 hours
 - [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W) - Visa · IN - Bengaluru, India · **6/10**
@@ -9,7 +9,7 @@
 - [2027 Technology Program Intern](https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) - Wells Fargo · 2 Locations, Bengaluru India · **5/10**
   - 🕒 posted 06 Nov 2026 · detected 06 Nov 2026, 12:06 PM IST
 
-## 🏢 Companies hiring interns right now (10)
+## 🏢 Companies hiring interns right now (9)
 
 <details><summary><b>Discover Dollar</b> (4)</summary>
 
@@ -69,13 +69,6 @@
 
 </details>
 
-<details><summary><b>Rubrik</b> (1)</summary>
-
-- [Software Engineer (CPD) - Winter Intern](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) - Rubrik · Bangalore · **7/10**
-  - 🕒 posted 03 Nov 2026 · detected 04 Nov 2026, 07:47 AM IST · 🔔 alert sent 04 Nov 2026, 07:47 AM IST
-
-</details>
-
 <details><summary><b>Visa</b> (1)</summary>
 
 - [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W) - Visa · IN - Bengaluru, India · **6/10**
@@ -97,6 +90,30 @@
 
 </details>
 
+## 📅 Opportunity tracker (full list: reports/opportunities.md)
+**Check / apply now**
+- **Goldman Sachs Summer Analyst 2027 (India)** [A] 2028 graduates · usually Jul, Aug, Sep, Oct, Nov - applications opened 1 Jul for the 2028 batch, rolling review: apply now if you have not _(reported)_ · where: Goldman Sachs careers (higher.gs.com)
+- **Microsoft Software Engineering Internship (India)** [A] penultimate-year students · usually Aug, Sep, Oct, Nov, Dec - the regular SWE track targets penultimate-year students, which is you _(reported)_ · where: Microsoft careers
+- **Morgan Stanley Technology Summer Analyst (India)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov - usually Aug to Nov, check the page today _(typical)_ · where: Morgan Stanley careers
+- **JPMorgan Summer Analyst (India)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov, Dec - rolling, India 2027 dates not yet published _(reported)_ · where: JPMorgan careers
+
+**Open or usually opening in the next ~3 months**
+- **Atlassian Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news; no readable job feed found _(typical)_ · where: Atlassian careers
+- **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
+- **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's university site directly _(typical)_ · where: Adobe careers (university site)
+- **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
+- **Flipkart summer internship** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
+- **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
+- **Cisco, PayPal, Visa, Mastercard, Dell, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
+- **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
+- **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page
+- **Google Girl Hackathon** [Program] 2026 to 2029 batches on the 2025 edition · usually Jan, Feb, Mar - 2025 registration ran 20 Jan to 11 Mar; radar watches the page _(confirmed)_ · where: goo.gle/GirlHackathon
+- **Flipkart Girls Wanna Code** [Program] 7.0 targeted the 2028 batch; next batch unconfirmed · usually Dec, Jan - 7.0 closed 15 Jan 2026; the next edition may target 2029 _(confirmed)_ · where: Flipkart Early Careers
+- **Uber HackTag** [Program] check edition · usually Feb, Mar - past editions ran Feb to Mar; radar watches news _(typical)_ · where: Unstop
+- **Microsoft Engage** [Program] check edition · usually Feb, Mar, Apr - mentorship program that feeds internships _(typical)_ · where: Microsoft Engage page
+
+_8 more programs open later in the year; see the full list._
+
 ## 🎯 Programs being watched
 - **Google Girl Hackathon** - news, 1 official page(s)
 - **Flipkart GRiD** - news, 1 official page(s)
@@ -104,6 +121,16 @@
 - **Uber HackTag** - news
 - **Walmart CodeHers** - news
 - **Salesforce AI Challenge** - news
+- **Goldman Sachs Summer Analyst (India)** - news
+- **Microsoft internships (India)** - news
+- **Amazon internships and challenges (India)** - news
+- **Atlassian internship (India)** - news
+- **Uber internship (India)** - news
+- **JPMorgan Summer Analyst (India)** - news
+- **Morgan Stanley technology internship (India)** - news
+- **Walmart Sparkathon** - news
+- **Microsoft Engage** - news
+- **Google Summer of Code** - news
 
 ## Closed since yesterday
 - [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) - Amazon · Bengaluru, KA, India · **7/10**
@@ -114,12 +141,20 @@
   - 🕒 posted 05 Nov 2026, 10:54 PM IST · detected 05 Nov 2026, 11:07 PM IST
 - [Software Developer Intern](https://interndoor.com/jobs/decentro-software-developer-intern-ats-keka-decentro-26116) - Decentro · BANGALORE, KA, India · **5/10**
   - 🕒 posted 05 Nov 2026, 01:10 PM IST · detected 05 Nov 2026, 03:49 PM IST
+- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
 - [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
   - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
 - [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719) - Honeywell Aerospace · Bengaluru, Karnataka, India · **4/10**
   - 🕒 posted 05 Nov 2026, 03:34 PM IST · detected 05 Nov 2026, 03:49 PM IST
 - [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517) - Honeywell Aerospace · Hyderabad, Telangana, India · **4/10**
   - 🕒 posted 05 Nov 2026, 09:33 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
+  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [Astronomy Events Intern](https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338) - SPACE · West Delhi, Delhi, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 04:56 PM IST · detected 06 Nov 2026, 08:07 PM IST
 - [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864) - State Street · Bengaluru, Karnataka, India · **4/10**
   - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
 - [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487750437) - State Street · Hyderabad, Telangana, India · **4/10**
@@ -128,16 +163,12 @@
   - 🕒 posted 06 Nov 2026, 04:41 AM IST · detected 06 Nov 2026, 05:31 AM IST
 - [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426) - Wells Fargo · Greater Hyderabad Area · **5/10**
   - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
-- [College Intern](https://careers.hpe.com/us/en/job/1211843) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **6/10**
-  - 🕒 posted 01 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
-- [Software Development Intern (Full Stack)](https://discoverdollar.keka.com/careers/jobdetails/138385) - Discover Dollar · Bengaluru, India · **4/10**
-  - 🕒 posted 10 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
 
 ## Source problems (check slug / network)
 - `gh:browserstack`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs (x15)
 - `gh:postman`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/postman/jobs (x15)
 - `gh:thoughtspot`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs (x15)
 - `lv:groww`: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/groww?mode=json (x15)
-- `wd:adobe/external_university`: HTTPError: 403 Client Error: Forbidden for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_uni (x6)
-- `wd:dell/External`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/Ext (x6)
-- `wd:walmart/WalmartExternal`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walma (x6)
+- `wd:adobe/external_university`: HTTPError: 403 Client Error: Forbidden for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_uni (x8)
+- `wd:dell/External`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/Ext (x8)
+- `wd:walmart/WalmartExternal`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walma (x8)

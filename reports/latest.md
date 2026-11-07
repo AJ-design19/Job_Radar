@@ -1,12 +1,19 @@
 @AJ-design19
 
 # Job Radar daily report - 07 Nov 2026
-**9 companies** hiring interns · 17 open roles · 0 new in 24h · 16 closed in 24h
+**19 companies** hiring interns · 33 open roles · 4 new in 24h · 1 closed in 24h
 
 ## New in the last 24 hours
-_Nothing new._
+- [SDE I Intern , Amazon University Talent Acquisition](https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052) - Amazon · Bengaluru, KA, India · **8/10**
+  - 🕒 posted 07 Nov 2026, 04:50 PM IST · detected 07 Nov 2026, 06:58 PM IST · 🔔 alert sent 07 Nov 2026, 06:58 PM IST
+- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
+  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
 
-## 🏢 Companies hiring interns right now (9)
+## 🏢 Companies hiring interns right now (19)
 
 <details><summary><b>Discover Dollar</b> (4)</summary>
 
@@ -32,6 +39,35 @@ _Nothing new._
 
 </details>
 
+<details><summary><b>Wells Fargo</b> (3)</summary>
+
+- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426) - Wells Fargo · Greater Hyderabad Area · **5/10**
+  - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
+- [2027 Technology Program Intern](https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) - Wells Fargo · 2 Locations, Bengaluru India · **5/10**
+  - 🕒 posted 06 Nov 2026 · detected 06 Nov 2026, 12:06 PM IST
+- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483590769) - Wells Fargo · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 04:41 AM IST · detected 06 Nov 2026, 05:31 AM IST
+
+</details>
+
+<details><summary><b>Amazon</b> (2)</summary>
+
+- [SDE I Intern , Amazon University Talent Acquisition](https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052) - Amazon · Bengaluru, KA, India · **8/10**
+  - 🕒 posted 07 Nov 2026, 04:50 PM IST · detected 07 Nov 2026, 06:58 PM IST · 🔔 alert sent 07 Nov 2026, 06:58 PM IST
+- [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) - Amazon · Bengaluru, KA, India · **7/10**
+  - 🕒 posted 05 Nov 2026, 11:14 AM IST · detected 05 Nov 2026, 03:49 PM IST · 🔔 alert sent 05 Nov 2026, 03:49 PM IST
+
+</details>
+
+<details><summary><b>Bank of America</b> (2)</summary>
+
+- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4482211597) - Bank of America · Gurugram, Haryana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 10:53 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4483709249) - Bank of America · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 10:54 PM IST · detected 05 Nov 2026, 11:07 PM IST
+
+</details>
+
 <details><summary><b>HackerRank</b> (2)</summary>
 
 - [AI Researcher Intern](https://job-boards.greenhouse.io/hackerrank/jobs/8281055) - HackerRank · Onsite in Bangalore · **6/10**
@@ -41,12 +77,30 @@ _Nothing new._
 
 </details>
 
+<details><summary><b>Honeywell Aerospace</b> (2)</summary>
+
+- [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719) - Honeywell Aerospace · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 03:34 PM IST · detected 05 Nov 2026, 03:49 PM IST
+- [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517) - Honeywell Aerospace · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 09:33 PM IST · detected 05 Nov 2026, 11:07 PM IST
+
+</details>
+
 <details><summary><b>Qualcomm</b> (2)</summary>
 
 - [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) - Qualcomm · Bangalore, India, Hyderabad, Telangāna, India · **7/10**
   - 🕒 posted 09 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
 - [Interim Engineering Intern_2027_SW](https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com) - Qualcomm · Hyderabad, Telangāna, India · **7/10**
   - 🕒 posted 15 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
+
+</details>
+
+<details><summary><b>State Street</b> (2)</summary>
+
+- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864) - State Street · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487750437) - State Street · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
 
 </details>
 
@@ -66,6 +120,48 @@ _Nothing new._
 
 </details>
 
+<details><summary><b>Decentro</b> (1)</summary>
+
+- [Software Developer Intern](https://interndoor.com/jobs/decentro-software-developer-intern-ats-keka-decentro-26116) - Decentro · BANGALORE, KA, India · **5/10**
+  - 🕒 posted 05 Nov 2026, 01:10 PM IST · detected 05 Nov 2026, 03:49 PM IST
+
+</details>
+
+<details><summary><b>GE HealthCare</b> (1)</summary>
+
+- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
+
+</details>
+
+<details><summary><b>HARMAN India</b> (1)</summary>
+
+- [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
+
+</details>
+
+<details><summary><b>Irdeto</b> (1)</summary>
+
+- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
+  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
+
+</details>
+
+<details><summary><b>Snapmint</b> (1)</summary>
+
+- [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
+
+</details>
+
+<details><summary><b>SPACE</b> (1)</summary>
+
+- [Astronomy Events Intern](https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338) - SPACE · West Delhi, Delhi, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 04:56 PM IST · detected 06 Nov 2026, 08:07 PM IST
+
+</details>
+
 <details><summary><b>Visa</b> (1)</summary>
 
 - [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W) - Visa · IN - Bengaluru, India · **6/10**
@@ -77,13 +173,6 @@ _Nothing new._
 
 - [(IND) Grad Intern - No Work Experience](https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935) - Walmart Global Tech · IN KA BANGALORE Home Office Building 10 · **6/10**
   - 🕒 posted 04 Oct 2026 · detected 03 Nov 2026, 10:11 AM IST
-
-</details>
-
-<details><summary><b>Wells Fargo</b> (1)</summary>
-
-- [2027 Technology Program Intern](https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) - Wells Fargo · 2 Locations, Bengaluru India · **5/10**
-  - 🕒 posted 06 Nov 2026 · detected 06 Nov 2026, 12:06 PM IST
 
 </details>
 
@@ -130,43 +219,25 @@ _8 more programs open later in the year; see the full list._
 - **Google Summer of Code** - news
 
 ## Closed since yesterday
-- [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) - Amazon · Bengaluru, KA, India · **7/10**
-  - 🕒 posted 05 Nov 2026, 11:14 AM IST · detected 05 Nov 2026, 03:49 PM IST · 🔔 alert sent 05 Nov 2026, 03:49 PM IST
-- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4482211597) - Bank of America · Gurugram, Haryana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 10:53 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4483709249) - Bank of America · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 10:54 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Software Developer Intern](https://interndoor.com/jobs/decentro-software-developer-intern-ats-keka-decentro-26116) - Decentro · BANGALORE, KA, India · **5/10**
-  - 🕒 posted 05 Nov 2026, 01:10 PM IST · detected 05 Nov 2026, 03:49 PM IST
-- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
-- [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719) - Honeywell Aerospace · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 03:34 PM IST · detected 05 Nov 2026, 03:49 PM IST
-- [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517) - Honeywell Aerospace · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 09:33 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
-  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
-- [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
-- [Astronomy Events Intern](https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338) - SPACE · West Delhi, Delhi, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 04:56 PM IST · detected 06 Nov 2026, 08:07 PM IST
-- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864) - State Street · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487750437) - State Street · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483590769) - Wells Fargo · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 04:41 AM IST · detected 06 Nov 2026, 05:31 AM IST
-- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426) - Wells Fargo · Greater Hyderabad Area · **5/10**
-  - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
+- [Software Engineer (CPD) - Winter Intern](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) - Rubrik · Bangalore · **7/10**
+  - 🕒 posted 03 Nov 2026 · detected 04 Nov 2026, 07:47 AM IST · 🔔 alert sent 04 Nov 2026, 07:47 AM IST
+
+## 📡 What the radar read this run
+- `interndoor`: 50 postings read, 16 match you
+- `internscan`: 21 postings read, 14 match you
+- `themuse`: 100 postings read, 0 match you
+- `wd:adobe/external_experienced`: 15 postings read, 0 match you
+- `wd:cisco/Cisco_Careers`: 100 postings read, 0 match you (list cut off at the page limit)
+- `wd:hpe/Jobsathpe`: 100 postings read, 0 match you (list cut off at the page limit)
+- `wd:intel/External`: 100 postings read, 0 match you (list cut off at the page limit)
+- `wd:mastercard/Campus`: 24 postings read, 0 match you
+- `wd:mastercard/CorporateCareers`: 100 postings read, 0 match you (list cut off at the page limit)
+- `wd:nvidia/NVIDIAExternalCareerSite`: 100 postings read, 0 match you (list cut off at the page limit)
+- `wd:paypal/jobs`: 100 postings read, 0 match you (list cut off at the page limit)
+- `wd:salesforce/External_Career_Site`: 49 postings read, 0 match you
+- `wd:visa/Visa`: 41 postings read, 0 match you
+- `wd:visa/Visa_Talent_Portal`: 100 postings read, 1 match you (list cut off at the page limit)
+- `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 2 match you
 
 ## Source problems (check slug / network)
-- `amazon`: ValueError: no results (endpoint changed or blocked) (x4)
-- `gh:browserstack`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs (x15)
-- `gh:postman`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/postman/jobs (x15)
-- `gh:thoughtspot`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs (x15)
-- `lv:groww`: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/groww?mode=json (x15)
-- `wd:adobe/external_university`: HTTPError: 403 Client Error: Forbidden for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_uni (x11)
-- `wd:dell/External`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/Ext (x11)
-- `wd:walmart/WalmartExternal`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walma (x11)
+- `amazon`: ValueError: no results (endpoint changed or blocked) (x6)

@@ -80,6 +80,9 @@ def check_watch(cfg, state, ts):
 
 def scan(cfg, state):
     ts = iso(now())
+    log = state.setdefault("scan_log", [])  # when each scan really ran: shows how late GitHub's timer is
+    log.append(ts)
+    del log[:-300]
     if not state.get("fix_interndoor_closed"):  # the old page check wrongly closed every InternDoor job: undo it
         for r in state["jobs"].values():
             pd = posted_dt(r.get("posted"))
@@ -267,6 +270,11 @@ def digest(cfg, state):
     if boards:
         sources.append(("company boards (Greenhouse / Lever / Ashby)",
                         f"{len(boards)} read fine, {sum(1 for r in open_jobs if r.get('src', '')[:3] in ('gh:', 'lv:', 'ab:'))} match you"))
+    stamps = sorted(parse(t) for t in state.get("scan_log", []) if parse(t) >= n - timedelta(hours=24))
+    if len(stamps) >= 2:
+        gap = max(b - a for a, b in zip(stamps, stamps[1:]))
+        h, m = divmod(int(gap.total_seconds() // 60), 60)
+        sources.append(("scan timing", f"{len(stamps)} scans in the last 24h, longest gap {h}h {m}m (set to run every 10 minutes)"))
     opps = opportunity_sections(cfg, n.astimezone(IST).month)
     md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
                          new24, soon, closed24, state["watch"], failures, by_company, progs, opps, sources)

@@ -3,18 +3,19 @@
 import json
 import os
 import sys
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import yaml
 
 import collectors as _collectors
-from programs import check_programs
+from programs import check_programs, discover
 from collectors import check_url, collect_all, greenhouse_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
                     program_markdown, program_push_text, fmt_dt, opportunities_markdown)
-from scoring import heuristic_score, llm_enrich, passes_batch, passes_filters, passes_pay
+from scoring import heuristic_score, is_elite, llm_enrich, passes_batch, passes_filters, passes_pay
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "state.json"
@@ -81,6 +82,12 @@ def check_watch(cfg, state, ts):
 def scan(cfg, state):
     ts = iso(now())
     log = state.setdefault("scan_log", [])  # when each scan really ran: shows how late GitHub's timer is
+    gap_note = ""
+    if log:
+        gap = now() - parse(log[-1])
+        if gap > timedelta(hours=cfg["alerts"].get("gap_alert_hours", 3)):
+            h, m = divmod(int(gap.total_seconds() // 60), 60)
+            gap_note = f"⚠ Job Radar was not running for {h}h {m}m (GitHub's timer was late). It is back and has caught up."
     log.append(ts)
     del log[:-300]
     if not state.get("fix_interndoor_closed"):  # the old page check wrongly closed every InternDoor job: undo it
@@ -139,7 +146,7 @@ def scan(cfg, state):
         baseline = first_run or (j["src"] in new_srcs and not recent)
         rec = {**j, "desc": "", "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
                "first_seen": ts, "last_seen": ts, "status": status,
-               "baseline": baseline}  # old listings of a newly added source are not "new"
+               "baseline": baseline, "elite": is_elite(j, profile)}  # old listings of a newly added source are not "new"
         state["jobs"][j["id"]] = rec
         fp = fingerprint(j)
         already = fp in alerted  # re-posted under a new id? it is the same hiring: no second alert
@@ -180,6 +187,12 @@ def scan(cfg, state):
     except Exception as e:
         prog_alerts = []
         print(f"[programs skipped] {type(e).__name__}: {str(e)[:100]}")
+    try:  # keep looking for opportunities you did not list
+        prog_alerts += discover(cfg, state, profile.get("graduation_year"))
+    except Exception as e:
+        print(f"[discovery skipped] {type(e).__name__}: {str(e)[:100]}")
+    if gap_note and not first_run:
+        push(gap_note)
     if prog_alerts:
         send_email(*program_email(prog_alerts))
         title, body = program_markdown(prog_alerts)  # picked up by the workflow -> GitHub issue
@@ -253,7 +266,12 @@ def digest(cfg, state):
     for p in cfg.get("programs") or []:
         ps = state.get("programs", {}).get(p["name"], {})
         bits = ["news" if p.get("news") else "", f"{len(p.get('urls') or [])} official page(s)" if p.get("urls") else ""]
-        note = ", ".join(b for b in bits if b) or "no sources set"
+        links = []
+        if p.get("news"):
+            q = urllib.parse.urlencode({"q": p["news"], "hl": "en-IN", "gl": "IN", "ceid": "IN:en"})
+            links.append(f"[latest news](https://news.google.com/search?{q})")
+        links += [f"[official page]({u})" for u in p.get("urls") or []]
+        note = ", ".join(links) or "no sources set"
         if ps.get("last_alert"):
             note += f" - alerted {fmt_dt(ps['last_alert'])}"
         progs.append((p["name"], note + (f" - news check failing: {ps['error']}" if ps.get("error") else "")))

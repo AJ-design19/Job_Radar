@@ -35,6 +35,7 @@ alerts:
   digest_min_score: 4     # jobs below this are ignored completely
   instant_min_score: 6    # jobs at/above this trigger an immediate alert (a top company, good stated pay or a 2028 mention gets you there)
   catchup_days: 7         # when you add a new source, postings from the last N days still alert once; older ones only go in the report
+  gap_alert_hours: 3      # if no scan ran for this long, send a 'radar was paused' notice
   max_age_days: 14        # a posting older than this never triggers an instant alert and never counts as "new" in the report
 
 # Companies on public ATS boards (slug = the last part of their board URL).
@@ -192,28 +193,50 @@ programs:
 # Stipend blogs disagree wildly (roughly Rs 40k to 1.5 lakh a month for tier A), so no figures here.
 # ---------------------------------------------------------------
 opportunities:
-  - {name: "Goldman Sachs Summer Analyst 2027 (India)", tier: A, batch: "2028 graduates", months: [7, 8, 9, 10, 11], now: true, confidence: reported, where: "Goldman Sachs careers (higher.gs.com)", note: "applications opened 1 Jul for the 2028 batch, rolling review: apply now if you have not"}
-  - {name: "Microsoft Software Engineering Internship (India)", tier: A, batch: "penultimate-year students", months: [8, 9, 10, 11, 12], now: true, confidence: reported, where: "Microsoft careers", note: "the regular SWE track targets penultimate-year students, which is you"}
-  - {name: "Morgan Stanley Technology Summer Analyst (India)", tier: A, batch: "2028 graduates", months: [8, 9, 10, 11], now: true, confidence: typical, where: "Morgan Stanley careers", note: "usually Aug to Nov, check the page today"}
-  - {name: "JPMorgan Summer Analyst (India)", tier: A, batch: "2028 graduates", months: [8, 9, 10, 11, 12], now: true, confidence: reported, where: "JPMorgan careers", note: "rolling, India 2027 dates not yet published"}
-  - {name: "Atlassian Software Engineering Intern (India)", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Atlassian careers", note: "radar watches news; no readable job feed found"}
-  - {name: "Uber Software Engineering Intern (India)", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Uber careers", note: "radar watches news and InternScan/InternDoor"}
-  - {name: "Adobe Summer Intern (India)", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Adobe careers (university site)", note: "radar reads Adobe's university site directly"}
-  - {name: "Amazon SDE Intern (India)", tier: A, batch: "current round: 2027 graduates, NOT your batch", months: [8, 9, 10], confidence: confirmed, where: "amazon.jobs", note: "6-month internship; radar reads amazon.jobs and will flag a 2028-batch round"}
-  - {name: "Google Software Engineering Intern, Summer 2027", tier: A, batch: "2027 and 2028 penultimate", months: [5, 6], confidence: reported, where: "Google careers", note: "applications closed around 28 Jun 2026; you are already in this process, so prepare. Next cycle opens around Jun 2027"}
-  - {name: "Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12, 1], confidence: typical, where: "each firm's careers page", note: "among the highest paid; strong DSA and competitive programming helps"}
-  - {name: "Flipkart summer internship", tier: A, batch: "check posting", months: [9, 10, 11, 12], confidence: typical, where: "Flipkart Early Careers", note: "often reached through GRiD or campus; radar watches the Early Careers site"}
-  - {name: "Walmart Global Tech summer intern", tier: A, batch: "check posting", months: [8, 9, 10], confidence: typical, where: "Walmart careers", note: "InternScan covers Walmart Global Tech"}
-  - {name: "Salesforce, Intuit, ServiceNow, Oracle, SAP Labs", tier: B, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "each careers page", note: "Salesforce is read directly from Workday; the others rely on InternDoor and InternScan"}
-  - {name: "Cisco, PayPal, Visa, Mastercard, Dell, Intel, HPE", tier: B, batch: "check posting", months: [8, 9, 10, 11, 12, 1], confidence: typical, where: "each Workday careers site", note: "all read directly by the radar"}
-  - {name: "NVIDIA, Qualcomm, Texas Instruments, Samsung R&D", tier: B, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "each careers page", note: "NVIDIA is read directly; Qualcomm comes via InternScan"}
+  - {name: "Goldman Sachs Summer Analyst 2027 (India)", url: "https://higher.gs.com/", tier: A, batch: "2028 graduates", months: [7, 8, 9, 10, 11], now: true, confidence: reported, where: "Goldman Sachs careers (higher.gs.com)", note: "applications opened 1 Jul for the 2028 batch, rolling review: apply now if you have not"}
+  - {name: "Microsoft Software Engineering Internship (India)", url: "https://careers.microsoft.com/", tier: A, batch: "penultimate-year students", months: [8, 9, 10, 11, 12], now: true, confidence: reported, where: "Microsoft careers", note: "the regular SWE track targets penultimate-year students, which is you"}
+  - {name: "Morgan Stanley Technology Summer Analyst (India)", url: "https://www.morganstanley.com/careers", tier: A, batch: "2028 graduates", months: [8, 9, 10, 11], now: true, confidence: typical, where: "Morgan Stanley careers", note: "usually Aug to Nov, check the page today"}
+  - {name: "JPMorgan Summer Analyst (India)", url: "https://careers.jpmorgan.com/", tier: A, batch: "2028 graduates", months: [8, 9, 10, 11, 12], now: true, confidence: reported, where: "JPMorgan careers", note: "rolling, India 2027 dates not yet published"}
+  - {name: "Atlassian Software Engineering Intern (India)", url: "https://www.atlassian.com/company/careers", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Atlassian careers", note: "radar watches news; no readable job feed found"}
+  - {name: "Uber Software Engineering Intern (India)", url: "https://www.uber.com/global/en/careers/", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Uber careers", note: "radar watches news and InternScan/InternDoor"}
+  - {name: "Adobe Summer Intern (India)", url: "https://careers.adobe.com/", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Adobe careers (university site)", note: "radar reads Adobe's university site directly"}
+  - {name: "Amazon SDE Intern (India)", url: "https://www.amazon.jobs/", tier: A, batch: "current round: 2027 graduates, NOT your batch", months: [8, 9, 10], confidence: confirmed, where: "amazon.jobs", note: "6-month internship; radar reads amazon.jobs and will flag a 2028-batch round"}
+  - {name: "Google Software Engineering Intern, Summer 2027", url: "https://www.google.com/about/careers/applications/", tier: A, batch: "2027 and 2028 penultimate", months: [5, 6], confidence: reported, where: "Google careers", note: "applications closed around 28 Jun 2026; you are already in this process, so prepare. Next cycle opens around Jun 2027"}
+  - {name: "Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver", url: "https://www.deshaw.com/careers", tier: A, batch: "check posting", months: [8, 9, 10, 11, 12, 1], confidence: typical, where: "each firm's careers page", note: "among the highest paid; strong DSA and competitive programming helps"}
+  - {name: "Flipkart summer internship", url: "https://flipkartearlycareers.hirepro.in/", tier: A, batch: "check posting", months: [9, 10, 11, 12], confidence: typical, where: "Flipkart Early Careers", note: "often reached through GRiD or campus; radar watches the Early Careers site"}
+  - {name: "Walmart Global Tech summer intern", url: "https://careers.walmart.com/", tier: A, batch: "check posting", months: [8, 9, 10], confidence: typical, where: "Walmart careers", note: "InternScan covers Walmart Global Tech"}
+  - {name: "Salesforce, Intuit, ServiceNow, Oracle, SAP Labs", url: "https://careers.salesforce.com/", tier: B, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "each careers page", note: "Salesforce is read directly from Workday; the others rely on InternDoor and InternScan"}
+  - {name: "Cisco, PayPal, Visa, Mastercard, Dell, Intel, HPE", url: "https://jobs.cisco.com/", tier: B, batch: "check posting", months: [8, 9, 10, 11, 12, 1], confidence: typical, where: "each Workday careers site", note: "all read directly by the radar"}
+  - {name: "NVIDIA, Qualcomm, Texas Instruments, Samsung R&D", url: "https://www.nvidia.com/en-us/about-nvidia/careers/", tier: B, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "each careers page", note: "NVIDIA is read directly; Qualcomm comes via InternScan"}
   - {name: "Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe", tier: B, batch: "check posting", months: [9, 10, 11, 12], confidence: typical, where: "each careers page", note: "CRED and Meesho are read directly"}
-  - {name: "Google Girl Hackathon", tier: Program, batch: "2026 to 2029 batches on the 2025 edition", months: [1, 2, 3], confidence: confirmed, where: "goo.gle/GirlHackathon", note: "2025 registration ran 20 Jan to 11 Mar; radar watches the page"}
-  - {name: "Flipkart Girls Wanna Code", tier: Program, batch: "7.0 targeted the 2028 batch; next batch unconfirmed", months: [12, 1], confidence: confirmed, where: "Flipkart Early Careers", note: "7.0 closed 15 Jan 2026; the next edition may target 2029"}
-  - {name: "Flipkart GRiD", tier: Program, batch: "8.0 accepted 2027 to 2030 batches", months: [6, 7], confidence: confirmed, where: "Flipkart Early Careers (Unstop)", note: "8.0 registration ran about 19 Jun to 12 Jul 2026, so the next one is around Jun 2027"}
-  - {name: "Uber HackTag", tier: Program, batch: "check edition", months: [2, 3], confidence: typical, where: "Unstop", note: "past editions ran Feb to Mar; radar watches news"}
+  - {name: "Google Girl Hackathon", url: "https://goo.gle/GirlHackathon", tier: Program, batch: "2026 to 2029 batches on the 2025 edition", months: [1, 2, 3], confidence: confirmed, where: "goo.gle/GirlHackathon", note: "2025 registration ran 20 Jan to 11 Mar; radar watches the page"}
+  - {name: "Flipkart Girls Wanna Code", url: "https://flipkartearlycareers.hirepro.in/", tier: Program, batch: "7.0 targeted the 2028 batch; next batch unconfirmed", months: [12, 1], confidence: confirmed, where: "Flipkart Early Careers", note: "7.0 closed 15 Jan 2026; the next edition may target 2029"}
+  - {name: "Flipkart GRiD", url: "https://flipkartearlycareers.hirepro.in/", tier: Program, batch: "8.0 accepted 2027 to 2030 batches", months: [6, 7], confidence: confirmed, where: "Flipkart Early Careers (Unstop)", note: "8.0 registration ran about 19 Jun to 12 Jul 2026, so the next one is around Jun 2027"}
+  - {name: "Uber HackTag", url: "https://unstop.com/", tier: Program, batch: "check edition", months: [2, 3], confidence: typical, where: "Unstop", note: "past editions ran Feb to Mar; radar watches news"}
   - {name: "Microsoft Engage", tier: Program, batch: "check edition", months: [2, 3, 4], confidence: typical, where: "Microsoft Engage page", note: "mentorship program that feeds internships"}
-  - {name: "Walmart CodeHers and Sparkathon", tier: Program, batch: "check edition", months: [8, 9, 10], confidence: typical, where: "Unstop", note: "CodeHers dates not found; radar watches news"}
-  - {name: "Amazon ML Challenge and HackOn", tier: Program, batch: "check edition", months: [8, 9, 10], confidence: typical, where: "Unstop", note: "contest-based route to Amazon interviews"}
-  - {name: "Google Summer of Code 2027", tier: Program, batch: "any student", months: [3, 4], confidence: typical, where: "summerofcode.withgoogle.com", note: "stipend varies by project size; a strong signal on a resume"}
+  - {name: "Walmart CodeHers and Sparkathon", url: "https://unstop.com/", tier: Program, batch: "check edition", months: [8, 9, 10], confidence: typical, where: "Unstop", note: "CodeHers dates not found; radar watches news"}
+  - {name: "Amazon ML Challenge and HackOn", url: "https://unstop.com/", tier: Program, batch: "check edition", months: [8, 9, 10], confidence: typical, where: "Unstop", note: "contest-based route to Amazon interviews"}
+  - {name: "Google Summer of Code 2027", url: "https://summerofcode.withgoogle.com/", tier: Program, batch: "any student", months: [3, 4], confidence: typical, where: "summerofcode.withgoogle.com", note: "stipend varies by project size; a strong signal on a resume"}
   - {name: "Salesforce AI Challenge", tier: Program, batch: "unknown", months: [], confidence: typical, where: "official program page", note: "exact program not identified; radar watches news"}
+
+# ---------------------------------------------------------------
+# DISCOVERY: the radar keeps searching the news for internships / hackathons / challenges you did NOT list,
+# and alerts on each new one (one alert per story, links resolved, batch and deadline read from the article).
+# A headline needs: an internship/hackathon/challenge word + an apply/open/register word + India/students/2027/2028
+# + a tech word. Stories about batches other than yours are dropped.
+# ---------------------------------------------------------------
+discovery:
+  enabled: true
+  days: 2
+  max_per_run: 5
+  max_per_day: 12
+  queries:
+    - 'internship applications open India 2027 students'
+    - 'summer internship 2027 India engineering students apply'
+    - 'hackathon registrations open India engineering students 2027'
+    - 'hiring challenge India 2028 batch'
+    - 'off campus internship 2028 batch software'
+    - 'pre-placement offer internship engineering students India 2027'
+    - 'women engineers internship programme India 2027 apply'
+    - 'coding challenge internship opportunity India students open now'
+  exclude: [certificate, scam, fake, course, webinar, "free internship", "work from home", "paid course", fee]

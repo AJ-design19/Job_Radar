@@ -138,13 +138,17 @@ def telegram_job_text(j):
     dl = f"\nDeadline: {_e(j['deadline'])}" if j.get("deadline") else ""
     dl += f"\nStipend: {_pay(j)}" if _pay(j) else ""
     when = f"\n🕒 {_e(_when(j))}" if _when(j) else ""
-    return (f"🔔 <b>{_e(j['title'])}</b>\n{_e(j['company'])} · {_e(j['location'] or '-')} · match {j['score']}/10"
+    return (f"🔔 <b>{_hot(j)}{_e(j['title'])}</b>\n{_e(j['company'])} · {_e(j['location'] or '-')} · match {j['score']}/10"
             f"{dl}{when}{extra}\n{_e(j['url'])}")
 
 
 def _pay(j):
     p = j.get("stipend_inr_month")
     return f"₹{int(p):,}/month" if p else ""
+
+
+def _hot(j):
+    return "🔥 " if j.get("elite") else ""
 
 
 def _job_html(j):
@@ -156,7 +160,7 @@ def _job_html(j):
     reason = f"<br><span style='color:#777;font-size:13px'>{_e(j['reason'])}</span>" if j.get("reason") else ""
     when = f"<br><span style='color:#777;font-size:13px'>🕒 {_e(_when(j))}</span>" if _when(j) else ""
     return (f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'>"
-            f"<a href='{_e(j['url'])}' style='font-weight:600;color:#1a56db;text-decoration:none'>{_e(j['title'])}</a>"
+            f"<a href='{_e(j['url'])}' style='font-weight:600;color:#1a56db;text-decoration:none'>{_hot(j)}{_e(j['title'])}</a>"
             f"<br><span style='color:#555;font-size:14px'>{_e(' · '.join(bits))}</span>{when}{reason}</td></tr>")
 
 
@@ -190,7 +194,7 @@ def alert_email(new_jobs, watch_changes):
         text += ["WATCHLIST"] + [f"- {c['name']}: {c['status'].upper()} {c['url']}" for c in watch_changes]
     if new_jobs:
         top = new_jobs[0]
-        subject = f"🔔 {len(new_jobs)} new match{'es' if len(new_jobs) > 1 else ''}: {top['title']} @ {top['company']}"
+        subject = f"{'🔥' if top.get('elite') else '🔔'} {len(new_jobs)} new match{'es' if len(new_jobs) > 1 else ''}: {top['title']} @ {top['company']}"
     else:
         c = watch_changes[0]
         subject = f"{'✅' if c['status'] == 'open' else '⛔'} {c['name']} is now {c['status'].upper()}"
@@ -255,7 +259,7 @@ def _md_job(j):
     dl += f" · {_pay(j)}" if _pay(j) else ""
     url = str(j["url"]).replace(" ", "%20").replace(")", "%29")
     when = f"\n  - 🕒 {_when(j)}" if _when(j) else ""
-    return f"- [{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}{when}"
+    return f"- [{_hot(j)}{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}{when}"
 
 
 def _mention():
@@ -325,7 +329,8 @@ MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", 
 
 def _opp_line(o):
     when = f" · usually {', '.join(MONTHS[m - 1] for m in o['months'])}" if o.get("months") else ""
-    return (f"- **{o['name']}** [{o.get('tier', '')}] {o.get('batch', '')}{when} - {o.get('note', '')} "
+    name = f"[{o['name']}]({o['url']})" if o.get("url") else o["name"]
+    return (f"- **{name}** [{o.get('tier', '')}] {o.get('batch', '')}{when} - {o.get('note', '')} "
             f"_({o.get('confidence', 'typical')})_ · where: {o.get('where', '-')}")
 
 
@@ -341,12 +346,16 @@ def opportunities_markdown(opps, date_str):
 
 # ---------------- program (hackathon / challenge) alerts ----------------
 def _prog_subject(alerts):
+    if all(a["kind"] == "discovery" for a in alerts):
+        return f"🆕 {len(alerts)} new opportunit{'y' if len(alerts) == 1 else 'ies'}: {alerts[0]['text'][:70]}"
     names = sorted({a["program"] for a in alerts})
     return f"🚨 {', '.join(names)}: registrations may be OPEN"
 
 
 def _prog_when(a):
     parts = []
+    if a.get("via"):
+        parts.append(f"via {a['via']}")
     if fmt_dt(a.get("published")):
         parts.append(f"headline published {fmt_dt(a['published'])}")
     if fmt_dt(a.get("detected")):
@@ -364,8 +373,9 @@ def _prog_links(a):
 
 
 def program_push_text(a):
-    what = "Headline" if a["kind"] == "news" else "Official page"
-    return (f"🚨 <b>{_e(a['program'])}</b> - possible opening\n{what}: {_e(a['text'])}\n"
+    what = {"news": "Headline", "discovery": "Found"}.get(a["kind"], "Official page")
+    dl = f"\n⏳ Deadline: {_e(a['deadline'])}" if a.get("deadline") else ""
+    return (f"🚨 <b>{_e(a['program'])}</b> - possible opening\n{what}: {_e(a['text'])}{dl}\n"
             f"🕒 {_e(_prog_when(a))}\n{_e(a['batch'])}\n{_e(a['url'])}"
             + "".join(f"\n{lbl}: {_e(u)}" for lbl, u in _prog_links(a)))
 
@@ -373,12 +383,13 @@ def program_push_text(a):
 def program_email(alerts):
     rows = "".join(
         f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'><b>{_e(a['program'])}</b><br>"
-        f"{_e(a['text'])}<br><span style='color:#555;font-size:14px'>{_e(a['batch'])}</span><br>"
+        f"{_e(a['text'])}<br><span style='color:#555;font-size:14px'>{_e(a['batch'])}"
+        + (f" · ⏳ deadline {_e(a['deadline'])}" if a.get("deadline") else "") + "</span><br>"
         f"<span style='color:#777;font-size:13px'>🕒 {_e(_prog_when(a))}</span><br>"
         f"<a href='{_e(a['url'])}'>{_e(a['url'])}</a>"
         + "".join(f"<br>{lbl}: <a href='{_e(u)}'>{_e(u)}</a>" for lbl, u in _prog_links(a)) + "</td></tr>"
         for a in alerts)
-    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}\n  {_prog_when(a)}\n  {a['url']}"
+    text = "\n".join(f"{a['program']}: {a['text']}\n  {a['batch']}" + (f"\n  deadline: {a['deadline']}" if a.get("deadline") else "") + f"\n  {_prog_when(a)}\n  {a['url']}"
                      + "".join(f"\n  {lbl}: {u}" for lbl, u in _prog_links(a)) for a in alerts)
     return (_prog_subject(alerts), _wrap("Program alert", _section("Possible registration opening", rows)), text)
 
@@ -386,7 +397,8 @@ def program_email(alerts):
 def program_markdown(alerts):
     L = _mention() + ["## Possible registration opening", ""]
     for a in alerts:
-        L += [f"### {a['program']}", a["text"], "", f"🕒 {_prog_when(a)}", "", a["batch"], "", a["url"], ""]
+        L += [f"### {a['program']}", a["text"], "", f"🕒 {_prog_when(a)}", "",
+              a["batch"] + (f" · ⏳ deadline {a['deadline']}" if a.get("deadline") else ""), "", a["url"], ""]
         L += [f"- {lbl}: {u}" for lbl, u in _prog_links(a)] + [""]
     L.append("_You will not get another alert for this program for a while. Always confirm dates and eligibility on the official page._")
     return _prog_subject(alerts), "\n".join(L)

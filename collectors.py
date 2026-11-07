@@ -15,7 +15,7 @@ TIMEOUT = 20
 CLOSED_PHRASES = [
     "no longer accepting", "no longer available", "no longer open", "position has been filled",
     "job has expired", "this job has expired", "applications are closed", "posting has been closed",
-    "this position is closed", "job not found", "page not found", "role has closed", "listing has closed",
+    "this position is closed", "job not found", "page not found", "this role has closed", "this listing has closed",
 ]
 
 
@@ -207,8 +207,30 @@ def _wd_posted(text):
     return (datetime.now(ist).date() - timedelta(days=days)).isoformat()
 
 
+def _wd_india_facet(data):
+    """Find the 'India' value of the country facet in a Workday search response -> (facetParameter, id) or None."""
+    def walk(node):
+        if isinstance(node, dict):
+            fp, vals = str(node.get("facetParameter", "")), node.get("values")
+            if "country" in fp.lower() and isinstance(vals, list):
+                for v in vals:
+                    if isinstance(v, dict) and str(v.get("descriptor", "")).strip().lower() == "india" and v.get("id"):
+                        return fp, v["id"]
+            for v in node.values():
+                r = walk(v)
+                if r:
+                    return r
+        elif isinstance(node, list):
+            for v in node:
+                r = walk(v)
+                if r:
+                    return r
+        return None
+    return walk(data.get("facets"))
+
+
 def workday(entry):
-    """entry: a Workday careers URL, or {url, name, search, pages}. Reads the public job-search endpoint behind the page."""
+    """entry: a Workday careers URL, or {url, name, search, pages, india}. Reads the public job-search endpoint behind the page."""
     e = entry if isinstance(entry, dict) else {"url": entry}
     m = _WD.match(e["url"])
     if not m:
@@ -216,14 +238,28 @@ def workday(entry):
     tenant, wd, site = m.groups()
     base = f"https://{tenant}.{wd}.myworkdayjobs.com"
     pages = int(e.get("pages", WD_PAGES))
-    out = []
-    for page in range(pages):
+
+    def call(offset, facets):
         r = requests.post(f"{base}/wday/cxs/{tenant}/{site}/jobs", timeout=TIMEOUT,
                           headers={**UA, "Content-Type": "application/json", "Accept": "application/json"},
-                          json={"appliedFacets": {}, "limit": 20, "offset": page * 20,
+                          json={"appliedFacets": facets, "limit": 20, "offset": offset,
                                 "searchText": e.get("search", "intern")})
         r.raise_for_status()
-        posts = r.json().get("jobPostings") or []
+        return r.json()
+
+    first, facets = call(0, {}), {}
+    if e.get("india", True):  # keep only India postings, so a long global list cannot push India roles out of view
+        found = _wd_india_facet(first)
+        if found:
+            try:
+                applied = {found[0]: [found[1]]}
+                first, facets = call(0, applied), applied
+            except Exception:
+                pass  # facet rejected: carry on with the unfiltered list
+    out = []
+    for page in range(pages):
+        data = first if page == 0 else call(page * 20, facets)
+        posts = data.get("jobPostings") or []
         for p in posts:
             path = p.get("externalPath") or ""
             if not path:
@@ -301,11 +337,14 @@ def interndoor(cfg):
             continue
         job = _job(f"id:{link}", role, (c.group(1).strip() if c else company), loc.group(1).strip() if loc else "",
                    link, pub, desc, kind="listed")
-        job["tech_checked"] = True  # InternDoor lists engineering roles only
+        job["role_from_desc"] = True  # generic titles like "Intern - HARMAN": judge the role by the description too
         out.append(job)
     if not out:
         raise ValueError("empty feed")  # a glitchy empty feed must never look like 'everything vanished'
     return out
+
+
+LAST_STATS = {}  # source -> {fetched, capped} for the latest collect_all (shown in the daily report)
 
 
 def collect_all(cfg):
@@ -325,6 +364,7 @@ def collect_all(cfg):
             return key, None, f"{type(e).__name__}: {str(e)[:100]}"
 
     jobs, ok, failed = [], set(), {}
+    LAST_STATS.clear()
     with ThreadPoolExecutor(8) as ex:
         for key, res, err in ex.map(run, tasks):
             if err:
@@ -332,6 +372,7 @@ def collect_all(cfg):
                 continue
             ok.add(key)
             capped = any([j.pop("capped", False) for j in res])  # list cut off: absence proves nothing
+            LAST_STATS[key] = {"fetched": len(res), "capped": capped}
             for j in res:
                 j.update(src=key, verifiable=not capped)
                 jobs.append(j)
@@ -346,6 +387,7 @@ def collect_all(cfg):
             if res is not None:
                 ok.add(name)
                 capped = any([j.pop("capped", False) for j in res])
+                LAST_STATS[name] = {"fetched": len(res), "capped": capped}
                 for j in res:
                     j.update(src=name, verifiable=(name in ("internscan", "amazon")) and not capped)
                     jobs.append(j)

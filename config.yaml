@@ -5,11 +5,11 @@
 
 profile:
   # Title must contain one of these (internship / entry-level signal)
-  include_keywords: [intern, interns, internship, trainee, "new grad", graduate, fresher, "entry level", "entry-level", apprentice, "early career"]
+  include_keywords: [intern, interns, internship, "summer analyst", "summer associate"]   # internships only (not graduate programs)
   # ...and one of these (tech role signal)
-  role_keywords: [software, engineer, developer, sde, swe, "machine learning", ml, ai, "data scientist", "data science", backend, "back end", frontend, "full stack", fullstack, research, cloud, devops, security, python, java, "c++"]
+  role_keywords: [software, engineer, engineering, developer, sde, swe, "machine learning", ml, ai, "data scientist", "data science", technology, technical, "information technology", backend, "back end", frontend, "full stack", fullstack, research, cloud, devops, security, python, java, "c++"]
   # Titles containing these are dropped
-  exclude_keywords: [senior, sr, staff, principal, manager, director, lead, head, vp, "phd"]
+  exclude_keywords: [senior, sr, staff, principal, manager, director, lead, head, vp, "phd", hardware, silicon, asic, mechanical, civil, chemical, marketing, sales, graphics, motion, interaction, astronomy, events, finance, accounting, legal, recruiter, "human resources"]
   # Extra points in ranking
   priority_keywords: [ai, ml, "machine learning", "software engineer", "software engineering", sde, swe, backend, cloud, "data science"]
   skills: [python, "c++", java, "machine learning", ai, aws, tensorflow, pytorch, llm, fastapi, docker]
@@ -48,21 +48,19 @@ companies:
   # Add more: open the company's careers page, copy the address that contains ".myworkdayjobs.com", paste it as url.
   # Optional per line: search (default "intern"), pages (default 5 = 100 postings).
   # These addresses come from public job links; a wrong one shows up under "Source problems" in the daily report.
+  # Removed after returning errors: Adobe university site, Dell, Walmart (Walmart is covered through InternScan).
   workday:
     - {url: "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal", name: Visa}
     - {url: "https://visa.wd5.myworkdayjobs.com/en-US/Visa", name: Visa}
     - {url: "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite", name: NVIDIA}
-    - {url: "https://adobe.wd5.myworkdayjobs.com/external_university", name: Adobe}
     - {url: "https://adobe.wd5.myworkdayjobs.com/external_experienced", name: Adobe}
     - {url: "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site", name: Salesforce}
     - {url: "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers", name: Mastercard}
     - {url: "https://mastercard.wd1.myworkdayjobs.com/Campus", name: Mastercard}
-    - {url: "https://dell.wd1.myworkdayjobs.com/External", name: Dell Technologies}
     - {url: "https://intel.wd1.myworkdayjobs.com/External", name: Intel}
     - {url: "https://hpe.wd5.myworkdayjobs.com/Jobsathpe", name: HPE}
     - {url: "https://paypal.wd1.myworkdayjobs.com/jobs", name: PayPal}
     - {url: "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers", name: Cisco}
-    - {url: "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal", name: Walmart}
 
 # InternScan: free, no key. Reads the official career portals of Google, Microsoft, Meta, NVIDIA, Qualcomm,
 # Walmart and ~60 other India employers (the ones with no public API), refreshed by them every few hours.

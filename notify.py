@@ -280,7 +280,8 @@ def alert_markdown(new_jobs, watch_changes):
     return title, "\n".join(L)
 
 
-def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_company, programs=None, opps=None):
+def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_company, programs=None, opps=None,
+                    sources=None):
     L = _mention() + [f"# Job Radar daily report - {date_str}",
                       f"**{stats.get('companies', 0)} companies** hiring interns · {stats['open']} open roles · "
                       f"{len(new24)} new in 24h · {len(closed24)} closed in 24h", ""]
@@ -311,6 +312,8 @@ def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_
         L += ["## Closed since yesterday"] + [_md_job(j) for j in closed24[:15]] + [""]
     if watch:
         L += ["## Watchlist"] + [f"- **{n}**: {w['status'].upper()} ({w['note']})" for n, w in watch.items()] + [""]
+    if sources:
+        L += ["## 📡 What the radar read this run"] + [f"- `{k}`: {d}" for k, d in sources] + [""]
     if failures:
         L += ["## Source problems (check slug / network)"] + [f"- `{k}`: {v['error']} (x{v['count']})"
                                                                for k, v in failures.items()]

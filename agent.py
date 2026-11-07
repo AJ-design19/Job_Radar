@@ -8,6 +8,7 @@ from pathlib import Path
 
 import yaml
 
+import collectors as _collectors
 from programs import check_programs
 from collectors import check_url, collect_all, greenhouse_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
@@ -79,6 +80,13 @@ def check_watch(cfg, state, ts):
 
 def scan(cfg, state):
     ts = iso(now())
+    if not state.get("fix_interndoor_closed"):  # the old page check wrongly closed every InternDoor job: undo it
+        for r in state["jobs"].values():
+            pd = posted_dt(r.get("posted"))
+            if r.get("src") == "interndoor" and r["status"] == "closed" and pd and now() - pd < timedelta(days=14):
+                r["status"] = "open"
+                r.pop("closed_at", None)
+        state["fix_interndoor_closed"] = True
     for f in (ROOT / "out").glob("alert*"):
         f.unlink()
     profile, acfg = cfg["profile"], cfg["alerts"]
@@ -144,6 +152,9 @@ def scan(cfg, state):
             rec["status"], rec["closed_at"] = "closed", ts
 
     state["sources_seen"] = sorted(known | ok)
+    for k in [k for k in state["failures"] if k not in ok and k not in failed]:
+        del state["failures"][k]  # a source you removed from config.yaml must not stay in "Source problems"
+    state["source_stats"] = dict(_collectors.LAST_STATS)
     for src in ok:
         state["failures"].pop(src, None)
     for src, err in failed.items():
@@ -197,12 +208,18 @@ def scan(cfg, state):
 def digest(cfg, state):
     n = now()
     since = n - timedelta(hours=24)
-    checked = 0
-    for rec in state["jobs"].values():  # search-API jobs can't be verified by absence: check the page
-        if rec["status"] == "open" and not rec.get("verifiable") and checked < MAX_URL_CHECKS:
-            checked += 1
-            if check_url(rec["url"])[0] == "closed":
+    # jobs from search feeds can't be verified by absence: re-open the page of the ones checked longest ago,
+    # and only call a job closed after TWO bad checks in a row (one odd page must not hide a live job)
+    todo = sorted((r for r in state["jobs"].values() if r["status"] == "open" and not r.get("verifiable")),
+                  key=lambda r: r.get("last_checked", ""))[:MAX_URL_CHECKS]
+    for rec in todo:
+        rec["last_checked"] = iso(n)
+        if check_url(rec["url"])[0] == "closed":
+            rec["closed_strikes"] = rec.get("closed_strikes", 0) + 1
+            if rec["closed_strikes"] >= 2:
                 rec["status"], rec["closed_at"] = "closed", iso(n)
+        else:
+            rec["closed_strikes"] = 0
     check_watch(cfg, state, iso(n))
 
     jobs = list(state["jobs"].values())
@@ -217,7 +234,7 @@ def digest(cfg, state):
     soon = []
     for r in open_jobs:
         try:
-            d = datetime.fromisoformat(r["deadline"]).replace(tzinfo=timezone.utc)
+            d = datetime.fromisoformat(r.get("deadline") or "").replace(tzinfo=timezone.utc)
         except (ValueError, TypeError):
             continue
         if n <= d <= n + timedelta(days=7):
@@ -237,9 +254,22 @@ def digest(cfg, state):
         if ps.get("last_alert"):
             note += f" - alerted {fmt_dt(ps['last_alert'])}"
         progs.append((p["name"], note + (f" - news check failing: {ps['error']}" if ps.get("error") else "")))
+    sources = []
+    plain = [k for k in state.get("source_stats", {}) if k.split(":")[0] not in ("gh", "lv", "ab")]
+    for k in sorted(plain):
+        st_ = state["source_stats"][k]
+        matched = sum(1 for r in open_jobs if r.get("src") == k)
+        note = f"{st_['fetched']} postings read, {matched} match you"
+        if st_.get("capped"):
+            note += " (list cut off at the page limit)"
+        sources.append((k, note))
+    boards = [k for k in state.get("source_stats", {}) if k.split(":")[0] in ("gh", "lv", "ab")]
+    if boards:
+        sources.append(("company boards (Greenhouse / Lever / Ashby)",
+                        f"{len(boards)} read fine, {sum(1 for r in open_jobs if r.get('src', '')[:3] in ('gh:', 'lv:', 'ab:'))} match you"))
     opps = opportunity_sections(cfg, n.astimezone(IST).month)
     md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
-                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps)
+                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps, sources)
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
     (rdir / "latest.md").write_text(md, encoding="utf-8")

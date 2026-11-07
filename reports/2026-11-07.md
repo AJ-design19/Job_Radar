@@ -1,13 +1,10 @@
 @AJ-design19
 
 # Job Radar daily report - 07 Nov 2026
-**9 companies** hiring interns · 17 open roles · 2 new in 24h · 17 closed in 24h
+**9 companies** hiring interns · 17 open roles · 0 new in 24h · 16 closed in 24h
 
 ## New in the last 24 hours
-- [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W) - Visa · IN - Bengaluru, India · **6/10**
-  - 🕒 posted 24 Oct 2026 · detected 06 Nov 2026, 05:31 AM IST · 🔔 alert sent 06 Nov 2026, 05:31 AM IST
-- [2027 Technology Program Intern](https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) - Wells Fargo · 2 Locations, Bengaluru India · **5/10**
-  - 🕒 posted 06 Nov 2026 · detected 06 Nov 2026, 12:06 PM IST
+_Nothing new._
 
 ## 🏢 Companies hiring interns right now (9)
 
@@ -165,10 +162,11 @@ _8 more programs open later in the year; see the full list._
   - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
 
 ## Source problems (check slug / network)
+- `amazon`: ValueError: no results (endpoint changed or blocked) (x4)
 - `gh:browserstack`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs (x15)
 - `gh:postman`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/postman/jobs (x15)
 - `gh:thoughtspot`: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs (x15)
 - `lv:groww`: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/groww?mode=json (x15)
-- `wd:adobe/external_university`: HTTPError: 403 Client Error: Forbidden for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_uni (x8)
-- `wd:dell/External`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/Ext (x8)
-- `wd:walmart/WalmartExternal`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walma (x8)
+- `wd:adobe/external_university`: HTTPError: 403 Client Error: Forbidden for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_uni (x11)
+- `wd:dell/External`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/Ext (x11)
+- `wd:walmart/WalmartExternal`: HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walma (x11)

@@ -1,7 +1,7 @@
 @AJ-design19
 
 # Job Radar daily report - 07 Nov 2026
-**19 companies** hiring interns · 33 open roles · 4 new in 24h · 1 closed in 24h
+**18 companies** hiring interns · 31 open roles · 4 new in 24h · 3 closed in 24h
 
 ## New in the last 24 hours
 - [SDE I Intern , Amazon University Talent Acquisition](https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052) - Amazon · Bengaluru, KA, India · **8/10**
@@ -13,7 +13,7 @@
 - [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
   - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
 
-## 🏢 Companies hiring interns right now (19)
+## 🏢 Companies hiring interns right now (18)
 
 <details><summary><b>Discover Dollar</b> (4)</summary>
 
@@ -56,15 +56,6 @@
   - 🕒 posted 07 Nov 2026, 04:50 PM IST · detected 07 Nov 2026, 06:58 PM IST · 🔔 alert sent 07 Nov 2026, 06:58 PM IST
 - [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) - Amazon · Bengaluru, KA, India · **7/10**
   - 🕒 posted 05 Nov 2026, 11:14 AM IST · detected 05 Nov 2026, 03:49 PM IST · 🔔 alert sent 05 Nov 2026, 03:49 PM IST
-
-</details>
-
-<details><summary><b>Bank of America</b> (2)</summary>
-
-- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4482211597) - Bank of America · Gurugram, Haryana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 10:53 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4483709249) - Bank of America · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 10:54 PM IST · detected 05 Nov 2026, 11:07 PM IST
 
 </details>
 
@@ -178,52 +169,56 @@
 
 ## 📅 Opportunity tracker (full list: reports/opportunities.md)
 **Check / apply now**
-- **Goldman Sachs Summer Analyst 2027 (India)** [A] 2028 graduates · usually Jul, Aug, Sep, Oct, Nov - applications opened 1 Jul for the 2028 batch, rolling review: apply now if you have not _(reported)_ · where: Goldman Sachs careers (higher.gs.com)
-- **Microsoft Software Engineering Internship (India)** [A] penultimate-year students · usually Aug, Sep, Oct, Nov, Dec - the regular SWE track targets penultimate-year students, which is you _(reported)_ · where: Microsoft careers
-- **Morgan Stanley Technology Summer Analyst (India)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov - usually Aug to Nov, check the page today _(typical)_ · where: Morgan Stanley careers
-- **JPMorgan Summer Analyst (India)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov, Dec - rolling, India 2027 dates not yet published _(reported)_ · where: JPMorgan careers
+- **[Goldman Sachs Summer Analyst 2027 (India)](https://higher.gs.com/)** [A] 2028 graduates · usually Jul, Aug, Sep, Oct, Nov - applications opened 1 Jul for the 2028 batch, rolling review: apply now if you have not _(reported)_ · where: Goldman Sachs careers (higher.gs.com)
+- **[Microsoft Software Engineering Internship (India)](https://careers.microsoft.com/)** [A] penultimate-year students · usually Aug, Sep, Oct, Nov, Dec - the regular SWE track targets penultimate-year students, which is you _(reported)_ · where: Microsoft careers
+- **[Morgan Stanley Technology Summer Analyst (India)](https://www.morganstanley.com/careers)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov - usually Aug to Nov, check the page today _(typical)_ · where: Morgan Stanley careers
+- **[JPMorgan Summer Analyst (India)](https://careers.jpmorgan.com/)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov, Dec - rolling, India 2027 dates not yet published _(reported)_ · where: JPMorgan careers
 
 **Open or usually opening in the next ~3 months**
-- **Atlassian Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news; no readable job feed found _(typical)_ · where: Atlassian careers
-- **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
-- **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's university site directly _(typical)_ · where: Adobe careers (university site)
-- **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
-- **Flipkart summer internship** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
-- **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
-- **Cisco, PayPal, Visa, Mastercard, Dell, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
-- **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
+- **[Atlassian Software Engineering Intern (India)](https://www.atlassian.com/company/careers)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news; no readable job feed found _(typical)_ · where: Atlassian careers
+- **[Uber Software Engineering Intern (India)](https://www.uber.com/global/en/careers/)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
+- **[Adobe Summer Intern (India)](https://careers.adobe.com/)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's university site directly _(typical)_ · where: Adobe careers (university site)
+- **[Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver](https://www.deshaw.com/careers)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
+- **[Flipkart summer internship](https://flipkartearlycareers.hirepro.in/)** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
+- **[Salesforce, Intuit, ServiceNow, Oracle, SAP Labs](https://careers.salesforce.com/)** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
+- **[Cisco, PayPal, Visa, Mastercard, Dell, Intel, HPE](https://jobs.cisco.com/)** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
+- **[NVIDIA, Qualcomm, Texas Instruments, Samsung R&D](https://www.nvidia.com/en-us/about-nvidia/careers/)** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
 - **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page
-- **Google Girl Hackathon** [Program] 2026 to 2029 batches on the 2025 edition · usually Jan, Feb, Mar - 2025 registration ran 20 Jan to 11 Mar; radar watches the page _(confirmed)_ · where: goo.gle/GirlHackathon
-- **Flipkart Girls Wanna Code** [Program] 7.0 targeted the 2028 batch; next batch unconfirmed · usually Dec, Jan - 7.0 closed 15 Jan 2026; the next edition may target 2029 _(confirmed)_ · where: Flipkart Early Careers
-- **Uber HackTag** [Program] check edition · usually Feb, Mar - past editions ran Feb to Mar; radar watches news _(typical)_ · where: Unstop
+- **[Google Girl Hackathon](https://goo.gle/GirlHackathon)** [Program] 2026 to 2029 batches on the 2025 edition · usually Jan, Feb, Mar - 2025 registration ran 20 Jan to 11 Mar; radar watches the page _(confirmed)_ · where: goo.gle/GirlHackathon
+- **[Flipkart Girls Wanna Code](https://flipkartearlycareers.hirepro.in/)** [Program] 7.0 targeted the 2028 batch; next batch unconfirmed · usually Dec, Jan - 7.0 closed 15 Jan 2026; the next edition may target 2029 _(confirmed)_ · where: Flipkart Early Careers
+- **[Uber HackTag](https://unstop.com/)** [Program] check edition · usually Feb, Mar - past editions ran Feb to Mar; radar watches news _(typical)_ · where: Unstop
 - **Microsoft Engage** [Program] check edition · usually Feb, Mar, Apr - mentorship program that feeds internships _(typical)_ · where: Microsoft Engage page
 
 _8 more programs open later in the year; see the full list._
 
 ## 🎯 Programs being watched
-- **Google Girl Hackathon** - news, 1 official page(s)
-- **Flipkart GRiD** - news, 1 official page(s)
-- **Flipkart Girls Wanna Code** - news
-- **Uber HackTag** - news
-- **Walmart CodeHers** - news
-- **Salesforce AI Challenge** - news
-- **Goldman Sachs Summer Analyst (India)** - news
-- **Microsoft internships (India)** - news
-- **Amazon internships and challenges (India)** - news
-- **Atlassian internship (India)** - news
-- **Uber internship (India)** - news
-- **JPMorgan Summer Analyst (India)** - news
-- **Morgan Stanley technology internship (India)** - news
-- **Walmart Sparkathon** - news
-- **Microsoft Engage** - news
-- **Google Summer of Code** - news
+- **Google Girl Hackathon** - [latest news](https://news.google.com/search?q=%22Girl+Hackathon%22+Google+India&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://goo.gle/GirlHackathon)
+- **Flipkart GRiD** - [latest news](https://news.google.com/search?q=%22Flipkart+GRiD%22&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://flipkartearlycareers.hirepro.in/)
+- **Flipkart Girls Wanna Code** - [latest news](https://news.google.com/search?q=%22Girls+Wanna+Code%22+Flipkart&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Uber HackTag** - [latest news](https://news.google.com/search?q=%22Uber+HackTag%22&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Walmart CodeHers** - [latest news](https://news.google.com/search?q=%22CodeHers%22+Walmart&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Salesforce AI Challenge** - [latest news](https://news.google.com/search?q=Salesforce+%28hackathon+OR+challenge%29+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Goldman Sachs Summer Analyst (India)** - [latest news](https://news.google.com/search?q=%22Goldman+Sachs%22+summer+analyst+India+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Microsoft internships (India)** - [latest news](https://news.google.com/search?q=Microsoft+internship+India+2027+applications&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Amazon internships and challenges (India)** - [latest news](https://news.google.com/search?q=Amazon+internship+India+2027+SDE+intern+OR+%22ML+Challenge%22+OR+HackOn&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Atlassian internship (India)** - [latest news](https://news.google.com/search?q=Atlassian+internship+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Uber internship (India)** - [latest news](https://news.google.com/search?q=Uber+internship+India+software+engineering+intern&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **JPMorgan Summer Analyst (India)** - [latest news](https://news.google.com/search?q=JPMorgan+summer+analyst+India+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Morgan Stanley technology internship (India)** - [latest news](https://news.google.com/search?q=%22Morgan+Stanley%22+technology+summer+analyst+India+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Walmart Sparkathon** - [latest news](https://news.google.com/search?q=Walmart+Sparkathon&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Microsoft Engage** - [latest news](https://news.google.com/search?q=%22Microsoft+Engage%22+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Google Summer of Code** - [latest news](https://news.google.com/search?q=%22Google+Summer+of+Code%22+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
 
 ## Closed since yesterday
+- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4482211597) - Bank of America · Gurugram, Haryana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 10:53 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4483709249) - Bank of America · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 10:54 PM IST · detected 05 Nov 2026, 11:07 PM IST
 - [Software Engineer (CPD) - Winter Intern](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) - Rubrik · Bangalore · **7/10**
   - 🕒 posted 03 Nov 2026 · detected 04 Nov 2026, 07:47 AM IST · 🔔 alert sent 04 Nov 2026, 07:47 AM IST
 
 ## 📡 What the radar read this run
-- `interndoor`: 50 postings read, 16 match you
+- `interndoor`: 50 postings read, 14 match you
 - `internscan`: 21 postings read, 14 match you
 - `themuse`: 100 postings read, 0 match you
 - `wd:adobe/external_experienced`: 15 postings read, 0 match you
@@ -238,6 +233,7 @@ _8 more programs open later in the year; see the full list._
 - `wd:visa/Visa`: 41 postings read, 0 match you
 - `wd:visa/Visa_Talent_Portal`: 100 postings read, 1 match you (list cut off at the page limit)
 - `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 2 match you
+- `scan timing`: 3 scans in the last 24h, longest gap 1h 19m (set to run every 10 minutes)
 
 ## Source problems (check slug / network)
-- `amazon`: ValueError: no results (endpoint changed or blocked) (x6)
+- `amazon`: ValueError: no results (endpoint changed or blocked) (x8)

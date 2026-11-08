@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 07 Nov 2026
+# Internship opportunity tracker - 08 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now

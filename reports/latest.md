@@ -1,17 +1,11 @@
 @AJ-design19
 
-# Job Radar daily report - 07 Nov 2026
-**18 companies** hiring interns · 31 open roles · 4 new in 24h · 3 closed in 24h
+# Job Radar daily report - 08 Nov 2026
+**18 companies** hiring interns · 29 open roles · 1 new in 24h · 4 closed in 24h
 
 ## New in the last 24 hours
 - [SDE I Intern , Amazon University Talent Acquisition](https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052) - Amazon · Bengaluru, KA, India · **8/10**
   - 🕒 posted 07 Nov 2026, 04:50 PM IST · detected 07 Nov 2026, 06:58 PM IST · 🔔 alert sent 07 Nov 2026, 06:58 PM IST
-- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
-  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
-- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
-- [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
 
 ## 🏢 Companies hiring interns right now (18)
 
@@ -36,17 +30,6 @@
   - 🕒 posted 26 Oct 2026 · detected 03 Nov 2026, 10:11 AM IST
 - [Security Research INTERN](https://apply.careers.microsoft.com/careers/job/1970393557043380) - Microsoft · India, Multiple Locations, Multiple Locations · **6/10**
   - 🕒 posted 23 Oct 2026 · detected 03 Nov 2026, 10:11 AM IST
-
-</details>
-
-<details><summary><b>Wells Fargo</b> (3)</summary>
-
-- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426) - Wells Fargo · Greater Hyderabad Area · **5/10**
-  - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
-- [2027 Technology Program Intern](https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) - Wells Fargo · 2 Locations, Bengaluru India · **5/10**
-  - 🕒 posted 06 Nov 2026 · detected 06 Nov 2026, 12:06 PM IST
-- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483590769) - Wells Fargo · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 04:41 AM IST · detected 06 Nov 2026, 05:31 AM IST
 
 </details>
 
@@ -86,21 +69,21 @@
 
 </details>
 
-<details><summary><b>State Street</b> (2)</summary>
-
-- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864) - State Street · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487750437) - State Street · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
-
-</details>
-
 <details><summary><b>Stripe</b> (2)</summary>
 
 - [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) - Stripe · Bengaluru · **8/10**
   - 🕒 posted 29 Oct 2026, 08:12 PM IST · detected 31 Oct 2026, 11:54 PM IST
 - [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130876) - Stripe · Bangalore · **8/10**
   - 🕒 posted 29 Oct 2026, 08:12 PM IST · detected 31 Oct 2026, 11:54 PM IST
+
+</details>
+
+<details><summary><b>Wells Fargo</b> (2)</summary>
+
+- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426) - Wells Fargo · Greater Hyderabad Area · **5/10**
+  - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
+- [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483590769) - Wells Fargo · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 04:41 AM IST · detected 06 Nov 2026, 05:31 AM IST
 
 </details>
 
@@ -150,6 +133,13 @@
 
 - [Astronomy Events Intern](https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338) - SPACE · West Delhi, Delhi, India · **4/10**
   - 🕒 posted 06 Nov 2026, 04:56 PM IST · detected 06 Nov 2026, 08:07 PM IST
+
+</details>
+
+<details><summary><b>State Street</b> (1)</summary>
+
+- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864) - State Street · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
 
 </details>
 
@@ -214,26 +204,28 @@ _8 more programs open later in the year; see the full list._
   - 🕒 posted 05 Nov 2026, 10:53 PM IST · detected 05 Nov 2026, 11:07 PM IST
 - [Apprentice](https://interndoor.com/jobs/bank-of-america-apprentice-4483709249) - Bank of America · Hyderabad, Telangana, India · **4/10**
   - 🕒 posted 05 Nov 2026, 10:54 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Software Engineer (CPD) - Winter Intern](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) - Rubrik · Bangalore · **7/10**
-  - 🕒 posted 03 Nov 2026 · detected 04 Nov 2026, 07:47 AM IST · 🔔 alert sent 04 Nov 2026, 07:47 AM IST
+- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487750437) - State Street · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [2027 Technology Program Intern](https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) - Wells Fargo · 2 Locations, Bengaluru India · **5/10**
+  - 🕒 posted 06 Nov 2026 · detected 06 Nov 2026, 12:06 PM IST
 
 ## 📡 What the radar read this run
-- `interndoor`: 50 postings read, 14 match you
-- `internscan`: 21 postings read, 14 match you
+- `interndoor`: 50 postings read, 13 match you
+- `internscan`: 20 postings read, 13 match you
 - `themuse`: 100 postings read, 0 match you
 - `wd:adobe/external_experienced`: 15 postings read, 0 match you
 - `wd:cisco/Cisco_Careers`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:hpe/Jobsathpe`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:intel/External`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:mastercard/Campus`: 24 postings read, 0 match you
+- `wd:mastercard/Campus`: 22 postings read, 0 match you
 - `wd:mastercard/CorporateCareers`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:nvidia/NVIDIAExternalCareerSite`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:paypal/jobs`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:salesforce/External_Career_Site`: 49 postings read, 0 match you
+- `wd:salesforce/External_Career_Site`: 48 postings read, 0 match you
 - `wd:visa/Visa`: 41 postings read, 0 match you
 - `wd:visa/Visa_Talent_Portal`: 100 postings read, 1 match you (list cut off at the page limit)
 - `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 2 match you
-- `scan timing`: 3 scans in the last 24h, longest gap 1h 19m (set to run every 10 minutes)
+- `scan timing`: 6 scans in the last 24h, longest gap 6h 26m (set to run every 10 minutes)
 
 ## Source problems (check slug / network)
-- `amazon`: ValueError: no results (endpoint changed or blocked) (x8)
+- `amazon`: ValueError: no results (endpoint changed or blocked) (x11)

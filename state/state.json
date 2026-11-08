@@ -53,21 +53,18 @@
    "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YVzFiaUhWRkxsZ25VSU8tSFcyYWgtLW5RMWZnYXdMQ3hKcmVQU3pJdUhFaTdoWGdTb0lHeHZvS1lleEFJMDQ0SnppbG1rdFc4X1ZWa0dBWTRYYXlNTmk2YjZrbVdMTVh0YWlXbjZ2NzRoaE5n?oc=5",
    "https://news.google.com/rss/articles/CBMibEFVX3lxTE90UWNjMUFSelh4QzhHRU40ZUVrSUNXMWk1cWxBZklvN192WDFnNC1TZ2tLelVhQkJwTElBM2lvU3ducWxzV0luellQWjNmNl80SEliWGNfUFM2ZUNaZWdXbnlkaUpSc2N5UVgyWQ?oc=5",
    "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TcWVLODF0VUV4QW54b1ZKWU43UmJRS1ozM1RDeGh2aVRkLUxmN01GOTlGLXdXQ0VldGJfbktpWUhlZUttX2o0UjFRWWFxZXpIaTh0akVObWtDRXhhVi1sSW5YU1hmc0ZMdGdJ?oc=5",
-   "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KWExrcWwzVDhrM0dicDhVQ2RPVGM0S3VXRElVYThSZEg3aE9FOEtIMW0tazVLeklUVFFOVkpfaFo2ZmIzRF8tZWNkaHNRMmtv?oc=5"
+   "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KWExrcWwzVDhrM0dicDhVQ2RPVGM0S3VXRElVYThSZEg3aE9FOEtIMW0tazVLeklUVFFOVkpfaFo2ZmIzRF8tZWNkaHNRMmtv?oc=5",
+   "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNaXJCTGxiQ0thZ2VCY3NiTDBrZHRLZHNJdDRPVXctVm9DTlZmSUZHeHNhMUltQ2J5MVZpMkZudU1kazBsWTR5UVFjWXBwTHNQaW9OdzZhR1VkcDR1U1dBakNMYkktaGVJcW9j?oc=5"
   ],
   "titles": []
  },
  "failures": {
   "amazon": {
-   "count": 13,
+   "count": 14,
    "error": "ValueError: no results (endpoint changed or blocked)"
   },
-  "lv:meesho": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  },
   "themuse": {
-   "count": 2,
+   "count": 3,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0"
   }
  },
@@ -80,7 +77,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -98,7 +95,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8130876",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bangalore",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -144,7 +141,7 @@
    "first_seen": "2026-11-07T13:28:53+00:00",
    "id": "id:https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052",
    "last_checked": "2026-11-08T09:15:26+00:00",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bengaluru, KA, India",
    "posted": "2026-11-07T11:20:12+00:00",
    "posted_kind": "listed",
@@ -489,7 +486,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556641091",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-02-27",
    "reason": "",
@@ -508,7 +505,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -527,7 +524,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -566,7 +563,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -585,7 +582,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-15",
    "reason": "",
@@ -604,7 +601,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -643,7 +640,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -662,7 +659,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -681,7 +678,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -700,7 +697,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -719,7 +716,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -738,7 +735,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -757,7 +754,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -825,7 +822,7 @@
    "first_seen": "2026-11-06T00:01:52+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W",
    "last_checked": "2026-11-08T09:15:26+00:00",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-24",
    "posted_kind": "listed",
@@ -846,7 +843,7 @@
    "elite": true,
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084566W",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -867,7 +864,7 @@
    "elite": true,
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W",
-   "last_seen": "2026-11-08T19:28:59+00:00",
+   "last_seen": "2026-11-08T23:05:46+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1005,7 +1002,8 @@
   "2026-11-08T01:25:23+00:00",
   "2026-11-08T07:52:20+00:00",
   "2026-11-08T14:56:33+00:00",
-  "2026-11-08T19:28:59+00:00"
+  "2026-11-08T19:28:59+00:00",
+  "2026-11-08T23:05:46+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1078,7 +1076,7 @@
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 425
+   "fetched": 426
   },
   "gh:figma": {
    "capped": false,
@@ -1152,6 +1150,10 @@
    "capped": false,
    "fetched": 14
   },
+  "lv:meesho": {
+   "capped": false,
+   "fetched": 53
+  },
   "lv:palantir": {
    "capped": false,
    "fetched": 305
@@ -1182,7 +1184,7 @@
   },
   "wd:mastercard/Campus": {
    "capped": false,
-   "fetched": 22
+   "fetched": 19
   },
   "wd:mastercard/CorporateCareers": {
    "capped": true,

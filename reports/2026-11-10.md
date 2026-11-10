@@ -1,7 +1,7 @@
 @AJ-design19
 
 # Job Radar daily report - 10 Nov 2026
-**19 companies** hiring interns · 39 open roles · 3 new in 24h · 1 closed in 24h
+**22 companies** hiring interns · 40 open roles · 7 new in 24h · 4 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: nothing open in India right now (radar keeps checking)
@@ -37,21 +37,23 @@
   - 🕒 posted 09 Nov 2026, 04:04 PM IST · detected 10 Nov 2026, 02:29 AM IST · 🔔 alert sent 10 Nov 2026, 02:29 AM IST
 - [Data Science Intern](https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428) - Honeywell Technologies · Bengaluru, Karnataka, India · **6/10**
   - 🕒 posted 10 Nov 2026, 03:18 PM IST · detected 10 Nov 2026, 03:40 PM IST · 🔔 alert sent 10 Nov 2026, 03:40 PM IST
+- [Machine Learning Intern](https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786) - Codemonk · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 10 Nov 2026, 05:39 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
+- [DE Intern + SDE Trainee](https://interndoor.com/jobs/sigmoid-de-intern-sde-trainee-off-campus-hiring-2026-ats-greenhouse-sigmoid-8927991002) - Sigmoid · Bengaluru · **6/10**
+  - 🕒 posted 10 Nov 2026, 04:09 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
+- [Software Intern](https://interndoor.com/jobs/thales-software-intern-4489615629) - Thales · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 10 Nov 2026, 11:08 PM IST · detected 10 Nov 2026, 11:31 PM IST
+- [Embedded Software Intern](https://interndoor.com/jobs/thales-embedded-software-intern-4489623386) - Thales · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 10 Nov 2026, 11:07 PM IST · detected 10 Nov 2026, 11:31 PM IST
 
-## 🏢 Companies hiring interns right now (19)
+## 🏢 Companies hiring interns right now (22)
 
-<details><summary><b>Visa</b> (10)</summary>
+<details><summary><b>Visa</b> (7)</summary>
 
 - [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) - Visa · IN - Bengaluru, India · **7/10**
   - 🕒 posted 11 Oct 2026 · detected 10 Nov 2026, 02:29 AM IST
 - [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W) - Visa · IN - Bengaluru, India · **7/10**
   - 🕒 posted 11 Oct 2026 · detected 10 Nov 2026, 02:29 AM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084526W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
 - [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W) - Visa · IN - Bengaluru, India · **7/10**
   - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
 - [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W) - Visa · IN - Bengaluru, India · **7/10**
@@ -134,6 +136,15 @@
 
 </details>
 
+<details><summary><b>Thales</b> (2)</summary>
+
+- [Software Intern](https://interndoor.com/jobs/thales-software-intern-4489615629) - Thales · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 10 Nov 2026, 11:08 PM IST · detected 10 Nov 2026, 11:31 PM IST
+- [Embedded Software Intern](https://interndoor.com/jobs/thales-embedded-software-intern-4489623386) - Thales · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 10 Nov 2026, 11:07 PM IST · detected 10 Nov 2026, 11:31 PM IST
+
+</details>
+
 <details><summary><b>Wells Fargo</b> (2)</summary>
 
 - [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426) - Wells Fargo · Greater Hyderabad Area · **5/10**
@@ -154,6 +165,13 @@
 
 - [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - CloudSEK · Bengaluru, Karnataka, India · **4/10**
   - 🕒 posted 14 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
+
+</details>
+
+<details><summary><b>Codemonk</b> (1)</summary>
+
+- [Machine Learning Intern](https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786) - Codemonk · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 10 Nov 2026, 05:39 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
 
 </details>
 
@@ -182,6 +200,13 @@
 
 - [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
   - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
+
+</details>
+
+<details><summary><b>Sigmoid</b> (1)</summary>
+
+- [DE Intern + SDE Trainee](https://interndoor.com/jobs/sigmoid-de-intern-sde-trainee-off-campus-hiring-2026-ats-greenhouse-sigmoid-8927991002) - Sigmoid · Bengaluru · **6/10**
+  - 🕒 posted 10 Nov 2026, 04:09 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
 
 </details>
 
@@ -233,7 +258,7 @@
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W) · IN - Bengaluru, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084526W) · IN - Bengaluru, India
+  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W) · IN - Bengaluru, India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
   - 🔗 [Interim Engineering Intern_2027_SW](https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com) · Hyderabad, Telangāna, India
@@ -292,24 +317,30 @@ _10 more programs open later in the year; see the full list._
 ## Closed since yesterday
 - [Research Sciences INTERN](https://apply.careers.microsoft.com/careers/job/1970393556641091) - Microsoft · India, Multiple Locations, Multiple Locations · **6/10**
   - 🕒 posted 27 Feb 2026 · detected 03 Nov 2026, 10:11 AM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084526W) - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W) - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
 
 ## 📡 What the radar read this run
-- `interndoor`: 50 postings read, 15 match you
+- `interndoor`: 50 postings read, 19 match you
 - `internscan`: 19 postings read, 12 match you
 - `wd:adobe/external_experienced`: 15 postings read, 0 match you
 - `wd:cisco/Cisco_Careers`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:hpe/Jobsathpe`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:intel/External`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:mastercard/Campus`: 26 postings read, 0 match you
+- `wd:mastercard/Campus`: 27 postings read, 0 match you
 - `wd:mastercard/CorporateCareers`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:nvidia/NVIDIAExternalCareerSite`: 100 postings read, 0 match you (list cut off at the page limit)
 - `wd:paypal/jobs`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:salesforce/External_Career_Site`: 47 postings read, 0 match you
+- `wd:salesforce/External_Career_Site`: 50 postings read, 0 match you
 - `wd:visa/Visa`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:visa/Visa_Talent_Portal`: 100 postings read, 10 match you (list cut off at the page limit)
-- `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 2 match you
-- `scan timing`: 3 scans in the last 24h, longest gap 6h 42m (set to run every 10 minutes)
+- `wd:visa/Visa_Talent_Portal`: 100 postings read, 7 match you (list cut off at the page limit)
+- `company boards (Greenhouse / Lever / Ashby)`: 37 read fine, 2 match you
+- `scan timing`: 4 scans in the last 24h, longest gap 7h 51m (set to run every 10 minutes)
 
 ## Source problems (check slug / network)
-- `amazon`: ValueError: no results (endpoint changed or blocked) (x19)
-- `themuse`: HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0 (x8)
+- `amazon`: ValueError: no results (endpoint changed or blocked) (x20)
+- `themuse`: HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0 (x9)

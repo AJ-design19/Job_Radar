@@ -285,10 +285,21 @@ def alert_markdown(new_jobs, watch_changes):
 
 
 def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_company, programs=None, opps=None,
-                    sources=None):
+                    sources=None, bigtech=None, women=None):
     L = _mention() + [f"# Job Radar daily report - {date_str}",
                       f"**{stats.get('companies', 0)} companies** hiring interns · {stats['open']} open roles · "
                       f"{len(new24)} new in 24h · {len(closed24)} closed in 24h", ""]
+    if bigtech:
+        L += ["## 🏆 Big-tech watchlist (live roles the radar can see)"]
+        for name, js in bigtech:
+            if js:
+                L.append(f"- **{name}**: {len(js)} open")
+                for t, u, loc, p in js[:4]:
+                    L.append(f"  - [{str(t).replace('[', '(').replace(']', ')')}]({u}) · {loc}"
+                             + (f" · posted {fmt_dt(p)}" if fmt_dt(p) else ""))
+            else:
+                L.append(f"- **{name}**: nothing open in India right now (radar keeps checking)")
+        L.append("")
     if soon:
         L += ["## ⏰ Deadline within 7 days"] + [_md_job(j) for j in soon] + [""]
     top = sorted(new24, key=lambda j: -j["score"])[:40]
@@ -310,6 +321,8 @@ def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_
         if soon_:
             L += ["**Open or usually opening in the next ~3 months**"] + [_opp_line(o) for o in soon_] + [""]
         L += [f"_{len(later_)} more programs open later in the year; see the full list._", ""]
+    if women:
+        L += ["## 👩\u200d💻 Programs for women (all watched)"] + [_opp_line(o) for o in women] + [""]
     if programs:
         L += ["## 🎯 Programs being watched"] + [f"- **{n}** - {d}" for n, d in programs] + [""]
     if closed24:
@@ -327,20 +340,27 @@ def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
-def _opp_line(o):
+def _opp_line_base(o):
     when = f" · usually {', '.join(MONTHS[m - 1] for m in o['months'])}" if o.get("months") else ""
     name = f"[{o['name']}]({o['url']})" if o.get("url") else o["name"]
     return (f"- **{name}** [{o.get('tier', '')}] {o.get('batch', '')}{when} - {o.get('note', '')} "
             f"_({o.get('confidence', 'typical')})_ · where: {o.get('where', '-')}")
 
 
-def opportunities_markdown(opps, date_str):
+def _opp_line(o):
+    live = "".join(f"\n  - 🔗 [{str(t).replace('[', '(').replace(']', ')')}]({u}) · {loc}" for t, u, loc in o.get("live", [])[:3])
+    return _opp_line_base(o) + live
+
+
+def opportunities_markdown(opps, date_str, women=None):
     now_, soon_, later_ = opps
     L = [f"# Internship opportunity tracker - {date_str}",
          "Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.", ""]
     for title, items in (("Check / apply now", now_), ("Open or usually opening in the next ~3 months", soon_), ("Later in the year", later_)):
         if items:
             L += [f"## {title}"] + [_opp_line(o) for o in items] + [""]
+    if women:
+        L += ["## Programs for women"] + [_opp_line(o) for o in women] + [""]
     return "\n".join(L)
 
 

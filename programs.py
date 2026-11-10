@@ -17,7 +17,7 @@ from email.utils import parsedate_to_datetime
 import requests
 
 from collectors import TIMEOUT, UA
-from scoring import batch_years
+from scoring import _has, batch_years
 
 try:  # turns a Google News redirect into the real article address; optional, the news link is kept if it is missing
     from googlenewsdecoder import gnewsdecoder
@@ -149,7 +149,7 @@ def check_programs(cfg, state, grad_year=None):
                     continue
                 seen.append(it["id"])
                 t = it["title"].lower()
-                if first or not any(m in t for m in must) or (also and not any(m in t for m in also)):
+                if first or not any(_has(t, m) for m in must) or (also and not any(_has(t, m) for m in also)):
                     continue
                 if not OPEN_RE.search(t) or DONE_RE.search(t):
                     continue
@@ -266,7 +266,7 @@ def discover(cfg, state, grad_year=None):
             t = title.lower()
             if not (kinds.search(t) and actions.search(t) and relevant.search(t) and tech.search(t)):
                 continue
-            if DONE_RE.search(t) or (bad and bad.search(t)) or any(m in t for m in tracked):
+            if DONE_RE.search(t) or (bad and bad.search(t)) or any(_has(t, m) for m in tracked):
                 continue
             years = batch_years(title)
             if years and grad_year and int(grad_year) not in years:

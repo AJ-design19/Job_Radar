@@ -62,6 +62,15 @@ def is_elite(job, profile):
     return any(_has(name, k) for k in (profile.get("pay") or {}).get("elite_companies", []))
 
 
+def watch_name(job, watchlist):
+    """Name of the watchlist company this job belongs to (Google, Atlassian...), or None."""
+    name = (job.get("company") or "").lower()
+    for w in watchlist or []:
+        if any(_has(name, m) for m in w.get("match", [w["name"]])):
+            return w["name"]
+    return None
+
+
 def passes_pay(job, profile):
     pay = profile.get("pay") or {}
     stipend = job.get("stipend_inr_month")

@@ -9,6 +9,7 @@
   "gehealthcare|informationtechnologydevelopmentprogramintern": "2026-11-06T19:40:22+00:00",
   "harmanindia|intern": "2026-11-05T17:37:01+00:00",
   "honeywellaerospace|internbachelorshardwareeng": "2026-11-05T10:19:00+00:00",
+  "honeywelltechnologies|datascienceintern": "2026-11-10T10:10:01+00:00",
   "irdeto|socintern": "2026-11-06T19:40:22+00:00",
   "rubrik|softwareengineercpdwinterintern": "2026-11-04T02:17:54+00:00",
   "snapmint|motiongraphicsinteractiondesignintern": "2026-11-06T19:40:22+00:00",
@@ -19,7 +20,7 @@
   "wellsfargo|technologyprogramintern": "2026-11-06T00:01:52+00:00"
  },
  "discovery": {
-  "count": 0,
+  "count": 1,
   "day": "2026-11-10",
   "init": true,
   "seen": [
@@ -71,21 +72,53 @@
    "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTW9sX0hKak9HVG0tR28xWGNqb0tUa2JMcGZ0eXNmT2lRR3pJODFSRGpsaWlwZWVjRk5BU2JXSUhRTlkzbjZQbHRwZEFEM0hIMThQdVgyYlphSGRWNlFGdmhYR2tLbDlJNHROT3pwWU1YaWtReVpFX1JTa2lOSjdLOGNlNjhZX3h1c19CTg?oc=5",
    "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ManRsZ0JMV0VnVnRnV21FNGxpaFBlaE52YnhtX08tN2FoWU9OMlY5eDZxdTYta214eHY2Y2xBRmVMMWszRFg2SHdXdFo5eVV4VkdXXzVRc2dJaGppMTFCd19qNlRJN1NHLXNWckY1REk?oc=5",
    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiUnZLZTRwQlAxUEM5RlA5by1SWXYwUjZHRUNoOXZwczVrYTVhWGlMZ3NRYnFLUHdxeW0zUTJwM0VDUldrVzFDalI1TlVIanZhTDNESkZyYXZoSGdPOUJIWEhVZzloUXBVNEc5Zw?oc=5",
-   "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qV3hZWFFINTkzQXZnVWdMWGR1aXlFLVJodEdwWDhEWXpuT1BFSkNpZUoxRkU4QXJtY29lN1RncTZLS2ZRMkpyMGZNZzhYNi10bWdBMXJrT29HRWQyM0FfcUppbmVQWHNrTGtoSHNCdDhBSy16UXc?oc=5"
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qV3hZWFFINTkzQXZnVWdMWGR1aXlFLVJodEdwWDhEWXpuT1BFSkNpZUoxRkU4QXJtY29lN1RncTZLS2ZRMkpyMGZNZzhYNi10bWdBMXJrT29HRWQyM0FfcUppbmVQWHNrTGtoSHNCdDhBSy16UXc?oc=5",
+   "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR2x5OWZ4Mk43clJ3WTd4b0syZkRMdFFnQ1BIbzdDT2tOXy1Obm5HUXVYZkZKYWVYbUowZHdOZVhMc1dhUTJuc05tb1Y3aWwxYm0wYVV5Z2lzTV9kZUNfNTFHdTdIR3EyMDdTOXdTb1lvUXQ3UHlDdnhJRnJJLVgyLXlydm1FbDFqMG40SXAySTJ5cHBhV3ZKQnJ0ejdHamZxMEI1Z1g0Tll6Q19Eb1B2MDNRM3NvclhWd2JKdlZ2dnNkV0dILWJSaUhjbEdCU3lPc25rakFnMHV4VEh0c2tXdTZ3?oc=5",
+   "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZzh1d2JfMW1UdXdsR1lNbTkzNWlVQzBtSDNXZ0VvSVFCRzBuejdDeUZxODRBNFIzcWp2emtHTUFUdlVzWHQxSDVzNVBGMHJnMENjcVFQTFctdDVqQk5ydzVnZ1V3Qk1wQUtSUnZkMFdwMmhQWkxDUFI5ek9VMXdidTY3N0diNmRia2hUdGZoY1lGczlPb0N4RTRILW1DVU5nRnNmQjJJWll4dHE0OHZ6QVF0b1U4UlBPTjJ6c2t3Y1N3Nzhu?oc=5",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUThCS3VhaVZMTHJmNGZkOHBSQ0d1dVlQenpVeFlzWmV4RmZsOENRSDdNWlFyNVhQeEI1c292NmZCT19zQ0pYSnJ5aUlHOEpLTUF0SVdrQTdnd0Fhd2VIenM4Z08wSl9aVF85SHl2WjJsMlNYS0xKWVRneXhKT1hZUVNRaTRTcFRGVWI3aEIxeExXNmRMSWFYa2dlZm1YUUpnQ21IUm1WUkEzeGczX2lj?oc=5",
+   "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tcjhodTVUOVBvS01DVmsyWk42Z3NwVl8yUWpadVpmQ1NTemFUVnl6WFl4TWcyMm9DREx1WExpelMydTNKRTNzd0FmY3JOZlVCSENJcHNYQWVKM2NtVHlzb3Q1ZUd2OXdtV2VVVg?oc=5",
+   "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV01xMXkzM2ZUSUN2TkUxQjBvbjFTUFdwU1N2OFZCSTFHVUhEQUZDOXBtQl8wY0NXc1F5OGhDdmxRY1prSUI3ZFYzMk9tZy1Rc0pKZnNjd040SlFGdUVJanV4S1NNT0J1UGF0ekFlNGd1R2IxamEwLXZzUWFYRUZTSEFuV0k3cjVkbVpkZktHLUFQbUp1NHVFLW56QVRRNjE3Z0VJUEtrMU1qU0pKUVhnaUJVbGxIQ3RmOWpraGxPbkpZcGVCMUMyUG1tTTg0bS04QjRWZ3VoMGI3SUF6ZWtTRXZVeWQyNF90N0dScFdsUdIB9AFBVV95cUxPTDc4ck5wVWk4Y2RoTHB4c05mWmlkUTFnajdDMWpzaHZ5YkRXZXU2OGZKM195T1A1ZUxzNkVkenlIdUxnMTZ3M0p1NW9mckFzNG5LMXh0aURIYmx3b09vM0lWVVlaQlNWdVdrS1lGLVlvS0dRaHQxTHFYLUc3LVhLb3ZSUjg3dGhibGc0Y3V3ZVFHQlZKb1hDVmlwQ3Ryb2Y0U2Y1WS1OQVIwcm16WjVQNGJhd3RyVG8tNThhMVp2UGI0X3JtSk9GUjl6YWc5dGljNWE3VVVUeXhIOExHeWlhdUZfSmdPdkl6QXRiTThYRW9oRk9n?oc=5",
+   "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQbmNPdHlBalEzdDlwUUxDX1hGajVfcUowVUZZdF9lOWtyZkREUEsyZ3IwS3M2QjQ0ZXFmM2doSHhwRWtNS3lnYXVlbTZZRkdDSFVDQlJYWFd1cWpOTkpHd2R6Y3lMN0xLamlCbHFNS1ZkRGVUcGNzTWRYd2NabGtlQkxQekltV19hbU95T2FYS2JBUWtSR3phWENkQ1YwWkc1dEY5dENDb2IwelZicS1FMTE0cnhDZVpLaXVlcWU1QXJMZGQ0dld4ekVXT29teVh0dmJPc0IzaUo3dWtfVVZlcjRpUnBJVm9oRTFCZ09UOW5XVE5IWVVKODlSdzA?oc=5",
+   "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHF6OWktVVExZFJqYmtSZGV3ZDc5Wl9Ic05kYWd5ZmZLdEJaa2pCVTZ5amRjWGhsLVhWYVdvS09LazlkRkpRdEp5ZW8xdXpwU3V4ZkxNcVBTY1J2QTZqS1hXQ1lfcmlKdDFBbEw2cG94VkRjNHlsNUhhM00tamw3MkhTV3NLYUx3bXkxVENBZXBucVl3eG14aFlYZ0xrb2xCV051bl9ROXBSTktuclZpbkZXLTZ2X2tQQlRvcFFPOFBTZjNPQkRUVGUxRkNLZWVn?oc=5",
+   "https://news.google.com/rss/articles/CBMib0FVX3lxTE42bW9raHBtT3llZ2lNT29pMWp4Q1BsS3AwNVFzUnh3T3ctQm5uWHZTaWFOUmZ6Ml92TVRjbmpybVdGSlVCaFlkTnktaTdfZGFFelJBVUgtVmRDbE9vUHp5OWpDeUtvMTRJR3lSUl9WZw?oc=5",
+   "https://news.google.com/rss/articles/CBMiakFVX3lxTE05WktubGhuNXlmblp0YzdqZVdScC1jMmR4LWlya1lkSGY4b2c1SGpoZkk0dzNDOGl5VVBreFBqMTZUT2pyaVBnc1FtazhnQkJfOVJENnVkV1lNZ2wtRE8xSjZ4ZFh5MWRPSkE?oc=5",
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE80WUxhS0JoS2tDcGhMaTE3RFRfV2pMeHl0RFk4SE5PYldzQkRlTU1BZ19wRV9lMFUydDlVZENHdWFWaXpBMDZmQzZtNTBwNlFtVVJOODM3Q0JPT2t0V25Gc01IVG1jWXMxaEhGRnhvbVQ?oc=5",
+   "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQktFeHNfXzZ1WnJOQ0xjbVhhZDFreXN0dXlDdThyLVNveVRZYnVKOGtOOVQ4VXliNFRIdWl0Qkw5QzV1X2N6YThSOGkwS19ObXhZSllwT3l5M2pETVRFZ0lRZktORHc1SHpuUjBQc05YUVJwV3padVQzV2FRYzBFQVZnTWxPRVBiM182MmJvWFY4ZDZiLXExNFVVbVQtUjNQbUcyUE4zaDZHUXR1Y0hzRUg2andtQVpKVXEtdGpB0gHEAUFVX3lxTE9NS2tWb1hfTWJUWDJtT0c5T3ZkdnBSUC16MzFudzd4UUJHakZ2QlQtYmJRell3bDBGQlY4d1AzSEpmaHV3YXNaNWVnUlBycFh6a3pUeG9JLTBuWXVvTE5jU25ON21JeVY1eFJ3S2otVG9kVVRnWWUxa2o5cUZSamhZeXdCZ0Z4cmZTQnpZSHZhOXRPdFNlMXBQR0MyeDRQZlhiTWNSRzQ1T2NqUFVEOGFaOXZoaVNuVnc0VFJFSXU2eXFPem0?oc=5",
+   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcUtpcjIwMzQ1VXBQUGZZMUZYc2ptMW5ZYTE3ZW9VU0lLc2dnV0tfTE1nNGtfX3F0bU43ZWwxdm1ERVJQYlZBZlVvR2NXc2kxS0wtZ205ZG5BMmRUdHlJNjZXQXNJSHlpSUxoRERoMHQ1MFNaS1VjUms4azYyMUdCV0Nfc3hSaU8wLTBHSDlDV1lNOGFMbl9sQ2NBeXMyb1lveGpMOV9TODd0UzBkRUJfdENXQ1ZkZ1Q4VWZ6VlNDMFo?oc=5",
+   "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSG9YZmhvcjBRMUNDRXRjTFFQTDBTV2RtNzhndDNkMWNrY0hNNWpjMVF4b2RWTHUxUzJVbU1pWTBvZkNHQ3didTNQcGp4ejI0MnAydS1ESVM4ZDdEcll5VmtPenptcFdlWC1FVFZaZXFaclZPVnlmdDBpS3BVVm9KWERfRUZzOVhaY0JoVmxqX3FBN0hUbFFvX0dzcnQwSGVsajc4YVFB0gGsAUFVX3lxTE5zd3d0eFRfOWozWlREbk1WOEFLZDRNaVRvOXRQR0kzaUJPcmRScTlKV2trTk5RSXg5QjctRVR6b1hZc2VFb2xHTkY4Q1pnRTFUNkJIcl9OZklhTWFORFV1NHJSVWlLdVJKOUx3eFBnOGJSa1FUZEZZUWc5cVlpdUY3OXNzeTM2bUVIc1BTeFQ1eUF3blVhZTZPckNHQm8tNjU0cFh5NTlXM2JhVE4?oc=5",
+   "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VWWNZbUtkYmNCRTlXUE5YQllzTElKOVdZR1dUOGNkSEhNc0dueHBqMjI4M1lPWDhDTzhrQlBOOU9XOGppM3VkelpmVWJmZU1XTldydUpJMVNiNk80ckcyN05Gb0hLWjV4dWRtblZn?oc=5"
   ],
-  "titles": []
+  "titles": [
+   {
+    "at": "2026-11-10T10:10:21+00:00",
+    "k": [
+     "february",
+     "fellow",
+     "future",
+     "kleiner",
+     "paid",
+     "perkins"
+    ],
+    "t": "kleiner perkins engineering fellow 2027 paid summer fellowship for future software engineers  apply by 1 february 2027"
+   }
+  ]
  },
  "failures": {
   "amazon": {
-   "count": 18,
+   "count": 19,
    "error": "ValueError: no results (endpoint changed or blocked)"
   },
+  "lv:atlassian": {
+   "count": 1,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/atlassian?mode=json"
+  },
   "themuse": {
-   "count": 7,
+   "count": 8,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0"
   }
  },
  "fix_interndoor_closed": true,
+ "fix_watchlist": true,
  "initialized": true,
  "jobs": {
   "gh:stripe:8031833": {
@@ -94,7 +127,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -112,7 +145,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8130876",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bangalore",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -181,7 +214,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "id:https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bengaluru, KA, India",
    "posted": "2026-11-09T14:59:18+00:00",
    "posted_kind": "listed",
@@ -252,7 +285,7 @@
    "elite": false,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "id:https://interndoor.com/jobs/bnp-paribas-data-science-intern-4488835858",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-09T10:34:39+00:00",
    "posted_kind": "listed",
@@ -381,6 +414,30 @@
    "title": "Intern Bachelors Hardware Eng",
    "url": "https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517",
    "verifiable": false
+  },
+  "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428": {
+   "alerted_at": "2026-11-10T10:10:01+00:00",
+   "baseline": false,
+   "company": "Honeywell Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-10T10:10:01+00:00",
+   "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428",
+   "last_seen": "2026-11-10T10:10:01+00:00",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-11-10T09:48:51+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 6,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Data Science Intern",
+   "url": "https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428",
+   "verifiable": false,
+   "watch": ""
   },
   "id:https://interndoor.com/jobs/irdeto-soc-intern-4488194751": {
    "baseline": false,
@@ -545,6 +602,7 @@
    "verifiable": false
   },
   "is:https://apply.careers.microsoft.com/careers/job/1970393556641091": {
+   "closed_at": "2026-11-10T10:10:01+00:00",
    "company": "Microsoft",
    "deadline": "",
    "desc": "",
@@ -556,7 +614,7 @@
    "reason": "",
    "score": 6,
    "src": "internscan",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Research Sciences INTERN",
@@ -569,7 +627,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -588,7 +646,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -622,19 +680,18 @@
    "verifiable": true
   },
   "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com": {
-   "closed_at": "2026-11-09T02:39:01+00:00",
    "company": "Qualcomm",
    "deadline": "",
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-08T23:05:46+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
    "score": 7,
    "src": "internscan",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Interim Engineering Intern_2027_HW",
@@ -642,19 +699,18 @@
    "verifiable": true
   },
   "is:https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com": {
-   "closed_at": "2026-11-09T02:39:01+00:00",
    "company": "Qualcomm",
    "deadline": "",
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com",
-   "last_seen": "2026-11-08T23:05:46+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-15",
    "reason": "",
    "score": 7,
    "src": "internscan",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Interim Engineering Intern_2027_SW",
@@ -667,7 +723,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -706,7 +762,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -725,7 +781,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -744,7 +800,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -763,7 +819,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -782,7 +838,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -801,7 +857,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -820,7 +876,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -888,7 +944,7 @@
    "first_seen": "2026-11-06T00:01:52+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W",
    "last_checked": "2026-11-08T09:15:26+00:00",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-24",
    "posted_kind": "listed",
@@ -909,7 +965,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
    "posted_kind": "listed",
@@ -930,7 +986,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
    "posted_kind": "listed",
@@ -951,7 +1007,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084526W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -972,7 +1028,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -993,7 +1049,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1014,7 +1070,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1035,7 +1091,7 @@
    "elite": true,
    "first_seen": "2026-11-09T02:39:01+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1058,7 +1114,7 @@
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084566W",
    "last_checked": "2026-11-09T09:58:38+00:00",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1081,7 +1137,7 @@
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W",
    "last_checked": "2026-11-09T09:58:38+00:00",
-   "last_seen": "2026-11-10T03:27:38+00:00",
+   "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1096,12 +1152,42 @@
   }
  },
  "programs": {
+  "Adobe Codiva (women)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Adobe India Women-in-Technology Scholarship": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Amazon Propel Program": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Amazon WoW (women)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
   "Amazon internships and challenges (India)": {
    "init": true,
    "news_seen": [],
    "pages": {}
   },
+  "Apple internships (India)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
   "Atlassian internship (India)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "BNY Code Divas (women)": {
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -1121,6 +1207,16 @@
    }
   },
   "Flipkart Girls Wanna Code": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Flipkart Runway": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Goldman Sachs India Hackathon": {
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -1147,7 +1243,24 @@
    "news_seen": [],
    "pages": {}
   },
+  "Google internships (India)": {
+   "init": true,
+   "news_seen": [
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5"
+   ],
+   "pages": {}
+  },
   "JPMorgan Summer Analyst (India)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Meta internships (India)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Microsoft Codess (women)": {
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -1171,14 +1284,31 @@
    "news_seen": [],
    "pages": {}
   },
+  "Netflix internships": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
   "Salesforce AI Challenge": {
    "init": true,
    "news_seen": [
-    "https://news.google.com/rss/articles/CBMic0FVX3lxTE5haldvMk5yV0FzQ2tWeElFQ01jbUhYZmRMYXlWVHpzeU1ad3FET3V4LWNVMmNKa21IN2JSRWE0TWZqcjhXQXdlQk9PWDA5aW5PdG16ZVNubnJPdTN6MUo3X0Q5LVlQRHdUQjlvQy1acGVUQ1k?oc=5"
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE5haldvMk5yV0FzQ2tWeElFQ01jbUhYZmRMYXlWVHpzeU1ad3FET3V4LWNVMmNKa21IN2JSRWE0TWZqcjhXQXdlQk9PWDA5aW5PdG16ZVNubnJPdTN6MUo3X0Q5LVlQRHdUQjlvQy1acGVUQ1k?oc=5",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSWtZMk9yaXpuNThES3F1UDJYWi1USVc3bUNOamxWUkNHNzN6UTFMS2Zxa0ViTmJCQm9CZ1I0WjV1TVhad2JHaXA3ZXZTZnhPWkNwbXNQLWF6SDJjdXhNdVhMZFI2Qkh3UmFna1lyTHFfVlBlNzlkVUJiUUNFRlBfWEVac0tsTVRpY1R6akNWamVKZGU5dzlIS1hLRV9zN2pFUUHSAacBQVVfeXFMTjZhUEM5XzFZNDlNRzgzckNpczJ6WnFzR0tjRHRrRkVrc1NNV1FuQURhTHkzQ0RDSWVVZ2xzRWRoOGRpc0tYOFQtNkYyR244RE15YWxPVkxsa3c0Z2dsU2xfd2tabTM0elZYWUFWSFA2ZUw0SUlCZWFlZW5zMWZnd3MyVVFHd0JhZEFYRkRDU09sWENHRC00VC04WEdzUXdLTkZzZ1hJZmM?oc=5",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQR0ZtUzJVbjc2djhhY0t6QTRCckVxamdUY01Ub2RNeE40T002RW1BM2djTVlrOHJtcGNIRU9ISW1PX1hCR3ZhYjlYR0VsU2NteWlSMkJiT2ZSSTNOcW9BcVo5azltNUVOMDJJM0hmME1CX29oNEQ4d3pmVTN2YlVMZzBHOTZ6NFRRVXpuUDJuUlVqN1hDdjcxUG16MnBjQdIBowFBVV95cUxOUHV3X1hibWFLc3lEZERINko5a2R3SnpmMm5rRWxoQWVDRkkyNS1wR3N5TGU2RF9RcVgyTkdWTHpib3RUZi1NSnhzdFpXYlpuNEJuX1pQbkQ4Q1JYVTc4QllTcVExWUdCUng0MlFEUzFoYWF0dnZsbHAwaktHMTVDaWZ5X3dXbGRnZ3EzaWVKcHFJUXdlQVNBZlJuRzJfMGdheVdn?oc=5"
    ],
    "pages": {}
   },
+  "The Big Code (Google)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
   "Uber HackTag": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
+  },
+  "Uber She++ (women)": {
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -1197,19 +1327,15 @@
    "init": true,
    "news_seen": [],
    "pages": {}
+  },
+  "WiSE@TI Hackathon (women, Texas Instruments)": {
+   "init": true,
+   "news_seen": [],
+   "pages": {}
   }
  },
  "rejected": {
-  "gh:rubrik:8166537": "2026-11-06T19:40:22+00:00",
-  "id:https://interndoor.com/jobs/atkinsr-alis-apprentice-4488426588": "2026-11-07T00:21:07+00:00",
-  "id:https://interndoor.com/jobs/bank-of-america-apprentice-4482224059": "2026-11-05T17:37:01+00:00",
-  "id:https://interndoor.com/jobs/bank-of-america-apprentice-4483593905": "2026-11-05T17:37:01+00:00",
-  "id:https://interndoor.com/jobs/infineon-technologies-young-graduate-trainee-4479032702": "2026-11-05T11:24:51+00:00",
-  "id:https://interndoor.com/jobs/konecranes-trainee-plm-and-alfresco-ams-4485819152": "2026-11-05T11:24:51+00:00",
-  "id:https://interndoor.com/jobs/natwest-group-ai-ml-trainee-6-month-fixed-term-contract-2025-2026-graduates-4487791719": "2026-11-05T17:37:01+00:00",
-  "id:https://interndoor.com/jobs/natwest-group-ai-ml-trainee-6-month-fixed-term-contract-2025-2026-graduates-4487794588": "2026-11-05T17:37:01+00:00",
-  "id:https://interndoor.com/jobs/natwest-group-ai-ml-trainee-6-month-fixed-term-contract-2025-2026-graduates-4488003087": "2026-11-05T17:37:01+00:00",
-  "id:https://interndoor.com/jobs/synopsys-inc-digital-design-engineer-apprenticeship-4482860375": "2026-11-06T14:37:41+00:00"
+  "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
   "2026-11-07T16:56:18+00:00",
@@ -1224,7 +1350,8 @@
   "2026-11-09T02:39:01+00:00",
   "2026-11-09T10:23:06+00:00",
   "2026-11-09T20:59:32+00:00",
-  "2026-11-10T03:27:38+00:00"
+  "2026-11-10T03:27:38+00:00",
+  "2026-11-10T10:10:01+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1237,7 +1364,7 @@
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 825
+   "fetched": 827
   },
   "ab:ramp": {
    "capped": false,
@@ -1253,7 +1380,7 @@
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 205
+   "fetched": 206
   },
   "gh:anthropic": {
    "capped": false,
@@ -1269,7 +1396,7 @@
   },
   "gh:cloudflare": {
    "capped": false,
-   "fetched": 464
+   "fetched": 466
   },
   "gh:coinbase": {
    "capped": false,
@@ -1277,7 +1404,7 @@
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 915
+   "fetched": 920
   },
   "gh:datadog": {
    "capped": false,
@@ -1301,11 +1428,11 @@
   },
   "gh:figma": {
    "capped": false,
-   "fetched": 144
+   "fetched": 143
   },
   "gh:gitlab": {
    "capped": false,
-   "fetched": 252
+   "fetched": 254
   },
   "gh:lyft": {
    "capped": false,
@@ -1313,7 +1440,7 @@
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 374
+   "fetched": 373
   },
   "gh:okta": {
    "capped": false,
@@ -1321,7 +1448,7 @@
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 170
+   "fetched": 171
   },
   "gh:reddit": {
    "capped": false,
@@ -1333,7 +1460,7 @@
   },
   "gh:rubrik": {
    "capped": false,
-   "fetched": 151
+   "fetched": 149
   },
   "gh:samsara": {
    "capped": false,
@@ -1345,11 +1472,11 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 772
+   "fetched": 774
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 129
+   "fetched": 128
   },
   "gh:vercel": {
    "capped": false,
@@ -1365,7 +1492,7 @@
   },
   "internscan": {
    "capped": false,
-   "fetched": 18
+   "fetched": 19
   },
   "lv:cred": {
    "capped": false,
@@ -1373,7 +1500,7 @@
   },
   "lv:meesho": {
    "capped": false,
-   "fetched": 52
+   "fetched": 50
   },
   "lv:palantir": {
    "capped": false,
@@ -1381,7 +1508,7 @@
   },
   "lv:paytm": {
    "capped": false,
-   "fetched": 201
+   "fetched": 200
   },
   "lv:spotify": {
    "capped": false,
@@ -1405,11 +1532,11 @@
   },
   "wd:mastercard/Campus": {
    "capped": false,
-   "fetched": 25
+   "fetched": 26
   },
   "wd:mastercard/CorporateCareers": {
-   "capped": false,
-   "fetched": 99
+   "capped": true,
+   "fetched": 100
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
    "capped": true,
@@ -1421,11 +1548,11 @@
   },
   "wd:salesforce/External_Career_Site": {
    "capped": false,
-   "fetched": 44
+   "fetched": 47
   },
   "wd:visa/Visa": {
-   "capped": false,
-   "fetched": 41
+   "capped": true,
+   "fetched": 100
   },
   "wd:visa/Visa_Talent_Portal": {
    "capped": true,

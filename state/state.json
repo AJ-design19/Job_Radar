@@ -20,7 +20,7 @@
  },
  "discovery": {
   "count": 0,
-  "day": "2026-11-09",
+  "day": "2026-11-10",
   "init": true,
   "seen": [
    "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5",
@@ -77,16 +77,12 @@
  },
  "failures": {
   "amazon": {
-   "count": 17,
+   "count": 18,
    "error": "ValueError: no results (endpoint changed or blocked)"
   },
   "themuse": {
-   "count": 6,
+   "count": 7,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0"
-  },
-  "wd:mastercard/CorporateCareers": {
-   "count": 1,
-   "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/"
   }
  },
  "fix_interndoor_closed": true,
@@ -98,7 +94,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -116,7 +112,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8130876",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bangalore",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -185,7 +181,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "id:https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bengaluru, KA, India",
    "posted": "2026-11-09T14:59:18+00:00",
    "posted_kind": "listed",
@@ -256,7 +252,7 @@
    "elite": false,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "id:https://interndoor.com/jobs/bnp-paribas-data-science-intern-4488835858",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-09T10:34:39+00:00",
    "posted_kind": "listed",
@@ -554,7 +550,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556641091",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-02-27",
    "reason": "",
@@ -573,7 +569,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -592,7 +588,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -671,7 +667,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -710,7 +706,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -729,7 +725,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -748,7 +744,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -767,7 +763,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -786,7 +782,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -805,7 +801,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -824,7 +820,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -892,7 +888,7 @@
    "first_seen": "2026-11-06T00:01:52+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W",
    "last_checked": "2026-11-08T09:15:26+00:00",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-24",
    "posted_kind": "listed",
@@ -913,7 +909,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
    "posted_kind": "listed",
@@ -934,7 +930,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
    "posted_kind": "listed",
@@ -955,7 +951,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084526W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -976,7 +972,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -997,7 +993,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1018,7 +1014,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1039,7 +1035,7 @@
    "elite": true,
    "first_seen": "2026-11-09T02:39:01+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1062,7 +1058,7 @@
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084566W",
    "last_checked": "2026-11-09T09:58:38+00:00",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1085,7 +1081,7 @@
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W",
    "last_checked": "2026-11-09T09:58:38+00:00",
-   "last_seen": "2026-11-09T20:59:32+00:00",
+   "last_seen": "2026-11-10T03:27:38+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1227,7 +1223,8 @@
   "2026-11-08T23:05:46+00:00",
   "2026-11-09T02:39:01+00:00",
   "2026-11-09T10:23:06+00:00",
-  "2026-11-09T20:59:32+00:00"
+  "2026-11-09T20:59:32+00:00",
+  "2026-11-10T03:27:38+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1240,23 +1237,23 @@
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 811
+   "fetched": 825
   },
   "ab:ramp": {
    "capped": false,
-   "fetched": 171
+   "fetched": 172
   },
   "ab:replit": {
    "capped": false,
-   "fetched": 29
+   "fetched": 31
   },
   "ab:supabase": {
    "capped": false,
-   "fetched": 71
+   "fetched": 74
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 203
+   "fetched": 205
   },
   "gh:anthropic": {
    "capped": false,
@@ -1264,7 +1261,7 @@
   },
   "gh:asana": {
    "capped": false,
-   "fetched": 109
+   "fetched": 112
   },
   "gh:carta": {
    "capped": false,
@@ -1272,19 +1269,19 @@
   },
   "gh:cloudflare": {
    "capped": false,
-   "fetched": 465
+   "fetched": 464
   },
   "gh:coinbase": {
    "capped": false,
-   "fetched": 284
+   "fetched": 285
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 918
+   "fetched": 915
   },
   "gh:datadog": {
    "capped": false,
-   "fetched": 401
+   "fetched": 400
   },
   "gh:discord": {
    "capped": false,
@@ -1300,11 +1297,11 @@
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 425
+   "fetched": 423
   },
   "gh:figma": {
    "capped": false,
-   "fetched": 146
+   "fetched": 144
   },
   "gh:gitlab": {
    "capped": false,
@@ -1312,27 +1309,27 @@
   },
   "gh:lyft": {
    "capped": false,
-   "fetched": 159
+   "fetched": 156
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 377
+   "fetched": 374
   },
   "gh:okta": {
    "capped": false,
-   "fetched": 377
+   "fetched": 379
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 167
+   "fetched": 170
   },
   "gh:reddit": {
    "capped": false,
-   "fetched": 155
+   "fetched": 157
   },
   "gh:robinhood": {
    "capped": false,
-   "fetched": 154
+   "fetched": 153
   },
   "gh:rubrik": {
    "capped": false,
@@ -1340,15 +1337,15 @@
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 316
+   "fetched": 314
   },
   "gh:scaleai": {
    "capped": false,
-   "fetched": 170
+   "fetched": 169
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 771
+   "fetched": 772
   },
   "gh:twilio": {
    "capped": false,
@@ -1409,6 +1406,10 @@
   "wd:mastercard/Campus": {
    "capped": false,
    "fetched": 25
+  },
+  "wd:mastercard/CorporateCareers": {
+   "capped": false,
+   "fetched": 99
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
    "capped": true,

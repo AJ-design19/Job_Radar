@@ -1,7 +1,5 @@
 name: scan
 on:
-  schedule:
-    - cron: "*/10 * * * *"   # every ~10 min (GitHub may delay runs a few minutes)
   workflow_dispatch:
     inputs:
       command:

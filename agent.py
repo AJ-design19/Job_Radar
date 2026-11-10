@@ -2,7 +2,9 @@
 """Job Radar.   python agent.py scan | digest | test"""
 import json
 import os
+import subprocess
 import sys
+import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -15,7 +17,8 @@ from collectors import check_url, collect_all, greenhouse_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
                     program_markdown, program_push_text, fmt_dt, opportunities_markdown)
-from scoring import heuristic_score, is_elite, llm_enrich, passes_batch, passes_filters, passes_pay
+from scoring import (heuristic_score, is_elite, llm_enrich, passes_batch, passes_filters, passes_pay,
+                     watch_name)
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "state.json"
@@ -79,7 +82,7 @@ def check_watch(cfg, state, ts):
     return changes
 
 
-def scan(cfg, state):
+def scan(cfg, state, news=True):
     ts = iso(now())
     log = state.setdefault("scan_log", [])  # when each scan really ran: shows how late GitHub's timer is
     gap_note = ""
@@ -105,6 +108,10 @@ def scan(cfg, state):
     known = set(state.get("sources_seen", []))
     new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
     seen, new_jobs, llm_calls, detail_calls = set(), [], 0, 0
+    watchlist = cfg.get("watchlist") or []
+    if not state.get("fix_watchlist"):  # jobs earlier rejected by score may now qualify as watchlist roles
+        state["rejected"] = {}
+        state["fix_watchlist"] = True
     rejected = state.setdefault("rejected", {})  # postings already judged unsuitable: never re-fetched
     alerted = state.setdefault("alerted", {})  # hirings already reported once: fingerprint -> time
 
@@ -127,7 +134,8 @@ def scan(cfg, state):
         if j.get("stipend_inr_month") is None:
             j["stipend_inr_month"] = parse_pay(j.get("desc", ""))
         score = heuristic_score(j, profile)
-        if not (passes_batch(j, profile) and passes_pay(j, profile)) or score < acfg["digest_min_score"]:
+        wn = watch_name(j, watchlist)  # FAANG / MANGO / your big-tech list: always reported
+        if not (passes_batch(j, profile) and passes_pay(j, profile)) or (score < acfg["digest_min_score"] and not wn):
             rejected[j["id"]] = ts
             continue
         extra = {}
@@ -146,14 +154,14 @@ def scan(cfg, state):
         baseline = first_run or (j["src"] in new_srcs and not recent)
         rec = {**j, "desc": "", "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
                "first_seen": ts, "last_seen": ts, "status": status,
-               "baseline": baseline, "elite": is_elite(j, profile)}  # old listings of a newly added source are not "new"
+               "baseline": baseline, "elite": is_elite(j, profile), "watch": wn or ""}  # old listings of a newly added source are not "new"
         state["jobs"][j["id"]] = rec
         fp = fingerprint(j)
         already = fp in alerted  # re-posted under a new id? it is the same hiring: no second alert
         alerted.setdefault(fp, ts)
         pd = posted_dt(j.get("posted"))
         fresh = not (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14)))  # old posting: report only
-        if status == "open" and score >= acfg["instant_min_score"] and not baseline and not already and fresh:
+        if status == "open" and (score >= acfg["instant_min_score"] or wn) and not baseline and not already and fresh:
             new_jobs.append(rec)
 
     # a job that vanished from a board that loaded fine is closed
@@ -183,12 +191,12 @@ def scan(cfg, state):
     watch_changes = check_watch(cfg, state, ts)
 
     try:  # hackathons / challenges: news + official pages
-        prog_alerts = check_programs(cfg, state, profile.get("graduation_year"))
+        prog_alerts = check_programs(cfg, state, profile.get("graduation_year")) if news else []
     except Exception as e:
         prog_alerts = []
         print(f"[programs skipped] {type(e).__name__}: {str(e)[:100]}")
     try:  # keep looking for opportunities you did not list
-        prog_alerts += discover(cfg, state, profile.get("graduation_year"))
+        prog_alerts += discover(cfg, state, profile.get("graduation_year")) if news else []
     except Exception as e:
         print(f"[discovery skipped] {type(e).__name__}: {str(e)[:100]}")
     if gap_note and not first_run:
@@ -294,12 +302,24 @@ def digest(cfg, state):
         h, m = divmod(int(gap.total_seconds() // 60), 60)
         sources.append(("scan timing", f"{len(stamps)} scans in the last 24h, longest gap {h}h {m}m (set to run every 10 minutes)"))
     opps = opportunity_sections(cfg, n.astimezone(IST).month)
+
+    def live_for(match):  # the actual job links the radar can see for these companies
+        ws = [{"name": "x", "match": match}]
+        return [(r["title"], r["url"], r["location"]) for r in
+                sorted((r for r in open_jobs if watch_name(r, ws)), key=lambda r: -r["score"])[:3]]
+    for o in cfg.get("opportunities") or []:
+        o["live"] = live_for(o["match"]) if o.get("match") else []
+    women = [o for o in cfg.get("opportunities") or [] if o.get("tier") == "Women"]
+    bigtech = []
+    for w in cfg.get("watchlist") or []:
+        js = sorted((r for r in open_jobs if watch_name(r, [w])), key=lambda r: -r["score"])
+        bigtech.append((w["name"], [(r["title"], r["url"], r["location"], r.get("posted") or "") for r in js]))
     md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
-                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps, sources)
+                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps, sources, bigtech, women)
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
     (rdir / "latest.md").write_text(md, encoding="utf-8")
-    (rdir / "opportunities.md").write_text(opportunities_markdown(opps, date_str), encoding="utf-8")
+    (rdir / "opportunities.md").write_text(opportunities_markdown(opps, date_str, women), encoding="utf-8")
     (rdir / f"{n.astimezone(IST).strftime('%Y-%m-%d')}.md").write_text(md, encoding="utf-8")
     for old in sorted(rdir.glob("20*.md"))[:-14]:  # keep the last 14 days
         old.unlink()
@@ -316,6 +336,8 @@ def opportunity_sections(cfg, month):
     soon_months = {((month - 1 + k) % 12) + 1 for k in range(4)}
     now_, soon, later = [], [], []
     for o in cfg.get("opportunities") or []:
+        if o.get("tier") == "Women":
+            continue
         if o.get("now"):
             now_.append(o)
         elif soon_months & set(o.get("months", [])):
@@ -323,6 +345,74 @@ def opportunity_sections(cfg, month):
         else:
             later.append(o)
     return now_, soon, later
+
+
+# ---------------------------------------------------------------------------------------------
+# LOOP MODE: one long-running job that scans every few minutes (instead of waiting for GitHub's unreliable timer).
+# ---------------------------------------------------------------------------------------------
+def post_issues():
+    """Turn alert files into GitHub issues (works where the gh CLI and GH_TOKEN exist, i.e. inside Actions)."""
+    out = ROOT / "out"
+    if not os.getenv("GH_TOKEN"):
+        return
+    for title_f, body_f in (("alert_title.txt", "alert.md"), ("alert_program_title.txt", "alert_program.md")):
+        t, b = out / title_f, out / body_f
+        if t.exists() and b.exists():
+            subprocess.run(["gh", "issue", "create", "--title", t.read_text(encoding="utf-8").strip(),
+                            "--body-file", str(b)], check=False, cwd=ROOT)
+            t.unlink()
+            b.unlink()
+
+
+def post_report_issue(date_str):
+    latest = ROOT / "reports" / "latest.md"
+    if os.getenv("GH_TOKEN") and latest.exists():
+        subprocess.run(["gh", "issue", "create", "--title", f"📋 Job Radar report {date_str}", "--body-file", str(latest)],
+                       check=False, cwd=ROOT)
+
+
+def git_sync(message):
+    """Commit and push the saved state / reports so nothing is lost if the job is stopped."""
+    def run(*a):
+        return subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
+    run("config", "user.name", "job-radar-bot")
+    run("config", "user.email", "job-radar-bot@users.noreply.github.com")
+    run("add", "state", "reports")
+    if run("diff", "--cached", "--quiet").returncode == 0:
+        return
+    run("commit", "-m", message)
+    run("pull", "--rebase")
+    run("push")
+
+
+def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=1200):
+    """Scan every `every` seconds for `minutes`. Job sources every round, news searches every `news_every`th round
+    (they are many requests), the daily report once after `digest_hour` India time."""
+    end, last_sync, i = time.time() + minutes * 60, time.time(), 0
+    print(f"[loop] scanning every {every}s for {minutes} min")
+    while time.time() < end:
+        t0 = time.time()
+        try:
+            state = load_state()
+            scan(cfg, state, news=(i % news_every == 0))
+            ist = datetime.now(IST)
+            if ist.hour >= digest_hour and state.get("last_digest") != ist.date().isoformat():
+                digest(cfg, state)
+                state["last_digest"] = ist.date().isoformat()
+                save_state(state)
+                post_report_issue(ist.strftime("%d %b %Y"))
+            else:
+                save_state(state)
+            post_issues()
+        except Exception as e:  # one bad round must never stop the loop
+            print(f"[loop] round {i} failed: {type(e).__name__}: {str(e)[:150]}")
+        i += 1
+        if time.time() - last_sync > sync_every:
+            git_sync("chore: update state [skip ci]")
+            last_sync = time.time()
+        time.sleep(max(5, every - (time.time() - t0)))
+    git_sync("chore: update state [skip ci]")
+    print("[loop] finished this chunk; the next run takes over")
 
 
 def main():
@@ -339,6 +429,9 @@ def main():
         wa = send_whatsapp("✅ <b>Job Radar test</b>: WhatsApp works.")
         print("email:", "sent" if ok else "not sent", "| telegram:", "sent" if tg else "not sent",
               "| whatsapp:", "sent" if wa else "not sent")
+        return
+    if cmd == "loop":
+        loop(cfg)
         return
     state = load_state()
     {"scan": scan, "digest": digest}[cmd](cfg, state)

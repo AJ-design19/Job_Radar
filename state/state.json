@@ -1,5 +1,6 @@
 {
  "alerted": {
+  "adobe|adobeinternfy27": "2026-11-11T18:58:29+00:00",
   "allstateindia|softwareengineeringintern": "2026-11-10T19:11:49+00:00",
   "amazon|dataengineerintern": "2026-11-05T10:19:00+00:00",
   "amazon|sdeiinternamazonuniversitytalentacquisition": "2026-11-07T13:28:53+00:00",
@@ -137,7 +138,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -148,6 +149,31 @@
    "title": "Software Engineer, Intern",
    "url": "https://stripe.com/jobs/search?gh_jid=8031833",
    "verifiable": true
+  },
+  "id:https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453": {
+   "alerted_at": "2026-11-11T18:58:29+00:00",
+   "apply_url": "https://careers.adobe.com/us/en/job/ADOBUSR173562EXTERNALENUS/Adobe-Intern-FY27?utm_source=interndoor&utm_medium=phenom-feeds&source=interndoor&ref=interndoor",
+   "baseline": false,
+   "company": "Adobe",
+   "deadline": "",
+   "desc": "",
+   "elite": true,
+   "first_seen": "2026-11-11T18:58:29+00:00",
+   "id": "id:https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453",
+   "last_seen": "2026-11-11T19:18:29+00:00",
+   "location": "Greater Kolkata Area",
+   "posted": "2026-11-11T17:38:24+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 7,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Adobe Intern FY27",
+   "url": "https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453",
+   "verifiable": false,
+   "watch": "Adobe"
   },
   "id:https://interndoor.com/jobs/allstate-india-intern-4484858917": {
    "alerted_at": "2026-11-10T19:11:49+00:00",
@@ -472,7 +498,7 @@
    "elite": false,
    "first_seen": "2026-11-11T12:47:50+00:00",
    "id": "id:https://interndoor.com/jobs/harman-india-intern-connectivity-4488207839",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T11:45:42+00:00",
    "posted_kind": "listed",
@@ -546,7 +572,7 @@
    "elite": false,
    "first_seen": "2026-11-11T12:47:50+00:00",
    "id": "id:https://interndoor.com/jobs/ibm-software-developer-intern-4476673482",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T11:04:56+00:00",
    "posted_kind": "listed",
@@ -570,7 +596,7 @@
    "elite": false,
    "first_seen": "2026-11-11T11:32:50+00:00",
    "id": "id:https://interndoor.com/jobs/ibm-software-developer-intern-4488220086",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Kochi, Kerala, India",
    "posted": "2026-11-11T11:04:31+00:00",
    "posted_kind": "listed",
@@ -618,7 +644,7 @@
    "elite": false,
    "first_seen": "2026-11-11T12:47:50+00:00",
    "id": "id:https://interndoor.com/jobs/sanas-ml-da-intern-4489948266",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T12:07:58+00:00",
    "posted_kind": "listed",
@@ -829,7 +855,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -848,7 +874,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -887,7 +913,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -926,7 +952,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -965,7 +991,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -984,7 +1010,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1003,7 +1029,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1022,7 +1048,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1041,7 +1067,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1060,7 +1086,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1079,7 +1105,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-11T17:07:50+00:00",
+   "last_seen": "2026-11-11T19:18:29+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1778,7 +1804,12 @@
   "2026-11-11T16:52:50+00:00",
   "2026-11-11T16:57:50+00:00",
   "2026-11-11T17:02:50+00:00",
-  "2026-11-11T17:07:50+00:00"
+  "2026-11-11T17:07:50+00:00",
+  "2026-11-11T18:58:29+00:00",
+  "2026-11-11T19:03:29+00:00",
+  "2026-11-11T19:08:29+00:00",
+  "2026-11-11T19:13:29+00:00",
+  "2026-11-11T19:18:29+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1793,7 +1824,7 @@
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 824,
+   "fetched": 822,
    "note": ""
   },
   "ab:ramp": {
@@ -1823,7 +1854,7 @@
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 212,
+   "fetched": 207,
    "note": ""
   },
   "gh:anthropic": {
@@ -1853,12 +1884,12 @@
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 916,
+   "fetched": 912,
    "note": ""
   },
   "gh:datadog": {
    "capped": false,
-   "fetched": 392,
+   "fetched": 393,
    "note": ""
   },
   "gh:discord": {
@@ -1878,7 +1909,7 @@
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 425,
+   "fetched": 421,
    "note": ""
   },
   "gh:figma": {
@@ -1898,7 +1929,7 @@
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 376,
+   "fetched": 377,
    "note": ""
   },
   "gh:okta": {
@@ -1908,12 +1939,12 @@
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 164,
+   "fetched": 163,
    "note": ""
   },
   "gh:reddit": {
    "capped": false,
-   "fetched": 159,
+   "fetched": 157,
    "note": ""
   },
   "gh:robinhood": {
@@ -1928,7 +1959,7 @@
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 311,
+   "fetched": 313,
    "note": ""
   },
   "gh:scaleai": {
@@ -1938,12 +1969,12 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 783,
+   "fetched": 779,
    "note": ""
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 125,
+   "fetched": 124,
    "note": ""
   },
   "gh:vercel": {
@@ -1988,13 +2019,13 @@
   },
   "lv:spotify": {
    "capped": false,
-   "fetched": 86,
+   "fetched": 85,
    "note": ""
   },
   "wd:adobe/external_experienced": {
    "capped": false,
-   "fetched": 18,
-   "note": "searches: 'intern india' 18, 'intern bangalore' 0"
+   "fetched": 17,
+   "note": "searches: 'intern india' 17, 'intern bangalore' 0"
   },
   "wd:cisco/Cisco_Careers": {
    "capped": false,
@@ -2003,8 +2034,8 @@
   },
   "wd:hpe/Jobsathpe": {
    "capped": true,
-   "fetched": 83,
-   "note": "searches: 'intern india' 60, 'intern bangalore' 23"
+   "fetched": 85,
+   "note": "searches: 'intern india' 60, 'intern bangalore' 25"
   },
   "wd:intel/External": {
    "capped": false,
@@ -2038,8 +2069,8 @@
   },
   "wd:visa/Visa": {
    "capped": false,
-   "fetched": 38,
-   "note": "searches: 'intern india' 38, 'intern bangalore' 0"
+   "fetched": 37,
+   "note": "searches: 'intern india' 37, 'intern bangalore' 0"
   },
   "wd:visa/Visa_Talent_Portal": {
    "capped": false,

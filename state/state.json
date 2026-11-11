@@ -15,6 +15,7 @@
   "honeywellaerospace|internbachelorshardwareeng": "2026-11-05T10:19:00+00:00",
   "honeywellaerospace|softwareengineeringintern": "2026-11-11T10:57:16+00:00",
   "honeywelltechnologies|datascienceintern": "2026-11-10T10:10:01+00:00",
+  "ibm|softwaredeveloperintern": "2026-11-11T11:32:50+00:00",
   "irdeto|socintern": "2026-11-06T19:40:22+00:00",
   "rubrik|softwareengineercpdwinterintern": "2026-11-04T02:17:54+00:00",
   "sigmoid|deinternsdetrainee": "2026-11-10T18:01:49+00:00",
@@ -121,20 +122,7 @@
    }
   ]
  },
- "failures": {
-  "amazon": {
-   "count": 155,
-   "error": "ValueError: no results (endpoint changed or blocked)"
-  },
-  "lv:atlassian": {
-   "count": 137,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/atlassian?mode=json"
-  },
-  "themuse": {
-   "count": 144,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0"
-  }
- },
+ "failures": {},
  "fix_interndoor_closed": true,
  "fix_watchlist": true,
  "initialized": true,
@@ -145,7 +133,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -155,24 +143,6 @@
    "stipend_inr_month": null,
    "title": "Software Engineer, Intern",
    "url": "https://stripe.com/jobs/search?gh_jid=8031833",
-   "verifiable": true
-  },
-  "gh:stripe:8130876": {
-   "company": "Stripe",
-   "deadline": "",
-   "desc": "",
-   "first_seen": "2026-10-31T18:24:42+00:00",
-   "id": "gh:stripe:8130876",
-   "last_seen": "2026-11-11T10:57:16+00:00",
-   "location": "Bangalore",
-   "posted": "2026-10-29T10:42:09-04:00",
-   "reason": "",
-   "score": 8,
-   "src": "gh:stripe",
-   "status": "open",
-   "stipend_inr_month": null,
-   "title": "Software Engineer, New Grad",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130876",
    "verifiable": true
   },
   "id:https://interndoor.com/jobs/allstate-india-intern-4484858917": {
@@ -428,7 +398,7 @@
    "elite": false,
    "first_seen": "2026-11-11T10:17:16+00:00",
    "id": "id:https://interndoor.com/jobs/ge-healthcare-software-intern-4489931071",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T10:06:16+00:00",
    "posted_kind": "listed",
@@ -451,7 +421,7 @@
    "elite": false,
    "first_seen": "2026-11-11T10:57:16+00:00",
    "id": "id:https://interndoor.com/jobs/gsk-statistics-intern-4488201918",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T10:45:26+00:00",
    "posted_kind": "listed",
@@ -489,52 +459,6 @@
    "url": "https://interndoor.com/jobs/harman-india-intern-4476659326",
    "verifiable": false
   },
-  "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719": {
-   "baseline": false,
-   "closed_strikes": 0,
-   "company": "Honeywell Aerospace",
-   "deadline": "",
-   "desc": "",
-   "first_seen": "2026-11-05T10:19:00+00:00",
-   "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719",
-   "last_checked": "2026-11-11T05:22:36+00:00",
-   "last_seen": "2026-11-06T00:01:52+00:00",
-   "location": "Bengaluru, Karnataka, India",
-   "posted": "2026-11-05T10:04:30+00:00",
-   "posted_kind": "listed",
-   "reason": "",
-   "score": 4,
-   "src": "interndoor",
-   "status": "open",
-   "stipend_inr_month": null,
-   "tech_checked": true,
-   "title": "Intern Bachelors Hardware Eng",
-   "url": "https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719",
-   "verifiable": false
-  },
-  "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517": {
-   "baseline": false,
-   "closed_strikes": 0,
-   "company": "Honeywell Aerospace",
-   "deadline": "",
-   "desc": "",
-   "first_seen": "2026-11-05T17:37:01+00:00",
-   "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517",
-   "last_checked": "2026-11-11T05:22:36+00:00",
-   "last_seen": "2026-11-06T00:01:52+00:00",
-   "location": "Hyderabad, Telangana, India",
-   "posted": "2026-11-05T16:03:23+00:00",
-   "posted_kind": "listed",
-   "reason": "",
-   "score": 4,
-   "src": "interndoor",
-   "status": "open",
-   "stipend_inr_month": null,
-   "tech_checked": true,
-   "title": "Intern Bachelors Hardware Eng",
-   "url": "https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517",
-   "verifiable": false
-  },
   "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4479821514": {
    "alerted_at": "2026-11-11T10:57:16+00:00",
    "baseline": false,
@@ -544,7 +468,7 @@
    "elite": false,
    "first_seen": "2026-11-11T10:57:16+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4479821514",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-11T10:04:24+00:00",
    "posted_kind": "listed",
@@ -582,6 +506,30 @@
    "stipend_inr_month": null,
    "title": "Data Science Intern",
    "url": "https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428",
+   "verifiable": false,
+   "watch": ""
+  },
+  "id:https://interndoor.com/jobs/ibm-software-developer-intern-4488220086": {
+   "apply_url": "https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor",
+   "baseline": false,
+   "company": "IBM",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-11T11:32:50+00:00",
+   "id": "id:https://interndoor.com/jobs/ibm-software-developer-intern-4488220086",
+   "last_seen": "2026-11-11T11:52:50+00:00",
+   "location": "Kochi, Kerala, India",
+   "posted": "2026-11-11T11:04:31+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 4,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Software Developer Intern",
+   "url": "https://interndoor.com/jobs/ibm-software-developer-intern-4488220086",
    "verifiable": false,
    "watch": ""
   },
@@ -634,29 +582,6 @@
    "verifiable": false,
    "watch": ""
   },
-  "id:https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941": {
-   "baseline": false,
-   "closed_strikes": 0,
-   "company": "Snapmint",
-   "deadline": "",
-   "desc": "",
-   "first_seen": "2026-11-06T19:40:22+00:00",
-   "id": "id:https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941",
-   "last_checked": "2026-11-11T05:22:36+00:00",
-   "last_seen": "2026-11-08T07:52:20+00:00",
-   "location": "Bengaluru, Karnataka, India",
-   "posted": "2026-11-06T18:05:49+00:00",
-   "posted_kind": "listed",
-   "reason": "",
-   "score": 4,
-   "src": "interndoor",
-   "status": "open",
-   "stipend_inr_month": null,
-   "tech_checked": true,
-   "title": "Motion Graphics & Interaction Design Intern",
-   "url": "https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941",
-   "verifiable": false
-  },
   "id:https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338": {
    "baseline": false,
    "closed_at": "2026-11-11T05:22:36+00:00",
@@ -679,29 +604,6 @@
    "tech_checked": true,
    "title": "Astronomy Events Intern",
    "url": "https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338",
-   "verifiable": false
-  },
-  "id:https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864": {
-   "baseline": false,
-   "closed_strikes": 0,
-   "company": "State Street",
-   "deadline": "",
-   "desc": "",
-   "first_seen": "2026-11-05T17:37:01+00:00",
-   "id": "id:https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864",
-   "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-06T00:01:52+00:00",
-   "location": "Bengaluru, Karnataka, India",
-   "posted": "2026-11-05T12:39:02+00:00",
-   "posted_kind": "listed",
-   "reason": "",
-   "score": 4,
-   "src": "interndoor",
-   "status": "open",
-   "stipend_inr_month": null,
-   "tech_checked": true,
-   "title": "Technology Early Career Entry Program",
-   "url": "https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864",
    "verifiable": false
   },
   "id:https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487750437": {
@@ -738,7 +640,7 @@
    "first_seen": "2026-11-10T18:01:49+00:00",
    "id": "id:https://interndoor.com/jobs/thales-embedded-software-intern-4489623386",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T17:37:22+00:00",
    "posted_kind": "listed",
@@ -763,7 +665,7 @@
    "first_seen": "2026-11-10T18:01:49+00:00",
    "id": "id:https://interndoor.com/jobs/thales-software-intern-4489615629",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T17:38:49+00:00",
    "posted_kind": "listed",
@@ -850,7 +752,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -869,7 +771,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -908,7 +810,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -947,7 +849,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -986,7 +888,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1005,7 +907,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1024,7 +926,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1043,7 +945,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1062,7 +964,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1081,7 +983,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1100,7 +1002,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-11T10:57:16+00:00",
+   "last_seen": "2026-11-11T11:52:50+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1251,6 +1153,7 @@
   },
   "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W": {
    "baseline": false,
+   "closed_at": "2026-11-11T11:32:50+00:00",
    "company": "Visa",
    "deadline": "",
    "desc": "",
@@ -1264,7 +1167,7 @@
    "reason": "",
    "score": 7,
    "src": "wd:visa/Visa_Talent_Portal",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W",
@@ -1272,6 +1175,7 @@
   },
   "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W": {
    "baseline": false,
+   "closed_at": "2026-11-11T11:32:50+00:00",
    "company": "Visa",
    "deadline": "",
    "desc": "",
@@ -1285,7 +1189,7 @@
    "reason": "",
    "score": 7,
    "src": "wd:visa/Visa_Talent_Portal",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W",
@@ -1293,6 +1197,7 @@
   },
   "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W": {
    "baseline": false,
+   "closed_at": "2026-11-11T11:32:50+00:00",
    "company": "Visa",
    "deadline": "",
    "desc": "",
@@ -1306,7 +1211,7 @@
    "reason": "",
    "score": 7,
    "src": "wd:visa/Visa_Talent_Portal",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W",
@@ -1314,6 +1219,7 @@
   },
   "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W": {
    "baseline": false,
+   "closed_at": "2026-11-11T11:32:50+00:00",
    "company": "Visa",
    "deadline": "",
    "desc": "",
@@ -1327,7 +1233,7 @@
    "reason": "",
    "score": 7,
    "src": "wd:visa/Visa_Talent_Portal",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W",
@@ -1722,212 +1628,278 @@
   "2026-11-11T10:42:16+00:00",
   "2026-11-11T10:47:16+00:00",
   "2026-11-11T10:52:16+00:00",
-  "2026-11-11T10:57:16+00:00"
+  "2026-11-11T10:57:16+00:00",
+  "2026-11-11T11:32:50+00:00",
+  "2026-11-11T11:37:50+00:00",
+  "2026-11-11T11:42:50+00:00",
+  "2026-11-11T11:47:50+00:00",
+  "2026-11-11T11:52:50+00:00"
  ],
  "source_stats": {
   "ab:linear": {
    "capped": false,
-   "fetched": 33
+   "fetched": 33,
+   "note": ""
   },
   "ab:notion": {
    "capped": false,
-   "fetched": 156
+   "fetched": 156,
+   "note": ""
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 829
+   "fetched": 829,
+   "note": ""
   },
   "ab:ramp": {
    "capped": false,
-   "fetched": 176
+   "fetched": 176,
+   "note": ""
   },
   "ab:replit": {
    "capped": false,
-   "fetched": 31
+   "fetched": 31,
+   "note": ""
   },
   "ab:supabase": {
    "capped": false,
-   "fetched": 74
+   "fetched": 74,
+   "note": ""
+  },
+  "amazon": {
+   "capped": false,
+   "fetched": 2,
+   "note": "query form 3 worked"
+  },
+  "atlassian": {
+   "capped": false,
+   "fetched": 354,
+   "note": ""
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 202
+   "fetched": 203,
+   "note": ""
   },
   "gh:anthropic": {
    "capped": false,
-   "fetched": 678
+   "fetched": 678,
+   "note": ""
   },
   "gh:asana": {
    "capped": false,
-   "fetched": 107
+   "fetched": 107,
+   "note": ""
   },
   "gh:carta": {
    "capped": false,
-   "fetched": 78
+   "fetched": 78,
+   "note": ""
   },
   "gh:cloudflare": {
    "capped": false,
-   "fetched": 474
+   "fetched": 474,
+   "note": ""
   },
   "gh:coinbase": {
    "capped": false,
-   "fetched": 286
+   "fetched": 286,
+   "note": ""
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 918
+   "fetched": 918,
+   "note": ""
   },
   "gh:datadog": {
    "capped": false,
-   "fetched": 392
+   "fetched": 391,
+   "note": ""
   },
   "gh:discord": {
    "capped": false,
-   "fetched": 26
+   "fetched": 26,
+   "note": ""
   },
   "gh:dropbox": {
    "capped": false,
-   "fetched": 38
+   "fetched": 38,
+   "note": ""
   },
   "gh:duolingo": {
    "capped": false,
-   "fetched": 61
+   "fetched": 61,
+   "note": ""
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 425
+   "fetched": 426,
+   "note": ""
   },
   "gh:figma": {
    "capped": false,
-   "fetched": 142
+   "fetched": 142,
+   "note": ""
   },
   "gh:gitlab": {
    "capped": false,
-   "fetched": 253
+   "fetched": 253,
+   "note": ""
   },
   "gh:lyft": {
    "capped": false,
-   "fetched": 155
+   "fetched": 155,
+   "note": ""
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 376
+   "fetched": 375,
+   "note": ""
   },
   "gh:okta": {
    "capped": false,
-   "fetched": 380
+   "fetched": 379,
+   "note": ""
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 164
+   "fetched": 165,
+   "note": ""
   },
   "gh:reddit": {
    "capped": false,
-   "fetched": 157
+   "fetched": 157,
+   "note": ""
   },
   "gh:robinhood": {
    "capped": false,
-   "fetched": 155
+   "fetched": 155,
+   "note": ""
   },
   "gh:rubrik": {
    "capped": false,
-   "fetched": 152
+   "fetched": 151,
+   "note": ""
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 313
+   "fetched": 313,
+   "note": ""
   },
   "gh:scaleai": {
    "capped": false,
-   "fetched": 169
+   "fetched": 169,
+   "note": ""
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 779
+   "fetched": 779,
+   "note": ""
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 125
+   "fetched": 125,
+   "note": ""
   },
   "gh:vercel": {
    "capped": false,
-   "fetched": 87
+   "fetched": 87,
+   "note": ""
   },
   "gh:webflow": {
    "capped": false,
-   "fetched": 0
+   "fetched": 0,
+   "note": ""
   },
   "interndoor": {
    "capped": false,
-   "fetched": 50
+   "fetched": 50,
+   "note": ""
   },
   "internscan": {
    "capped": false,
-   "fetched": 18
+   "fetched": 18,
+   "note": ""
   },
   "lv:cred": {
    "capped": false,
-   "fetched": 14
+   "fetched": 14,
+   "note": ""
   },
   "lv:meesho": {
    "capped": false,
-   "fetched": 49
+   "fetched": 49,
+   "note": ""
   },
   "lv:palantir": {
    "capped": false,
-   "fetched": 304
+   "fetched": 304,
+   "note": ""
   },
   "lv:paytm": {
    "capped": false,
-   "fetched": 202
+   "fetched": 202,
+   "note": ""
   },
   "lv:spotify": {
    "capped": false,
-   "fetched": 85
+   "fetched": 85,
+   "note": ""
   },
   "wd:adobe/external_experienced": {
    "capped": false,
-   "fetched": 15
+   "fetched": 17,
+   "note": "searches: 'intern india' 17, 'intern bangalore' 0"
   },
   "wd:cisco/Cisco_Careers": {
-   "capped": true,
-   "fetched": 100
+   "capped": false,
+   "fetched": 15,
+   "note": "searches: 'intern india' 13, 'intern bangalore' 2"
   },
   "wd:hpe/Jobsathpe": {
    "capped": true,
-   "fetched": 100
+   "fetched": 82,
+   "note": "searches: 'intern india' 59, 'intern bangalore' 23"
   },
   "wd:intel/External": {
-   "capped": true,
-   "fetched": 100
+   "capped": false,
+   "fetched": 36,
+   "note": "searches: 'intern india' 36, 'intern bangalore' 0"
   },
   "wd:mastercard/Campus": {
    "capped": false,
-   "fetched": 27
+   "fetched": 1,
+   "note": "searches: 'intern india' 1, 'intern bangalore' 0"
   },
   "wd:mastercard/CorporateCareers": {
    "capped": true,
-   "fetched": 100
+   "fetched": 60,
+   "note": "searches: 'intern india' 60, 'intern bangalore' 0"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
    "capped": true,
-   "fetched": 100
+   "fetched": 60,
+   "note": "searches: 'intern india' 60, 'intern bangalore' 0"
   },
   "wd:paypal/jobs": {
-   "capped": true,
-   "fetched": 100
+   "capped": false,
+   "fetched": 18,
+   "note": "searches: 'intern india' 18, 'intern bangalore' 0"
   },
   "wd:salesforce/External_Career_Site": {
-   "capped": false,
-   "fetched": 46
+   "capped": true,
+   "fetched": 80,
+   "note": "searches: 'intern india' 60, 'intern bangalore' 20"
   },
   "wd:visa/Visa": {
-   "capped": false,
-   "fetched": 41
+   "capped": true,
+   "fetched": 40,
+   "note": "searches: 'intern india' 40, 'intern bangalore' 0"
   },
   "wd:visa/Visa_Talent_Portal": {
-   "capped": true,
-   "fetched": 100
+   "capped": false,
+   "fetched": 2,
+   "note": "searches: 'intern india' 2, 'intern bangalore' 0"
   }
  },
  "sources_seen": [
@@ -1937,6 +1909,8 @@
   "ab:ramp",
   "ab:replit",
   "ab:supabase",
+  "amazon",
+  "atlassian",
   "gh:airbnb",
   "gh:anthropic",
   "gh:asana",

@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 10 Nov 2026
+# Internship opportunity tracker - 11 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
@@ -20,10 +20,9 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W) · IN - Bengaluru, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W) · IN - Bengaluru, India
+  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) · IN - Bengaluru, India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
-  - 🔗 [Interim Engineering Intern_2027_SW](https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com) · Hyderabad, Telangāna, India
 - **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page
 - **The Big Code (Google)** [Program] check edition · usually Feb, Mar - 2026 deadline was 12 Mar; Rs 6 lakh prize pool _(reported)_ · where: Unstop
 - **Uber HackTag** [Program] check edition · usually Feb, Mar - past editions ran Feb to Mar; radar watches news _(typical)_ · where: Unstop

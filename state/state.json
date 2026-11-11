@@ -25,8 +25,8 @@
   "wellsfargo|technologyprogramintern": "2026-11-06T00:01:52+00:00"
  },
  "discovery": {
-  "count": 1,
-  "day": "2026-11-10",
+  "count": 0,
+  "day": "2026-11-11",
   "init": true,
   "seen": [
    "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5",
@@ -95,7 +95,8 @@
    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMDdTQ1NGZlFqcjJuN09kaGc5MlhxYi1HR0JfUV9VODNSamh0QkpLSVdvbG45Wi03ZWNMWkZtY2NfVm1UZEQtcmsxdkRhWlNleTdQUFFHN3RTams3aUhJbTYyU3JCVW5KQUNDaUFTQkFLbzgzWnY5V3NFeDJHMXVSSXpGVWpNYnRVajFBX2Y2ZmRrZHFDQjFLdXpSX3lRZ2pKRUFYN296VUlpdHREaDZPZ0taUllkMVpDR1ZOY19BemtKTkNtSXdaWFc3MUZreW84UTZSTkdKeHdGM3FaRGNMVlMyVmVHblJhaWg1Z2NFMU_SAfABQVVfeXFMUDA3U0NTRmZRanIybjdPZGhnOTJYcWItR0dCX1FfVTgzUmpodEJKS0lXb2xuOVotN2VjTFpGbWNjX1ZtVGRELXJrMXZEYVpTZXk3UFBRRzd0U2prN2lISW02MlNyQlVuSkFDQ2lBU0JBS284M1p2OVdzRXgyRzF1Ukl6RlVqTWJ0VWoxQV9mNmZka2RxQ0IxS3V6Ul95UWdqSkVBWDdvelVJaXR0RGg2T2dLWlJZZDFaQ0dWTmNfQXprSk5DbUl3WlhXNzFGa3lvOFE2Uk5HSnh3RjNxWkRjTFZTMlZlR25SYWloNWdjRTFP?oc=5",
    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVzVkUE90SjFvT3JRVHcwY01mMHVOTU8wLWpFNlRLY1dTTUctSEN5NTd0elBwa0xuWGVjTkx3VGUxUlBrTU53ODRIQmpYcnJxdzZfRlJrVDUyMG9NVk9WQXFKaGVOcVduVjl5MVVnNF9kQ29pZ0JrakVXUWxHNTNuazRLalJTNm93Zm9VRDJuTzNINzVZRzlGdXM2bkdhYWF0bVdzLTl4SXJEYWV3RzZ2eXVfbWluTmZMYVB4Z29yZmt0eGlSdFVtRlB1WFhrdGpqQm5R0gHYAUFVX3lxTE5hS1ZTai1ub2RmTXN3NVc2eW9tNWhUM0pXZy1nZS14LW5SbVlPUk5FNzdWQWFPanF2ZU51VTRSd1doM0R2Rzl6NG9aeTc2RndsMVlNSUFYU2ozZUNhdjJGcHNkeGpnbFRSOWtlR2V6X21pdVZfOXVhMW9GTXlDZkd0M2VWSEZiVll4ZjB6T0JOeG1TeVF1NGZwMGNYMDBFLWstQ3A0LThpendMZFNTQzE0WHJUUkJzY0FMTlFPeE53MDlMTFZKNEhKOVZtWDM0UzhvQ3NGMldxYg?oc=5",
    "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vMDU3WVJyQ0cwV1d6R1pHbzQ0UndONFB6dm81TjUwTWVJUUZJVC1PWmFremFEcV9UZ2hpUlZoREU1MWRBOWdzLU9Uc0R6NW1PODIwYWd3c05RUWlidFg2alpFQkNXNFNhbTNZNw?oc=5",
-   "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOERoOG5YdFBsMmlmcXhFdTd3aHZvS3JaT0pGZDhHbl9McnkxU0I1MUI0X05GVXhCT3M5T0dTczZWSFVpX1JFMnl5QzFibjhyblJ6RE8zdFVBZERZZTBTOVNDX29KVVVQWEdObVNTeFZmd1pKNmdZeEt2NUJCbVpIZkVIMHpxLU1FQUlDRzQwUVpxN1J2dFRaUWxuS1Bzd09HYlRyazBCVEh0OGRFc0FhZ1dxeVd5X3Z6RHVYNVZobUpCRzZhWnfSAcYBQVVfeXFMTzhEaDhuWHRQbDJpZnF4RXU3d2h2b0tyWk9KRmQ4R25fTHJ5MVNCNTFCNF9ORlV4Qk9zOU9HU3M2VkhVaV9SRTJ5eUMxYm44cm5SekRPM3RVQWREWWUwUzlTQ19vSlVVUFhHTm1TU3hWZndaSjZnWXhLdjVCQm1aSGZFSDB6cS1NRUFJQ0c0MFFacTdSdnRUWlFsbktQc3dPR2JUcmswQlRIdDhkRXNBYWdXcXlXeV92ekR1WDVWaG1KQkc2YVp3?oc=5"
+   "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOERoOG5YdFBsMmlmcXhFdTd3aHZvS3JaT0pGZDhHbl9McnkxU0I1MUI0X05GVXhCT3M5T0dTczZWSFVpX1JFMnl5QzFibjhyblJ6RE8zdFVBZERZZTBTOVNDX29KVVVQWEdObVNTeFZmd1pKNmdZeEt2NUJCbVpIZkVIMHpxLU1FQUlDRzQwUVpxN1J2dFRaUWxuS1Bzd09HYlRyazBCVEh0OGRFc0FhZ1dxeVd5X3Z6RHVYNVZobUpCRzZhWnfSAcYBQVVfeXFMTzhEaDhuWHRQbDJpZnF4RXU3d2h2b0tyWk9KRmQ4R25fTHJ5MVNCNTFCNF9ORlV4Qk9zOU9HU3M2VkhVaV9SRTJ5eUMxYm44cm5SekRPM3RVQWREWWUwUzlTQ19vSlVVUFhHTm1TU3hWZndaSjZnWXhLdjVCQm1aSGZFSDB6cS1NRUFJQ0c0MFFacTdSdnRUWlFsbktQc3dPR2JUcmswQlRIdDhkRXNBYWdXcXlXeV92ekR1WDVWaG1KQkc2YVp3?oc=5",
+   "https://news.google.com/rss/articles/CBMiygFBVV95cUxNakhjbm1WcEZGY2lxRjUtQ1Z3cEJ4T2E4WDdpbFpyRDdzT21rbVJjRWhKWUNPV2hWRndvdWNXbTRTS0VxT0lueUVDWVFrakV5SzVZRnFMenNwbkFmQkhmT3YwTF94WTlaRWRGVG1VbkU5bmI2bU5GX2tGOUEtUDI0SVB5dmctX2J2ZlRUV0doTnFEaWhIZFUyY2FtRGlzZlhub2VET25MVGJKMHdsbnZzQ1RobnFTSUtVTVhoZUt2MlJidWlYLW8xWWJn?oc=5"
   ],
   "titles": [
    {
@@ -114,15 +115,15 @@
  },
  "failures": {
   "amazon": {
-   "count": 87,
+   "count": 92,
    "error": "ValueError: no results (endpoint changed or blocked)"
   },
   "lv:atlassian": {
-   "count": 69,
+   "count": 74,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/atlassian?mode=json"
   },
   "themuse": {
-   "count": 76,
+   "count": 81,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0"
   }
  },
@@ -136,7 +137,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -154,7 +155,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8130876",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bangalore",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -169,13 +170,15 @@
   "id:https://interndoor.com/jobs/allstate-india-intern-4484858917": {
    "alerted_at": "2026-11-10T19:11:49+00:00",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Allstate India",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-10T19:11:49+00:00",
    "id": "id:https://interndoor.com/jobs/allstate-india-intern-4484858917",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T17:52:43+00:00",
    "posted_kind": "listed",
@@ -199,7 +202,7 @@
    "desc": "",
    "first_seen": "2026-11-05T10:19:00+00:00",
    "id": "id:https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769",
-   "last_checked": "2026-11-10T18:02:26+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-05T11:24:51+00:00",
    "location": "Bengaluru, KA, India",
    "posted": "2026-11-05T05:44:11+00:00",
@@ -223,7 +226,7 @@
    "desc": "",
    "first_seen": "2026-11-07T13:28:53+00:00",
    "id": "id:https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052",
-   "last_checked": "2026-11-10T18:02:26+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-09T20:59:32+00:00",
    "location": "Bengaluru, KA, India",
    "posted": "2026-11-07T11:20:12+00:00",
@@ -248,7 +251,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "id:https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163",
-   "last_checked": "2026-11-10T18:02:26+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bengaluru, KA, India",
    "posted": "2026-11-09T14:59:18+00:00",
@@ -321,7 +324,7 @@
    "elite": false,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "id:https://interndoor.com/jobs/bnp-paribas-data-science-intern-4488835858",
-   "last_checked": "2026-11-10T18:02:26+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-09T10:34:39+00:00",
@@ -346,8 +349,8 @@
    "elite": false,
    "first_seen": "2026-11-10T18:01:49+00:00",
    "id": "id:https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786",
-   "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T12:09:17+00:00",
    "posted_kind": "listed",
@@ -440,7 +443,7 @@
    "desc": "",
    "first_seen": "2026-11-05T10:19:00+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-06T00:01:52+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-05T10:04:30+00:00",
@@ -463,7 +466,7 @@
    "desc": "",
    "first_seen": "2026-11-05T17:37:01+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-06T00:01:52+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-05T16:03:23+00:00",
@@ -488,7 +491,7 @@
    "elite": false,
    "first_seen": "2026-11-10T10:10:01+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-10T23:36:49+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T09:48:51+00:00",
@@ -512,7 +515,7 @@
    "desc": "",
    "first_seen": "2026-11-06T19:40:22+00:00",
    "id": "id:https://interndoor.com/jobs/irdeto-soc-intern-4488194751",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-08T01:25:23+00:00",
    "location": "Noida, Uttar Pradesh, India",
    "posted": "2026-11-06T17:59:56+00:00",
@@ -538,7 +541,7 @@
    "first_seen": "2026-11-10T18:01:49+00:00",
    "id": "id:https://interndoor.com/jobs/sigmoid-de-intern-sde-trainee-off-campus-hiring-2026-ats-greenhouse-sigmoid-8927991002",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru",
    "posted": "2026-11-10T10:39:25+00:00",
    "posted_kind": "listed",
@@ -561,7 +564,7 @@
    "desc": "",
    "first_seen": "2026-11-06T19:40:22+00:00",
    "id": "id:https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-08T07:52:20+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-06T18:05:49+00:00",
@@ -578,13 +581,14 @@
   },
   "id:https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338": {
    "baseline": false,
-   "closed_strikes": 1,
+   "closed_at": "2026-11-11T05:22:36+00:00",
+   "closed_strikes": 2,
    "company": "SPACE",
    "deadline": "",
    "desc": "",
    "first_seen": "2026-11-06T14:37:41+00:00",
    "id": "id:https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-06T14:37:41+00:00",
    "location": "West Delhi, Delhi, India",
    "posted": "2026-11-06T11:26:37+00:00",
@@ -592,7 +596,7 @@
    "reason": "",
    "score": 4,
    "src": "interndoor",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Astronomy Events Intern",
@@ -656,7 +660,7 @@
    "first_seen": "2026-11-10T18:01:49+00:00",
    "id": "id:https://interndoor.com/jobs/thales-embedded-software-intern-4489623386",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T17:37:22+00:00",
    "posted_kind": "listed",
@@ -681,7 +685,7 @@
    "first_seen": "2026-11-10T18:01:49+00:00",
    "id": "id:https://interndoor.com/jobs/thales-software-intern-4489615629",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T17:38:49+00:00",
    "posted_kind": "listed",
@@ -768,7 +772,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -787,7 +791,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -826,7 +830,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -840,6 +844,7 @@
    "verifiable": true
   },
   "is:https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com": {
+   "closed_at": "2026-11-11T05:22:16+00:00",
    "company": "Qualcomm",
    "deadline": "",
    "desc": "",
@@ -851,7 +856,7 @@
    "reason": "",
    "score": 7,
    "src": "internscan",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Interim Engineering Intern_2027_SW",
@@ -864,7 +869,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -903,7 +908,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -922,7 +927,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -941,7 +946,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -960,7 +965,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -979,7 +984,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -998,7 +1003,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1017,7 +1022,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1084,8 +1089,8 @@
    "desc": "",
    "first_seen": "2026-11-06T00:01:52+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W",
-   "last_checked": "2026-11-10T14:24:23+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-24",
    "posted_kind": "listed",
@@ -1107,7 +1112,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
@@ -1130,7 +1135,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W",
-   "last_checked": "2026-11-10T14:24:23+00:00",
+   "last_checked": "2026-11-11T05:22:36+00:00",
    "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
@@ -1168,21 +1173,20 @@
   },
   "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W": {
    "baseline": false,
-   "closed_at": "2026-11-10T18:01:49+00:00",
    "company": "Visa",
    "deadline": "",
    "desc": "",
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W",
-   "last_seen": "2026-11-10T10:10:01+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
    "reason": "",
    "score": 7,
    "src": "wd:visa/Visa_Talent_Portal",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W",
@@ -1190,21 +1194,20 @@
   },
   "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W": {
    "baseline": false,
-   "closed_at": "2026-11-10T18:01:49+00:00",
    "company": "Visa",
    "deadline": "",
    "desc": "",
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W",
-   "last_seen": "2026-11-10T10:10:01+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
    "reason": "",
    "score": 7,
    "src": "wd:visa/Visa_Talent_Portal",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W",
@@ -1218,7 +1221,7 @@
    "elite": true,
    "first_seen": "2026-11-09T10:23:06+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1239,7 +1242,7 @@
    "elite": true,
    "first_seen": "2026-11-09T02:39:01+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1262,7 +1265,7 @@
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084566W",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1285,7 +1288,7 @@
    "first_seen": "2026-11-08T19:28:59+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W",
    "last_checked": "2026-11-10T18:02:26+00:00",
-   "last_seen": "2026-11-10T23:36:49+00:00",
+   "last_seen": "2026-11-11T05:42:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-10",
    "posted_kind": "listed",
@@ -1299,7 +1302,7 @@
    "verifiable": false
   }
  },
- "last_digest": "2026-11-10",
+ "last_digest": "2026-11-11",
  "programs": {
   "Adobe Codiva (women)": {
    "init": true,
@@ -1333,7 +1336,9 @@
   },
   "Atlassian internship (India)": {
    "init": true,
-   "news_seen": [],
+   "news_seen": [
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUTNud25OUlREVy1udVU1MnNwSU5yTXhpcnJtR0pMMlpDVnZGcjBkWFMta0w0NG1tbXRCbUdzMk1aakJMQVZPM1VYWDVld0IzSkpUSGh1NFIzNWNSYUJGRGdtRnd1R1FCbXl2c1NMMEJfU1VuOGF2NzgyU1N3S1h5S3ZuNDJaN2g0UmlnTmZtZmM?oc=5"
+   ],
    "pages": {}
   },
   "BNY Code Divas (women)": {
@@ -1569,7 +1574,12 @@
   "2026-11-10T23:21:49+00:00",
   "2026-11-10T23:26:49+00:00",
   "2026-11-10T23:31:49+00:00",
-  "2026-11-10T23:36:49+00:00"
+  "2026-11-10T23:36:49+00:00",
+  "2026-11-11T05:22:16+00:00",
+  "2026-11-11T05:27:16+00:00",
+  "2026-11-11T05:32:16+00:00",
+  "2026-11-11T05:37:16+00:00",
+  "2026-11-11T05:42:16+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1578,15 +1588,15 @@
   },
   "ab:notion": {
    "capped": false,
-   "fetched": 155
+   "fetched": 156
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 829
+   "fetched": 827
   },
   "ab:ramp": {
    "capped": false,
-   "fetched": 177
+   "fetched": 176
   },
   "ab:replit": {
    "capped": false,
@@ -1598,11 +1608,11 @@
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 202
+   "fetched": 199
   },
   "gh:anthropic": {
    "capped": false,
-   "fetched": 679
+   "fetched": 677
   },
   "gh:asana": {
    "capped": false,
@@ -1614,11 +1624,11 @@
   },
   "gh:cloudflare": {
    "capped": false,
-   "fetched": 471
+   "fetched": 473
   },
   "gh:coinbase": {
    "capped": false,
-   "fetched": 284
+   "fetched": 286
   },
   "gh:databricks": {
    "capped": false,
@@ -1646,7 +1656,7 @@
   },
   "gh:figma": {
    "capped": false,
-   "fetched": 144
+   "fetched": 142
   },
   "gh:gitlab": {
    "capped": false,
@@ -1666,7 +1676,7 @@
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 165
+   "fetched": 164
   },
   "gh:reddit": {
    "capped": false,
@@ -1690,11 +1700,11 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 777
+   "fetched": 780
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 127
+   "fetched": 125
   },
   "gh:vercel": {
    "capped": false,
@@ -1710,7 +1720,7 @@
   },
   "internscan": {
    "capped": false,
-   "fetched": 19
+   "fetched": 18
   },
   "lv:cred": {
    "capped": false,
@@ -1730,7 +1740,7 @@
   },
   "lv:spotify": {
    "capped": false,
-   "fetched": 85
+   "fetched": 86
   },
   "wd:adobe/external_experienced": {
    "capped": false,

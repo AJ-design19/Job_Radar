@@ -191,85 +191,67 @@ _WD = re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2
 WD_PAGES = 5  # default: 5 x 20 = 100 postings per site (override with pages: in config)
 
 
-def _wd_posted(text):
-    """Workday only says 'Posted 3 Days Ago'. Turn it into a date (India time)."""
+def _wd_age(text):
+    """Workday only says 'Posted 3 Days Ago'. Returns (date or '', older_than_30_days)."""
     t = (text or "").lower()
+    if "30+" in t:
+        return "", True  # '30+ days ago' is NOT a date: never invent one
     if "today" in t:
         days = 0
     elif "yesterday" in t:
         days = 1
     else:
-        m = re.search(r"(\d+)\+?\s*day", t)
+        m = re.search(r"(\d+)\s*day", t)
         if not m:
-            return ""
+            return "", False
         days = int(m.group(1))
     ist = timezone(timedelta(hours=5, minutes=30))
-    return (datetime.now(ist).date() - timedelta(days=days)).isoformat()
+    return (datetime.now(ist).date() - timedelta(days=days)).isoformat(), False
 
 
-def _wd_india_facet(data):
-    """Find the 'India' value of the country facet in a Workday search response -> (facetParameter, id) or None."""
-    def walk(node):
-        if isinstance(node, dict):
-            fp, vals = str(node.get("facetParameter", "")), node.get("values")
-            if "country" in fp.lower() and isinstance(vals, list):
-                for v in vals:
-                    if isinstance(v, dict) and str(v.get("descriptor", "")).strip().lower() == "india" and v.get("id"):
-                        return fp, v["id"]
-            for v in node.values():
-                r = walk(v)
-                if r:
-                    return r
-        elif isinstance(node, list):
-            for v in node:
-                r = walk(v)
-                if r:
-                    return r
-        return None
-    return walk(data.get("facets"))
+def _wd_posted(text):
+    return _wd_age(text)[0]
+
+
+WD_SEARCHES = ["intern india", "intern bangalore"]  # global lists hide India roles: ask Workday for India directly
+LAST_NOTES = {}  # source -> short explanation shown in the report
 
 
 def workday(entry):
-    """entry: a Workday careers URL, or {url, name, search, pages, india}. Reads the public job-search endpoint behind the page."""
+    """entry: a Workday careers URL, or {url, name, searches, pages}. Reads the public job-search endpoint behind the page."""
     e = entry if isinstance(entry, dict) else {"url": entry}
     m = _WD.match(e["url"])
     if not m:
         raise ValueError("not a Workday careers URL")
     tenant, wd, site = m.groups()
     base = f"https://{tenant}.{wd}.myworkdayjobs.com"
-    pages = int(e.get("pages", WD_PAGES))
-
-    def call(offset, facets):
-        r = requests.post(f"{base}/wday/cxs/{tenant}/{site}/jobs", timeout=TIMEOUT,
-                          headers={**UA, "Content-Type": "application/json", "Accept": "application/json"},
-                          json={"appliedFacets": facets, "limit": 20, "offset": offset,
-                                "searchText": e.get("search", "intern")})
-        r.raise_for_status()
-        return r.json()
-
-    first, facets = call(0, {}), {}
-    if e.get("india", True):  # keep only India postings, so a long global list cannot push India roles out of view
-        found = _wd_india_facet(first)
-        if found:
-            try:
-                applied = {found[0]: [found[1]]}
-                first, facets = call(0, applied), applied
-            except Exception:
-                pass  # facet rejected: carry on with the unfiltered list
-    out = []
-    for page in range(pages):
-        data = first if page == 0 else call(page * 20, facets)
-        posts = data.get("jobPostings") or []
-        for p in posts:
-            path = p.get("externalPath") or ""
-            if not path:
-                continue
-            out.append(_job(f"wd:{tenant}:{site}:{path}", p.get("title"), e.get("name") or tenant.title(),
-                            p.get("locationsText"), f"{base}/en-US/{site}{path}", _wd_posted(p.get("postedOn")),
-                            kind="listed"))
-        if len(posts) < 20:
-            break
-    capped = len(out) >= pages * 20  # list was cut off: a missing job proves nothing
+    pages = int(e.get("pages", 3))
+    seen, out, notes, capped = set(), [], [], False
+    for term in e.get("searches", WD_SEARCHES):
+        got = 0
+        for page in range(pages):
+            r = requests.post(f"{base}/wday/cxs/{tenant}/{site}/jobs", timeout=TIMEOUT,
+                              headers={**UA, "Content-Type": "application/json", "Accept": "application/json"},
+                              json={"appliedFacets": {}, "limit": 20, "offset": page * 20, "searchText": term})
+            r.raise_for_status()
+            posts = r.json().get("jobPostings") or []
+            for p in posts:
+                path = p.get("externalPath") or ""
+                if not path or path in seen:
+                    continue
+                seen.add(path)
+                got += 1
+                posted, old = _wd_age(p.get("postedOn"))
+                job = _job(f"wd:{tenant}:{site}:{path}", p.get("title"), e.get("name") or tenant.title(),
+                           p.get("locationsText"), f"{base}/en-US/{site}{path}", posted, kind="listed")
+                job["old"] = old
+                out.append(job)
+            if len(posts) < 20:
+                break
+            if page == pages - 1:
+                capped = True  # this search had more results than we read
+        notes.append(f"'{term}' {got}")
+    LAST_NOTES[f"wd:{tenant}/{site}"] = "searches: " + ", ".join(notes)
     for j in out:
         j["capped"] = capped
     return out
@@ -289,29 +271,88 @@ def _amazon_date(s):
 
 
 def amazon(cfg):
-    """amazon.jobs search endpoint behind the careers site. Qualifications text is included, so the batch check works."""
-    pages, out = int(cfg.get("pages", 3)), []
-    for page in range(pages):
-        data = _get("https://www.amazon.jobs/en/search.json", params={
-            "base_query": cfg.get("query", "intern"), "loc_query": "India", "country": "IND",
-            "sort": "recent", "result_limit": 100, "offset": page * 100}).json()
-        jobs = data.get("jobs") or []
-        for j in jobs:
-            path = j.get("job_path") or ""
-            if not path:
-                continue
-            text = " ".join(str(j.get(k) or "") for k in ("basic_qualifications", "description_short", "preferred_qualifications"))
-            out.append(_job(f"am:{j.get('id_icims') or path}", j.get("title"), "Amazon",
-                            j.get("normalized_location") or j.get("location"), "https://www.amazon.jobs" + path,
-                            _amazon_date(j.get("posted_date")), re.sub(r"<[^>]+>", " ", html.unescape(text)),
-                            kind="posted"))
-        if len(jobs) < 100:
-            break
+    """amazon.jobs search endpoint behind the careers site. Qualifications text is included, so the batch check works.
+    Tries several query forms (the site changes them) and uses the first that returns jobs."""
+    base_q = cfg.get("query", "intern")
+    variants = [
+        {"base_query": base_q, "loc_query": "India", "country": "IND"},
+        {"base_query": base_q, "normalized_country_code[]": "IND"},
+        {"base_query": base_q + " india"},
+        {"base_query": base_q, "loc_query": "India"},
+    ]
+    pages, notes = int(cfg.get("pages", 3)), []
+    for v in variants:
+        out = []
+        for page in range(pages):
+            try:
+                data = _get("https://www.amazon.jobs/en/search.json",
+                            params={**v, "sort": "recent", "result_limit": 100, "offset": page * 100}).json()
+            except Exception as e:
+                notes.append(f"{type(e).__name__}")
+                break
+            jobs = data.get("jobs") or []
+            if not jobs and page == 0:
+                notes.append(f"0 jobs (keys {list(data)[:5]}, hits {data.get('hits')})")
+            for j in jobs:
+                path = j.get("job_path") or ""
+                if not path:
+                    continue
+                text = " ".join(str(j.get(k) or "") for k in ("basic_qualifications", "description_short", "preferred_qualifications"))
+                out.append(_job(f"am:{j.get('id_icims') or path}", j.get("title"), "Amazon",
+                                j.get("normalized_location") or j.get("location"), "https://www.amazon.jobs" + path,
+                                _amazon_date(j.get("posted_date")), re.sub(r"<[^>]+>", " ", html.unescape(text)),
+                                kind="posted"))
+            if len(jobs) < 100:
+                break
+        if out:
+            LAST_NOTES["amazon"] = f"query form {variants.index(v) + 1} worked"
+            capped = len(out) >= pages * 100
+            for j in out:
+                j["capped"] = capped
+            return out
+    raise ValueError("no results from any query form: " + "; ".join(notes)[:200])
+
+
+def atlassian(cfg):
+    """Atlassian's careers listing feed (best effort: shows under Source problems if the address changed)."""
+    data = _get(cfg.get("url", "https://www.atlassian.com/endpoint/careers/listings")).json()
+    rows = data if isinstance(data, list) else (data.get("jobs") or data.get("listings") or [])
+    out = []
+    for j in rows:
+        jid = j.get("id") or (j.get("portalJobPost") or {}).get("id")
+        if not jid:
+            continue
+        locs = j.get("locations") or j.get("location") or ""
+        locs = ", ".join(locs) if isinstance(locs, list) else str(locs)
+        out.append(_job(f"at:{jid}", j.get("title"), "Atlassian", locs, f"https://www.atlassian.com/company/careers/details/{jid}",
+                        (j.get("portalJobPost") or {}).get("updatedDate"), "", kind="updated"))
     if not out:
-        raise ValueError("no results (endpoint changed or blocked)")
-    capped = len(out) >= pages * 100
-    for j in out:
-        j["capped"] = capped
+        raise ValueError("no listings (feed address changed?)")
+    return out
+
+
+def interndoor_detail(url):
+    """Open an InternDoor listing, find the company's own apply link, and read that page (batch, pay)."""
+    try:
+        r = requests.get(url, headers=UA, timeout=TIMEOUT)
+        r.raise_for_status()
+    except Exception:
+        return {}
+    out = {}
+    for a in re.finditer(r"(?is)<a\s[^>]*?href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", r.text):
+        href, label = html.unescape(a.group(1)).strip(), re.sub(r"<[^>]+>", " ", a.group(2))
+        if href.startswith("http") and "interndoor.com" not in href and (re.search(r"apply", label, re.I) or "interndoor" in href.lower()):
+            out["apply_url"] = href
+            break
+    if out.get("apply_url"):
+        try:
+            r2 = requests.get(out["apply_url"], headers=UA, timeout=TIMEOUT, allow_redirects=True)
+            if r2.status_code < 400:
+                t = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", r2.text)
+                t = re.sub(r"<[^>]+>", " ", t)
+                out["desc"] = re.sub(r"\s+", " ", html.unescape(t))[:4000]
+        except Exception:
+            pass
     return out
 
 
@@ -372,13 +413,13 @@ def collect_all(cfg):
                 continue
             ok.add(key)
             capped = any([j.pop("capped", False) for j in res])  # list cut off: absence proves nothing
-            LAST_STATS[key] = {"fetched": len(res), "capped": capped}
+            LAST_STATS[key] = {"fetched": len(res), "capped": capped, "note": LAST_NOTES.pop(key, "")}
             for j in res:
                 j.update(src=key, verifiable=not capped)
                 jobs.append(j)
 
     for name, fn in (("internscan", internscan), ("amazon", amazon), ("interndoor", interndoor), ("adzuna", adzuna),
-                     ("themuse", themuse)):
+                     ("themuse", themuse), ("atlassian", atlassian)):
         conf = cfg.get(name)
         if not conf or conf.get("enabled") is False:
             continue
@@ -387,9 +428,9 @@ def collect_all(cfg):
             if res is not None:
                 ok.add(name)
                 capped = any([j.pop("capped", False) for j in res])
-                LAST_STATS[name] = {"fetched": len(res), "capped": capped}
+                LAST_STATS[name] = {"fetched": len(res), "capped": capped, "note": LAST_NOTES.pop(name, "")}
                 for j in res:
-                    j.update(src=name, verifiable=(name in ("internscan", "amazon")) and not capped)
+                    j.update(src=name, verifiable=(name in ("internscan", "amazon", "atlassian")) and not capped)
                     jobs.append(j)
         except Exception as e:
             failed[name] = f"{type(e).__name__}: {str(e)[:100]}"

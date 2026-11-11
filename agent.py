@@ -2,6 +2,7 @@
 """Job Radar.   python agent.py scan | digest | test"""
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -13,12 +14,12 @@ import yaml
 
 import collectors as _collectors
 from programs import check_programs, discover
-from collectors import check_url, collect_all, greenhouse_detail, parse_pay
+from collectors import check_url, collect_all, greenhouse_detail, interndoor_detail, parse_pay
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
                     program_markdown, program_push_text, fmt_dt, opportunities_markdown)
 from scoring import (heuristic_score, is_elite, llm_enrich, passes_batch, passes_filters, passes_pay,
-                     watch_name)
+                     passes_title_rules, watch_name)
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "state.json"
@@ -109,6 +110,8 @@ def scan(cfg, state, news=True):
     new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
     seen, new_jobs, llm_calls, detail_calls = set(), [], 0, 0
     watchlist = cfg.get("watchlist") or []
+    for jid in [k for k, r in state["jobs"].items() if r["status"] == "open" and not passes_title_rules(r, profile)]:
+        del state["jobs"][jid]  # stored before the filters were tightened (hardware, graduate programs, design...)
     if not state.get("fix_watchlist"):  # jobs earlier rejected by score may now qualify as watchlist roles
         state["rejected"] = {}
         state["fix_watchlist"] = True
@@ -131,6 +134,9 @@ def scan(cfg, state, news=True):
                 continue  # try again next run
             detail_calls += 1
             j.update(greenhouse_detail(j["src"][3:], j["id"].rsplit(":", 1)[1]))
+        elif j["src"] == "interndoor" and detail_calls < MAX_DETAIL_CALLS:
+            detail_calls += 1
+            j.update(interndoor_detail(j["url"]))  # apply_url + the company page text
         if j.get("stipend_inr_month") is None:
             j["stipend_inr_month"] = parse_pay(j.get("desc", ""))
         score = heuristic_score(j, profile)
@@ -149,7 +155,7 @@ def scan(cfg, state, news=True):
             elif isinstance(extra.get("score"), (int, float)):
                 score = round((score + extra["score"]) / 2)
         pd = posted_dt(j.get("posted"))
-        recent = bool(pd and now() - pd <= timedelta(days=acfg.get("catchup_days", 7)))
+        recent = bool(pd and not j.get("old") and now() - pd <= timedelta(days=acfg.get("catchup_days", 7)))
         # a newly added source: its RECENT postings still alert (you want to hear about them), old ones are baseline
         baseline = first_run or (j["src"] in new_srcs and not recent)
         rec = {**j, "desc": "", "score": score, "reason": extra.get("reason", ""), "deadline": extra.get("deadline") or "",
@@ -160,7 +166,7 @@ def scan(cfg, state, news=True):
         already = fp in alerted  # re-posted under a new id? it is the same hiring: no second alert
         alerted.setdefault(fp, ts)
         pd = posted_dt(j.get("posted"))
-        fresh = not (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14)))  # old posting: report only
+        fresh = not (j.get("old") or (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14))))  # old: report only
         if status == "open" and (score >= acfg["instant_min_score"] or wn) and not baseline and not already and fresh:
             new_jobs.append(rec)
 
@@ -247,7 +253,17 @@ def digest(cfg, state):
     check_watch(cfg, state, iso(n))
 
     jobs = list(state["jobs"].values())
-    open_jobs = [r for r in jobs if r["status"] == "open"]
+    raw_open = [r for r in jobs if r["status"] == "open"]
+    best = {}
+    for r in raw_open:  # the same role listed several times (re-posts, several requisitions) is shown once, with a count
+        k = (fingerprint(r), re.sub(r"[^a-z0-9]", "", (r.get("location") or "").lower()))
+        if k not in best:
+            best[k] = dict(r, copies=1)
+        else:
+            keep = best[k] if best[k].get("first_seen", "") >= r.get("first_seen", "") else dict(r, copies=1)
+            keep["copies"] = best[k]["copies"] + 1
+            best[k] = keep
+    open_jobs = list(best.values())
     max_age = timedelta(days=cfg["alerts"].get("max_age_days", 14))
 
     def fresh(r):  # genuinely new: found in the last 24h, not a baseline of a new source, not an old posting
@@ -288,7 +304,7 @@ def digest(cfg, state):
     for k in sorted(plain):
         st_ = state["source_stats"][k]
         matched = sum(1 for r in open_jobs if r.get("src") == k)
-        note = f"{st_['fetched']} postings read, {matched} match you"
+        note = f"{st_['fetched']} postings read, {matched} match you" + (f" ({st_['note']})" if st_.get("note") else "")
         if st_.get("capped"):
             note += " (list cut off at the page limit)"
         sources.append((k, note))
@@ -300,7 +316,7 @@ def digest(cfg, state):
     if len(stamps) >= 2:
         gap = max(b - a for a, b in zip(stamps, stamps[1:]))
         h, m = divmod(int(gap.total_seconds() // 60), 60)
-        sources.append(("scan timing", f"{len(stamps)} scans in the last 24h, longest gap {h}h {m}m (set to run every 10 minutes)"))
+        sources.append(("scan timing", f"{len(stamps)} scans in the last 24h, longest gap {h}h {m}m (the radar loop aims for one every 5 minutes)"))
     opps = opportunity_sections(cfg, n.astimezone(IST).month)
 
     def live_for(match):  # the actual job links the radar can see for these companies
@@ -319,6 +335,8 @@ def digest(cfg, state):
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
     (rdir / "latest.md").write_text(md, encoding="utf-8")
+    issue_md = md if len(md) < 60000 else md[:60000] + "\n\n_(shortened for GitHub; full report in reports/latest.md)_"
+    (rdir / "issue.md").write_text(issue_md, encoding="utf-8")
     (rdir / "opportunities.md").write_text(opportunities_markdown(opps, date_str, women), encoding="utf-8")
     (rdir / f"{n.astimezone(IST).strftime('%Y-%m-%d')}.md").write_text(md, encoding="utf-8")
     for old in sorted(rdir.glob("20*.md"))[:-14]:  # keep the last 14 days
@@ -365,7 +383,7 @@ def post_issues():
 
 
 def post_report_issue(date_str):
-    latest = ROOT / "reports" / "latest.md"
+    latest = ROOT / "reports" / "issue.md"
     if os.getenv("GH_TOKEN") and latest.exists():
         subprocess.run(["gh", "issue", "create", "--title", f"📋 Job Radar report {date_str}", "--body-file", str(latest)],
                        check=False, cwd=ROOT)

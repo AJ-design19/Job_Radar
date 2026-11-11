@@ -39,7 +39,9 @@ def _when(j):
     """Posted / detected / alert-sent times for one job."""
     parts = []
     p = fmt_dt(j.get("posted"))
-    if p:
+    if j.get("old"):
+        parts.append("posted 30+ days ago")
+    elif p:
         parts.append(f"{'last updated' if j.get('posted_kind') == 'updated' else 'posted'} {p}")
     if fmt_dt(j.get("first_seen")):
         parts.append(f"detected {fmt_dt(j['first_seen'])}")
@@ -139,7 +141,7 @@ def telegram_job_text(j):
     dl += f"\nStipend: {_pay(j)}" if _pay(j) else ""
     when = f"\n🕒 {_e(_when(j))}" if _when(j) else ""
     return (f"🔔 <b>{_hot(j)}{_e(j['title'])}</b>\n{_e(j['company'])} · {_e(j['location'] or '-')} · match {j['score']}/10"
-            f"{dl}{when}{extra}\n{_e(j['url'])}")
+            f"{dl}{when}{extra}\n{_e(j.get('apply_url') or j['url'])}")
 
 
 def _pay(j):
@@ -160,7 +162,7 @@ def _job_html(j):
     reason = f"<br><span style='color:#777;font-size:13px'>{_e(j['reason'])}</span>" if j.get("reason") else ""
     when = f"<br><span style='color:#777;font-size:13px'>🕒 {_e(_when(j))}</span>" if _when(j) else ""
     return (f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'>"
-            f"<a href='{_e(j['url'])}' style='font-weight:600;color:#1a56db;text-decoration:none'>{_hot(j)}{_e(j['title'])}</a>"
+            f"<a href='{_e(j.get('apply_url') or j['url'])}' style='font-weight:600;color:#1a56db;text-decoration:none'>{_hot(j)}{_e(j['title'])}</a>"
             f"<br><span style='color:#555;font-size:14px'>{_e(' · '.join(bits))}</span>{when}{reason}</td></tr>")
 
 
@@ -257,9 +259,11 @@ def _md_job(j):
     extra = f" - {j['reason']}" if j.get("reason") else ""
     dl = f" · deadline **{j['deadline']}**" if j.get("deadline") else ""
     dl += f" · {_pay(j)}" if _pay(j) else ""
-    url = str(j["url"]).replace(" ", "%20").replace(")", "%29")
+    url = str(j.get("apply_url") or j["url"]).replace(" ", "%20").replace(")", "%29")
     when = f"\n  - 🕒 {_when(j)}" if _when(j) else ""
-    return f"- [{_hot(j)}{title}]({url}) - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}{when}"
+    listing = f" · [listing]({j['url']})" if j.get("apply_url") and j["apply_url"] != j["url"] else ""
+    copies = f" · ×{j['copies']} listings" if j.get("copies", 1) > 1 else ""
+    return f"- [{_hot(j)}{title}]({url}){listing}{copies} - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}{when}"
 
 
 def _mention():
@@ -324,13 +328,13 @@ def digest_markdown(date_str, stats, new24, soon, closed24, watch, failures, by_
     if women:
         L += ["## 👩\u200d💻 Programs for women (all watched)"] + [_opp_line(o) for o in women] + [""]
     if programs:
-        L += ["## 🎯 Programs being watched"] + [f"- **{n}** - {d}" for n, d in programs] + [""]
+        L += ["<details><summary><b>🎯 Programs being watched (%d)</b></summary>" % len(programs), ""] + [f"- **{n}** - {d}" for n, d in programs] + ["", "</details>", ""]
     if closed24:
         L += ["## Closed since yesterday"] + [_md_job(j) for j in closed24[:15]] + [""]
     if watch:
         L += ["## Watchlist"] + [f"- **{n}**: {w['status'].upper()} ({w['note']})" for n, w in watch.items()] + [""]
     if sources:
-        L += ["## 📡 What the radar read this run"] + [f"- `{k}`: {d}" for k, d in sources] + [""]
+        L += ["<details><summary><b>📡 What the radar read this run</b></summary>", ""] + [f"- `{k}`: {d}" for k, d in sources] + ["", "</details>", ""]
     if failures:
         L += ["## Source problems (check slug / network)"] + [f"- `{k}`: {v['error']} (x{v['count']})"
                                                                for k, v in failures.items()]

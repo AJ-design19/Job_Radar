@@ -43,7 +43,7 @@ alerts:
 # A wrong slug is harmless: it shows up under "Source problems" in the digest.
 companies:
   greenhouse: [rubrik, stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta, anthropic, reddit, pinterest, lyft, asana, vercel, scaleai, dropbox, duolingo, samsara, carta, webflow]
-  lever: [palantir, spotify, cred, meesho, paytm, atlassian]
+  lever: [palantir, spotify, cred, meesho, paytm]
   ashby: [openai, notion, ramp, linear, replit, supabase]
   # Workday employers (big companies run their careers sites on Workday). Each line is one careers site.
   # Add more: open the company's careers page, copy the address that contains ".myworkdayjobs.com", paste it as url.
@@ -90,9 +90,13 @@ amazon:
   query: intern
   pages: 3
 
+# Atlassian: reads their careers listing feed (best effort; a wrong address shows under Source problems).
+atlassian:
+  enabled: true
+
 # The Muse: free, no key. Lists internships from hundreds of companies.
 themuse:
-  enabled: true
+  enabled: false   # its API address now returns 404 (and it lists few India roles)
   pages: 5
 
 # Pages with no API (Google, Microsoft, a specific posting...). You get an alert when

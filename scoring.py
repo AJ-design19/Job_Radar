@@ -19,6 +19,14 @@ def _loc_ok(loc, profile):
     return any(_has(loc, k) for k in locs)  # whole-word match: "Indiana" does not match "india"
 
 
+def passes_title_rules(job, profile):
+    """Only the include/exclude keyword rules (used to clean up jobs stored before the rules were tightened)."""
+    title = job["title"].lower()
+    if any(_has(title, k) for k in profile["exclude_keywords"]):
+        return False
+    return any(_has(title, k) for k in profile["include_keywords"])
+
+
 def passes_filters(job, profile):
     """Cheap title + location checks (no network)."""
     title = job["title"].lower()

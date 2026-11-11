@@ -127,16 +127,7 @@
    }
   ]
  },
- "failures": {
-  "lv:meesho": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  },
-  "lv:paytm": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  }
- },
+ "failures": {},
  "fix_interndoor_closed": true,
  "fix_watchlist": true,
  "initialized": true,
@@ -147,7 +138,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -169,7 +160,7 @@
    "elite": true,
    "first_seen": "2026-11-11T18:58:29+00:00",
    "id": "id:https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Greater Kolkata Area",
    "posted": "2026-11-11T17:38:24+00:00",
    "posted_kind": "listed",
@@ -507,7 +498,7 @@
    "elite": false,
    "first_seen": "2026-11-11T12:47:50+00:00",
    "id": "id:https://interndoor.com/jobs/harman-india-intern-connectivity-4488207839",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T11:45:42+00:00",
    "posted_kind": "listed",
@@ -653,7 +644,7 @@
    "elite": false,
    "first_seen": "2026-11-11T12:47:50+00:00",
    "id": "id:https://interndoor.com/jobs/sanas-ml-da-intern-4489948266",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-11T12:07:58+00:00",
    "posted_kind": "listed",
@@ -864,7 +855,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -883,7 +874,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -922,7 +913,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -961,7 +952,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1000,7 +991,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1019,7 +1010,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1038,7 +1029,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1057,7 +1048,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1076,7 +1067,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1095,7 +1086,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1114,7 +1105,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-11T20:08:29+00:00",
+   "last_seen": "2026-11-11T20:28:29+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1828,7 +1819,11 @@
   "2026-11-11T19:53:29+00:00",
   "2026-11-11T19:58:29+00:00",
   "2026-11-11T20:03:29+00:00",
-  "2026-11-11T20:08:29+00:00"
+  "2026-11-11T20:08:29+00:00",
+  "2026-11-11T20:13:29+00:00",
+  "2026-11-11T20:18:29+00:00",
+  "2026-11-11T20:23:29+00:00",
+  "2026-11-11T20:28:29+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1968,7 +1963,7 @@
   },
   "gh:robinhood": {
    "capped": false,
-   "fetched": 155,
+   "fetched": 154,
    "note": ""
   },
   "gh:rubrik": {
@@ -1978,7 +1973,7 @@
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 313,
+   "fetched": 312,
    "note": ""
   },
   "gh:scaleai": {
@@ -2021,9 +2016,19 @@
    "fetched": 14,
    "note": ""
   },
+  "lv:meesho": {
+   "capped": false,
+   "fetched": 49,
+   "note": ""
+  },
   "lv:palantir": {
    "capped": false,
    "fetched": 303,
+   "note": ""
+  },
+  "lv:paytm": {
+   "capped": false,
+   "fetched": 201,
    "note": ""
   },
   "lv:spotify": {

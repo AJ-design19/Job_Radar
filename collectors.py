@@ -425,6 +425,8 @@ def collect_all(cfg, light=False):
         conf = cfg.get(name)
         if not conf or conf.get("enabled") is False:
             continue
+        if light and name not in ("interndoor", "amazon"):
+            continue  # fast lane: only the feeds that list new roles within minutes
         try:
             res = fn(conf)
             if res is not None:

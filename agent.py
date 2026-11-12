@@ -321,6 +321,15 @@ def digest(cfg, state):
         gap = max(b - a for a, b in zip(stamps, stamps[1:]))
         h, m = divmod(int(gap.total_seconds() // 60), 60)
         sources.append(("scan timing", f"{len(stamps)} scans in the last 24h, longest gap {h}h {m}m (the radar loop aims for one every 5 minutes)"))
+    delays = []
+    for r in jobs:  # how long after posting did the radar tell you? (only roles whose posting time is known)
+        pd = posted_dt(r.get("posted"))
+        if r.get("alerted_at") and parse(r["alerted_at"]) >= since and pd and "T" in str(r.get("posted")):
+            delays.append((parse(r["first_seen"]) - pd).total_seconds() / 60)
+    if delays:
+        delays.sort()
+        sources.append(("alert speed", f"{len(delays)} alerts in 24h: median {int(delays[len(delays) // 2])} min after posting, "
+                                       f"slowest {int(delays[-1])} min (target: under 15)"))
     opps = opportunity_sections(cfg, n.astimezone(IST).month)
 
     def live_for(match):  # the actual job links the radar can see for these companies
@@ -416,21 +425,26 @@ def active_burst(cfg, ist):
     return None
 
 
-def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=1200):
-    """Scan every `every` seconds for `minutes`. Job sources every round, news searches every `news_every`th round
-    (they are many requests), the daily report once after `digest_hour` India time."""
-    end, last_sync, i = time.time() + minutes * 60, time.time(), 0
-    print(f"[loop] scanning every {every}s for {minutes} min")
+def dispatch_next():
+    """Queue the next radar run right now (GitHub's own timer is too unreliable to hand over between runs)."""
+    if os.getenv("GH_TOKEN"):
+        subprocess.run(["gh", "workflow", "run", "radar.yml"], check=False, cwd=ROOT, capture_output=True)
+
+
+def loop(cfg, minutes=340, every=120, news_every=5, full_every=4, digest_hour=8, sync_every=1200):
+    """Two speeds. FAST lane every `every` seconds: the feeds that list new roles within minutes (InternDoor, Amazon).
+    FULL scan every `full_every`th round: all sources (Workday, company boards, InternScan...). News searches every
+    `news_every`th round. The daily report once after `digest_hour` India time. Hands over to the next run by itself."""
+    end, last_sync, i, handed = time.time() + minutes * 60, time.time(), 0, False
+    print(f"[loop] fast lane every {every}s, full scan every {full_every} rounds, for {minutes} min")
     while time.time() < end:
         t0 = time.time()
         burst = active_burst(cfg, datetime.now(IST))
-        gap = int(burst.get("every", 120)) if burst else every
+        gap = int(burst.get("every", every)) if burst else every
+        fe = int(burst.get("full_every", full_every)) if burst else full_every
         try:
             state = load_state()
-            if burst:  # fast feeds every couple of minutes, the slow full scan every Nth round
-                scan(cfg, state, news=True, light=(i % int(burst.get("full_every", 5)) != 0))
-            else:
-                scan(cfg, state, news=(i % news_every == 0))
+            scan(cfg, state, news=(i % news_every == 0 or bool(burst)), light=(i % fe != 0))
             ist = datetime.now(IST)
             if ist.hour >= digest_hour and state.get("last_digest") != ist.date().isoformat():
                 digest(cfg, state)
@@ -443,10 +457,15 @@ def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=12
         except Exception as e:  # one bad round must never stop the loop
             print(f"[loop] round {i} failed: {type(e).__name__}: {str(e)[:150]}")
         i += 1
+        if not handed and end - time.time() < 600:  # ten minutes before the end: queue the next run
+            dispatch_next()
+            handed = True
         if time.time() - last_sync > sync_every:
             git_sync("chore: update state [skip ci]")
             last_sync = time.time()
         time.sleep(max(5, gap - (time.time() - t0)))
+    if not handed:
+        dispatch_next()
     git_sync("chore: update state [skip ci]")
     print("[loop] finished this chunk; the next run takes over")
 

@@ -37,7 +37,7 @@ alerts:
   digest_min_score: 4     # jobs below this are ignored completely
   instant_min_score: 6    # jobs at/above this trigger an immediate alert (a top company, good stated pay or a 2028 mention gets you there)
   catchup_days: 7         # when you add a new source, postings from the last N days still alert once; older ones only go in the report
-  gap_alert_hours: 3      # if no scan ran for this long, send a 'radar was paused' notice
+  gap_alert_hours: 0.4    # if no scan ran for ~25 minutes, send a 'radar was paused' notice
   max_age_days: 14        # a posting older than this never triggers an instant alert and never counts as "new" in the report
 
 # Companies on public ATS boards (slug = the last part of their board URL).

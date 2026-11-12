@@ -388,7 +388,7 @@ def interndoor(cfg):
 LAST_STATS = {}  # source -> {fetched, capped} for the latest collect_all (shown in the daily report)
 
 
-def collect_all(cfg):
+def collect_all(cfg, light=False):
     """Returns (jobs, ok_sources, failed_sources). Only ATS sources are 'verifiable':
     if a job disappears from a board that loaded fine, it is closed."""
     comp = cfg.get("companies") or {}
@@ -396,6 +396,8 @@ def collect_all(cfg):
     tasks += [(f"lv:{s}", lever, s) for s in comp.get("lever") or []]
     tasks += [(f"ab:{s}", ashby, s) for s in comp.get("ashby") or []]
     tasks += [(workday_key(e), workday, e) for e in comp.get("workday") or []]
+    if light:  # burst mode: only the fast feeds (company boards and Workday change slowly and are many requests)
+        tasks = []
 
     def run(t):
         key, fn, arg = t

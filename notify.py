@@ -3,6 +3,7 @@ import html
 import os
 import re
 import smtplib
+import urllib.parse
 import ssl
 from datetime import datetime, timedelta, timezone
 from email.header import Header
@@ -140,6 +141,8 @@ def telegram_job_text(j):
     dl = f"\nDeadline: {_e(j['deadline'])}" if j.get("deadline") else ""
     dl += f"\nStipend: {_pay(j)}" if _pay(j) else ""
     when = f"\n🕒 {_e(_when(j))}" if _when(j) else ""
+    if _wants_referral(j):
+        when += f"\n🤝 Your connections there: {_e(referral_links(j['company'])[0])}"
     return (f"🔔 <b>{_hot(j)}{_e(j['title'])}</b>\n{_e(j['company'])} · {_e(j['location'] or '-')} · match {j['score']}/10"
             f"{dl}{when}{extra}\n{_e(j.get('apply_url') or j['url'])}")
 
@@ -147,6 +150,17 @@ def telegram_job_text(j):
 def _pay(j):
     p = j.get("stipend_inr_month")
     return f"₹{int(p):,}/month" if p else ""
+
+
+def referral_links(company):
+    """LinkedIn people-search links for your 1st- and 2nd-degree connections at a company (you open them yourself)."""
+    base = ("https://www.linkedin.com/search/results/people/?keywords=" + urllib.parse.quote(str(company))
+            + "&origin=FACETED_SEARCH&network=")
+    return base + "%5B%22F%22%5D", base + "%5B%22S%22%5D"
+
+
+def _wants_referral(j):
+    return bool(j.get("elite") or j.get("watch"))
 
 
 def _hot(j):
@@ -161,6 +175,9 @@ def _job_html(j):
         bits.append(f"deadline {j['deadline']}")
     reason = f"<br><span style='color:#777;font-size:13px'>{_e(j['reason'])}</span>" if j.get("reason") else ""
     when = f"<br><span style='color:#777;font-size:13px'>🕒 {_e(_when(j))}</span>" if _when(j) else ""
+    if _wants_referral(j):
+        u1, u2 = referral_links(j['company'])
+        when += f"<br><span style='font-size:13px'>🤝 <a href='{_e(u1)}'>your connections at {_e(j['company'])}</a> · <a href='{_e(u2)}'>2nd-degree</a></span>"
     return (f"<tr><td style='padding:10px 0;border-bottom:1px solid #eee'>"
             f"<a href='{_e(j.get('apply_url') or j['url'])}' style='font-weight:600;color:#1a56db;text-decoration:none'>{_hot(j)}{_e(j['title'])}</a>"
             f"<br><span style='color:#555;font-size:14px'>{_e(' · '.join(bits))}</span>{when}{reason}</td></tr>")
@@ -261,6 +278,9 @@ def _md_job(j):
     dl += f" · {_pay(j)}" if _pay(j) else ""
     url = str(j.get("apply_url") or j["url"]).replace(" ", "%20").replace(")", "%29")
     when = f"\n  - 🕒 {_when(j)}" if _when(j) else ""
+    if _wants_referral(j):
+        u1, u2 = referral_links(j['company'])
+        when += f"\n  - 🤝 [your connections at {j['company']}]({u1}) · [2nd-degree]({u2})"
     listing = f" · [listing]({j['url']})" if j.get("apply_url") and j["apply_url"] != j["url"] else ""
     copies = f" · ×{j['copies']} listings" if j.get("copies", 1) > 1 else ""
     return f"- [{_hot(j)}{title}]({url}){listing}{copies} - {j['company']} · {j['location'] or '-'} · **{j['score']}/10**{dl}{extra}{when}"

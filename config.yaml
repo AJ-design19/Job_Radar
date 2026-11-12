@@ -133,6 +133,7 @@ watchlist:
   - {name: Goldman Sachs, match: ["goldman sachs"]}
   - {name: Flipkart, match: [flipkart]}
   - {name: Walmart, match: [walmart]}
+  - {name: LinkedIn, match: [linkedin]}
   - {name: Stripe, match: [stripe]}
   - {name: Databricks, match: [databricks]}
 
@@ -281,6 +282,13 @@ programs:
     also_match: ["flipkart"]
     urls: []
 
+  - name: "LinkedIn internships (India)"
+    news: 'LinkedIn software engineering intern India 2027 applications'
+    must_match: ["linkedin"]
+    also_match: ["intern", "internship"]
+    cooldown_days: 2
+    urls: []
+
 # ---------------------------------------------------------------
 # OPPORTUNITY TRACKER: a hand-built map of well-paid internships for a 2028 graduate (3rd year) aiming at summer 2027.
 # Shown in the daily report and in reports/opportunities.md. Edit freely.
@@ -299,6 +307,7 @@ opportunities:
   - {name: "Uber Software Engineering Intern (India)", match: [uber], tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Uber careers", note: "radar watches news and InternScan/InternDoor"}
   - {name: "Adobe Summer Intern (India)", match: [adobe], tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "Adobe careers", note: "radar reads Adobe's main Workday site"}
   - {name: "Amazon SDE Intern (India)", match: [amazon], tier: A, batch: "current round: 2027 graduates, NOT your batch", months: [8, 9, 10], confidence: confirmed, where: "amazon.jobs", note: "6-month internship; radar reads amazon.jobs and flags a 2028-batch round"}
+  - {name: "LinkedIn Software Engineering Intern (Bengaluru)", match: [linkedin], tier: A, batch: "check posting (an earlier posting asked for 2027 graduates)", months: [12], confidence: typical, where: "LinkedIn careers; apply with LinkedIn Easy Apply", note: "you heard a live link opens for only 1 to 3 hours in December; I could not confirm that. Easy Apply uses your LinkedIn profile, so update it now. The radar polls every 2 minutes in December"}
   - {name: "Google Software Engineering Intern, Summer 2027", match: [google], tier: A, batch: "2027 and 2028 penultimate", months: [5, 6], confidence: reported, where: "Google careers", note: "applications closed around 28 Jun 2026; you are already in this process, so prepare. Next cycle opens around Jun 2027"}
   - {name: "Meta, Apple, Netflix, OpenAI internships", match: [meta, apple, netflix, openai], tier: A, batch: "check posting", months: [8, 9, 10, 11, 12], confidence: typical, where: "each company's careers site", note: "India internships are rare; the radar keeps checking and watches news"}
   - {name: "Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver", match: ["de shaw", "d e shaw", "tower research", graviton, arcesium, optiver], tier: A, batch: "check posting", months: [8, 9, 10, 11, 12, 1], confidence: typical, where: "each firm's careers page", note: "among the highest paid; strong DSA and competitive programming helps"}
@@ -353,3 +362,10 @@ discovery:
     - 'hackathon for women engineers India 2028 batch registrations'
     - 'scholarship internship programme women computer science students India 2027'
   exclude: [certificate, scam, fake, course, webinar, "free internship", "work from home", "paid course", fee]
+
+# ---------------------------------------------------------------
+# BURST WINDOWS: dates when something may open for only a few hours. Inside the window the radar polls the fast feeds
+# (InternScan, InternDoor, Amazon, news) every `every` seconds and runs the full scan every `full_every`th round.
+# ---------------------------------------------------------------
+burst:
+  - {name: "LinkedIn software engineering internship window", start: "2026-12-01", end: "2026-12-31", every: 120, full_every: 5}

@@ -83,7 +83,7 @@ def check_watch(cfg, state, ts):
     return changes
 
 
-def scan(cfg, state, news=True):
+def scan(cfg, state, news=True, light=False):
     ts = iso(now())
     log = state.setdefault("scan_log", [])  # when each scan really ran: shows how late GitHub's timer is
     gap_note = ""
@@ -104,7 +104,7 @@ def scan(cfg, state, news=True):
     for f in (ROOT / "out").glob("alert*"):
         f.unlink()
     profile, acfg = cfg["profile"], cfg["alerts"]
-    jobs, ok, failed = collect_all(cfg)
+    jobs, ok, failed = collect_all(cfg, light=True) if light else collect_all(cfg)
     first_run = not state.get("initialized")
     known = set(state.get("sources_seen", []))
     new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
@@ -177,9 +177,12 @@ def scan(cfg, state, news=True):
             rec["status"], rec["closed_at"] = "closed", ts
 
     state["sources_seen"] = sorted(known | ok)
-    for k in [k for k in state["failures"] if k not in ok and k not in failed]:
-        del state["failures"][k]  # a source you removed from config.yaml must not stay in "Source problems"
-    state["source_stats"] = dict(_collectors.LAST_STATS)
+    if not light:
+        for k in [k for k in state["failures"] if k not in ok and k not in failed]:
+            del state["failures"][k]  # a source you removed from config.yaml must not stay in "Source problems"
+        state["source_stats"] = dict(_collectors.LAST_STATS)
+    else:
+        state.setdefault("source_stats", {}).update(_collectors.LAST_STATS)
     for src in ok:
         state["failures"].pop(src, None)
     for src, err in failed.items():
@@ -404,6 +407,15 @@ def git_sync(message):
     run("push")
 
 
+def active_burst(cfg, ist):
+    """A date window in config.yaml (e.g. a program that opens for a few hours) where the radar polls faster."""
+    today = ist.date().isoformat()
+    for b in cfg.get("burst") or []:
+        if str(b["start"]) <= today <= str(b["end"]):
+            return b
+    return None
+
+
 def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=1200):
     """Scan every `every` seconds for `minutes`. Job sources every round, news searches every `news_every`th round
     (they are many requests), the daily report once after `digest_hour` India time."""
@@ -411,9 +423,14 @@ def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=12
     print(f"[loop] scanning every {every}s for {minutes} min")
     while time.time() < end:
         t0 = time.time()
+        burst = active_burst(cfg, datetime.now(IST))
+        gap = int(burst.get("every", 120)) if burst else every
         try:
             state = load_state()
-            scan(cfg, state, news=(i % news_every == 0))
+            if burst:  # fast feeds every couple of minutes, the slow full scan every Nth round
+                scan(cfg, state, news=True, light=(i % int(burst.get("full_every", 5)) != 0))
+            else:
+                scan(cfg, state, news=(i % news_every == 0))
             ist = datetime.now(IST)
             if ist.hour >= digest_hour and state.get("last_digest") != ist.date().isoformat():
                 digest(cfg, state)
@@ -429,7 +446,7 @@ def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=12
         if time.time() - last_sync > sync_every:
             git_sync("chore: update state [skip ci]")
             last_sync = time.time()
-        time.sleep(max(5, every - (time.time() - t0)))
+        time.sleep(max(5, gap - (time.time() - t0)))
     git_sync("chore: update state [skip ci]")
     print("[loop] finished this chunk; the next run takes over")
 

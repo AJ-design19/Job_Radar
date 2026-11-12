@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 11 Nov 2026
+# Internship opportunity tracker - 12 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
@@ -13,14 +13,13 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 - **Atlassian Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Atlassian's board (if the address works) and watches news _(typical)_ · where: Atlassian careers
 - **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
 - **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's main Workday site _(typical)_ · where: Adobe careers
+  - 🔗 [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area
 - **Meta, Apple, Netflix, OpenAI internships** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - India internships are rare; the radar keeps checking and watches news _(typical)_ · where: each company's careers site
 - **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
 - **[Flipkart summer internship](https://flipkartearlycareers.hirepro.in/)** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
 - **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W) · IN - Bengaluru, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) · IN - Bengaluru, India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
 - **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page

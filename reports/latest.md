@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 11 Nov 2026
-**22 companies** hiring interns · 40 open roles · 6 new in 24h · 6 closed in 24h
+# Job Radar daily report - 12 Nov 2026
+**25 companies** hiring interns · 36 open roles · 10 new in 24h · 8 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: nothing open in India right now (radar keeps checking)
@@ -19,66 +19,40 @@
 - **NVIDIA**: nothing open in India right now (radar keeps checking)
 - **Atlassian**: nothing open in India right now (radar keeps checking)
 - **Uber**: nothing open in India right now (radar keeps checking)
-- **Adobe**: nothing open in India right now (radar keeps checking)
+- **Adobe**: 1 open
+  - [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area · posted 11 Nov 2026, 11:08 PM IST
 - **Salesforce**: nothing open in India right now (radar keeps checking)
 - **Goldman Sachs**: nothing open in India right now (radar keeps checking)
 - **Flipkart**: nothing open in India right now (radar keeps checking)
 - **Walmart**: 1 open
   - [(IND) Grad Intern - No Work Experience](https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935) · IN KA BANGALORE Home Office Building 10 · posted 04 Oct 2026
-- **Stripe**: 2 open
+- **Stripe**: 1 open
   - [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) · Bengaluru · posted 29 Oct 2026, 08:12 PM IST
-  - [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130876) · Bangalore · posted 29 Oct 2026, 08:12 PM IST
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [Software Engineering Intern](https://interndoor.com/jobs/allstate-india-intern-4484858917) - Allstate India · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 10 Nov 2026, 11:22 PM IST · detected 11 Nov 2026, 12:41 AM IST · 🔔 alert sent 11 Nov 2026, 12:41 AM IST
-- [Machine Learning Intern](https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786) - Codemonk · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 10 Nov 2026, 05:39 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
-- [Data Science Intern](https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428) - Honeywell Technologies · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 10 Nov 2026, 03:18 PM IST · detected 10 Nov 2026, 03:40 PM IST · 🔔 alert sent 10 Nov 2026, 03:40 PM IST
-- [DE Intern + SDE Trainee](https://interndoor.com/jobs/sigmoid-de-intern-sde-trainee-off-campus-hiring-2026-ats-greenhouse-sigmoid-8927991002) - Sigmoid · Bengaluru · **6/10**
-  - 🕒 posted 10 Nov 2026, 04:09 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
-- [Embedded Software Intern](https://interndoor.com/jobs/thales-embedded-software-intern-4489623386) - Thales · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 10 Nov 2026, 11:07 PM IST · detected 10 Nov 2026, 11:31 PM IST
-- [Software Intern](https://interndoor.com/jobs/thales-software-intern-4489615629) - Thales · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 10 Nov 2026, 11:08 PM IST · detected 10 Nov 2026, 11:31 PM IST
+- [🔥 Adobe Intern FY27](https://careers.adobe.com/us/en/job/ADOBUSR173562EXTERNALENUS/Adobe-Intern-FY27?utm_source=interndoor&utm_medium=phenom-feeds&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) - Adobe · Greater Kolkata Area · **7/10**
+  - 🕒 posted 11 Nov 2026, 11:08 PM IST · detected 12 Nov 2026, 12:28 AM IST · 🔔 alert sent 12 Nov 2026, 12:28 AM IST
+- [Software Engineering Intern](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4479821514) - Honeywell Aerospace · Hyderabad, Telangana, India · **6/10**
+  - 🕒 posted 11 Nov 2026, 03:34 PM IST · detected 11 Nov 2026, 04:27 PM IST · 🔔 alert sent 11 Nov 2026, 04:27 PM IST
+- [ML DA Intern](https://ats.rippling.com/sanas/jobs/93d0833e-b03b-4d28-8e32-bdaf572105f0?jobSite=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/sanas-ml-da-intern-4489948266) - Sanas · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 11 Nov 2026, 05:37 PM IST · detected 11 Nov 2026, 06:17 PM IST · 🔔 alert sent 11 Nov 2026, 06:17 PM IST
+- [Java Development Internship](https://internshala.com/internship/detail/java-development-internship-in-multiple-locations-at-fyntune-solution-private-limited1794384178/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490055733) - FynTune Solution Private Limited · Mumbai Metropolitan Region · **5/10**
+  - 🕒 posted 12 Nov 2026, 05:41 AM IST · detected 12 Nov 2026, 06:49 AM IST
+- [Java Development Internship](https://internshala.com/internship/detail/java-development-internship-in-multiple-locations-at-fyntune-solution-private-limited1794384178/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490066332) - FynTune Solution Private Limited · Thane, Maharashtra, India · **5/10**
+  - 🕒 posted 12 Nov 2026, 05:40 AM IST · detected 12 Nov 2026, 06:49 AM IST
+- [Software Intern](https://interndoor.com/jobs/ge-healthcare-software-intern-4489931071) - GE HealthCare · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 11 Nov 2026, 03:36 PM IST · detected 11 Nov 2026, 03:47 PM IST
+- [Statistics Intern](https://interndoor.com/jobs/gsk-statistics-intern-4488201918) - GSK · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 11 Nov 2026, 04:15 PM IST · detected 11 Nov 2026, 04:27 PM IST
+- [Intern -Connectivity](https://jobsearch.harman.com/careers/searchjobs/R-56287-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-intern-connectivity-4488207839) - HARMAN India · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 05:15 PM IST · detected 11 Nov 2026, 06:17 PM IST
+- [Software Developer Intern](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/ibm-software-developer-intern-4476673482) - IBM · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 04:34 PM IST · detected 11 Nov 2026, 06:17 PM IST
+- [Software Developer Intern](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/ibm-software-developer-intern-4488220086) - IBM · Kochi, Kerala, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 04:34 PM IST · detected 11 Nov 2026, 05:02 PM IST
 
-## 🏢 Companies hiring interns right now (22)
-
-<details><summary><b>Visa</b> (8)</summary>
-
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 11 Oct 2026 · detected 10 Nov 2026, 02:29 AM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 11 Oct 2026 · detected 10 Nov 2026, 02:29 AM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 08:09 AM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084566W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 12:58 AM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 12:58 AM IST
-- [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W) - Visa · IN - Bengaluru, India · **6/10**
-  - 🕒 posted 24 Oct 2026 · detected 06 Nov 2026, 05:31 AM IST · 🔔 alert sent 06 Nov 2026, 05:31 AM IST
-
-</details>
-
-<details><summary><b>Discover Dollar</b> (4)</summary>
-
-- [AI Engineer Intern](https://discoverdollar.keka.com/careers/jobdetails/155175) - Discover Dollar · Bangalore, India · **6/10**
-  - 🕒 posted 06 Aug 2026 · detected 03 Nov 2026, 10:11 AM IST
-- [AI Engineer Intern](https://discoverdollar.keka.com/careers/jobdetails/164757) - Discover Dollar · Bangalore, India · **6/10**
-  - 🕒 posted 08 Oct 2026 · detected 03 Nov 2026, 10:11 AM IST
-- [Analytics/AI Engineer Intern](https://discoverdollar.keka.com/careers/jobdetails/91847) - Discover Dollar · Bangalore · **6/10**
-  - 🕒 posted 21 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
-- [Data Analysis Intern](https://discoverdollar.keka.com/careers/jobdetails/125740) - Discover Dollar · Bangalore, India, Mangaluru, India · **4/10**
-  - 🕒 posted 17 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
-
-</details>
+## 🏢 Companies hiring interns right now (25)
 
 <details><summary><b>Amazon</b> (3)</summary>
 
@@ -91,6 +65,26 @@
 
 </details>
 
+<details><summary><b>Discover Dollar</b> (3)</summary>
+
+- [AI Engineer Intern](https://discoverdollar.keka.com/careers/jobdetails/155175) · ×2 listings - Discover Dollar · Bangalore, India · **6/10**
+  - 🕒 posted 06 Aug 2026 · detected 03 Nov 2026, 10:11 AM IST
+- [Analytics/AI Engineer Intern](https://discoverdollar.keka.com/careers/jobdetails/91847) - Discover Dollar · Bangalore · **6/10**
+  - 🕒 posted 21 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
+- [Data Analysis Intern](https://discoverdollar.keka.com/careers/jobdetails/125740) - Discover Dollar · Bangalore, India, Mangaluru, India · **4/10**
+  - 🕒 posted 17 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
+
+</details>
+
+<details><summary><b>FynTune Solution Private Limited</b> (2)</summary>
+
+- [Java Development Internship](https://internshala.com/internship/detail/java-development-internship-in-multiple-locations-at-fyntune-solution-private-limited1794384178/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490055733) - FynTune Solution Private Limited · Mumbai Metropolitan Region · **5/10**
+  - 🕒 posted 12 Nov 2026, 05:41 AM IST · detected 12 Nov 2026, 06:49 AM IST
+- [Java Development Internship](https://internshala.com/internship/detail/java-development-internship-in-multiple-locations-at-fyntune-solution-private-limited1794384178/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490066332) - FynTune Solution Private Limited · Thane, Maharashtra, India · **5/10**
+  - 🕒 posted 12 Nov 2026, 05:40 AM IST · detected 12 Nov 2026, 06:49 AM IST
+
+</details>
+
 <details><summary><b>HackerRank</b> (2)</summary>
 
 - [AI Researcher Intern](https://job-boards.greenhouse.io/hackerrank/jobs/8281055) - HackerRank · Onsite in Bangalore · **6/10**
@@ -100,12 +94,21 @@
 
 </details>
 
-<details><summary><b>Honeywell Aerospace</b> (2)</summary>
+<details><summary><b>HARMAN India</b> (2)</summary>
 
-- [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479719719) - Honeywell Aerospace · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 03:34 PM IST · detected 05 Nov 2026, 03:49 PM IST
-- [Intern Bachelors Hardware Eng](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-hardware-eng-4479820517) - Honeywell Aerospace · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 09:33 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Intern -Connectivity](https://jobsearch.harman.com/careers/searchjobs/R-56287-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-intern-connectivity-4488207839) - HARMAN India · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 05:15 PM IST · detected 11 Nov 2026, 06:17 PM IST
+
+</details>
+
+<details><summary><b>IBM</b> (2)</summary>
+
+- [Software Developer Intern](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/ibm-software-developer-intern-4476673482) - IBM · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 04:34 PM IST · detected 11 Nov 2026, 06:17 PM IST
+- [Software Developer Intern](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/ibm-software-developer-intern-4488220086) - IBM · Kochi, Kerala, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 04:34 PM IST · detected 11 Nov 2026, 05:02 PM IST
 
 </details>
 
@@ -115,15 +118,6 @@
   - 🕒 posted 26 Oct 2026 · detected 03 Nov 2026, 10:11 AM IST
 - [Security Research INTERN](https://apply.careers.microsoft.com/careers/job/1970393557043380) - Microsoft · India, Multiple Locations, Multiple Locations · **6/10**
   - 🕒 posted 23 Oct 2026 · detected 03 Nov 2026, 10:11 AM IST
-
-</details>
-
-<details><summary><b>Stripe</b> (2)</summary>
-
-- [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) - Stripe · Bengaluru · **8/10**
-  - 🕒 posted 29 Oct 2026, 08:12 PM IST · detected 31 Oct 2026, 11:54 PM IST
-- [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130876) - Stripe · Bangalore · **8/10**
-  - 🕒 posted 29 Oct 2026, 08:12 PM IST · detected 31 Oct 2026, 11:54 PM IST
 
 </details>
 
@@ -142,6 +136,13 @@
   - 🕒 posted 06 Nov 2026, 04:40 AM IST · detected 06 Nov 2026, 05:31 AM IST
 - [Technology Program Intern](https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483590769) - Wells Fargo · Bengaluru, Karnataka, India · **4/10**
   - 🕒 posted 06 Nov 2026, 04:41 AM IST · detected 06 Nov 2026, 05:31 AM IST
+
+</details>
+
+<details><summary><b>Adobe</b> (1)</summary>
+
+- [🔥 Adobe Intern FY27](https://careers.adobe.com/us/en/job/ADOBUSR173562EXTERNALENUS/Adobe-Intern-FY27?utm_source=interndoor&utm_medium=phenom-feeds&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) - Adobe · Greater Kolkata Area · **7/10**
+  - 🕒 posted 11 Nov 2026, 11:08 PM IST · detected 12 Nov 2026, 12:28 AM IST · 🔔 alert sent 12 Nov 2026, 12:28 AM IST
 
 </details>
 
@@ -175,15 +176,22 @@
 
 <details><summary><b>GE HealthCare</b> (1)</summary>
 
-- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [Software Intern](https://interndoor.com/jobs/ge-healthcare-software-intern-4489931071) - GE HealthCare · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 11 Nov 2026, 03:36 PM IST · detected 11 Nov 2026, 03:47 PM IST
 
 </details>
 
-<details><summary><b>HARMAN India</b> (1)</summary>
+<details><summary><b>GSK</b> (1)</summary>
 
-- [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Statistics Intern](https://interndoor.com/jobs/gsk-statistics-intern-4488201918) - GSK · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 11 Nov 2026, 04:15 PM IST · detected 11 Nov 2026, 04:27 PM IST
+
+</details>
+
+<details><summary><b>Honeywell Aerospace</b> (1)</summary>
+
+- [Software Engineering Intern](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4479821514) - Honeywell Aerospace · Hyderabad, Telangana, India · **6/10**
+  - 🕒 posted 11 Nov 2026, 03:34 PM IST · detected 11 Nov 2026, 04:27 PM IST · 🔔 alert sent 11 Nov 2026, 04:27 PM IST
 
 </details>
 
@@ -208,6 +216,13 @@
 
 </details>
 
+<details><summary><b>Sanas</b> (1)</summary>
+
+- [ML DA Intern](https://ats.rippling.com/sanas/jobs/93d0833e-b03b-4d28-8e32-bdaf572105f0?jobSite=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/sanas-ml-da-intern-4489948266) - Sanas · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 11 Nov 2026, 05:37 PM IST · detected 11 Nov 2026, 06:17 PM IST · 🔔 alert sent 11 Nov 2026, 06:17 PM IST
+
+</details>
+
 <details><summary><b>Sigmoid</b> (1)</summary>
 
 - [DE Intern + SDE Trainee](https://interndoor.com/jobs/sigmoid-de-intern-sde-trainee-off-campus-hiring-2026-ats-greenhouse-sigmoid-8927991002) - Sigmoid · Bengaluru · **6/10**
@@ -215,17 +230,17 @@
 
 </details>
 
-<details><summary><b>Snapmint</b> (1)</summary>
+<details><summary><b>Stripe</b> (1)</summary>
 
-- [Motion Graphics & Interaction Design Intern](https://interndoor.com/jobs/snapmint-motion-graphics-and-interaction-design-intern-4487223941) - Snapmint · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 06 Nov 2026, 11:35 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) - Stripe · Bengaluru · **8/10**
+  - 🕒 posted 29 Oct 2026, 08:12 PM IST · detected 31 Oct 2026, 11:54 PM IST
 
 </details>
 
-<details><summary><b>State Street</b> (1)</summary>
+<details><summary><b>Visa</b> (1)</summary>
 
-- [Technology Early Career Entry Program](https://interndoor.com/jobs/state-street-technology-early-career-entry-program-4487744864) - State Street · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 05 Nov 2026, 06:09 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · ×5 listings - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 11 Oct 2026 · detected 10 Nov 2026, 02:29 AM IST
 
 </details>
 
@@ -249,14 +264,13 @@
 - **Atlassian Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Atlassian's board (if the address works) and watches news _(typical)_ · where: Atlassian careers
 - **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
 - **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's main Workday site _(typical)_ · where: Adobe careers
+  - 🔗 [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area
 - **Meta, Apple, Netflix, OpenAI internships** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - India internships are rare; the radar keeps checking and watches news _(typical)_ · where: each company's careers site
 - **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
 - **[Flipkart summer internship](https://flipkartearlycareers.hirepro.in/)** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
 - **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084520W) · IN - Bengaluru, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) · IN - Bengaluru, India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
 - **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page
@@ -278,7 +292,8 @@ _10 more programs open later in the year; see the full list._
 - **Walmart CodeHers** [Women] check edition - dates not found; radar watches news _(typical)_ · where: Unstop
 - **Microsoft Engage and Codess** [Women] Engage targets 2nd-year students · usually Feb, Mar, Apr - top Engage performers are interviewed for Codess or internships _(reported)_ · where: Microsoft
 
-## 🎯 Programs being watched
+<details><summary><b>🎯 Programs being watched (31)</b></summary>
+
 - **Google Girl Hackathon** - [latest news](https://news.google.com/search?q=%22Girl+Hackathon%22+Google+India&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://goo.gle/GirlHackathon)
 - **Flipkart GRiD** - [latest news](https://news.google.com/search?q=%22Flipkart+GRiD%22&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://flipkartearlycareers.hirepro.in/)
 - **Flipkart Girls Wanna Code** - [latest news](https://news.google.com/search?q=%22Girls+Wanna+Code%22+Flipkart&hl=en-IN&gl=IN&ceid=IN%3Aen)
@@ -311,38 +326,44 @@ _10 more programs open later in the year; see the full list._
 - **The Big Code (Google)** - [latest news](https://news.google.com/search?q=%22The+Big+Code%22+Google+hackathon&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **Flipkart Runway** - [latest news](https://news.google.com/search?q=%22Flipkart+Runway%22&hl=en-IN&gl=IN&ceid=IN%3Aen)
 
+</details>
+
 ## Closed since yesterday
+- [Information Technology Development Program Intern](https://interndoor.com/jobs/ge-healthcare-information-technology-development-program-intern-4488186075) - GE HealthCare · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 06 Nov 2026, 09:36 PM IST · detected 07 Nov 2026, 01:10 AM IST
 - [Astronomy Events Intern](https://interndoor.com/jobs/space-intern-astronomy-events-and-calendar-data-and-validation-4486972338) - SPACE · West Delhi, Delhi, India · **4/10**
   - 🕒 posted 06 Nov 2026, 04:56 PM IST · detected 06 Nov 2026, 08:07 PM IST
-- [Research Sciences INTERN](https://apply.careers.microsoft.com/careers/job/1970393556641091) - Microsoft · India, Multiple Locations, Multiple Locations · **6/10**
-  - 🕒 posted 27 Feb 2026 · detected 03 Nov 2026, 10:11 AM IST
 - [College Intern](https://careers.hpe.com/us/en/job/1211843) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **6/10**
   - 🕒 posted 01 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
 - [Interim Engineering Intern_2027_SW](https://careers.qualcomm.com/careers/job/446719785836?domain=qualcomm.com) - Qualcomm · Hyderabad, Telangāna, India · **7/10**
   - 🕒 posted 15 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
-- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084526W) - Visa · IN - Bengaluru, India · **7/10**
-  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
 - [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084546W) - Visa · IN - Bengaluru, India · **7/10**
   - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084548W) - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084558W) - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 03:53 PM IST
+- [🔥 SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084562W) - Visa · IN - Bengaluru, India · **7/10**
+  - 🕒 posted 10 Oct 2026 · detected 09 Nov 2026, 08:09 AM IST
 
-## 📡 What the radar read this run
-- `interndoor`: 50 postings read, 19 match you
-- `internscan`: 18 postings read, 11 match you
-- `wd:adobe/external_experienced`: 15 postings read, 0 match you
-- `wd:cisco/Cisco_Careers`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:hpe/Jobsathpe`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:intel/External`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:mastercard/Campus`: 27 postings read, 0 match you
-- `wd:mastercard/CorporateCareers`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:nvidia/NVIDIAExternalCareerSite`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:paypal/jobs`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:salesforce/External_Career_Site`: 46 postings read, 0 match you
-- `wd:visa/Visa`: 100 postings read, 0 match you (list cut off at the page limit)
-- `wd:visa/Visa_Talent_Portal`: 100 postings read, 8 match you (list cut off at the page limit)
-- `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 2 match you
-- `scan timing`: 70 scans in the last 24h, longest gap 7h 51m (set to run every 10 minutes)
+<details><summary><b>📡 What the radar read this run</b></summary>
 
-## Source problems (check slug / network)
-- `amazon`: ValueError: no results (endpoint changed or blocked) (x88)
-- `lv:atlassian`: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/atlassian?mode=json (x70)
-- `themuse`: HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?level=Internship&page=0 (x77)
+- `amazon`: 2 postings read, 0 match you (query form 3 worked)
+- `atlassian`: 354 postings read, 0 match you
+- `interndoor`: 50 postings read, 24 match you
+- `internscan`: 18 postings read, 10 match you
+- `wd:adobe/external_experienced`: 17 postings read, 0 match you (searches: 'intern india' 17, 'intern bangalore' 0)
+- `wd:cisco/Cisco_Careers`: 15 postings read, 0 match you (searches: 'intern india' 13, 'intern bangalore' 2)
+- `wd:hpe/Jobsathpe`: 84 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 24) (list cut off at the page limit)
+- `wd:intel/External`: 36 postings read, 0 match you (searches: 'intern india' 36, 'intern bangalore' 0)
+- `wd:mastercard/Campus`: 1 postings read, 0 match you (searches: 'intern india' 1, 'intern bangalore' 0)
+- `wd:mastercard/CorporateCareers`: 60 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 0) (list cut off at the page limit)
+- `wd:nvidia/NVIDIAExternalCareerSite`: 60 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 0) (list cut off at the page limit)
+- `wd:paypal/jobs`: 18 postings read, 0 match you (searches: 'intern india' 18, 'intern bangalore' 0)
+- `wd:salesforce/External_Career_Site`: 80 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 20) (list cut off at the page limit)
+- `wd:visa/Visa`: 37 postings read, 0 match you (searches: 'intern india' 37, 'intern bangalore' 0)
+- `wd:visa/Visa_Talent_Portal`: 2 postings read, 1 match you (searches: 'intern india' 2, 'intern bangalore' 0)
+- `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 1 match you
+- `scan timing`: 220 scans in the last 24h, longest gap 1h 50m (the radar loop aims for one every 5 minutes)
+
+</details>

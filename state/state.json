@@ -9,6 +9,7 @@
   "bnpparibas|datascienceintern": "2026-11-09T20:59:32+00:00",
   "codemonk|machinelearningintern": "2026-11-10T18:01:49+00:00",
   "decentro|softwaredeveloperintern": "2026-11-05T10:19:00+00:00",
+  "delhivery|softwareengineerintern": "2026-11-12T08:31:51+00:00",
   "fyntunesolutionprivatelimited|javadevelopmentinternship": "2026-11-12T01:19:23+00:00",
   "gehealthcare|informationtechnologydevelopmentprogramintern": "2026-11-06T19:40:22+00:00",
   "gehealthcare|softwareintern": "2026-11-11T10:17:16+00:00",
@@ -112,7 +113,13 @@
    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU3pHM1FTcjFmRndtM3FDZGhOaG1sSHFGaVFtSzFFYmhiMlBsc2pISVVicG52MkdQckpqcnFOTmFaVUtScFZNNENoN2tJZ19WV1JPbVpjRm5WR1NQRHpTWkdvbTltWWVGbWV3TDhRamtqdldIcFFQa2pQOTN6U3FELTE4bHpNOXozZktWSW00WVdmVVZEV0xobTJPRGQ2STEzYmg3VWlMX1NsVmw1QnhjMTNialFsN3l6cHBjQlB30gHLAUFVX3lxTFAybkRUZWhrR2l2MTBrdElFcUJaY0RTbU5oVllYek94anhOTHA4UHNBbGZ2Yy1DVmYwbmFYMHdlYThqeHREZEZWTjBkc25teTNFcnR6bHlDNGNWMnJzdlhTdkZYUm9DV0JsZ2d2SC12ak9oQktUekUxRGpPQmFHVjdnZVFseU1IZnVmSnNidWJFeWoxRmRrNnJjeUZzVWpvTWRnWlFnSFBEWHVRMHFhWkhXcmJFV3VybGxYRTlsc3FKWUN0R0hKSVdGLVFr?oc=5",
    "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMm5EVGVoa0dpdjEwa3RJRXFCWmNEU21OaFZZWHpPeGp4TkxwOFBzQWxmdmMtQ1ZmMG5hWDB3ZWE4anh0RGRGVk4wZHNubXkzRXJ0emx5QzRjVjJyc3ZYU3ZGWFJvQ1dCbGdndkgtdmpPaEJLVHpFMURqT0JhR1Y3Z2VRbHlNSGZ1ZkpzYnViRXlqMUZkazZyY3lGc1Vqb01kZ1pRZ0hQRFh1UTBxYVpIV3JiRVd1cmxsWEU5bHNxSllDdEdISklXRi1Ra9IBywFBVV95cUxQMm5EVGVoa0dpdjEwa3RJRXFCWmNEU21OaFZZWHpPeGp4TkxwOFBzQWxmdmMtQ1ZmMG5hWDB3ZWE4anh0RGRGVk4wZHNubXkzRXJ0emx5QzRjVjJyc3ZYU3ZGWFJvQ1dCbGdndkgtdmpPaEJLVHpFMURqT0JhR1Y3Z2VRbHlNSGZ1ZkpzYnViRXlqMUZkazZyY3lGc1Vqb01kZ1pRZ0hQRFh1UTBxYVpIV3JiRVd1cmxsWEU5bHNxSllDdEdISklXRi1Raw?oc=5",
    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbWxUSDBMb24xcmhaSXJLdDBKWEJMUlVRODYzMW5PemR4blVacFYwWEM2WHhCNGVlNkVnaU94NlpKNUhOejdyQ3JvS3RJSHRMU3kxclZUY3QyMzVYVUFRdU9BNmtRbVJrSkZic3pCYVpmaVpfWkR0ajNHZkJRTjh4SF96NHk0MnM3dmM2Y3pKdGFZNThqSXBJV3NsS2RXbFlzQW9xQXhlMzFBUERieURxclM1SHNHNHI3RW90NXFPVHZlbUtVS0Nadmh0U2hnRm05WWc?oc=5",
-   "https://news.google.com/rss/articles/CBMickFVX3lxTE41V0lwd0VIb1p4UkltWmJuWXNDd0paVnUzc3kwcE5ENW1NTXNPV1Y3VWtsa0JPSHFhbjlualVYbVkyNS1HcXdTUlVtN3FXTjN6YWFpcVR1YV9lSmktbWhLVDZxLTNCa1IyOEZZNGdjZnF3UQ?oc=5"
+   "https://news.google.com/rss/articles/CBMickFVX3lxTE41V0lwd0VIb1p4UkltWmJuWXNDd0paVnUzc3kwcE5ENW1NTXNPV1Y3VWtsa0JPSHFhbjlualVYbVkyNS1HcXdTUlVtN3FXTjN6YWFpcVR1YV9lSmktbWhLVDZxLTNCa1IyOEZZNGdjZnF3UQ?oc=5",
+   "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLXppaVZWZDZYRHI0RExYYk4zUTJkLWxyVDNKRlhOZWlkaXRSejUtUkI0bmNoR1R5enpDMUxNMU11OEtqR0RPS0ptYzlLNjFLb1dDeXRnX1E3c2g3MkZ1Q1JEcS03SkQzZGJBQlZYb3EtMklQc3lxLWgtZWZNekVyY01BNEZ5dTliMS1qcERtQ1dERFVqZ21vLVV2cWV5a1ZIQlJXQ2xGelF0N0Jxei1uVjYtSWJfODc3UTVWSGs1S3ozZDJfOUt6OHhxWUxvaHR2dlAzRzJYQWhHcUdPdXc?oc=5",
+   "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVExpT1dIMUF6Q0FyVGx0dUNrTEpaZDVybGYwTy1vc0lDa2xMTVRsNXZ0Z09RYldvaThZQnRKcjZoLThxaUlrXzNnT0Q5dHJIMDRrTkhxc1VYMVNEOXBfdFcxbU95V1Nfek0wWTA1WG5iby1vR0hYN0RmcS1nRWtJUHEwZUJReER4cHlSU042NmJERjYyMXpLQnpqdXJnV3R1NW1uWktCZmZuZnI1RFRwTndrTFdjLXVwSnA1Y1pqTjNmR09rc2hBUGdicEdyLWJKeXAxWl9kZE8xV2RnNzBn0gHfAUFVX3lxTE9UTGlPV0gxQXpDQXJUbHR1Q2tMSlpkNXJsZjBPLW9zSUNrbExNVGw1dnRnT1FiV29pOFlCdEpyNmgtOHFpSWtfM2dPRDl0ckgwNGtOSHFzVVgxU0Q5cF90VzFtT3lXU196TTBZMDVYbmJvLW9HSFg3RGZxLWdFa0lQcTBlQlF4RHhweVJTTjY2YkRGNjIxektCemp1cmdXdHU1bW5aS0JmZm5mcjVEVHBOd2tMV2MtdXBKcDVjWmpOM2ZHT2tzaEFQZ2JwR3ItYkp5cDFaX2RkTzFXZGc3MGc?oc=5",
+   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSTRKX3RJM2lFa0JrcWIxbko3Mm1MMGlZYzV5eGk1ck1henpuZmFZb0ZYUFFPZVpiOTZlY3dCaG9YQnpIeXRwYmF2bDlwcTB1MUs0Q0pmYzZONFFuVGdIYjRPVDB0RC1UNkxkOERENGVZWTFULW9nZldpd0NLX2xMVWxRQnQtbjVQSlRWcVpuUGd2elVQM0lITUNiVy1xV0IxWWpjYWJnYzNHaU0?oc=5",
+   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUDY2ei1wYUlUYl8wX3h1N1ZKNHhTU2NfQUpLTHhubU5Ec24yNGxSS2lmWnVmbnk4WENIVUZteXduSGxVMzVhYkZwVS16aEZwVXFEZ3YzdkxtUkMzNE1xZHpUSUJZYXA5V09FZTBQZ2RHSmdqOUdJRFRwMC16Y1VxeWpONlFEUUtFYzYtSWh3MTFLWDJwS0pOb1o0LTBVb08wUVpxT1l2d1h5bWszTkhtbFYydXBtSUh6?oc=5",
+   "https://news.google.com/rss/articles/CBMifEFVX3lxTE93OW1zbkV5QjRGWTJPektrNEFsQi1sLWNLM0xiN3ctdjFHcC1wazlGeDZTMlRqQlhJYmlOa1h5cUhBU2p1SWZGZHNOUnoxOG1LYzF1WEgyX0xBOXNQN1hTcEg0QlltUmxBcUJ4MTRfeFFPWmFxeTkzTkM0Zjk?oc=5",
+   "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1Z4cnVlUFN0THdmdHFJT25wMmlXZGJINEhrVkV2M3FzTS1KdUZ6SFpuU3N3d2dPNWRJR0FIQVdLTnc5MG9iMHZTUUFaMnlNM1czWmxfMjFZMVNuRkpYUWJsc1k3Tmg1Um9qVWxZbmQwUjloWWtVT2o0M2gwajRyNGpvNGZTRlpWNzJUWjZaaUZja1NhQjF0QmgySHJKWXc0RVBBOXM5Z0RTc3ZNaHM0RQ?oc=5"
   ],
   "titles": [
    {
@@ -129,7 +136,12 @@
    }
   ]
  },
- "failures": {},
+ "failures": {
+  "lv:meesho": {
+   "count": 1,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
+  }
+ },
  "fix_interndoor_closed": true,
  "fix_watchlist": true,
  "initialized": true,
@@ -140,7 +152,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -164,7 +176,7 @@
    "first_seen": "2026-11-11T18:58:29+00:00",
    "id": "id:https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453",
    "last_checked": "2026-11-12T02:34:47+00:00",
-   "last_seen": "2026-11-12T06:44:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Greater Kolkata Area",
    "posted": "2026-11-11T17:38:24+00:00",
    "posted_kind": "listed",
@@ -377,6 +389,31 @@
    "url": "https://interndoor.com/jobs/decentro-software-developer-intern-ats-keka-decentro-26116",
    "verifiable": false
   },
+  "id:https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589": {
+   "alerted_at": "2026-11-12T08:31:51+00:00",
+   "apply_url": "https://forms.gle/hEtH2BQ3qWTS6k4f9?ref=interndoor",
+   "baseline": false,
+   "company": "Delhivery",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-12T08:31:51+00:00",
+   "id": "id:https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589",
+   "last_seen": "2026-11-12T08:51:51+00:00",
+   "location": "Gurugram, Haryana, India",
+   "posted": "2026-11-12T07:40:00+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 6,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Software Engineer Intern",
+   "url": "https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589",
+   "verifiable": false,
+   "watch": ""
+  },
   "id:https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490055733": {
    "apply_url": "https://internshala.com/internship/detail/java-development-internship-in-multiple-locations-at-fyntune-solution-private-limited1794384178/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor",
    "baseline": false,
@@ -388,7 +425,7 @@
    "first_seen": "2026-11-12T01:19:23+00:00",
    "id": "id:https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490055733",
    "last_checked": "2026-11-12T02:34:47+00:00",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-12T00:11:35+00:00",
    "posted_kind": "listed",
@@ -414,7 +451,7 @@
    "first_seen": "2026-11-12T01:19:23+00:00",
    "id": "id:https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490066332",
    "last_checked": "2026-11-12T02:34:47+00:00",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Thane, Maharashtra, India",
    "posted": "2026-11-12T00:10:56+00:00",
    "posted_kind": "listed",
@@ -902,7 +939,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -921,7 +958,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -960,7 +997,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -999,7 +1036,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1038,7 +1075,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1057,7 +1094,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1076,7 +1113,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1095,7 +1132,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1114,7 +1151,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1133,7 +1170,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1152,7 +1189,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1219,7 +1256,7 @@
    "elite": false,
    "first_seen": "2026-11-12T05:54:23+00:00",
    "id": "wd:hpe:Jobsathpe:/job/Bengaluru-Karntaka-India/Research-PhD_1191423",
-   "last_seen": "2026-11-12T06:54:23+00:00",
+   "last_seen": "2026-11-12T08:51:51+00:00",
    "location": "Bengaluru, Karn\u0101taka, India",
    "old": false,
    "posted": "2026-11-12",
@@ -1555,7 +1592,9 @@
   },
   "Google Summer of Code": {
    "init": true,
-   "news_seen": [],
+   "news_seen": [
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXkydTF1LTFqUjQ3Mm5fRGpvN0RxNXR1ZUl0UkMxUUhBWHJYV3pXSENQT08tWlR6dndjOS13cHNGM0ZsRkZlRFBMZml1bHVEZVBRQllyR2hpaVpFUFBlLVh6MTgwU2NERkwzSWEwNDU4aDhyNGJhNnJTb0RYTzNxVWJicXFHSGVNYzhZb09WZzBBNXRqZWdwNTFkWkQyMXBFWG1yQw?oc=5"
+   ],
    "pages": {}
   },
   "Google internships (India)": {
@@ -1658,11 +1697,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-10T21:21:49+00:00",
-  "2026-11-10T21:26:49+00:00",
-  "2026-11-10T21:31:49+00:00",
-  "2026-11-10T21:36:49+00:00",
-  "2026-11-10T21:41:49+00:00",
   "2026-11-10T21:46:49+00:00",
   "2026-11-10T21:51:49+00:00",
   "2026-11-10T21:56:49+00:00",
@@ -1957,7 +1991,12 @@
   "2026-11-12T06:39:23+00:00",
   "2026-11-12T06:44:23+00:00",
   "2026-11-12T06:49:23+00:00",
-  "2026-11-12T06:54:23+00:00"
+  "2026-11-12T06:54:23+00:00",
+  "2026-11-12T08:31:51+00:00",
+  "2026-11-12T08:36:51+00:00",
+  "2026-11-12T08:41:51+00:00",
+  "2026-11-12T08:46:51+00:00",
+  "2026-11-12T08:51:51+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -1972,7 +2011,7 @@
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 823,
+   "fetched": 822,
    "note": ""
   },
   "ab:ramp": {
@@ -1997,7 +2036,7 @@
   },
   "atlassian": {
    "capped": false,
-   "fetched": 354,
+   "fetched": 355,
    "note": ""
   },
   "gh:airbnb": {
@@ -2007,7 +2046,7 @@
   },
   "gh:anthropic": {
    "capped": false,
-   "fetched": 673,
+   "fetched": 672,
    "note": ""
   },
   "gh:asana": {
@@ -2027,7 +2066,7 @@
   },
   "gh:coinbase": {
    "capped": false,
-   "fetched": 277,
+   "fetched": 276,
    "note": ""
   },
   "gh:databricks": {
@@ -2037,7 +2076,7 @@
   },
   "gh:datadog": {
    "capped": false,
-   "fetched": 392,
+   "fetched": 393,
    "note": ""
   },
   "gh:discord": {
@@ -2057,7 +2096,7 @@
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 419,
+   "fetched": 420,
    "note": ""
   },
   "gh:figma": {
@@ -2077,7 +2116,7 @@
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 380,
+   "fetched": 379,
    "note": ""
   },
   "gh:okta": {
@@ -2102,12 +2141,12 @@
   },
   "gh:rubrik": {
    "capped": false,
-   "fetched": 156,
+   "fetched": 157,
    "note": ""
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 315,
+   "fetched": 314,
    "note": ""
   },
   "gh:scaleai": {
@@ -2117,7 +2156,7 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 788,
+   "fetched": 787,
    "note": ""
   },
   "gh:twilio": {
@@ -2147,12 +2186,7 @@
   },
   "lv:cred": {
    "capped": false,
-   "fetched": 14,
-   "note": ""
-  },
-  "lv:meesho": {
-   "capped": false,
-   "fetched": 48,
+   "fetched": 15,
    "note": ""
   },
   "lv:palantir": {
@@ -2162,7 +2196,7 @@
   },
   "lv:paytm": {
    "capped": false,
-   "fetched": 201,
+   "fetched": 202,
    "note": ""
   },
   "lv:spotify": {
@@ -2172,8 +2206,8 @@
   },
   "wd:adobe/external_experienced": {
    "capped": false,
-   "fetched": 19,
-   "note": "searches: 'intern india' 19, 'intern bangalore' 0"
+   "fetched": 18,
+   "note": "searches: 'intern india' 18, 'intern bangalore' 0"
   },
   "wd:cisco/Cisco_Careers": {
    "capped": false,
@@ -2187,8 +2221,8 @@
   },
   "wd:intel/External": {
    "capped": false,
-   "fetched": 37,
-   "note": "searches: 'intern india' 37, 'intern bangalore' 0"
+   "fetched": 38,
+   "note": "searches: 'intern india' 38, 'intern bangalore' 0"
   },
   "wd:mastercard/Campus": {
    "capped": false,

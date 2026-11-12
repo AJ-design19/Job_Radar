@@ -10,6 +10,8 @@ profile:
   role_keywords: [software, engineer, engineering, developer, sde, swe, "machine learning", ml, ai, "data scientist", "data science", technology, technical, "information technology", backend, "back end", frontend, "full stack", fullstack, research, cloud, devops, security, python, java, "c++"]
   # Titles containing these are dropped
   exclude_keywords: [senior, sr, staff, principal, manager, director, lead, head, vp, "phd", hardware, silicon, asic, mechanical, civil, chemical, marketing, sales, graphics, motion, interaction, astronomy, events, finance, accounting, legal, recruiter, "human resources"]
+  # Roles that fit a software / AI-ML student poorly: score -3 and no automatic big-tech alert (still listed in the report)
+  role_penalty: [support, qa, tester, testing, helpdesk, customer, network, embedded, soc, "data entry", operations, "sales engineer"]
   # Extra points in ranking
   priority_keywords: [ai, ml, "machine learning", "software engineer", "software engineering", sde, swe, backend, cloud, "data science"]
   skills: [python, "c++", java, "machine learning", ai, aws, tensorflow, pytorch, llm, fastapi, docker]

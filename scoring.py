@@ -70,6 +70,12 @@ def is_elite(job, profile):
     return any(_has(name, k) for k in (profile.get("pay") or {}).get("elite_companies", []))
 
 
+def is_offtrack(job, profile):
+    """Roles that fit a software / AI-ML student poorly (support, QA, embedded...). They rank lower."""
+    title = (job.get("title") or "").lower()
+    return any(_has(title, k) for k in profile.get("role_penalty", []))
+
+
 def watch_name(job, watchlist):
     """Name of the watchlist company this job belongs to (Google, Atlassian...), or None."""
     name = (job.get("company") or "").lower()
@@ -115,7 +121,9 @@ def heuristic_score(job, profile):
         s += 2
     if str(profile.get("target_year", "")) in blob:
         s += 1
-    return min(10, s)
+    if is_offtrack(job, profile):
+        s -= 3
+    return max(0, min(10, s))
 
 
 def llm_enrich(job, profile):

@@ -19,7 +19,7 @@ from notify import (alert_email, digest_email, digest_push_text, push, send_emai
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
                     program_markdown, program_push_text, fmt_dt, opportunities_markdown)
 from scoring import (heuristic_score, is_elite, llm_enrich, passes_batch, passes_filters, passes_pay,
-                     passes_title_rules, watch_name)
+                     passes_title_rules, is_offtrack, watch_name)
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "state.json"
@@ -167,7 +167,8 @@ def scan(cfg, state, news=True):
         alerted.setdefault(fp, ts)
         pd = posted_dt(j.get("posted"))
         fresh = not (j.get("old") or (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14))))  # old: report only
-        if status == "open" and (score >= acfg["instant_min_score"] or wn) and not baseline and not already and fresh:
+        off = is_offtrack(j, profile)  # support / QA / embedded: still listed, but a big name alone does not trigger an alert
+        if status == "open" and (score >= acfg["instant_min_score"] or (wn and not off)) and not baseline and not already and fresh:
             new_jobs.append(rec)
 
     # a job that vanished from a board that loaded fine is closed
@@ -433,6 +434,85 @@ def loop(cfg, minutes=340, every=300, news_every=3, digest_hour=8, sync_every=12
     print("[loop] finished this chunk; the next run takes over")
 
 
+def check(cfg):
+    """Test every source once and print a pass/fail table (run it with the 'check' workflow or locally)."""
+    import collectors as c
+    from concurrent.futures import ThreadPoolExecutor
+    from programs import news_items, resolve_link
+    profile = cfg["profile"]
+    lines = ["JOB RADAR SOURCE CHECK  " + datetime.now(IST).strftime("%d %b %Y %I:%M %p IST"), ""]
+
+    def fit(jobs):
+        return [j for j in jobs if passes_filters(j, profile)]
+
+    def one(label, fn, notes_key=None):
+        try:
+            jobs = fn()
+            m = fit(jobs)
+            note = c.LAST_NOTES.get(notes_key, "") if notes_key else ""
+            sample = "; ".join(f"{j['title'][:34]} [{(j['location'] or '-')[:18]}]" for j in m[:2])
+            return f"OK    {label:<40} {len(jobs):>4} read {len(m):>3} fit  {note} {sample}".rstrip()
+        except Exception as e:
+            return f"FAIL  {label:<40} {type(e).__name__}: {str(e)[:130]}"
+
+    comp = cfg.get("companies") or {}
+    lines.append("WORKDAY (big companies)")
+    for e in comp.get("workday") or []:
+        k = c.workday_key(e)
+        lines.append("  " + one(k, lambda e=e: c.workday(e), k))
+    lines += ["", "SEARCH FEEDS"]
+    for name, fn in (("internscan", c.internscan), ("interndoor", c.interndoor), ("amazon", c.amazon),
+                     ("atlassian", c.atlassian), ("themuse", c.themuse), ("adzuna", c.adzuna)):
+        conf = cfg.get(name)
+        if conf and conf.get("enabled") is not False:
+            if name == "adzuna" and not (os.getenv("ADZUNA_APP_ID") and os.getenv("ADZUNA_APP_KEY")):
+                lines.append("  SKIP  adzuna                                   no ADZUNA_APP_ID / ADZUNA_APP_KEY secrets set")
+                continue
+            lines.append("  " + one(name, lambda fn=fn, conf=conf: (fn(conf) or []), name))
+
+    boards = [("gh:" + s, c.greenhouse, s) for s in comp.get("greenhouse") or []]
+    boards += [("lv:" + s, c.lever, s) for s in comp.get("lever") or []] + [("ab:" + s, c.ashby, s) for s in comp.get("ashby") or []]
+
+    def run(t):
+        k, fn, arg = t
+        try:
+            return k, fn(arg), None
+        except Exception as e:
+            return k, None, f"{type(e).__name__}: {str(e)[:70]}"
+    with ThreadPoolExecutor(8) as ex:
+        res = list(ex.map(run, boards))
+    ok = [(k, j) for k, j, e in res if e is None]
+    bad = [(k, e) for k, j, e in res if e]
+    lines += ["", f"COMPANY BOARDS (Greenhouse / Lever / Ashby): {len(ok)} ok, {len(bad)} failing, "
+                  f"{sum(len(fit(j)) for _, j in ok)} postings fit you"] + [f"  FAIL  {k}: {e}" for k, e in bad]
+
+    lines += ["", "NEWS AND LINKS"]
+    queries = [p["news"] for p in (cfg.get("programs") or []) if p.get("news")][:1] + (cfg.get("discovery") or {}).get("queries", [])[:1]
+    items = []
+    for q in queries:
+        try:
+            items = news_items(q, 3) or items
+            lines.append(f"  OK    news search '{q[:34]}': {len(news_items(q, 3))} headlines")
+        except Exception as e:
+            lines.append(f"  FAIL  news search '{q[:34]}': {type(e).__name__}: {str(e)[:100]}")
+    if items:
+        u = items[0]["link"]
+        r = resolve_link(u)
+        lines.append("  OK    link decoder: " + r[:80] if r != u else "  WARN  link decoder: not working, news alerts keep Google News links")
+
+    chan = {"email": os.getenv("GMAIL_ADDRESS") and os.getenv("GMAIL_APP_PASSWORD"),
+            "telegram": os.getenv("TELEGRAM_BOT_TOKEN") and os.getenv("TELEGRAM_CHAT_ID"),
+            "whatsapp": os.getenv("CALLMEBOT_PHONE") and os.getenv("CALLMEBOT_APIKEY"),
+            "gemini": os.getenv("GEMINI_API_KEY")}
+    lines += ["", "ALERT CHANNELS: " + ", ".join(f"{k} {'ON' if v else 'off'}" for k, v in chan.items())]
+    text = "\n".join(lines)
+    print(text)
+    summary = os.getenv("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write("```\n" + text + "\n```\n")
+
+
 def main():
     for stream in (sys.stdout, sys.stderr):  # Windows consoles default to cp1252 and choke on emoji
         try:
@@ -450,6 +530,9 @@ def main():
         return
     if cmd == "loop":
         loop(cfg)
+        return
+    if cmd == "check":
+        check(cfg)
         return
     state = load_state()
     {"scan": scan, "digest": digest}[cmd](cfg, state)

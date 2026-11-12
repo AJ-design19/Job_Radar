@@ -5,6 +5,7 @@
   "amazon|dataengineerintern": "2026-11-05T10:19:00+00:00",
   "amazon|sdeiinternamazonuniversitytalentacquisition": "2026-11-07T13:28:53+00:00",
   "amazon|supportengineerintern": "2026-11-09T20:59:32+00:00",
+  "appinventiv|softwareintern": "2026-11-12T10:16:51+00:00",
   "bankofamerica|apprentice": "2026-11-05T17:37:01+00:00",
   "bnpparibas|datascienceintern": "2026-11-09T20:59:32+00:00",
   "codemonk|machinelearningintern": "2026-11-10T18:01:49+00:00",
@@ -149,7 +150,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -287,6 +288,30 @@
    "url": "https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163",
    "verifiable": false
   },
+  "id:https://interndoor.com/jobs/appinventiv-software-intern-4488292701": {
+   "apply_url": "https://www.linkedin.com/jobs/view/4488292701/",
+   "baseline": false,
+   "company": "Appinventiv",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-12T10:16:51+00:00",
+   "id": "id:https://interndoor.com/jobs/appinventiv-software-intern-4488292701",
+   "last_seen": "2026-11-12T10:26:51+00:00",
+   "location": "India",
+   "posted": "2026-11-12T09:07:40+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 5,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Software Intern",
+   "url": "https://interndoor.com/jobs/appinventiv-software-intern-4488292701",
+   "verifiable": false,
+   "watch": ""
+  },
   "id:https://interndoor.com/jobs/bank-of-america-apprentice-4483709249": {
    "baseline": false,
    "closed_at": "2026-11-07T18:29:22+00:00",
@@ -396,7 +421,7 @@
    "elite": false,
    "first_seen": "2026-11-12T08:31:51+00:00",
    "id": "id:https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Gurugram, Haryana, India",
    "posted": "2026-11-12T07:40:00+00:00",
    "posted_kind": "listed",
@@ -422,7 +447,7 @@
    "first_seen": "2026-11-12T01:19:23+00:00",
    "id": "id:https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490055733",
    "last_checked": "2026-11-12T02:34:47+00:00",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-12T00:11:35+00:00",
    "posted_kind": "listed",
@@ -448,7 +473,7 @@
    "first_seen": "2026-11-12T01:19:23+00:00",
    "id": "id:https://interndoor.com/jobs/fyntune-solution-private-limited-java-development-internship-in-thane-navi-mumbai-mumbai-4490066332",
    "last_checked": "2026-11-12T02:34:47+00:00",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Thane, Maharashtra, India",
    "posted": "2026-11-12T00:10:56+00:00",
    "posted_kind": "listed",
@@ -936,7 +961,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -955,7 +980,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -994,7 +1019,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1033,7 +1058,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1072,7 +1097,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1091,7 +1116,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1110,7 +1135,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1129,7 +1154,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1148,7 +1173,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1167,7 +1192,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1186,7 +1211,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1253,7 +1278,7 @@
    "elite": false,
    "first_seen": "2026-11-12T05:54:23+00:00",
    "id": "wd:hpe:Jobsathpe:/job/Bengaluru-Karntaka-India/Research-PhD_1191423",
-   "last_seen": "2026-11-12T10:01:51+00:00",
+   "last_seen": "2026-11-12T10:26:51+00:00",
    "location": "Bengaluru, Karn\u0101taka, India",
    "old": false,
    "posted": "2026-11-12",
@@ -1695,11 +1720,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-10T22:56:49+00:00",
-  "2026-11-10T23:01:49+00:00",
-  "2026-11-10T23:06:49+00:00",
-  "2026-11-10T23:11:49+00:00",
-  "2026-11-10T23:16:49+00:00",
   "2026-11-10T23:21:49+00:00",
   "2026-11-10T23:26:49+00:00",
   "2026-11-10T23:31:49+00:00",
@@ -1994,7 +2014,12 @@
   "2026-11-12T09:46:51+00:00",
   "2026-11-12T09:51:51+00:00",
   "2026-11-12T09:56:51+00:00",
-  "2026-11-12T10:01:51+00:00"
+  "2026-11-12T10:01:51+00:00",
+  "2026-11-12T10:06:51+00:00",
+  "2026-11-12T10:11:51+00:00",
+  "2026-11-12T10:16:51+00:00",
+  "2026-11-12T10:21:51+00:00",
+  "2026-11-12T10:26:51+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2044,7 +2069,7 @@
   },
   "gh:anthropic": {
    "capped": false,
-   "fetched": 674,
+   "fetched": 673,
    "note": ""
   },
   "gh:asana": {
@@ -2064,12 +2089,12 @@
   },
   "gh:coinbase": {
    "capped": false,
-   "fetched": 273,
+   "fetched": 271,
    "note": ""
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 912,
+   "fetched": 913,
    "note": ""
   },
   "gh:datadog": {
@@ -2109,7 +2134,7 @@
   },
   "gh:lyft": {
    "capped": false,
-   "fetched": 154,
+   "fetched": 153,
    "note": ""
   },
   "gh:mongodb": {
@@ -2139,7 +2164,7 @@
   },
   "gh:rubrik": {
    "capped": false,
-   "fetched": 157,
+   "fetched": 160,
    "note": ""
   },
   "gh:samsara": {
@@ -2159,7 +2184,7 @@
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 124,
+   "fetched": 123,
    "note": ""
   },
   "gh:vercel": {

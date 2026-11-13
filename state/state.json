@@ -178,7 +178,12 @@
    }
   ]
  },
- "failures": {},
+ "failures": {
+  "wd:nvidia/NVIDIAExternalCareerSite": {
+   "count": 3,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=20"
+  }
+ },
  "fix_interndoor_closed": true,
  "fix_watchlist": true,
  "initialized": true,
@@ -189,7 +194,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -948,7 +953,7 @@
    "elite": false,
    "first_seen": "2026-11-13T16:30:32+00:00",
    "id": "id:https://interndoor.com/jobs/lexsi-labs-ai-agent-engineer-intern-4479326067",
-   "last_seen": "2026-11-13T20:30:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-13T15:33:57+00:00",
    "posted_kind": "listed",
@@ -973,7 +978,7 @@
    "elite": false,
    "first_seen": "2026-11-13T15:54:32+00:00",
    "id": "id:https://interndoor.com/jobs/lexsi-labs-ai-research-internship-4479199838",
-   "last_seen": "2026-11-13T20:30:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-13T13:42:14+00:00",
    "posted_kind": "listed",
@@ -1238,7 +1243,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1257,7 +1262,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1296,7 +1301,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1335,7 +1340,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1374,7 +1379,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1393,7 +1398,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1412,7 +1417,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1431,7 +1436,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1450,7 +1455,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1469,7 +1474,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1488,7 +1493,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1557,7 +1562,7 @@
    "first_seen": "2026-11-12T05:54:23+00:00",
    "id": "wd:hpe:Jobsathpe:/job/Bengaluru-Karntaka-India/Research-PhD_1191423",
    "last_checked": "2026-11-13T04:34:26+00:00",
-   "last_seen": "2026-11-13T20:26:32+00:00",
+   "last_seen": "2026-11-13T20:50:32+00:00",
    "location": "Bengaluru, Karn\u0101taka, India",
    "old": false,
    "posted": "2026-11-12",
@@ -2027,16 +2032,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-13T04:52:05+00:00",
-  "2026-11-13T04:54:05+00:00",
-  "2026-11-13T04:56:05+00:00",
-  "2026-11-13T04:58:05+00:00",
-  "2026-11-13T05:00:05+00:00",
-  "2026-11-13T05:02:05+00:00",
-  "2026-11-13T05:04:05+00:00",
-  "2026-11-13T05:06:05+00:00",
-  "2026-11-13T05:08:05+00:00",
-  "2026-11-13T05:10:05+00:00",
   "2026-11-13T05:12:05+00:00",
   "2026-11-13T05:14:05+00:00",
   "2026-11-13T05:16:05+00:00",
@@ -2326,7 +2321,17 @@
   "2026-11-13T20:24:32+00:00",
   "2026-11-13T20:26:32+00:00",
   "2026-11-13T20:28:32+00:00",
-  "2026-11-13T20:30:32+00:00"
+  "2026-11-13T20:30:32+00:00",
+  "2026-11-13T20:32:32+00:00",
+  "2026-11-13T20:34:32+00:00",
+  "2026-11-13T20:36:32+00:00",
+  "2026-11-13T20:38:32+00:00",
+  "2026-11-13T20:40:32+00:00",
+  "2026-11-13T20:42:32+00:00",
+  "2026-11-13T20:44:32+00:00",
+  "2026-11-13T20:46:32+00:00",
+  "2026-11-13T20:48:32+00:00",
+  "2026-11-13T20:50:32+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2366,7 +2371,7 @@
   },
   "atlassian": {
    "capped": false,
-   "fetched": 259,
+   "fetched": 260,
    "note": ""
   },
   "gh:airbnb": {
@@ -2386,7 +2391,7 @@
   },
   "gh:carta": {
    "capped": false,
-   "fetched": 77,
+   "fetched": 78,
    "note": ""
   },
   "gh:cloudflare": {
@@ -2411,7 +2416,7 @@
   },
   "gh:discord": {
    "capped": false,
-   "fetched": 25,
+   "fetched": 26,
    "note": ""
   },
   "gh:dropbox": {
@@ -2421,7 +2426,7 @@
   },
   "gh:duolingo": {
    "capped": false,
-   "fetched": 61,
+   "fetched": 60,
    "note": ""
   },
   "gh:elastic": {
@@ -2436,7 +2441,7 @@
   },
   "gh:gitlab": {
    "capped": false,
-   "fetched": 251,
+   "fetched": 250,
    "note": ""
   },
   "gh:lyft": {
@@ -2451,7 +2456,7 @@
   },
   "gh:okta": {
    "capped": false,
-   "fetched": 363,
+   "fetched": 362,
    "note": ""
   },
   "gh:pinterest": {
@@ -2476,7 +2481,7 @@
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 313,
+   "fetched": 317,
    "note": ""
   },
   "gh:scaleai": {
@@ -2486,7 +2491,7 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 788,
+   "fetched": 789,
    "note": ""
   },
   "gh:twilio": {
@@ -2565,11 +2570,6 @@
    "note": "searches: 'intern india' 1, 'intern bangalore' 0"
   },
   "wd:mastercard/CorporateCareers": {
-   "capped": true,
-   "fetched": 60,
-   "note": "searches: 'intern india' 60, 'intern bangalore' 0"
-  },
-  "wd:nvidia/NVIDIAExternalCareerSite": {
    "capped": true,
    "fetched": 60,
    "note": "searches: 'intern india' 60, 'intern bangalore' 0"

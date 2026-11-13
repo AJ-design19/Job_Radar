@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 12 Nov 2026
+# Internship opportunity tracker - 13 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
@@ -14,11 +14,13 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 - **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
 - **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's main Workday site _(typical)_ · where: Adobe careers
   - 🔗 [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area
+- **LinkedIn Software Engineering Intern (Bengaluru)** [A] check posting (an earlier posting asked for 2027 graduates) · usually Dec - you heard a live link opens for only 1 to 3 hours in December; I could not confirm that. Easy Apply uses your LinkedIn profile, so update it now. The radar polls every 2 minutes in December _(typical)_ · where: LinkedIn careers; apply with LinkedIn Easy Apply
 - **Meta, Apple, Netflix, OpenAI internships** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - India internships are rare; the radar keeps checking and watches news _(typical)_ · where: each company's careers site
 - **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
 - **[Flipkart summer internship](https://flipkartearlycareers.hirepro.in/)** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
 - **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
+  - 🔗 [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) · Bengaluru, Karnātaka, India
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
@@ -29,9 +31,9 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 
 ## Later in the year
 - **Amazon SDE Intern (India)** [A] current round: 2027 graduates, NOT your batch · usually Aug, Sep, Oct - 6-month internship; radar reads amazon.jobs and flags a 2028-batch round _(confirmed)_ · where: amazon.jobs
+  - 🔗 [AI Automation Intern](https://interndoor.com/jobs/rank-top-3-on-amazon-harpy-media-ai-automation-intern-4489262920) · Meerut, Uttar Pradesh, India
   - 🔗 [SDE I Intern , Amazon University Talent Acquisition](https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052) · Bengaluru, KA, India
   - 🔗 [Support Engineer Intern](https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163) · Bengaluru, KA, India
-  - 🔗 [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) · Bengaluru, KA, India
 - **Google Software Engineering Intern, Summer 2027** [A] 2027 and 2028 penultimate · usually May, Jun - applications closed around 28 Jun 2026; you are already in this process, so prepare. Next cycle opens around Jun 2027 _(reported)_ · where: Google careers
 - **Walmart Global Tech summer intern** [A] check posting · usually Aug, Sep, Oct - InternScan covers Walmart Global Tech _(typical)_ · where: Walmart careers
   - 🔗 [(IND) Grad Intern - No Work Experience](https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935) · IN KA BANGALORE Home Office Building 10

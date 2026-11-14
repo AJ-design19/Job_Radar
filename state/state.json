@@ -199,12 +199,7 @@
    }
   ]
  },
- "failures": {
-  "lv:meesho": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  }
- },
+ "failures": {},
  "fix_interndoor_closed": true,
  "fix_watchlist": true,
  "initialized": true,
@@ -215,7 +210,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -1297,7 +1292,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1316,7 +1311,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1379,7 +1374,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1418,7 +1413,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1457,7 +1452,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1476,7 +1471,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1495,7 +1490,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1514,7 +1509,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1533,7 +1528,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1552,7 +1547,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1596,7 +1591,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1665,7 +1660,7 @@
    "first_seen": "2026-11-12T05:54:23+00:00",
    "id": "wd:hpe:Jobsathpe:/job/Bengaluru-Karntaka-India/Research-PhD_1191423",
    "last_checked": "2026-11-13T04:34:26+00:00",
-   "last_seen": "2026-11-14T23:03:53+00:00",
+   "last_seen": "2026-11-14T23:19:53+00:00",
    "location": "Bengaluru, Karn\u0101taka, India",
    "old": false,
    "posted": "2026-11-12",
@@ -2140,17 +2135,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-14T07:05:12+00:00",
-  "2026-11-14T07:07:12+00:00",
-  "2026-11-14T07:09:12+00:00",
-  "2026-11-14T07:11:12+00:00",
-  "2026-11-14T07:13:12+00:00",
-  "2026-11-14T07:15:12+00:00",
-  "2026-11-14T07:17:12+00:00",
-  "2026-11-14T07:19:12+00:00",
-  "2026-11-14T07:21:12+00:00",
-  "2026-11-14T07:23:12+00:00",
-  "2026-11-14T07:25:12+00:00",
   "2026-11-14T07:27:12+00:00",
   "2026-11-14T07:29:12+00:00",
   "2026-11-14T07:31:12+00:00",
@@ -2439,7 +2423,18 @@
   "2026-11-14T22:57:53+00:00",
   "2026-11-14T22:59:53+00:00",
   "2026-11-14T23:01:53+00:00",
-  "2026-11-14T23:03:53+00:00"
+  "2026-11-14T23:03:53+00:00",
+  "2026-11-14T23:05:53+00:00",
+  "2026-11-14T23:07:53+00:00",
+  "2026-11-14T23:09:53+00:00",
+  "2026-11-14T23:11:53+00:00",
+  "2026-11-14T23:13:53+00:00",
+  "2026-11-14T23:15:53+00:00",
+  "2026-11-14T23:17:53+00:00",
+  "2026-11-14T23:19:53+00:00",
+  "2026-11-14T23:21:53+00:00",
+  "2026-11-14T23:23:53+00:00",
+  "2026-11-14T23:25:53+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2604,7 +2599,7 @@
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 115,
+   "fetched": 114,
    "note": ""
   },
   "gh:vercel": {
@@ -2630,6 +2625,11 @@
   "lv:cred": {
    "capped": false,
    "fetched": 15,
+   "note": ""
+  },
+  "lv:meesho": {
+   "capped": false,
+   "fetched": 49,
    "note": ""
   },
   "lv:palantir": {

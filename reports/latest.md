@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 13 Nov 2026
-**32 companies** hiring interns · 45 open roles · 9 new in 24h · 0 closed in 24h
+# Job Radar daily report - 14 Nov 2026
+**35 companies** hiring interns · 52 open roles · 7 new in 24h · 0 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: nothing open in India right now (radar keeps checking)
@@ -33,27 +33,22 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [🔥 AI Automation Intern](https://www.linkedin.com/jobs/view/4489262920/) · [listing](https://interndoor.com/jobs/rank-top-3-on-amazon-harpy-media-ai-automation-intern-4489262920) - Rank Top 3 on Amazon | Harpy Media · Meerut, Uttar Pradesh, India · **9/10**
-  - 🕒 posted 12 Nov 2026, 11:15 PM IST · detected 12 Nov 2026, 11:43 PM IST · 🔔 alert sent 12 Nov 2026, 11:43 PM IST
-  - 🤝 [your connections at Rank Top 3 on Amazon | Harpy Media](https://www.linkedin.com/search/results/people/?keywords=Rank%20Top%203%20on%20Amazon%20%7C%20Harpy%20Media&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rank%20Top%203%20on%20Amazon%20%7C%20Harpy%20Media&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
-- [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) - HPE · Bengaluru, Karnātaka, India · **8/10**
-  - 🕒 posted 12 Nov 2026 · detected 12 Nov 2026, 11:24 AM IST · 🔔 alert sent 12 Nov 2026, 11:24 AM IST
-- [Data Science Intern](https://forms.gle/Fdsk6LMACagZNqCy7?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-data-science-intern-4488543648) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 13 Nov 2026, 12:09 AM IST · detected 13 Nov 2026, 12:53 AM IST · 🔔 alert sent 13 Nov 2026, 12:53 AM IST
-- [Software Engineer Intern](https://forms.gle/hEtH2BQ3qWTS6k4f9?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 12 Nov 2026, 01:10 PM IST · detected 12 Nov 2026, 02:01 PM IST · 🔔 alert sent 12 Nov 2026, 02:01 PM IST
-- [Data Science Intern](https://careers.geaerospace.com/global/en/job/GAOGAYGLOBALR5040035EXTERNALENGLOBAL/Data-Science-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor) · [listing](https://interndoor.com/jobs/ge-aerospace-data-science-intern-4487291461) - GE Aerospace · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 12 Nov 2026, 04:09 PM IST · detected 12 Nov 2026, 05:21 PM IST · 🔔 alert sent 12 Nov 2026, 05:21 PM IST
-- [Software Intern](https://www.linkedin.com/jobs/view/4488292701/) · [listing](https://interndoor.com/jobs/appinventiv-software-intern-4488292701) - Appinventiv · India · **5/10**
-  - 🕒 posted 12 Nov 2026, 02:37 PM IST · detected 12 Nov 2026, 03:46 PM IST
-- [Software Development Intern](https://gokwik.keka.com/careers/jobdetails/169089?ref=interndoor) · [listing](https://interndoor.com/jobs/gokwik-intern-software-development-ats-keka-gokwik-169089) - GoKwik · Gurugram, HR, India · **5/10**
-  - 🕒 posted 12 Nov 2026, 03:29 PM IST · detected 12 Nov 2026, 05:21 PM IST
+- [Ph D/Research Intern - AI Research Lab](https://careers.hpe.com/us/en/job/1191423) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **8/10**
+  - 🕒 posted 12 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST
+- [Software Engineer Intern](https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921) - PayPal · 2 Locations, Bangalore Karnataka India · **7/10**
+  - 🕒 posted 10 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
+- [AI Developer Intern](https://forms.gle/2QBshuJejtNWHBX87?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-ai-developer-intern-4489522819) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 13 Nov 2026, 09:47 AM IST · detected 13 Nov 2026, 10:48 AM IST · 🔔 alert sent 13 Nov 2026, 10:48 AM IST
+- [AI Agent Engineer Intern](https://easyapply.jobs/r/dHXuGGd27CkpTdtK0mL?ref=interndoor) · [listing](https://interndoor.com/jobs/lexsi-labs-ai-agent-engineer-intern-4479326067) - Lexsi Labs · Mumbai Metropolitan Region · **6/10**
+  - 🕒 posted 13 Nov 2026, 09:03 PM IST · detected 13 Nov 2026, 10:00 PM IST · 🔔 alert sent 13 Nov 2026, 10:00 PM IST
+- [AI Research Internship](https://easyapply.jobs/r/3GxV4h328CiAZ3479zVb?ref=interndoor) · [listing](https://interndoor.com/jobs/lexsi-labs-ai-research-internship-4479199838) - Lexsi Labs · Mumbai Metropolitan Region · **6/10**
+  - 🕒 posted 13 Nov 2026, 07:12 PM IST · detected 13 Nov 2026, 09:24 PM IST · 🔔 alert sent 13 Nov 2026, 09:24 PM IST
+- [AI/ML Engineer Internship](https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012) - Isourse · Delhi, India · **6/10**
+  - 🕒 posted 14 Nov 2026, 05:40 AM IST · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
 - [Quality Analyst Internship](https://internshala.com/internship/detail/quality-analyst-internship-in-multiple-locations-at-fyntune-solution-private-limited1794469985/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/fyntune-solution-private-limited-quality-analyst-internship-in-thane-navi-mumbai-mumbai-4490557046) - FynTune Solution Private Limited · Thane, Maharashtra, India · **5/10**
   - 🕒 posted 13 Nov 2026, 06:16 AM IST · detected 13 Nov 2026, 10:04 AM IST
-- [C&SP Intern](https://www.careers.jnj.com/en/jobs/R-108628/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/johnson-and-johnson-innovative-medicine-c-and-sp-intern-4490314913) - Johnson & Johnson Innovative Medicine · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 12 Nov 2026, 05:04 PM IST · detected 12 Nov 2026, 06:41 PM IST
 
-## 🏢 Companies hiring interns right now (32)
+## 🏢 Companies hiring interns right now (35)
 
 <details><summary><b>Amazon</b> (3)</summary>
 
@@ -64,6 +59,17 @@
   - 🤝 [your connections at Amazon](https://www.linkedin.com/search/results/people/?keywords=Amazon&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Amazon&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
 - [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) - Amazon · Bengaluru, KA, India · **7/10**
   - 🕒 posted 05 Nov 2026, 11:14 AM IST · detected 05 Nov 2026, 03:49 PM IST · 🔔 alert sent 05 Nov 2026, 03:49 PM IST
+
+</details>
+
+<details><summary><b>Delhivery</b> (3)</summary>
+
+- [AI Developer Intern](https://forms.gle/2QBshuJejtNWHBX87?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-ai-developer-intern-4489522819) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 13 Nov 2026, 09:47 AM IST · detected 13 Nov 2026, 10:48 AM IST · 🔔 alert sent 13 Nov 2026, 10:48 AM IST
+- [Data Science Intern](https://forms.gle/Fdsk6LMACagZNqCy7?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-data-science-intern-4488543648) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 13 Nov 2026, 12:09 AM IST · detected 13 Nov 2026, 12:53 AM IST · 🔔 alert sent 13 Nov 2026, 12:53 AM IST
+- [Software Engineer Intern](https://forms.gle/hEtH2BQ3qWTS6k4f9?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 12 Nov 2026, 01:10 PM IST · detected 12 Nov 2026, 02:01 PM IST · 🔔 alert sent 12 Nov 2026, 02:01 PM IST
 
 </details>
 
@@ -89,12 +95,14 @@
 
 </details>
 
-<details><summary><b>Delhivery</b> (2)</summary>
+<details><summary><b>HPE</b> (3)</summary>
 
-- [Data Science Intern](https://forms.gle/Fdsk6LMACagZNqCy7?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-data-science-intern-4488543648) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 13 Nov 2026, 12:09 AM IST · detected 13 Nov 2026, 12:53 AM IST · 🔔 alert sent 13 Nov 2026, 12:53 AM IST
-- [Software Engineer Intern](https://forms.gle/hEtH2BQ3qWTS6k4f9?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 12 Nov 2026, 01:10 PM IST · detected 12 Nov 2026, 02:01 PM IST · 🔔 alert sent 12 Nov 2026, 02:01 PM IST
+- [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) - HPE · Bengaluru, Karnātaka, India · **8/10**
+  - 🕒 posted 12 Nov 2026 · detected 12 Nov 2026, 11:24 AM IST · 🔔 alert sent 12 Nov 2026, 11:24 AM IST
+- [Ph D/Research Intern - AI Research Lab](https://careers.hpe.com/us/en/job/1191423) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **8/10**
+  - 🕒 posted 12 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST
+- [College Intern](https://careers.hpe.com/us/en/job/1211843) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **6/10**
+  - 🕒 posted 01 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
 
 </details>
 
@@ -122,6 +130,15 @@
   - 🕒 posted 11 Nov 2026, 04:34 PM IST · detected 11 Nov 2026, 06:17 PM IST
 - [Software Developer Intern](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/ibm-software-developer-intern-4488220086) - IBM · Kochi, Kerala, India · **4/10**
   - 🕒 posted 11 Nov 2026, 04:34 PM IST · detected 11 Nov 2026, 05:02 PM IST
+
+</details>
+
+<details><summary><b>Lexsi Labs</b> (2)</summary>
+
+- [AI Agent Engineer Intern](https://easyapply.jobs/r/dHXuGGd27CkpTdtK0mL?ref=interndoor) · [listing](https://interndoor.com/jobs/lexsi-labs-ai-agent-engineer-intern-4479326067) - Lexsi Labs · Mumbai Metropolitan Region · **6/10**
+  - 🕒 posted 13 Nov 2026, 09:03 PM IST · detected 13 Nov 2026, 10:00 PM IST · 🔔 alert sent 13 Nov 2026, 10:00 PM IST
+- [AI Research Internship](https://easyapply.jobs/r/3GxV4h328CiAZ3479zVb?ref=interndoor) · [listing](https://interndoor.com/jobs/lexsi-labs-ai-research-internship-4479199838) - Lexsi Labs · Mumbai Metropolitan Region · **6/10**
+  - 🕒 posted 13 Nov 2026, 07:12 PM IST · detected 13 Nov 2026, 09:24 PM IST · 🔔 alert sent 13 Nov 2026, 09:24 PM IST
 
 </details>
 
@@ -237,13 +254,6 @@
 
 </details>
 
-<details><summary><b>HPE</b> (1)</summary>
-
-- [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) - HPE · Bengaluru, Karnātaka, India · **8/10**
-  - 🕒 posted 12 Nov 2026 · detected 12 Nov 2026, 11:24 AM IST · 🔔 alert sent 12 Nov 2026, 11:24 AM IST
-
-</details>
-
 <details><summary><b>Irdeto</b> (1)</summary>
 
 - [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
@@ -251,10 +261,24 @@
 
 </details>
 
+<details><summary><b>Isourse</b> (1)</summary>
+
+- [AI/ML Engineer Internship](https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012) - Isourse · Delhi, India · **6/10**
+  - 🕒 posted 14 Nov 2026, 05:40 AM IST · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
+
+</details>
+
 <details><summary><b>Johnson &amp; Johnson Innovative Medicine</b> (1)</summary>
 
 - [C&SP Intern](https://www.careers.jnj.com/en/jobs/R-108628/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/johnson-and-johnson-innovative-medicine-c-and-sp-intern-4490314913) - Johnson & Johnson Innovative Medicine · Hyderabad, Telangana, India · **4/10**
   - 🕒 posted 12 Nov 2026, 05:04 PM IST · detected 12 Nov 2026, 06:41 PM IST
+
+</details>
+
+<details><summary><b>PayPal</b> (1)</summary>
+
+- [Software Engineer Intern](https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921) - PayPal · 2 Locations, Bangalore Karnataka India · **7/10**
+  - 🕒 posted 10 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
 
 </details>
 
@@ -330,6 +354,7 @@
 - **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
   - 🔗 [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) · Bengaluru, Karnātaka, India
+  - 🔗 [Ph D/Research Intern - AI Research Lab](https://careers.hpe.com/us/en/job/1191423) · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India
   - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
@@ -392,22 +417,15 @@ _10 more programs open later in the year; see the full list._
 <details><summary><b>📡 What the radar read this run</b></summary>
 
 - `amazon`: 1 postings read, 0 match you (query form 1 worked)
-- `atlassian`: 375 postings read, 0 match you
-- `interndoor`: 50 postings read, 32 match you
-- `internscan`: 19 postings read, 10 match you
-- `wd:adobe/external_experienced`: 17 postings read, 0 match you (searches: 'intern india' 17, 'intern bangalore' 0)
-- `wd:cisco/Cisco_Careers`: 16 postings read, 0 match you (searches: 'intern india' 14, 'intern bangalore' 2)
-- `wd:hpe/Jobsathpe`: 84 postings read, 1 match you (searches: 'intern india' 60, 'intern bangalore' 24) (list cut off at the page limit)
-- `wd:intel/External`: 37 postings read, 0 match you (searches: 'intern india' 37, 'intern bangalore' 0)
-- `wd:mastercard/Campus`: 1 postings read, 0 match you (searches: 'intern india' 1, 'intern bangalore' 0)
-- `wd:mastercard/CorporateCareers`: 60 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 0) (list cut off at the page limit)
-- `wd:nvidia/NVIDIAExternalCareerSite`: 60 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 0) (list cut off at the page limit)
-- `wd:paypal/jobs`: 18 postings read, 0 match you (searches: 'intern india' 18, 'intern bangalore' 0)
-- `wd:salesforce/External_Career_Site`: 83 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 23) (list cut off at the page limit)
-- `wd:visa/Visa`: 35 postings read, 0 match you (searches: 'intern india' 35, 'intern bangalore' 0)
-- `wd:visa/Visa_Talent_Portal`: 2 postings read, 1 match you (searches: 'intern india' 2, 'intern bangalore' 0)
+- `atlassian`: 289 postings read, 0 match you
+- `interndoor`: 50 postings read, 36 match you
+- `internscan`: 19 postings read, 13 match you
+- `wd:salesforce/External_Career_Site`: 84 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 24) (list cut off at the page limit)
 - `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 1 match you
-- `scan timing`: 165 scans in the last 24h, longest gap 5h 45m (the radar loop aims for one every 5 minutes)
-- `alert speed`: 4 alerts in 24h: median 51 min after posting, slowest 72 min (target: under 15)
+- `scan timing`: 300 scans in the last 24h, longest gap 5h 42m (the radar loop aims for one every 5 minutes)
+- `alert speed`: 4 alerts in 24h: median 132 min after posting, slowest 184 min (target: under 15)
 
 </details>
+
+## Source problems (check slug / network)
+- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 521 Server Error: <none> for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExterna (x9)

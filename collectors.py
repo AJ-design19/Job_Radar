@@ -388,10 +388,35 @@ def interndoor(cfg):
 LAST_STATS = {}  # source -> {fetched, capped} for the latest collect_all (shown in the daily report)
 
 
-def collect_all(cfg, light=False):
+_ATS = [
+    ("greenhouse", re.compile(r"(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io/(?:embed/job_app\?for=)?([a-z0-9_-]+)", re.I)),
+    ("lever", re.compile(r"jobs\.(?:eu\.)?lever\.co/([a-z0-9_.-]+)", re.I)),
+    ("ashby", re.compile(r"jobs\.ashbyhq\.com/([a-z0-9_.-]+)", re.I)),
+]
+
+
+def learn_source(url, company=""):
+    """From a job's apply link, work out which hiring system the company uses -> ('greenhouse', slug) etc., or None."""
+    url = url or ""
+    for kind, rx in _ATS:
+        m = rx.search(url)
+        if m and m.group(1).lower() not in ("embed", "jobs", "v1"):
+            return kind, m.group(1).lower()
+    m = _WD.match(url)
+    if m:
+        tenant, wd, site = m.groups()
+        return "workday", {"url": f"https://{tenant}.{wd}.myworkdayjobs.com/{site}", "name": company or tenant.title()}
+    return None
+
+
+def collect_all(cfg, light=False, extra=None):
     """Returns (jobs, ok_sources, failed_sources). Only ATS sources are 'verifiable':
     if a job disappears from a board that loaded fine, it is closed."""
-    comp = cfg.get("companies") or {}
+    comp = dict(cfg.get("companies") or {})
+    for kind in ("greenhouse", "lever", "ashby"):  # boards the radar learned from InternDoor apply links
+        comp[kind] = list(dict.fromkeys(list(comp.get(kind) or []) + list((extra or {}).get(kind) or [])))
+    have = {workday_key(e) for e in comp.get("workday") or []}
+    comp["workday"] = list(comp.get("workday") or []) + [e for e in (extra or {}).get("workday") or [] if workday_key(e) not in have]
     tasks = [(f"gh:{s}", greenhouse, s) for s in comp.get("greenhouse") or []]
     tasks += [(f"lv:{s}", lever, s) for s in comp.get("lever") or []]
     tasks += [(f"ab:{s}", ashby, s) for s in comp.get("ashby") or []]

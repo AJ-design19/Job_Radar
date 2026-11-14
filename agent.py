@@ -14,7 +14,8 @@ import yaml
 
 import collectors as _collectors
 from programs import check_programs, discover
-from collectors import check_url, collect_all, greenhouse_detail, interndoor_detail, parse_pay
+from collectors import (check_url, collect_all, greenhouse_detail, interndoor_detail, learn_source, parse_pay,
+                        workday_key)
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
                     program_markdown, program_push_text, fmt_dt, opportunities_markdown)
@@ -27,6 +28,32 @@ IST = timezone(timedelta(hours=5, minutes=30))  # fixed offset: no tz database n
 MAX_DETAIL_CALLS = 60   # Greenhouse posting-detail fetches per run (description + pay)
 MAX_LLM_CALLS = 15      # Gemini screenings per run
 MAX_URL_CHECKS = 15     # open/closed page checks per digest for search-API jobs
+
+
+def learn(state, spec):
+    kind, val = spec
+    learned = state.setdefault("learned", {"greenhouse": [], "lever": [], "ashby": [], "workday": []})
+    lst = learned.setdefault(kind, [])
+    keyof = (lambda e: e["url"]) if kind == "workday" else (lambda e: e)
+    if keyof(val) in [keyof(e) for e in lst]:
+        return
+    if sum(len(v) for v in learned.values()) >= 80 or (kind == "workday" and len(lst) >= 12):
+        return  # keep each scan short
+    lst.append(val)
+    print(f"[learned] {kind}: {keyof(val)}")
+
+
+def prune_learned(state):
+    """Forget learned boards that failed 12 scans in a row (wrong or closed address)."""
+    learned = state.get("learned") or {}
+    for src, f in list(state["failures"].items()):
+        if f.get("count", 0) < 12:
+            continue
+        for kind, prefix in (("greenhouse", "gh:"), ("lever", "lv:"), ("ashby", "ab:")):
+            if src.startswith(prefix) and src[len(prefix):] in learned.get(kind, []):
+                learned[kind].remove(src[len(prefix):])
+        if "workday" in learned:
+            learned["workday"] = [e for e in learned["workday"] if workday_key(e) != src]
 
 
 def fingerprint(j):
@@ -104,7 +131,10 @@ def scan(cfg, state, news=True, light=False):
     for f in (ROOT / "out").glob("alert*"):
         f.unlink()
     profile, acfg = cfg["profile"], cfg["alerts"]
-    jobs, ok, failed = collect_all(cfg, light=True) if light else collect_all(cfg)
+    kw = {"light": True} if light else {}
+    if state.get("learned"):
+        kw["extra"] = state["learned"]
+    jobs, ok, failed = collect_all(cfg, **kw)
     first_run = not state.get("initialized")
     known = set(state.get("sources_seen", []))
     new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
@@ -137,6 +167,9 @@ def scan(cfg, state, news=True, light=False):
         elif j["src"] == "interndoor" and detail_calls < MAX_DETAIL_CALLS:
             detail_calls += 1
             j.update(interndoor_detail(j["url"]))  # apply_url + the company page text
+            spec = learn_source(j.get("apply_url"), j.get("company") or "")
+            if spec:
+                learn(state, spec)  # from now on this company's own board is read directly (much faster than InternDoor)
         if j.get("stipend_inr_month") is None:
             j["stipend_inr_month"] = parse_pay(j.get("desc", ""))
         score = heuristic_score(j, profile)
@@ -189,6 +222,7 @@ def scan(cfg, state, news=True, light=False):
         f = state["failures"].setdefault(src, {"count": 0})
         f["count"] += 1
         f["error"] = err
+    prune_learned(state)
 
     cutoff = now() - timedelta(days=30)
     for jid in [k for k, r in state["jobs"].items() if parse(r["last_seen"]) < cutoff]:
@@ -330,6 +364,11 @@ def digest(cfg, state):
         delays.sort()
         sources.append(("alert speed", f"{len(delays)} alerts in 24h: median {int(delays[len(delays) // 2])} min after posting, "
                                        f"slowest {int(delays[-1])} min (target: under 15)"))
+    learned = state.get("learned") or {}
+    names = [x if isinstance(x, str) else x["name"] for v in learned.values() for x in v]
+    if names:
+        sources.append(("learned boards", f"{len(names)} company boards found from InternDoor apply links and now read directly: "
+                                          + ", ".join(names[:12]) + (" ..." if len(names) > 12 else "")))
     opps = opportunity_sections(cfg, n.astimezone(IST).month)
 
     def live_for(match):  # the actual job links the radar can see for these companies
@@ -408,12 +447,27 @@ def git_sync(message):
         return subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
     run("config", "user.name", "job-radar-bot")
     run("config", "user.email", "job-radar-bot@users.noreply.github.com")
-    run("add", "state", "reports")
+    paths = [p for p in ("state", "reports") if (ROOT / p).exists()]  # git add fails entirely on a missing path
+    run("add", *paths)
     if run("diff", "--cached", "--quiet").returncode == 0:
-        return
+        return True
     run("commit", "-m", message)
-    run("pull", "--rebase")
-    run("push")
+    for attempt in range(3):
+        run("fetch", "origin", "main")
+        if run("rebase", "--autostash", "-X", "theirs", "origin/main").returncode != 0:
+            # conflict: keep OUR newest state on top of whatever is on GitHub, without touching other files
+            run("rebase", "--abort")
+            run("reset", "--mixed", "origin/main")
+            run("add", *paths)
+            run("commit", "-m", message)
+        p = run("push", "origin", "HEAD:main")
+        if p.returncode == 0:
+            print("[sync] state pushed to GitHub")
+            return True
+        print(f"[sync] push failed (try {attempt + 1}): {(p.stderr or p.stdout).strip()[-200:]}")
+        time.sleep(5)
+    print("[sync] GIVING UP: state is only saved inside this run")
+    return False
 
 
 def active_burst(cfg, ist):
@@ -444,7 +498,9 @@ def loop(cfg, minutes=340, every=120, news_every=5, full_every=4, digest_hour=8,
         fe = int(burst.get("full_every", full_every)) if burst else full_every
         try:
             state = load_state()
-            scan(cfg, state, news=(i % news_every == 0 or bool(burst)), light=(i % fe != 0))
+            light = i % fe != 0
+            scan(cfg, state, news=(i % news_every == 0 or bool(burst)), light=light)
+            print(f"[loop] round {i} ({'fast' if light else 'FULL'}) done in {time.time() - t0:.0f}s")
             ist = datetime.now(IST)
             if ist.hour >= digest_hour and state.get("last_digest") != ist.date().isoformat():
                 digest(cfg, state)

@@ -61,13 +61,21 @@ def passes_batch(job, profile):
 
 
 def is_top_company(job, profile):
-    name = (job.get("company") or "").lower()
-    return any(_has(name, k) for k in (profile.get("pay") or {}).get("top_companies", []))
+    name = job.get("company") or ""
+    return any(_starts(name, k) for k in (profile.get("pay") or {}).get("top_companies", []))
+
+
+def _starts(name, kw):
+    """'Amazon Web Services' starts with 'amazon'; 'Rank Top 3 on Amazon | Harpy Media' does not."""
+    def clean(t):
+        return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", str(t).lower())).strip()
+    n, k = clean(name), clean(kw)
+    return bool(k) and (n == k or n.startswith(k + " "))
 
 
 def is_elite(job, profile):
-    name = (job.get("company") or "").lower()
-    return any(_has(name, k) for k in (profile.get("pay") or {}).get("elite_companies", []))
+    name = job.get("company") or ""
+    return any(_starts(name, k) for k in (profile.get("pay") or {}).get("elite_companies", []))
 
 
 def is_offtrack(job, profile):
@@ -78,9 +86,9 @@ def is_offtrack(job, profile):
 
 def watch_name(job, watchlist):
     """Name of the watchlist company this job belongs to (Google, Atlassian...), or None."""
-    name = (job.get("company") or "").lower()
+    name = job.get("company") or ""
     for w in watchlist or []:
-        if any(_has(name, m) for m in w.get("match", [w["name"]])):
+        if any(_starts(name, m) for m in w.get("match", [w["name"]])):
             return w["name"]
     return None
 

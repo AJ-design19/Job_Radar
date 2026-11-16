@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 15 Nov 2026
-**32 companies** hiring interns · 47 open roles · 1 new in 24h · 5 closed in 24h
+# Job Radar daily report - 16 Nov 2026
+**29 companies** hiring interns · 45 open roles · 1 new in 24h · 3 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: nothing open in India right now (radar keeps checking)
@@ -19,8 +19,7 @@
 - **NVIDIA**: nothing open in India right now (radar keeps checking)
 - **Atlassian**: nothing open in India right now (radar keeps checking)
 - **Uber**: nothing open in India right now (radar keeps checking)
-- **Adobe**: 1 open
-  - [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area · posted 11 Nov 2026, 11:08 PM IST
+- **Adobe**: nothing open in India right now (radar keeps checking)
 - **Salesforce**: nothing open in India right now (radar keeps checking)
 - **Goldman Sachs**: nothing open in India right now (radar keeps checking)
 - **Flipkart**: nothing open in India right now (radar keeps checking)
@@ -32,10 +31,10 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [AI/ML Engineer Internship](https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012) - Isourse · Delhi, India · **6/10**
-  - 🕒 posted 14 Nov 2026, 05:40 AM IST · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
+- [Software Engineering Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/162274/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelor-s-sw-4491255989) - Honeywell Technologies · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 16 Nov 2026, 03:35 AM IST · detected 16 Nov 2026, 03:49 AM IST
 
-## 🏢 Companies hiring interns right now (32)
+## 🏢 Companies hiring interns right now (29)
 
 <details><summary><b>Amazon</b> (3)</summary>
 
@@ -100,6 +99,15 @@
 
 </details>
 
+<details><summary><b>Honeywell Technologies</b> (2)</summary>
+
+- [Data Science Intern](https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428) - Honeywell Technologies · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 10 Nov 2026, 03:18 PM IST · detected 10 Nov 2026, 03:40 PM IST · 🔔 alert sent 10 Nov 2026, 03:40 PM IST
+- [Software Engineering Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/162274/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelor-s-sw-4491255989) - Honeywell Technologies · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 16 Nov 2026, 03:35 AM IST · detected 16 Nov 2026, 03:49 AM IST
+
+</details>
+
 <details><summary><b>IBM</b> (2)</summary>
 
 - [Software Developer Intern](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=140170&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/ibm-software-developer-intern-4476673482) - IBM · Bengaluru, Karnataka, India · **4/10**
@@ -145,14 +153,6 @@
 
 </details>
 
-<details><summary><b>Adobe</b> (1)</summary>
-
-- [🔥 Adobe Intern FY27](https://careers.adobe.com/us/en/job/ADOBUSR173562EXTERNALENUS/Adobe-Intern-FY27?utm_source=interndoor&utm_medium=phenom-feeds&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) - Adobe · Greater Kolkata Area · **7/10**
-  - 🕒 posted 11 Nov 2026, 11:08 PM IST · detected 12 Nov 2026, 12:28 AM IST · 🔔 alert sent 12 Nov 2026, 12:28 AM IST
-  - 🤝 [your connections at Adobe](https://www.linkedin.com/search/results/people/?keywords=Adobe&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Adobe&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
-
-</details>
-
 <details><summary><b>Appinventiv</b> (1)</summary>
 
 - [Software Intern](https://www.linkedin.com/jobs/view/4488292701/) · [listing](https://interndoor.com/jobs/appinventiv-software-intern-4488292701) - Appinventiv · India · **5/10**
@@ -181,13 +181,6 @@
 
 </details>
 
-<details><summary><b>GE Aerospace</b> (1)</summary>
-
-- [Data Science Intern](https://careers.geaerospace.com/global/en/job/GAOGAYGLOBALR5040035EXTERNALENGLOBAL/Data-Science-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor) · [listing](https://interndoor.com/jobs/ge-aerospace-data-science-intern-4487291461) - GE Aerospace · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 12 Nov 2026, 04:09 PM IST · detected 12 Nov 2026, 05:21 PM IST · 🔔 alert sent 12 Nov 2026, 05:21 PM IST
-
-</details>
-
 <details><summary><b>GoKwik</b> (1)</summary>
 
 - [Software Development Intern](https://gokwik.keka.com/careers/jobdetails/169089?ref=interndoor) · [listing](https://interndoor.com/jobs/gokwik-intern-software-development-ats-keka-gokwik-169089) - GoKwik · Gurugram, HR, India · **5/10**
@@ -206,13 +199,6 @@
 
 - [Software Engineering Intern](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4479821514) - Honeywell Aerospace · Hyderabad, Telangana, India · **6/10**
   - 🕒 posted 11 Nov 2026, 03:34 PM IST · detected 11 Nov 2026, 04:27 PM IST · 🔔 alert sent 11 Nov 2026, 04:27 PM IST
-
-</details>
-
-<details><summary><b>Honeywell Technologies</b> (1)</summary>
-
-- [Data Science Intern](https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428) - Honeywell Technologies · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 10 Nov 2026, 03:18 PM IST · detected 10 Nov 2026, 03:40 PM IST · 🔔 alert sent 10 Nov 2026, 03:40 PM IST
 
 </details>
 
@@ -248,14 +234,6 @@
 
 - [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) - Qualcomm · Bangalore, India, Hyderabad, Telangāna, India · **7/10**
   - 🕒 posted 09 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
-
-</details>
-
-<details><summary><b>Rank Top 3 on Amazon | Harpy Media</b> (1)</summary>
-
-- [🔥 AI Automation Intern](https://www.linkedin.com/jobs/view/4489262920/) · [listing](https://interndoor.com/jobs/rank-top-3-on-amazon-harpy-media-ai-automation-intern-4489262920) - Rank Top 3 on Amazon | Harpy Media · Meerut, Uttar Pradesh, India · **9/10**
-  - 🕒 posted 12 Nov 2026, 11:15 PM IST · detected 12 Nov 2026, 11:43 PM IST · 🔔 alert sent 12 Nov 2026, 11:43 PM IST
-  - 🤝 [your connections at Rank Top 3 on Amazon | Harpy Media](https://www.linkedin.com/search/results/people/?keywords=Rank%20Top%203%20on%20Amazon%20%7C%20Harpy%20Media&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rank%20Top%203%20on%20Amazon%20%7C%20Harpy%20Media&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
 
 </details>
 
@@ -308,7 +286,6 @@
 - **Atlassian Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Atlassian's board (if the address works) and watches news _(typical)_ · where: Atlassian careers
 - **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
 - **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's main Workday site _(typical)_ · where: Adobe careers
-  - 🔗 [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area
 - **LinkedIn Software Engineering Intern (Bengaluru)** [A] check posting (an earlier posting asked for 2027 graduates) · usually Dec - you heard a live link opens for only 1 to 3 hours in December; I could not confirm that. Easy Apply uses your LinkedIn profile, so update it now. The radar polls every 2 minutes in December _(typical)_ · where: LinkedIn careers; apply with LinkedIn Easy Apply
 - **Meta, Apple, Netflix, OpenAI internships** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - India internships are rare; the radar keeps checking and watches news _(typical)_ · where: each company's careers site
 - **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page
@@ -376,22 +353,20 @@ _10 more programs open later in the year; see the full list._
 </details>
 
 ## Closed since yesterday
-- [Software Engineering Intern](https://interndoor.com/jobs/allstate-india-intern-4484858917) - Allstate India · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 10 Nov 2026, 11:22 PM IST · detected 11 Nov 2026, 12:41 AM IST · 🔔 alert sent 11 Nov 2026, 12:41 AM IST
-- [Software Intern](https://interndoor.com/jobs/ge-healthcare-software-intern-4489931071) - GE HealthCare · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 11 Nov 2026, 03:36 PM IST · detected 11 Nov 2026, 03:47 PM IST
-- [Ph D/Research Intern - AI Research Lab](https://careers.hpe.com/us/en/job/1191423) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **8/10**
-  - 🕒 posted 12 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST
-- [College Intern](https://careers.hpe.com/us/en/job/1211843) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **6/10**
-  - 🕒 posted 01 Sep 2026 · detected 03 Nov 2026, 10:11 AM IST
-- [Software Engineer Intern](https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921) - PayPal · 2 Locations, Bangalore Karnataka India · **7/10**
-  - 🕒 posted 10 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
+- [🔥 Adobe Intern FY27](https://careers.adobe.com/us/en/job/ADOBUSR173562EXTERNALENUS/Adobe-Intern-FY27?utm_source=interndoor&utm_medium=phenom-feeds&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) - Adobe · Greater Kolkata Area · **7/10**
+  - 🕒 posted 11 Nov 2026, 11:08 PM IST · detected 12 Nov 2026, 12:28 AM IST · 🔔 alert sent 12 Nov 2026, 12:28 AM IST
+  - 🤝 [your connections at Adobe](https://www.linkedin.com/search/results/people/?keywords=Adobe&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Adobe&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
+- [Data Science Intern](https://careers.geaerospace.com/global/en/job/GAOGAYGLOBALR5040035EXTERNALENGLOBAL/Data-Science-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor) · [listing](https://interndoor.com/jobs/ge-aerospace-data-science-intern-4487291461) - GE Aerospace · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 12 Nov 2026, 04:09 PM IST · detected 12 Nov 2026, 05:21 PM IST · 🔔 alert sent 12 Nov 2026, 05:21 PM IST
+- [🔥 AI Automation Intern](https://www.linkedin.com/jobs/view/4489262920/) · [listing](https://interndoor.com/jobs/rank-top-3-on-amazon-harpy-media-ai-automation-intern-4489262920) - Rank Top 3 on Amazon | Harpy Media · Meerut, Uttar Pradesh, India · **9/10**
+  - 🕒 posted 12 Nov 2026, 11:15 PM IST · detected 12 Nov 2026, 11:43 PM IST · 🔔 alert sent 12 Nov 2026, 11:43 PM IST
+  - 🤝 [your connections at Rank Top 3 on Amazon | Harpy Media](https://www.linkedin.com/search/results/people/?keywords=Rank%20Top%203%20on%20Amazon%20%7C%20Harpy%20Media&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rank%20Top%203%20on%20Amazon%20%7C%20Harpy%20Media&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
 
 <details><summary><b>📡 What the radar read this run</b></summary>
 
 - `amazon`: 1 postings read, 0 match you (query form 1 worked)
-- `atlassian`: 308 postings read, 0 match you
-- `interndoor`: 50 postings read, 34 match you
+- `atlassian`: 276 postings read, 0 match you
+- `interndoor`: 50 postings read, 32 match you
 - `internscan`: 19 postings read, 10 match you
 - `wd:adobe/external_experienced`: 17 postings read, 0 match you (searches: 'intern india' 17, 'intern bangalore' 0)
 - `wd:cisco/Cisco_Careers`: 16 postings read, 0 match you (searches: 'intern india' 14, 'intern bangalore' 2)
@@ -401,11 +376,12 @@ _10 more programs open later in the year; see the full list._
 - `wd:mastercard/CorporateCareers`: 60 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 0) (list cut off at the page limit)
 - `wd:nvidia/NVIDIAExternalCareerSite`: 60 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 0) (list cut off at the page limit)
 - `wd:paypal/jobs`: 17 postings read, 0 match you (searches: 'intern india' 17, 'intern bangalore' 0)
-- `wd:salesforce/External_Career_Site`: 84 postings read, 0 match you (searches: 'intern india' 60, 'intern bangalore' 24) (list cut off at the page limit)
 - `wd:visa/Visa`: 35 postings read, 0 match you (searches: 'intern india' 35, 'intern bangalore' 0)
 - `wd:visa/Visa_Talent_Portal`: 2 postings read, 1 match you (searches: 'intern india' 2, 'intern bangalore' 0)
 - `company boards (Greenhouse / Lever / Ashby)`: 38 read fine, 1 match you
 - `scan timing`: 300 scans in the last 24h, longest gap 0h 22m (the radar loop aims for one every 5 minutes)
-- `alert speed`: 1 alerts in 24h: median 184 min after posting, slowest 184 min (target: under 15)
 
 </details>
+
+## Source problems (check slug / network)
+- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x15)

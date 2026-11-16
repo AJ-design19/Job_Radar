@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 15 Nov 2026
+# Internship opportunity tracker - 16 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
@@ -13,7 +13,6 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 - **Atlassian Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Atlassian's board (if the address works) and watches news _(typical)_ · where: Atlassian careers
 - **Uber Software Engineering Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar watches news and InternScan/InternDoor _(typical)_ · where: Uber careers
 - **Adobe Summer Intern (India)** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - radar reads Adobe's main Workday site _(typical)_ · where: Adobe careers
-  - 🔗 [Adobe Intern FY27](https://interndoor.com/jobs/adobe-adobe-intern-fy27-4489025453) · Greater Kolkata Area
 - **LinkedIn Software Engineering Intern (Bengaluru)** [A] check posting (an earlier posting asked for 2027 graduates) · usually Dec - you heard a live link opens for only 1 to 3 hours in December; I could not confirm that. Easy Apply uses your LinkedIn profile, so update it now. The radar polls every 2 minutes in December _(typical)_ · where: LinkedIn careers; apply with LinkedIn Easy Apply
 - **Meta, Apple, Netflix, OpenAI internships** [A] check posting · usually Aug, Sep, Oct, Nov, Dec - India internships are rare; the radar keeps checking and watches news _(typical)_ · where: each company's careers site
 - **Quant and trading: DE Shaw, Tower Research, Graviton, Arcesium, Optiver** [A] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - among the highest paid; strong DSA and competitive programming helps _(typical)_ · where: each firm's careers page

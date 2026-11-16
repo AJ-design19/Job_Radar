@@ -338,7 +338,7 @@
    "elite": false,
    "first_seen": "2026-11-16T17:30:23+00:00",
    "id": "id:https://interndoor.com/jobs/aftershoot-machine-learning-intern-ats-recruitee-aftershoot-2584084",
-   "last_seen": "2026-11-16T17:32:23+00:00",
+   "last_seen": "2026-11-16T17:36:23+00:00",
    "location": "Delhi, India",
    "posted": "2026-11-16T16:57:06+00:00",
    "posted_kind": "listed",
@@ -974,7 +974,7 @@
    "elite": false,
    "first_seen": "2026-11-16T15:56:58+00:00",
    "id": "id:https://interndoor.com/jobs/hewlett-packard-enterprise-ph-d-research-intern-ai-research-lab-4490602573",
-   "last_seen": "2026-11-16T17:32:23+00:00",
+   "last_seen": "2026-11-16T17:36:23+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T12:43:50+00:00",
    "posted_kind": "listed",
@@ -1259,7 +1259,7 @@
    "elite": false,
    "first_seen": "2026-11-16T13:33:57+00:00",
    "id": "id:https://interndoor.com/jobs/lseg-ai-ml-intern-4489767043",
-   "last_seen": "2026-11-16T17:32:23+00:00",
+   "last_seen": "2026-11-16T17:36:23+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T13:01:53+00:00",
    "posted_kind": "listed",
@@ -1283,7 +1283,7 @@
    "elite": false,
    "first_seen": "2026-11-16T13:33:57+00:00",
    "id": "id:https://interndoor.com/jobs/mondel-z-international-taste-the-future-technical-intern-mds-4489762050",
-   "last_seen": "2026-11-16T17:32:23+00:00",
+   "last_seen": "2026-11-16T17:36:23+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-16T12:29:39+00:00",
    "posted_kind": "listed",
@@ -1437,7 +1437,7 @@
    "elite": false,
    "first_seen": "2026-11-16T15:56:58+00:00",
    "id": "id:https://interndoor.com/jobs/techolution-python-ai-intern-4490661501",
-   "last_seen": "2026-11-16T17:32:23+00:00",
+   "last_seen": "2026-11-16T17:36:23+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-16T15:22:38+00:00",
    "posted_kind": "listed",
@@ -2499,8 +2499,6 @@
   "id:https://interndoor.com/jobs/impact-analytics-production-support-engineer-intern-ats-keka-impactanalytics-95511": "2026-11-16T16:25:57+00:00"
  },
  "scan_log": [
-  "2026-11-16T06:43:36+00:00",
-  "2026-11-16T06:45:36+00:00",
   "2026-11-16T06:47:36+00:00",
   "2026-11-16T06:49:36+00:00",
   "2026-11-16T06:51:36+00:00",
@@ -2798,7 +2796,9 @@
   "2026-11-16T17:23:46+00:00",
   "2026-11-16T17:25:46+00:00",
   "2026-11-16T17:30:23+00:00",
-  "2026-11-16T17:32:23+00:00"
+  "2026-11-16T17:32:23+00:00",
+  "2026-11-16T17:34:23+00:00",
+  "2026-11-16T17:36:23+00:00"
  ],
  "source_stats": {
   "ab:linear": {

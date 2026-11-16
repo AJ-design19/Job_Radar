@@ -216,9 +216,49 @@
   ]
  },
  "failures": {
+  "wd:adobe/external_experienced": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
+  },
+  "wd:cisco/Cisco_Careers": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
+  },
+  "wd:hpe/Jobsathpe": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
+  },
+  "wd:intel/External": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
+  },
+  "wd:mastercard/Campus": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
+  },
+  "wd:mastercard/CorporateCareers": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
+  },
+  "wd:nvidia/NVIDIAExternalCareerSite": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
+  },
+  "wd:paypal/jobs": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
+  },
   "wd:salesforce/External_Career_Site": {
-   "count": 4,
+   "count": 6,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
+  },
+  "wd:visa/Visa": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
+  },
+  "wd:visa/Visa_Talent_Portal": {
+   "count": 1,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
  "fix_interndoor_closed": true,
@@ -231,7 +271,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -844,7 +884,7 @@
    "first_seen": "2026-11-15T22:19:06+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelor-s-sw-4491255989",
    "last_checked": "2026-11-16T02:31:22+00:00",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:19:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-15T22:05:37+00:00",
    "posted_kind": "listed",
@@ -1344,7 +1384,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1363,7 +1403,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1378,21 +1418,20 @@
   },
   "is:https://careers.hpe.com/us/en/job/1191423": {
    "baseline": false,
-   "closed_at": "2026-11-14T18:19:40+00:00",
    "company": "HPE",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-14T18:11:40+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
    "reason": "",
    "score": 8,
    "src": "internscan",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Ph D/Research Intern - AI Research Lab",
@@ -1401,19 +1440,18 @@
    "watch": ""
   },
   "is:https://careers.hpe.com/us/en/job/1211843": {
-   "closed_at": "2026-11-14T18:19:40+00:00",
    "company": "HPE",
    "deadline": "",
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-14T18:11:40+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
    "score": 6,
    "src": "internscan",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "College Intern",
@@ -1426,7 +1464,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1465,7 +1503,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1504,7 +1542,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1523,7 +1561,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1542,7 +1580,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1561,7 +1599,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1580,7 +1618,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1599,7 +1637,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1615,21 +1653,20 @@
   "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921": {
    "alerted_at": "2026-11-14T03:15:11+00:00",
    "baseline": false,
-   "closed_at": "2026-11-14T17:23:40+00:00",
    "company": "PayPal",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-14T17:15:40+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
    "reason": "",
    "score": 7,
    "src": "internscan",
-   "status": "closed",
+   "status": "open",
    "stipend_inr_month": null,
    "tech_checked": true,
    "title": "Software Engineer Intern",
@@ -1643,7 +1680,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:13:36+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1712,7 +1749,7 @@
    "first_seen": "2026-11-12T05:54:23+00:00",
    "id": "wd:hpe:Jobsathpe:/job/Bengaluru-Karntaka-India/Research-PhD_1191423",
    "last_checked": "2026-11-16T02:31:22+00:00",
-   "last_seen": "2026-11-16T06:57:36+00:00",
+   "last_seen": "2026-11-16T07:05:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, India",
    "old": false,
    "posted": "2026-11-12",
@@ -2197,17 +2234,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-15T20:19:06+00:00",
-  "2026-11-15T20:21:06+00:00",
-  "2026-11-15T20:23:06+00:00",
-  "2026-11-15T20:25:06+00:00",
-  "2026-11-15T20:27:06+00:00",
-  "2026-11-15T20:29:06+00:00",
-  "2026-11-15T20:31:06+00:00",
-  "2026-11-15T20:33:06+00:00",
-  "2026-11-15T20:35:06+00:00",
-  "2026-11-15T20:37:06+00:00",
-  "2026-11-15T20:39:06+00:00",
   "2026-11-15T20:41:06+00:00",
   "2026-11-15T20:43:06+00:00",
   "2026-11-15T20:45:06+00:00",
@@ -2496,7 +2522,18 @@
   "2026-11-16T06:51:36+00:00",
   "2026-11-16T06:53:36+00:00",
   "2026-11-16T06:55:36+00:00",
-  "2026-11-16T06:57:36+00:00"
+  "2026-11-16T06:57:36+00:00",
+  "2026-11-16T06:59:36+00:00",
+  "2026-11-16T07:01:36+00:00",
+  "2026-11-16T07:03:36+00:00",
+  "2026-11-16T07:05:36+00:00",
+  "2026-11-16T07:07:36+00:00",
+  "2026-11-16T07:09:36+00:00",
+  "2026-11-16T07:11:36+00:00",
+  "2026-11-16T07:13:36+00:00",
+  "2026-11-16T07:15:36+00:00",
+  "2026-11-16T07:17:36+00:00",
+  "2026-11-16T07:19:36+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2691,7 +2728,7 @@
   },
   "lv:meesho": {
    "capped": false,
-   "fetched": 49,
+   "fetched": 48,
    "note": ""
   },
   "lv:palantir": {
@@ -2708,56 +2745,6 @@
    "capped": false,
    "fetched": 87,
    "note": ""
-  },
-  "wd:adobe/external_experienced": {
-   "capped": false,
-   "fetched": 17,
-   "note": "searches: 'intern india' 17, 'intern bangalore' 0"
-  },
-  "wd:cisco/Cisco_Careers": {
-   "capped": false,
-   "fetched": 17,
-   "note": "searches: 'intern india' 15, 'intern bangalore' 2"
-  },
-  "wd:hpe/Jobsathpe": {
-   "capped": true,
-   "fetched": 87,
-   "note": "searches: 'intern india' 60, 'intern bangalore' 27"
-  },
-  "wd:intel/External": {
-   "capped": false,
-   "fetched": 36,
-   "note": "searches: 'intern india' 36, 'intern bangalore' 0"
-  },
-  "wd:mastercard/Campus": {
-   "capped": false,
-   "fetched": 1,
-   "note": "searches: 'intern india' 1, 'intern bangalore' 0"
-  },
-  "wd:mastercard/CorporateCareers": {
-   "capped": true,
-   "fetched": 60,
-   "note": "searches: 'intern india' 60, 'intern bangalore' 0"
-  },
-  "wd:nvidia/NVIDIAExternalCareerSite": {
-   "capped": true,
-   "fetched": 60,
-   "note": "searches: 'intern india' 60, 'intern bangalore' 0"
-  },
-  "wd:paypal/jobs": {
-   "capped": false,
-   "fetched": 17,
-   "note": "searches: 'intern india' 17, 'intern bangalore' 0"
-  },
-  "wd:visa/Visa": {
-   "capped": false,
-   "fetched": 34,
-   "note": "searches: 'intern india' 34, 'intern bangalore' 0"
-  },
-  "wd:visa/Visa_Talent_Portal": {
-   "capped": false,
-   "fetched": 2,
-   "note": "searches: 'intern india' 2, 'intern bangalore' 0"
   }
  },
  "sources_seen": [

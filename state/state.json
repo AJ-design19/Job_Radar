@@ -212,8 +212,12 @@
   ]
  },
  "failures": {
+  "lv:paytm": {
+   "count": 1,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
+  },
   "wd:salesforce/External_Career_Site": {
-   "count": 8,
+   "count": 11,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   }
  },
@@ -227,7 +231,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -836,7 +840,7 @@
    "elite": false,
    "first_seen": "2026-11-15T22:19:06+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelor-s-sw-4491255989",
-   "last_seen": "2026-11-16T01:39:21+00:00",
+   "last_seen": "2026-11-16T02:01:21+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-15T22:05:37+00:00",
    "posted_kind": "listed",
@@ -1335,7 +1339,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1354,7 +1358,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1417,7 +1421,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1456,7 +1460,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1495,7 +1499,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1514,7 +1518,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1533,7 +1537,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1552,7 +1556,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1571,7 +1575,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1590,7 +1594,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1634,7 +1638,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -1703,7 +1707,7 @@
    "first_seen": "2026-11-12T05:54:23+00:00",
    "id": "wd:hpe:Jobsathpe:/job/Bengaluru-Karntaka-India/Research-PhD_1191423",
    "last_checked": "2026-11-13T04:34:26+00:00",
-   "last_seen": "2026-11-16T01:33:21+00:00",
+   "last_seen": "2026-11-16T01:57:21+00:00",
    "location": "Bengaluru, Karn\u0101taka, India",
    "old": false,
    "posted": "2026-11-12",
@@ -2187,17 +2191,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-15T15:00:50+00:00",
-  "2026-11-15T15:02:50+00:00",
-  "2026-11-15T15:04:50+00:00",
-  "2026-11-15T15:06:50+00:00",
-  "2026-11-15T15:08:50+00:00",
-  "2026-11-15T15:10:50+00:00",
-  "2026-11-15T15:12:50+00:00",
-  "2026-11-15T15:14:50+00:00",
-  "2026-11-15T15:16:50+00:00",
-  "2026-11-15T15:18:50+00:00",
-  "2026-11-15T15:20:50+00:00",
   "2026-11-15T15:22:50+00:00",
   "2026-11-15T15:24:50+00:00",
   "2026-11-15T15:26:50+00:00",
@@ -2486,7 +2479,18 @@
   "2026-11-16T01:33:21+00:00",
   "2026-11-16T01:35:21+00:00",
   "2026-11-16T01:37:21+00:00",
-  "2026-11-16T01:39:21+00:00"
+  "2026-11-16T01:39:21+00:00",
+  "2026-11-16T01:41:21+00:00",
+  "2026-11-16T01:43:21+00:00",
+  "2026-11-16T01:45:21+00:00",
+  "2026-11-16T01:47:21+00:00",
+  "2026-11-16T01:49:21+00:00",
+  "2026-11-16T01:51:21+00:00",
+  "2026-11-16T01:53:21+00:00",
+  "2026-11-16T01:55:21+00:00",
+  "2026-11-16T01:57:21+00:00",
+  "2026-11-16T01:59:21+00:00",
+  "2026-11-16T02:01:21+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2536,7 +2540,7 @@
   },
   "gh:anthropic": {
    "capped": false,
-   "fetched": 664,
+   "fetched": 663,
    "note": ""
   },
   "gh:asana": {
@@ -2606,7 +2610,7 @@
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 392,
+   "fetched": 391,
    "note": ""
   },
   "gh:okta": {
@@ -2631,7 +2635,7 @@
   },
   "gh:rubrik": {
    "capped": false,
-   "fetched": 183,
+   "fetched": 184,
    "note": ""
   },
   "gh:samsara": {
@@ -2687,11 +2691,6 @@
   "lv:palantir": {
    "capped": false,
    "fetched": 302,
-   "note": ""
-  },
-  "lv:paytm": {
-   "capped": false,
-   "fetched": 204,
    "note": ""
   },
   "lv:spotify": {

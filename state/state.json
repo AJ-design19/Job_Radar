@@ -2,6 +2,7 @@
  "alerted": {
   "adobe|adobeinternfy27": "2026-11-11T18:58:29+00:00",
   "aftershoot|machinelearningintern": "2026-11-16T17:38:38+00:00",
+  "airbusindia|maintenanceengineeringintern": "2026-11-16T23:00:38+00:00",
   "allstateindia|softwareengineeringintern": "2026-11-10T19:11:49+00:00",
   "amazon|dataengineerintern": "2026-11-05T10:19:00+00:00",
   "amazon|sdeiinternamazonuniversitytalentacquisition": "2026-11-07T13:28:53+00:00",
@@ -241,52 +242,52 @@
   ]
  },
  "failures": {
-  "lv:paytm": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  },
   "wd:adobe/external_experienced": {
-   "count": 78,
+   "count": 81,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
+  "wd:ag/Airbus": {
+   "count": 2,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/job"
+  },
   "wd:cisco/Cisco_Careers": {
-   "count": 81,
+   "count": 84,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 110,
+   "count": 113,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 78,
+   "count": 81,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 12,
+   "count": 15,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 78,
+   "count": 81,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 110,
+   "count": 113,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 89,
+   "count": 92,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 34,
+   "count": 37,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 78,
+   "count": 81,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
   },
   "wd:visa/Visa_Talent_Portal": {
-   "count": 35,
+   "count": 38,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
@@ -300,7 +301,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -350,7 +351,7 @@
    "elite": false,
    "first_seen": "2026-11-16T17:38:38+00:00",
    "id": "id:https://interndoor.com/jobs/aftershoot-machine-learning-intern-ats-recruitee-aftershoot-2584084",
-   "last_seen": "2026-11-16T22:56:38+00:00",
+   "last_seen": "2026-11-16T23:16:38+00:00",
    "location": "Delhi, India",
    "posted": "2026-11-16T16:57:06+00:00",
    "posted_kind": "listed",
@@ -362,6 +363,30 @@
    "stipend_inr_month": null,
    "title": "Machine Learning Intern",
    "url": "https://interndoor.com/jobs/aftershoot-machine-learning-intern-ats-recruitee-aftershoot-2584084",
+   "verifiable": false,
+   "watch": ""
+  },
+  "id:https://interndoor.com/jobs/airbus-india-intern-maintenance-engineering-and-services-ats-workday-ag-wd3-airbus-jr10449517": {
+   "apply_url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517?ref=interndoor",
+   "baseline": false,
+   "company": "Airbus India",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-16T23:00:38+00:00",
+   "id": "id:https://interndoor.com/jobs/airbus-india-intern-maintenance-engineering-and-services-ats-workday-ag-wd3-airbus-jr10449517",
+   "last_seen": "2026-11-16T23:16:38+00:00",
+   "location": "Bangalore Area",
+   "posted": "2026-11-16T22:55:01+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 4,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Maintenance Engineering Intern",
+   "url": "https://interndoor.com/jobs/airbus-india-intern-maintenance-engineering-and-services-ats-workday-ag-wd3-airbus-jr10449517",
    "verifiable": false,
    "watch": ""
   },
@@ -1010,7 +1035,7 @@
    "elite": false,
    "first_seen": "2026-11-16T22:02:38+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bach-data-engineering-4483553776",
-   "last_seen": "2026-11-16T22:56:38+00:00",
+   "last_seen": "2026-11-16T23:16:38+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T21:49:38+00:00",
    "posted_kind": "listed",
@@ -1060,7 +1085,7 @@
    "elite": false,
    "first_seen": "2026-11-16T22:02:38+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-cyber-sec-4491503820",
-   "last_seen": "2026-11-16T22:56:38+00:00",
+   "last_seen": "2026-11-16T23:16:38+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T21:50:47+00:00",
    "posted_kind": "listed",
@@ -1497,7 +1522,7 @@
    "elite": false,
    "first_seen": "2026-11-16T15:56:58+00:00",
    "id": "id:https://interndoor.com/jobs/techolution-python-ai-intern-4490661501",
-   "last_seen": "2026-11-16T22:56:38+00:00",
+   "last_seen": "2026-11-16T23:16:38+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-16T15:22:38+00:00",
    "posted_kind": "listed",
@@ -1634,7 +1659,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1653,7 +1678,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1674,7 +1699,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -1695,7 +1720,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -1714,7 +1739,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1753,7 +1778,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1792,7 +1817,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1811,7 +1836,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1830,7 +1855,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1849,7 +1874,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1868,7 +1893,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1887,7 +1912,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1909,7 +1934,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -1954,7 +1979,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-16T22:50:38+00:00",
+   "last_seen": "2026-11-16T23:14:38+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2269,16 +2294,21 @@
   "ashby": [],
   "greenhouse": [],
   "lever": [],
-  "workday": []
+  "workday": [
+   {
+    "name": "Airbus India",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus"
+   }
+  ]
  },
  "programs": {
   "Adobe Codiva (women)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
   },
   "Adobe India Women-in-Technology Scholarship": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2307,7 +2337,6 @@
    "pages": {}
   },
   "Atlassian internship (India)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUTNud25OUlREVy1udVU1MnNwSU5yTXhpcnJtR0pMMlpDVnZGcjBkWFMta0w0NG1tbXRCbUdzMk1aakJMQVZPM1VYWDVld0IzSkpUSGh1NFIzNWNSYUJGRGdtRnd1R1FCbXl2c1NMMEJfU1VuOGF2NzgyU1N3S1h5S3ZuNDJaN2g0UmlnTmZtZmM?oc=5"
@@ -2334,6 +2363,7 @@
    }
   },
   "Flipkart Girls Wanna Code": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2379,7 +2409,6 @@
    "pages": {}
   },
   "Goldman Sachs Summer Analyst (India)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUU3V25OUWs1QlB6VUxLMC1MdC1hZ1JLVW5DaDJMTkxGQzNtel9QMVhmcGpUYkJaUEE0MUkzbmNZLUROeHRoZXhET3J0ZDRsd0NPZ3pqTTQ3LXo2WUE3WHpobkJ4NF9SUlZOYnFJNXdGVWlQNE1zMk1TaS14NVpUc2dsQ2ZKMXRYeXBjbzctRWxYYms1UUJaRVdGay1EYUNqNWVjM181WUFHLTRFSmRsdnJkUU1fM0VfZ2RHWWJOamgxS2dPNm84cWZEUHhaOXY2VGJWZi00V0RMWlVtLU1HcQ?oc=5",
@@ -2403,6 +2432,7 @@
    }
   },
   "Google Summer of Code": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXkydTF1LTFqUjQ3Mm5fRGpvN0RxNXR1ZUl0UkMxUUhBWHJYV3pXSENQT08tWlR6dndjOS13cHNGM0ZsRkZlRFBMZml1bHVEZVBRQllyR2hpaVpFUFBlLVh6MTgwU2NERkwzSWEwNDU4aDhyNGJhNnJTb0RYTzNxVWJicXFHSGVNYzhZb09WZzBBNXRqZWdwNTFkWkQyMXBFWG1yQw?oc=5"
@@ -2410,6 +2440,7 @@
    "pages": {}
   },
   "Google internships (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5",
@@ -2430,6 +2461,7 @@
    "pages": {}
   },
   "LinkedIn internships (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2440,7 +2472,6 @@
    "pages": {}
   },
   "Microsoft Codess (women)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2471,6 +2502,7 @@
    "pages": {}
   },
   "Netflix internships": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkZZU1JQWm5xY01UekpHWkZPN0k4RWpUZmhuUkpRWWs2TGVHaEh3dVR0eWhBY2Jsb3hWOWhrbE1XS3NHVHVGYXNEemRWRkJXZ19FMEZiRHlyTW0taXdjcVhuVV8yNXVuWlV5aG5IdFZpUjAtWFdjOE1qVDZwTjdRY0JtZTRnenFZTjVlRVN4NTg1RXctM0UtNQ?oc=5"
@@ -2498,7 +2530,6 @@
    "pages": {}
   },
   "Uber HackTag": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2509,6 +2540,7 @@
    "pages": {}
   },
   "Uber internship (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2519,12 +2551,12 @@
    "pages": {}
   },
   "Walmart Sparkathon": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
   },
   "WiSE@TI Hackathon (women, Texas Instruments)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2535,16 +2567,6 @@
   "id:https://interndoor.com/jobs/impact-analytics-production-support-engineer-intern-ats-keka-impactanalytics-95511": "2026-11-16T16:25:57+00:00"
  },
  "scan_log": [
-  "2026-11-16T12:07:57+00:00",
-  "2026-11-16T12:09:57+00:00",
-  "2026-11-16T12:11:57+00:00",
-  "2026-11-16T12:13:57+00:00",
-  "2026-11-16T12:15:57+00:00",
-  "2026-11-16T12:17:57+00:00",
-  "2026-11-16T12:19:57+00:00",
-  "2026-11-16T12:21:57+00:00",
-  "2026-11-16T12:23:57+00:00",
-  "2026-11-16T12:25:57+00:00",
   "2026-11-16T12:27:57+00:00",
   "2026-11-16T12:29:57+00:00",
   "2026-11-16T12:31:57+00:00",
@@ -2834,7 +2856,17 @@
   "2026-11-16T22:50:38+00:00",
   "2026-11-16T22:52:38+00:00",
   "2026-11-16T22:54:38+00:00",
-  "2026-11-16T22:56:38+00:00"
+  "2026-11-16T22:56:38+00:00",
+  "2026-11-16T22:58:38+00:00",
+  "2026-11-16T23:00:38+00:00",
+  "2026-11-16T23:02:38+00:00",
+  "2026-11-16T23:04:38+00:00",
+  "2026-11-16T23:06:38+00:00",
+  "2026-11-16T23:08:38+00:00",
+  "2026-11-16T23:10:38+00:00",
+  "2026-11-16T23:12:38+00:00",
+  "2026-11-16T23:14:38+00:00",
+  "2026-11-16T23:16:38+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2849,7 +2881,7 @@
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 834,
+   "fetched": 833,
    "note": ""
   },
   "ab:ramp": {
@@ -2879,7 +2911,7 @@
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 207,
+   "fetched": 208,
    "note": ""
   },
   "gh:anthropic": {
@@ -2909,7 +2941,7 @@
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 891,
+   "fetched": 892,
    "note": ""
   },
   "gh:datadog": {
@@ -2934,7 +2966,7 @@
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 403,
+   "fetched": 398,
    "note": ""
   },
   "gh:figma": {
@@ -3035,6 +3067,11 @@
   "lv:palantir": {
    "capped": false,
    "fetched": 303,
+   "note": ""
+  },
+  "lv:paytm": {
+   "capped": false,
+   "fetched": 206,
    "note": ""
   },
   "lv:spotify": {

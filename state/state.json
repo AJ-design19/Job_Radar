@@ -218,52 +218,48 @@
   ]
  },
  "failures": {
-  "lv:palantir": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  },
   "wd:adobe/external_experienced": {
-   "count": 4,
+   "count": 7,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
   "wd:cisco/Cisco_Careers": {
-   "count": 4,
+   "count": 7,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 2,
+   "count": 5,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 2,
+   "count": 5,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 2,
+   "count": 5,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
   },
   "wd:visa/Visa_Talent_Portal": {
-   "count": 4,
+   "count": 7,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
@@ -277,7 +273,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -890,7 +886,7 @@
    "first_seen": "2026-11-15T22:19:06+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelor-s-sw-4491255989",
    "last_checked": "2026-11-16T02:31:22+00:00",
-   "last_seen": "2026-11-16T09:27:36+00:00",
+   "last_seen": "2026-11-16T09:49:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-15T22:05:37+00:00",
    "posted_kind": "listed",
@@ -1390,7 +1386,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1409,7 +1405,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1430,7 +1426,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -1451,7 +1447,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -1470,7 +1466,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1509,7 +1505,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1548,7 +1544,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1567,7 +1563,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1586,7 +1582,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1605,7 +1601,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1624,7 +1620,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1643,7 +1639,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1665,7 +1661,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -1686,7 +1682,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-16T09:21:36+00:00",
+   "last_seen": "2026-11-16T09:45:36+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2246,17 +2242,6 @@
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00"
  },
  "scan_log": [
-  "2026-11-15T22:49:06+00:00",
-  "2026-11-15T22:51:06+00:00",
-  "2026-11-15T22:53:06+00:00",
-  "2026-11-15T22:55:06+00:00",
-  "2026-11-15T22:57:06+00:00",
-  "2026-11-15T22:59:06+00:00",
-  "2026-11-15T23:01:06+00:00",
-  "2026-11-15T23:03:06+00:00",
-  "2026-11-15T23:05:06+00:00",
-  "2026-11-15T23:07:06+00:00",
-  "2026-11-15T23:09:06+00:00",
   "2026-11-15T23:11:06+00:00",
   "2026-11-15T23:13:06+00:00",
   "2026-11-15T23:15:06+00:00",
@@ -2545,7 +2530,18 @@
   "2026-11-16T09:21:36+00:00",
   "2026-11-16T09:23:36+00:00",
   "2026-11-16T09:25:36+00:00",
-  "2026-11-16T09:27:36+00:00"
+  "2026-11-16T09:27:36+00:00",
+  "2026-11-16T09:29:36+00:00",
+  "2026-11-16T09:31:36+00:00",
+  "2026-11-16T09:33:36+00:00",
+  "2026-11-16T09:35:36+00:00",
+  "2026-11-16T09:37:36+00:00",
+  "2026-11-16T09:39:36+00:00",
+  "2026-11-16T09:41:36+00:00",
+  "2026-11-16T09:43:36+00:00",
+  "2026-11-16T09:45:36+00:00",
+  "2026-11-16T09:47:36+00:00",
+  "2026-11-16T09:49:36+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2585,12 +2581,12 @@
   },
   "atlassian": {
    "capped": false,
-   "fetched": 277,
+   "fetched": 278,
    "note": ""
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 210,
+   "fetched": 211,
    "note": ""
   },
   "gh:anthropic": {
@@ -2645,7 +2641,7 @@
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 400,
+   "fetched": 401,
    "note": ""
   },
   "gh:figma": {
@@ -2665,17 +2661,17 @@
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 391,
+   "fetched": 392,
    "note": ""
   },
   "gh:okta": {
    "capped": false,
-   "fetched": 362,
+   "fetched": 361,
    "note": ""
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 162,
+   "fetched": 161,
    "note": ""
   },
   "gh:reddit": {
@@ -2705,7 +2701,7 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 785,
+   "fetched": 786,
    "note": ""
   },
   "gh:twilio": {
@@ -2741,6 +2737,11 @@
   "lv:meesho": {
    "capped": false,
    "fetched": 48,
+   "note": ""
+  },
+  "lv:palantir": {
+   "capped": false,
+   "fetched": 302,
    "note": ""
   },
   "lv:paytm": {

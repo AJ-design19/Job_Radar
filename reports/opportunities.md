@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 16 Nov 2026
+# Internship opportunity tracker - 17 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
@@ -19,8 +19,9 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 - **[Flipkart summer internship](https://flipkartearlycareers.hirepro.in/)** [A] check posting · usually Sep, Oct, Nov, Dec - often reached through GRiD or campus; radar watches the Early Careers site _(typical)_ · where: Flipkart Early Careers
 - **Salesforce, Intuit, ServiceNow, Oracle, SAP Labs** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - Salesforce is read directly from Workday; the others rely on InternDoor and InternScan _(typical)_ · where: each careers page
 - **Cisco, PayPal, Visa, Mastercard, Intel, HPE** [B] check posting · usually Aug, Sep, Oct, Nov, Dec, Jan - all read directly by the radar _(typical)_ · where: each Workday careers site
+  - 🔗 [Ph D/Research Intern - AI Research Lab](https://careers.hpe.com/us/en/job/1191423) · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India
   - 🔗 [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) · Bengaluru, Karnātaka, India
-  - 🔗 [SW Engineer Intern](https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W) · IN - Bengaluru, India
+  - 🔗 [Software Engineer Intern](https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921) · 2 Locations, Bangalore Karnataka India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
 - **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page
@@ -34,6 +35,7 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
   - 🔗 [Support Engineer Intern](https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163) · Bengaluru, KA, India
   - 🔗 [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) · Bengaluru, KA, India
 - **Google Software Engineering Intern, Summer 2027** [A] 2027 and 2028 penultimate · usually May, Jun - applications closed around 28 Jun 2026; you are already in this process, so prepare. Next cycle opens around Jun 2027 _(reported)_ · where: Google careers
+  - 🔗 [Forward Deployed Engineer Intern](https://interndoor.com/jobs/google-forward-deployed-engineer-intern-2027-4489727942) · Bengaluru, Karnataka, India
 - **Walmart Global Tech summer intern** [A] check posting · usually Aug, Sep, Oct - InternScan covers Walmart Global Tech _(typical)_ · where: Walmart careers
   - 🔗 [(IND) Grad Intern - No Work Experience](https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935) · IN KA BANGALORE Home Office Building 10
 - **[Flipkart GRiD](https://flipkartearlycareers.hirepro.in/)** [Program] 8.0 accepted 2027 to 2030 batches · usually Jun, Jul - 8.0 registration ran about 19 Jun to 12 Jul 2026, so the next one is around Jun 2027 _(confirmed)_ · where: Flipkart Early Careers

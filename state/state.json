@@ -33,6 +33,7 @@
   "honeywelltechnologies|dataengineeringintern": "2026-11-16T22:02:38+00:00",
   "honeywelltechnologies|datascienceintern": "2026-11-10T10:10:01+00:00",
   "honeywelltechnologies|internbachelorscybersec": "2026-11-16T22:02:38+00:00",
+  "honeywelltechnologies|internbachelorssoftwareeng": "2026-11-17T16:33:58+00:00",
   "honeywelltechnologies|softwareengineeringintern": "2026-11-15T22:19:06+00:00",
   "hpe|phdresearchinternairesearchlab": "2026-11-12T05:54:23+00:00",
   "ibm|softwaredeveloperintern": "2026-11-11T11:32:50+00:00",
@@ -294,7 +295,7 @@
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 52,
+   "count": 1,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
@@ -316,7 +317,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -520,7 +521,7 @@
    "first_seen": "2026-11-12T10:16:51+00:00",
    "id": "id:https://interndoor.com/jobs/appinventiv-software-intern-4488292701",
    "last_checked": "2026-11-15T02:30:10+00:00",
-   "last_seen": "2026-11-17T16:17:27+00:00",
+   "last_seen": "2026-11-17T16:39:58+00:00",
    "location": "India",
    "posted": "2026-11-12T09:07:40+00:00",
    "posted_kind": "listed",
@@ -1179,6 +1180,30 @@
    "verifiable": false,
    "watch": ""
   },
+  "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235": {
+   "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/160864/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor",
+   "baseline": false,
+   "company": "Honeywell Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-17T16:33:58+00:00",
+   "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235",
+   "last_seen": "2026-11-17T16:39:58+00:00",
+   "location": "Pune Division, Maharashtra, India",
+   "posted": "2026-11-17T16:04:23+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 4,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Intern Bachelors Software Eng",
+   "url": "https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235",
+   "verifiable": false,
+   "watch": ""
+  },
   "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428": {
    "alerted_at": "2026-11-10T10:10:01+00:00",
    "baseline": false,
@@ -1718,7 +1743,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1737,7 +1762,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1758,7 +1783,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -1779,7 +1804,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -1798,7 +1823,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1837,7 +1862,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -1876,7 +1901,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -1895,7 +1920,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -1914,7 +1939,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -1933,7 +1958,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -1952,7 +1977,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -1971,7 +1996,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -1993,7 +2018,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -2038,7 +2063,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-17T16:15:27+00:00",
+   "last_seen": "2026-11-17T16:35:58+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2618,7 +2643,6 @@
   "id:https://interndoor.com/jobs/volody-software-tester-intern-4490435985": "2026-11-17T12:51:27+00:00"
  },
  "scan_log": [
-  "2026-11-17T05:59:14+00:00",
   "2026-11-17T06:01:14+00:00",
   "2026-11-17T06:03:14+00:00",
   "2026-11-17T06:05:14+00:00",
@@ -2908,16 +2932,17 @@
   "2026-11-17T15:53:27+00:00",
   "2026-11-17T15:55:27+00:00",
   "2026-11-17T15:57:27+00:00",
-  "2026-11-17T15:59:27+00:00",
-  "2026-11-17T16:01:27+00:00",
-  "2026-11-17T16:03:27+00:00",
-  "2026-11-17T16:05:27+00:00",
-  "2026-11-17T16:07:27+00:00",
-  "2026-11-17T16:09:27+00:00",
-  "2026-11-17T16:11:27+00:00",
-  "2026-11-17T16:13:27+00:00",
-  "2026-11-17T16:15:27+00:00",
-  "2026-11-17T16:17:27+00:00"
+  "2026-11-17T16:19:58+00:00",
+  "2026-11-17T16:21:58+00:00",
+  "2026-11-17T16:23:58+00:00",
+  "2026-11-17T16:25:58+00:00",
+  "2026-11-17T16:27:58+00:00",
+  "2026-11-17T16:29:58+00:00",
+  "2026-11-17T16:31:58+00:00",
+  "2026-11-17T16:33:58+00:00",
+  "2026-11-17T16:35:58+00:00",
+  "2026-11-17T16:37:58+00:00",
+  "2026-11-17T16:39:58+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -2932,7 +2957,7 @@
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 840,
+   "fetched": 842,
    "note": ""
   },
   "ab:ramp": {
@@ -2957,7 +2982,7 @@
   },
   "atlassian": {
    "capped": false,
-   "fetched": 267,
+   "fetched": 266,
    "note": ""
   },
   "gh:airbnb": {
@@ -3027,12 +3052,12 @@
   },
   "gh:gitlab": {
    "capped": false,
-   "fetched": 254,
+   "fetched": 253,
    "note": ""
   },
   "gh:lyft": {
    "capped": false,
-   "fetched": 144,
+   "fetched": 145,
    "note": ""
   },
   "gh:mongodb": {
@@ -3047,7 +3072,7 @@
   },
   "gh:pinterest": {
    "capped": false,
-   "fetched": 168,
+   "fetched": 170,
    "note": ""
   },
   "gh:reddit": {
@@ -3077,12 +3102,12 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 793,
+   "fetched": 795,
    "note": ""
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 109,
+   "fetched": 110,
    "note": ""
   },
   "gh:vercel": {

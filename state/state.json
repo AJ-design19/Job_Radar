@@ -48,6 +48,8 @@
   "lseg|aimlintern": "2026-11-16T13:33:57+00:00",
   "mondelzinternational|technicalintern": "2026-11-16T13:33:57+00:00",
   "msd|digitalhumanhealthintern": "2026-11-17T17:23:58+00:00",
+  "oaknorth|aiintern": "2026-11-18T08:29:08+00:00",
+  "oaknorth|interngenai": "2026-11-18T08:37:08+00:00",
   "paypal|softwareengineerintern": "2026-11-14T03:15:11+00:00",
   "ranktop3onamazonharpymedia|aiautomationintern": "2026-11-12T18:13:38+00:00",
   "rubrik|softwareengineercpdwinterintern": "2026-11-04T02:17:54+00:00",
@@ -272,47 +274,47 @@
  },
  "failures": {
   "wd:adobe/external_experienced": {
-   "count": 5,
+   "count": 8,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
   "wd:cisco/Cisco_Careers": {
-   "count": 5,
+   "count": 8,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 344,
+   "count": 347,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 181,
+   "count": 184,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 26,
+   "count": 29,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 43,
+   "count": 46,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 344,
+   "count": 347,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 26,
+   "count": 29,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 27,
+   "count": 30,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 19,
+   "count": 22,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
   },
   "wd:visa/Visa_Talent_Portal": {
-   "count": 5,
+   "count": 8,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
@@ -320,13 +322,36 @@
  "fix_watchlist": true,
  "initialized": true,
  "jobs": {
+  "ab:oaknorth:9bb335d1-9f05-4034-aee9-e62a9b3dcf97": {
+   "alerted_at": "2026-11-18T08:37:08+00:00",
+   "baseline": false,
+   "company": "Oaknorth",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T08:37:08+00:00",
+   "id": "ab:oaknorth:9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
+   "last_seen": "2026-11-18T08:37:08+00:00",
+   "location": "Gurugram",
+   "posted": "2026-11-18T07:46:43.311+00:00",
+   "posted_kind": "posted",
+   "reason": "",
+   "score": 6,
+   "src": "ab:oaknorth",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Intern - Gen AI",
+   "url": "https://jobs.ashbyhq.com/oaknorth/9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
+   "verifiable": true,
+   "watch": ""
+  },
   "gh:stripe:8031833": {
    "company": "Stripe",
    "deadline": "",
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -683,7 +708,7 @@
    "first_seen": "2026-11-17T18:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/crowe-capabilities-center-india-msft-ai-business-solutions-technical-intern-4491714626",
    "last_checked": "2026-11-18T02:31:09+00:00",
-   "last_seen": "2026-11-18T08:17:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Noida, Uttar Pradesh, India",
    "posted": "2026-11-17T18:14:49+00:00",
    "posted_kind": "listed",
@@ -710,7 +735,7 @@
    "first_seen": "2026-11-17T18:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/crowe-capabilities-center-india-msft-ai-business-solutions-technical-intern-4491725188",
    "last_checked": "2026-11-18T02:31:09+00:00",
-   "last_seen": "2026-11-18T08:17:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Greater Hyderabad Area",
    "posted": "2026-11-17T18:16:16+00:00",
    "posted_kind": "listed",
@@ -1255,7 +1280,7 @@
    "first_seen": "2026-11-16T22:02:38+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-cyber-sec-4491503820",
    "last_checked": "2026-11-17T02:31:19+00:00",
-   "last_seen": "2026-11-18T08:17:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T21:50:47+00:00",
    "posted_kind": "listed",
@@ -1635,6 +1660,31 @@
    "verifiable": false,
    "watch": ""
   },
+  "id:https://interndoor.com/jobs/oaknorth-intern-gen-ai-ats-ashby-oaknorth-9bb335d1-9f05-4034-aee9-e62a9b3dcf97": {
+   "alerted_at": "2026-11-18T08:29:08+00:00",
+   "apply_url": "https://jobs.ashbyhq.com/oaknorth/9bb335d1-9f05-4034-aee9-e62a9b3dcf97?ref=interndoor",
+   "baseline": false,
+   "company": "OakNorth",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T08:29:08+00:00",
+   "id": "id:https://interndoor.com/jobs/oaknorth-intern-gen-ai-ats-ashby-oaknorth-9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
+   "last_seen": "2026-11-18T08:37:08+00:00",
+   "location": "Gurugram",
+   "posted": "2026-11-18T07:46:43+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 6,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "AI Intern",
+   "url": "https://interndoor.com/jobs/oaknorth-intern-gen-ai-ats-ashby-oaknorth-9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
+   "verifiable": false,
+   "watch": ""
+  },
   "id:https://interndoor.com/jobs/rank-top-3-on-amazon-harpy-media-ai-automation-intern-4489262920": {
    "alerted_at": "2026-11-12T18:13:38+00:00",
    "apply_url": "https://www.linkedin.com/jobs/view/4489262920/",
@@ -1913,7 +1963,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1932,7 +1982,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1953,7 +2003,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -1974,7 +2024,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -1993,7 +2043,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -2032,7 +2082,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -2071,7 +2121,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -2090,7 +2140,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -2109,7 +2159,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -2128,7 +2178,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -2147,7 +2197,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -2166,7 +2216,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -2188,7 +2238,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -2233,7 +2283,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-18T08:13:08+00:00",
+   "last_seen": "2026-11-18T08:37:08+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2545,7 +2595,9 @@
  },
  "last_digest": "2026-11-18",
  "learned": {
-  "ashby": [],
+  "ashby": [
+   "oaknorth"
+  ],
   "greenhouse": [],
   "lever": [],
   "workday": []
@@ -2567,6 +2619,7 @@
    "pages": {}
   },
   "Amazon WoW (women)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2618,6 +2671,7 @@
    "pages": {}
   },
   "Flipkart Runway": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2721,7 +2775,6 @@
    "pages": {}
   },
   "Microsoft Codess (women)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2821,16 +2874,6 @@
   "id:https://interndoor.com/jobs/wsa-wonderful-sound-for-all-technical-support-intern-product-engineering-4491756625": "2026-11-18T00:36:53+00:00"
  },
  "scan_log": [
-  "2026-11-17T21:37:10+00:00",
-  "2026-11-17T22:00:53+00:00",
-  "2026-11-17T22:02:53+00:00",
-  "2026-11-17T22:04:53+00:00",
-  "2026-11-17T22:06:53+00:00",
-  "2026-11-17T22:08:53+00:00",
-  "2026-11-17T22:10:53+00:00",
-  "2026-11-17T22:12:53+00:00",
-  "2026-11-17T22:14:53+00:00",
-  "2026-11-17T22:16:53+00:00",
   "2026-11-17T22:18:53+00:00",
   "2026-11-17T22:20:53+00:00",
   "2026-11-17T22:22:53+00:00",
@@ -3120,7 +3163,17 @@
   "2026-11-18T08:11:08+00:00",
   "2026-11-18T08:13:08+00:00",
   "2026-11-18T08:15:08+00:00",
-  "2026-11-18T08:17:08+00:00"
+  "2026-11-18T08:17:08+00:00",
+  "2026-11-18T08:19:08+00:00",
+  "2026-11-18T08:21:08+00:00",
+  "2026-11-18T08:23:08+00:00",
+  "2026-11-18T08:25:08+00:00",
+  "2026-11-18T08:27:08+00:00",
+  "2026-11-18T08:29:08+00:00",
+  "2026-11-18T08:31:08+00:00",
+  "2026-11-18T08:33:08+00:00",
+  "2026-11-18T08:35:08+00:00",
+  "2026-11-18T08:37:08+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -3131,6 +3184,11 @@
   "ab:notion": {
    "capped": false,
    "fetched": 167,
+   "note": ""
+  },
+  "ab:oaknorth": {
+   "capped": false,
+   "fetched": 28,
    "note": ""
   },
   "ab:openai": {
@@ -3210,7 +3268,7 @@
   },
   "gh:dropbox": {
    "capped": false,
-   "fetched": 41,
+   "fetched": 40,
    "note": ""
   },
   "gh:duolingo": {
@@ -3240,12 +3298,12 @@
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 392,
+   "fetched": 391,
    "note": ""
   },
   "gh:okta": {
    "capped": false,
-   "fetched": 359,
+   "fetched": 358,
    "note": ""
   },
   "gh:pinterest": {
@@ -3337,6 +3395,7 @@
  "sources_seen": [
   "ab:linear",
   "ab:notion",
+  "ab:oaknorth",
   "ab:openai",
   "ab:ramp",
   "ab:replit",

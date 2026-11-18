@@ -34,6 +34,7 @@
   "hewlettpackardenterprise|phdresearchinternairesearchlab": "2026-11-16T15:56:58+00:00",
   "honeywellaerospace|internbachelorshardwareeng": "2026-11-05T10:19:00+00:00",
   "honeywellaerospace|softwareengineeringintern": "2026-11-11T10:57:16+00:00",
+  "honeywelltechnologies|aiintern": "2026-11-18T10:05:25+00:00",
   "honeywelltechnologies|dataengineeringintern": "2026-11-16T22:02:38+00:00",
   "honeywelltechnologies|datascienceintern": "2026-11-10T10:10:01+00:00",
   "honeywelltechnologies|internbachelorscybersec": "2026-11-16T22:02:38+00:00",
@@ -65,7 +66,8 @@
   "thales|softwareintern": "2026-11-10T18:01:49+00:00",
   "visa|swengineerintern": "2026-11-06T00:01:52+00:00",
   "wellsfargo|2027technologyprogramintern": "2026-11-06T06:36:06+00:00",
-  "wellsfargo|technologyprogramintern": "2026-11-06T00:01:52+00:00"
+  "wellsfargo|technologyprogramintern": "2026-11-06T00:01:52+00:00",
+  "zebratechnologies|20276monthinternshipbengalurusoftwareengineering": "2026-11-18T10:05:25+00:00"
  },
  "discovery": {
   "count": 0,
@@ -275,47 +277,47 @@
  },
  "failures": {
   "wd:adobe/external_experienced": {
-   "count": 4,
+   "count": 6,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
   "wd:cisco/Cisco_Careers": {
-   "count": 1,
+   "count": 3,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 355,
+   "count": 357,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 192,
+   "count": 194,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 6,
+   "count": 8,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 54,
+   "count": 56,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 355,
+   "count": 357,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 6,
+   "count": 8,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 2,
+   "count": 4,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 30,
+   "count": 32,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
   },
   "wd:visa/Visa_Talent_Portal": {
-   "count": 2,
+   "count": 4,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
@@ -332,7 +334,7 @@
    "elite": false,
    "first_seen": "2026-11-18T08:37:08+00:00",
    "id": "ab:oaknorth:9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Gurugram",
    "posted": "2026-11-18T07:46:43.311+00:00",
    "posted_kind": "posted",
@@ -352,7 +354,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -555,7 +557,7 @@
    "elite": false,
    "first_seen": "2026-11-18T08:47:08+00:00",
    "id": "id:https://interndoor.com/jobs/american-express-data-analyst-intern-ats-oraclecloud-egug-fa-us2-oraclecloud-com-26016525",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:23:25+00:00",
    "location": "Gurugram, HR, India",
    "posted": "2026-11-18T00:00:00+00:00",
    "posted_kind": "listed",
@@ -1306,7 +1308,7 @@
    "first_seen": "2026-11-16T22:02:38+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-cyber-sec-4491503820",
    "last_checked": "2026-11-17T02:31:19+00:00",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:23:25+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T21:50:47+00:00",
    "posted_kind": "listed",
@@ -1370,6 +1372,31 @@
    "stipend_inr_month": null,
    "title": "Intern Bachelors Software Eng",
    "url": "https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235",
+   "verifiable": false,
+   "watch": ""
+  },
+  "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-ai-4491789989": {
+   "alerted_at": "2026-11-18T10:05:25+00:00",
+   "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/162526/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor",
+   "baseline": false,
+   "company": "Honeywell Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:05:25+00:00",
+   "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-ai-4491789989",
+   "last_seen": "2026-11-18T10:23:25+00:00",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-11-18T09:49:18+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 6,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "AI Intern",
+   "url": "https://interndoor.com/jobs/honeywell-technologies-intern-masters-ai-4491789989",
    "verifiable": false,
    "watch": ""
   },
@@ -1696,7 +1723,7 @@
    "elite": false,
    "first_seen": "2026-11-18T08:29:08+00:00",
    "id": "id:https://interndoor.com/jobs/oaknorth-intern-gen-ai-ats-ashby-oaknorth-9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:23:25+00:00",
    "location": "Gurugram",
    "posted": "2026-11-18T07:46:43+00:00",
    "posted_kind": "listed",
@@ -1963,6 +1990,31 @@
    "url": "https://interndoor.com/jobs/wells-fargo-2027-technology-program-intern-4483704426",
    "verifiable": false
   },
+  "id:https://interndoor.com/jobs/zebra-technologies-2027-6-month-internship-bengaluru-software-engineering-4490877313": {
+   "alerted_at": "2026-11-18T10:05:25+00:00",
+   "apply_url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671?source=interndoor&ref=interndoor",
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:05:25+00:00",
+   "id": "id:https://interndoor.com/jobs/zebra-technologies-2027-6-month-internship-bengaluru-software-engineering-4490877313",
+   "last_seen": "2026-11-18T10:23:25+00:00",
+   "location": "Bengaluru, Karnataka, India",
+   "posted": "2026-11-18T09:51:51+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 6,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://interndoor.com/jobs/zebra-technologies-2027-6-month-internship-bengaluru-software-engineering-4490877313",
+   "verifiable": false,
+   "watch": ""
+  },
   "is:https://apply.careers.microsoft.com/careers/job/1970393556641091": {
    "closed_at": "2026-11-10T10:10:01+00:00",
    "company": "Microsoft",
@@ -1989,7 +2041,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -2008,7 +2060,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -2029,7 +2081,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -2050,7 +2102,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -2069,7 +2121,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -2108,7 +2160,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -2147,7 +2199,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -2166,7 +2218,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -2185,7 +2237,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -2204,7 +2256,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -2223,7 +2275,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -2242,7 +2294,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -2264,7 +2316,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -2309,7 +2361,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-18T10:01:25+00:00",
+   "last_seen": "2026-11-18T10:17:25+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2617,6 +2669,213 @@
    "title": "SW Engineer Intern",
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W",
    "verifiable": false
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863",
+   "verifiable": true,
+   "watch": ""
+  },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-18T10:17:25+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864",
+   "last_seen": "2026-11-18T10:17:25+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-18",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864",
+   "verifiable": true,
+   "watch": ""
   }
  },
  "last_digest": "2026-11-18",
@@ -2626,7 +2885,12 @@
   ],
   "greenhouse": [],
   "lever": [],
-  "workday": []
+  "workday": [
+   {
+    "name": "Zebra Technologies",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers"
+   }
+  ]
  },
  "programs": {
   "Adobe Codiva (women)": {
@@ -2767,6 +3031,7 @@
    "pages": {}
   },
   "Google internships (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5",
@@ -2784,7 +3049,6 @@
    "pages": {}
   },
   "JPMorgan Summer Analyst (India)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2825,6 +3089,7 @@
    "pages": {}
   },
   "Morgan Stanley technology internship (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2859,12 +3124,12 @@
    "pages": {}
   },
   "The Big Code (Google)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
   },
   "Uber HackTag": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2897,23 +3162,13 @@
  },
  "rejected": {
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00",
+  "id:https://interndoor.com/jobs/cropin-quality-assurance-intern-4492003252": "2026-11-18T10:05:25+00:00",
   "id:https://interndoor.com/jobs/impact-analytics-production-support-engineer-intern-ats-keka-impactanalytics-95511": "2026-11-16T16:25:57+00:00",
   "id:https://interndoor.com/jobs/juspay-quality-engineer-intern-ats-juspay-juspay-qe05": "2026-11-17T13:43:27+00:00",
   "id:https://interndoor.com/jobs/volody-software-tester-intern-4490435985": "2026-11-17T12:51:27+00:00",
   "id:https://interndoor.com/jobs/wsa-wonderful-sound-for-all-technical-support-intern-product-engineering-4491756625": "2026-11-18T00:36:53+00:00"
  },
  "scan_log": [
-  "2026-11-17T23:22:53+00:00",
-  "2026-11-17T23:24:53+00:00",
-  "2026-11-17T23:26:53+00:00",
-  "2026-11-17T23:28:53+00:00",
-  "2026-11-17T23:30:53+00:00",
-  "2026-11-17T23:32:53+00:00",
-  "2026-11-17T23:34:53+00:00",
-  "2026-11-17T23:36:53+00:00",
-  "2026-11-17T23:38:53+00:00",
-  "2026-11-17T23:40:53+00:00",
-  "2026-11-17T23:42:53+00:00",
   "2026-11-17T23:44:53+00:00",
   "2026-11-17T23:46:53+00:00",
   "2026-11-17T23:48:53+00:00",
@@ -3202,7 +3457,18 @@
   "2026-11-18T09:55:25+00:00",
   "2026-11-18T09:57:25+00:00",
   "2026-11-18T09:59:25+00:00",
-  "2026-11-18T10:01:25+00:00"
+  "2026-11-18T10:01:25+00:00",
+  "2026-11-18T10:03:25+00:00",
+  "2026-11-18T10:05:25+00:00",
+  "2026-11-18T10:07:25+00:00",
+  "2026-11-18T10:09:25+00:00",
+  "2026-11-18T10:11:25+00:00",
+  "2026-11-18T10:13:25+00:00",
+  "2026-11-18T10:15:25+00:00",
+  "2026-11-18T10:17:25+00:00",
+  "2026-11-18T10:19:25+00:00",
+  "2026-11-18T10:21:25+00:00",
+  "2026-11-18T10:23:25+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -3367,7 +3633,7 @@
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 788,
+   "fetched": 789,
    "note": ""
   },
   "gh:twilio": {
@@ -3417,8 +3683,13 @@
   },
   "lv:spotify": {
    "capped": false,
-   "fetched": 89,
+   "fetched": 91,
    "note": ""
+  },
+  "wd:zebra/Zebra_careers": {
+   "capped": false,
+   "fetched": 19,
+   "note": "searches: 'intern india' 19, 'intern bangalore' 0"
   }
  },
  "sources_seen": [
@@ -3476,7 +3747,8 @@
   "wd:paypal/jobs",
   "wd:salesforce/External_Career_Site",
   "wd:visa/Visa",
-  "wd:visa/Visa_Talent_Portal"
+  "wd:visa/Visa_Talent_Portal",
+  "wd:zebra/Zebra_careers"
  ],
  "watch": {}
 }

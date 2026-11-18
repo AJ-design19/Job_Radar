@@ -267,25 +267,29 @@
   ]
  },
  "failures": {
-  "lv:paytm": {
-   "count": 1,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
-  },
-  "wd:cisco/Cisco_Careers": {
-   "count": 15,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
-  },
   "wd:hpe/Jobsathpe": {
-   "count": 301,
+   "count": 304,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 138,
+   "count": 141,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
+  "wd:mastercard/Campus": {
+   "count": 3,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
+  },
+  "wd:mastercard/CorporateCareers": {
+   "count": 3,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
+  },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 301,
+   "count": 304,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
+  },
+  "wd:paypal/jobs": {
+   "count": 3,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   }
  },
  "fix_interndoor_closed": true,
@@ -298,7 +302,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -569,13 +573,15 @@
   "id:https://interndoor.com/jobs/carrier-intern-4490419096": {
    "apply_url": "https://jobs.carrier.com/en/job/hyderabad/intern/29289/103373168944?ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Carrier",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T09:09:14+00:00",
    "id": "id:https://interndoor.com/jobs/carrier-intern-4490419096",
-   "last_seen": "2026-11-18T02:14:53+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
+   "last_seen": "2026-11-18T02:36:53+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-17T08:14:41+00:00",
    "posted_kind": "listed",
@@ -593,13 +599,15 @@
   "id:https://interndoor.com/jobs/carrier-intern-mech-engrg-4491411049": {
    "apply_url": "https://jobs.carrier.com/job/-/-/29289/103373169184?source=interndoor&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Carrier",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T18:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/carrier-intern-mech-engrg-4491411049",
-   "last_seen": "2026-11-18T02:14:53+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
+   "last_seen": "2026-11-18T02:36:53+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-17T17:55:44+00:00",
    "posted_kind": "listed",
@@ -643,13 +651,15 @@
   "id:https://interndoor.com/jobs/crowe-capabilities-center-india-msft-ai-business-solutions-technical-intern-4491714626": {
    "apply_url": "https://careers.crowe.com/job/CROCROUSR71046EXTERNALENUS/MSFT-AI-Business-Solutions-Technical-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Crowe Capabilities Center \u2013 India",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T18:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/crowe-capabilities-center-india-msft-ai-business-solutions-technical-intern-4491714626",
-   "last_seen": "2026-11-18T02:14:53+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
+   "last_seen": "2026-11-18T02:36:53+00:00",
    "location": "Noida, Uttar Pradesh, India",
    "posted": "2026-11-17T18:14:49+00:00",
    "posted_kind": "listed",
@@ -668,13 +678,15 @@
    "alerted_at": "2026-11-17T18:45:58+00:00",
    "apply_url": "https://careers.crowe.com/job/CROCROUSR71046EXTERNALENUS/MSFT-AI-Business-Solutions-Technical-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Crowe Capabilities Center \u2013 India",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T18:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/crowe-capabilities-center-india-msft-ai-business-solutions-technical-intern-4491725188",
-   "last_seen": "2026-11-18T02:14:53+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
+   "last_seen": "2026-11-18T02:36:53+00:00",
    "location": "Greater Hyderabad Area",
    "posted": "2026-11-17T18:16:16+00:00",
    "posted_kind": "listed",
@@ -692,13 +704,15 @@
   "id:https://interndoor.com/jobs/crowe-capabilities-center-india-netsuite-technical-intern-4491704717": {
    "apply_url": "https://careers.crowe.com/job/CROCROUSR71049EXTERNALENUS/NetSuite-Technical-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Crowe Capabilities Center \u2013 India",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T18:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/crowe-capabilities-center-india-netsuite-technical-intern-4491704717",
-   "last_seen": "2026-11-18T02:14:53+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
+   "last_seen": "2026-11-18T02:36:53+00:00",
    "location": "Noida, Uttar Pradesh, India",
    "posted": "2026-11-17T18:06:06+00:00",
    "posted_kind": "listed",
@@ -1217,7 +1231,7 @@
    "first_seen": "2026-11-16T22:02:38+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-cyber-sec-4491503820",
    "last_checked": "2026-11-17T02:31:19+00:00",
-   "last_seen": "2026-11-18T02:14:53+00:00",
+   "last_seen": "2026-11-18T02:36:53+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-16T21:50:47+00:00",
    "posted_kind": "listed",
@@ -1261,12 +1275,14 @@
   "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235": {
    "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/160864/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "Honeywell Technologies",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T16:33:58+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-17T22:32:53+00:00",
    "location": "Pune Division, Maharashtra, India",
    "posted": "2026-11-17T16:04:23+00:00",
@@ -1292,7 +1308,7 @@
    "elite": false,
    "first_seen": "2026-11-10T10:10:01+00:00",
    "id": "id:https://interndoor.com/jobs/honeywell-technologies-intern-masters-data-science-4489439428",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-10T23:36:49+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-10T09:48:51+00:00",
@@ -1362,13 +1378,13 @@
   },
   "id:https://interndoor.com/jobs/irdeto-soc-intern-4488194751": {
    "baseline": false,
-   "closed_strikes": 0,
+   "closed_strikes": 1,
    "company": "Irdeto",
    "deadline": "",
    "desc": "",
    "first_seen": "2026-11-06T19:40:22+00:00",
    "id": "id:https://interndoor.com/jobs/irdeto-soc-intern-4488194751",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-08T01:25:23+00:00",
    "location": "Noida, Uttar Pradesh, India",
    "posted": "2026-11-06T17:59:56+00:00",
@@ -1387,14 +1403,14 @@
    "alerted_at": "2026-11-14T03:15:11+00:00",
    "apply_url": "https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor",
    "baseline": false,
-   "closed_strikes": 0,
+   "closed_strikes": 1,
    "company": "Isourse",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "id:https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-14T08:53:12+00:00",
    "location": "Delhi, India",
    "posted": "2026-11-14T00:10:50+00:00",
@@ -1447,7 +1463,7 @@
    "elite": false,
    "first_seen": "2026-11-13T16:30:32+00:00",
    "id": "id:https://interndoor.com/jobs/lexsi-labs-ai-agent-engineer-intern-4479326067",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-14T08:53:12+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-13T15:33:57+00:00",
@@ -1474,7 +1490,7 @@
    "elite": false,
    "first_seen": "2026-11-13T15:54:32+00:00",
    "id": "id:https://interndoor.com/jobs/lexsi-labs-ai-research-internship-4479199838",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-14T06:21:12+00:00",
    "location": "Mumbai Metropolitan Region",
    "posted": "2026-11-13T13:42:14+00:00",
@@ -1546,12 +1562,14 @@
   "id:https://interndoor.com/jobs/msd-digital-human-health-intern-4491704088": {
    "apply_url": "https://jobs.msd.com/gb/en/job/MSD1GBR427220ENGB/Digital-Human-Health-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "MSD",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T17:23:58+00:00",
    "id": "id:https://interndoor.com/jobs/msd-digital-human-health-intern-4491704088",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-18T00:54:53+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-17T17:10:28+00:00",
@@ -1570,12 +1588,14 @@
   "id:https://interndoor.com/jobs/msd-digital-human-health-intern-4491706308": {
    "apply_url": "https://jobs.msd.com/gb/en/job/MSD1GBR427217ENGB/Digital-Human-Health-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor",
    "baseline": false,
+   "closed_strikes": 0,
    "company": "MSD",
    "deadline": "",
    "desc": "",
    "elite": false,
    "first_seen": "2026-11-17T17:45:58+00:00",
    "id": "id:https://interndoor.com/jobs/msd-digital-human-health-intern-4491706308",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-18T00:54:53+00:00",
    "location": "Pune City, Maharashtra, India",
    "posted": "2026-11-17T17:19:34+00:00",
@@ -1869,7 +1889,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -1888,7 +1908,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -1909,7 +1929,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -1930,7 +1950,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -1949,7 +1969,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -1988,7 +2008,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -2027,7 +2047,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -2046,7 +2066,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -2065,7 +2085,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -2084,7 +2104,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -2103,7 +2123,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -2122,7 +2142,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -2144,7 +2164,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -2189,7 +2209,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-18T02:08:53+00:00",
+   "last_seen": "2026-11-18T02:32:53+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2282,7 +2302,7 @@
    "desc": "",
    "first_seen": "2026-11-06T00:01:52+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084029W",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-11T10:57:16+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-24",
@@ -2305,7 +2325,7 @@
    "elite": true,
    "first_seen": "2026-11-09T20:59:32+00:00",
    "id": "wd:visa:Visa_Talent_Portal:/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084518W",
-   "last_checked": "2026-11-14T03:15:28+00:00",
+   "last_checked": "2026-11-18T02:31:09+00:00",
    "last_seen": "2026-11-10T10:10:01+00:00",
    "location": "IN - Bengaluru, India",
    "posted": "2026-10-11",
@@ -2499,7 +2519,7 @@
    "verifiable": false
   }
  },
- "last_digest": "2026-11-17",
+ "last_digest": "2026-11-18",
  "learned": {
   "ashby": [],
   "greenhouse": [],
@@ -2513,6 +2533,7 @@
    "pages": {}
   },
   "Adobe India Women-in-Technology Scholarship": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2523,7 +2544,6 @@
    "pages": {}
   },
   "Amazon WoW (women)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2574,7 +2594,6 @@
    "pages": {}
   },
   "Flipkart Runway": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2614,6 +2633,7 @@
    "pages": {}
   },
   "Goldman Sachs Summer Analyst (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUU3V25OUWs1QlB6VUxLMC1MdC1hZ1JLVW5DaDJMTkxGQzNtel9QMVhmcGpUYkJaUEE0MUkzbmNZLUROeHRoZXhET3J0ZDRsd0NPZ3pqTTQ3LXo2WUE3WHpobkJ4NF9SUlZOYnFJNXdGVWlQNE1zMk1TaS14NVpUc2dsQ2ZKMXRYeXBjbzctRWxYYms1UUJaRVdGay1EYUNqNWVjM181WUFHLTRFSmRsdnJkUU1fM0VfZ2RHWWJOamgxS2dPNm84cWZEUHhaOXY2VGJWZi00V0RMWlVtLU1HcQ?oc=5",
@@ -2644,7 +2664,6 @@
    "pages": {}
   },
   "Google internships (India)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5",
@@ -2667,7 +2686,6 @@
    "pages": {}
   },
   "LinkedIn internships (India)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2688,6 +2706,7 @@
    "pages": {}
   },
   "Microsoft internships (India)": {
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [
     "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqRnZST092dVZMUXNhb05WQ2gyMktoSmU1djRlUElQa3o3V2pQV0hLU29XTDM2U3AzYnlUQmFWY1YwOEVRQXVBRUhOQkx5djl4T3FkazNIV0JCaXVWU2ViU29yXzVkM3FINXJQaw?oc=5",
@@ -2759,13 +2778,11 @@
    "pages": {}
   },
   "Walmart Sparkathon": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
   },
   "WiSE@TI Hackathon (women, Texas Instruments)": {
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?",
    "init": true,
    "news_seen": [],
    "pages": {}
@@ -2779,17 +2796,6 @@
   "id:https://interndoor.com/jobs/wsa-wonderful-sound-for-all-technical-support-intern-product-engineering-4491756625": "2026-11-18T00:36:53+00:00"
  },
  "scan_log": [
-  "2026-11-17T15:27:27+00:00",
-  "2026-11-17T15:29:27+00:00",
-  "2026-11-17T15:31:27+00:00",
-  "2026-11-17T15:33:27+00:00",
-  "2026-11-17T15:35:27+00:00",
-  "2026-11-17T15:37:27+00:00",
-  "2026-11-17T15:39:27+00:00",
-  "2026-11-17T15:41:27+00:00",
-  "2026-11-17T15:43:27+00:00",
-  "2026-11-17T15:45:27+00:00",
-  "2026-11-17T15:47:27+00:00",
   "2026-11-17T15:49:27+00:00",
   "2026-11-17T15:51:27+00:00",
   "2026-11-17T15:53:27+00:00",
@@ -3078,7 +3084,18 @@
   "2026-11-18T02:08:53+00:00",
   "2026-11-18T02:10:53+00:00",
   "2026-11-18T02:12:53+00:00",
-  "2026-11-18T02:14:53+00:00"
+  "2026-11-18T02:14:53+00:00",
+  "2026-11-18T02:16:53+00:00",
+  "2026-11-18T02:18:53+00:00",
+  "2026-11-18T02:20:53+00:00",
+  "2026-11-18T02:22:53+00:00",
+  "2026-11-18T02:24:53+00:00",
+  "2026-11-18T02:26:53+00:00",
+  "2026-11-18T02:28:53+00:00",
+  "2026-11-18T02:30:53+00:00",
+  "2026-11-18T02:32:53+00:00",
+  "2026-11-18T02:34:53+00:00",
+  "2026-11-18T02:36:53+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -3188,7 +3205,7 @@
   },
   "gh:gitlab": {
    "capped": false,
-   "fetched": 254,
+   "fetched": 253,
    "note": ""
   },
   "gh:lyft": {
@@ -3281,6 +3298,11 @@
    "fetched": 301,
    "note": ""
   },
+  "lv:paytm": {
+   "capped": false,
+   "fetched": 200,
+   "note": ""
+  },
   "lv:spotify": {
    "capped": false,
    "fetched": 88,
@@ -3291,20 +3313,10 @@
    "fetched": 17,
    "note": "searches: 'intern india' 17, 'intern bangalore' 0"
   },
-  "wd:mastercard/Campus": {
-   "capped": false,
-   "fetched": 1,
-   "note": "searches: 'intern india' 1, 'intern bangalore' 0"
-  },
-  "wd:mastercard/CorporateCareers": {
-   "capped": true,
-   "fetched": 60,
-   "note": "searches: 'intern india' 60, 'intern bangalore' 0"
-  },
-  "wd:paypal/jobs": {
+  "wd:cisco/Cisco_Careers": {
    "capped": false,
    "fetched": 18,
-   "note": "searches: 'intern india' 18, 'intern bangalore' 0"
+   "note": "searches: 'intern india' 16, 'intern bangalore' 2"
   },
   "wd:salesforce/External_Career_Site": {
    "capped": true,

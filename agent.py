@@ -13,14 +13,14 @@ from pathlib import Path
 import yaml
 
 import collectors as _collectors
-from programs import check_programs, discover
+from programs import check_programs, discover, fetch_page
 from collectors import (check_url, collect_all, greenhouse_detail, interndoor_detail, learn_source, parse_pay,
-                        workday_key)
+                        parse_pay_global, workday_key)
 from notify import (alert_email, digest_email, digest_push_text, push, send_email, send_telegram,
                     send_whatsapp, telegram_job_text, alert_markdown, digest_markdown, program_email,
                     program_markdown, program_push_text, fmt_dt, opportunities_markdown)
 from scoring import (heuristic_score, is_elite, llm_enrich, passes_batch, passes_filters, passes_pay,
-                     passes_title_rules, is_offtrack, watch_name)
+                     passes_title_rules, is_offtrack, is_top_company, region_of, eligibility, watch_name)
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "state.json"
@@ -28,6 +28,17 @@ IST = timezone(timedelta(hours=5, minutes=30))  # fixed offset: no tz database n
 MAX_DETAIL_CALLS = 60   # Greenhouse posting-detail fetches per run (description + pay)
 MAX_LLM_CALLS = 15      # Gemini screenings per run
 MAX_URL_CHECKS = 15     # open/closed page checks per digest for search-API jobs
+
+
+def gh_target(j, slugs):
+    """(board slug, job id) of a Greenhouse posting from its apply link, so the full description and pay can be read."""
+    url = j.get("url") or ""
+    m = re.search(r"greenhouse\.io/(?:embed/job_app\?for=)?([a-z0-9_-]+)/jobs/(\d+)", url)
+    if m:
+        return m.group(1), m.group(2)
+    m = re.search(r"gh_jid=(\d+)", url)
+    slug = re.sub(r"[^a-z0-9]", "", (j.get("company") or "").lower())
+    return (slug, m.group(1)) if m and slug in slugs else None
 
 
 def learn(state, spec):
@@ -140,6 +151,8 @@ def scan(cfg, state, news=True, light=False):
     new_srcs = ok - known  # a newly added company/source is baselined silently (no alert flood)
     seen, new_jobs, llm_calls, detail_calls = set(), [], 0, 0
     watchlist = cfg.get("watchlist") or []
+    _collectors.FX.update((profile.get("global") or {}).get("fx") or {})
+    ghslugs = set((cfg.get("companies") or {}).get("greenhouse") or []) | set((state.get("learned") or {}).get("greenhouse") or [])
     for jid in [k for k, r in state["jobs"].items() if r["status"] == "open" and not passes_title_rules(r, profile)]:
         del state["jobs"][jid]  # stored before the filters were tightened (hardware, graduate programs, design...)
     if not state.get("fix_watchlist"):  # jobs earlier rejected by score may now qualify as watchlist roles
@@ -170,9 +183,38 @@ def scan(cfg, state, news=True, light=False):
             spec = learn_source(j.get("apply_url"), j.get("company") or "")
             if spec:
                 learn(state, spec)  # from now on this company's own board is read directly (much faster than InternDoor)
+        elif j["src"] == "simplify":  # global list: read the company's own posting for pay and eligibility, learn its board
+            if is_top_company(j, profile) or is_elite(j, profile):
+                spec = learn_source(j.get("url"), j.get("company") or "")
+                if spec:
+                    learn(state, spec)
+            tgt = gh_target(j, ghslugs)
+            if tgt and detail_calls < MAX_DETAIL_CALLS:
+                detail_calls += 1
+                j.update(greenhouse_detail(*tgt))
         if j.get("stipend_inr_month") is None:
             j["stipend_inr_month"] = parse_pay(j.get("desc", ""))
+        if j.get("stipend_inr_month") is None and j.get("desc"):
+            j["stipend_inr_month"], j["pay_label"] = parse_pay_global(j["desc"])
+        j["region"] = region_of(j.get("location"), profile)
+        g = profile.get("global") or {}
+        if (j["region"] != "india" or j["src"] in ("simplify", "internscan")) and not j.get("desc") and detail_calls < MAX_DETAIL_CALLS:
+            try:  # a plain company page: read it for the eligibility wording
+                txt, _ = fetch_page(j.get("url") or "")
+                detail_calls += 1
+                j["desc"] = (txt or "")[:4000]
+            except Exception:
+                pass
+        j["elig"], j["elig_note"] = eligibility(j, profile, j["region"])
+        allowed = ("ok", "check") if g.get("include_check") else ("ok",)
+        if j["elig"] not in allowed:  # only roles you can really apply for (India-based, or clearly open from India)
+            if j["region"] != "india":
+                state.setdefault("global_skipped", {})[j["id"]] = ts
+            rejected[j["id"]] = ts
+            continue
         score = heuristic_score(j, profile)
+        if j["region"] != "india":  # outside India: eligible roles rank higher, roles needing US work authorization lower
+            score = max(0, min(10, score + (1 if j["elig"] == "ok" else -1 if j["elig"] in ("us", "blocked") else 0)))
         wn = watch_name(j, watchlist)  # FAANG / MANGO / your big-tech list: always reported
         if not (passes_batch(j, profile) and passes_pay(j, profile)) or (score < acfg["digest_min_score"] and not wn):
             rejected[j["id"]] = ts
@@ -201,7 +243,8 @@ def scan(cfg, state, news=True, light=False):
         pd = posted_dt(j.get("posted"))
         fresh = not (j.get("old") or (pd and now() - pd > timedelta(days=acfg.get("max_age_days", 14))))  # old: report only
         off = is_offtrack(j, profile)  # support / QA / embedded: still listed, but a big name alone does not trigger an alert
-        if status == "open" and (score >= acfg["instant_min_score"] or (wn and not off)) and not baseline and not already and fresh:
+        alert_ok = True  # everything that reaches this point is eligible
+        if status == "open" and (score >= acfg["instant_min_score"] or (wn and not off)) and not baseline and not already and fresh and alert_ok:
             new_jobs.append(rec)
 
     # a job that vanished from a board that loaded fine is closed
@@ -229,6 +272,10 @@ def scan(cfg, state, news=True, light=False):
         del state["jobs"][jid]
     for k in [k for k, v in rejected.items() if parse(v) < cutoff]:
         del rejected[k]
+    skipped = state.setdefault("global_skipped", {})
+    for k in [k for k, v in skipped.items() if parse(v) < now() - timedelta(days=3)]:  # look at them again every 3 days
+        del skipped[k]
+        rejected.pop(k, None)
     for k in [k for k, v in alerted.items() if parse(v) < now() - timedelta(days=180)]:
         del alerted[k]
 
@@ -302,12 +349,14 @@ def digest(cfg, state):
             keep["copies"] = best[k]["copies"] + 1
             best[k] = keep
     open_jobs = list(best.values())
+    india_open = [r for r in open_jobs if r.get("region", "india") == "india"]
+    global_open = [r for r in open_jobs if r.get("region", "india") != "india"]
     max_age = timedelta(days=cfg["alerts"].get("max_age_days", 14))
 
     def fresh(r):  # genuinely new: found in the last 24h, not a baseline of a new source, not an old posting
         pd = posted_dt(r.get("posted"))
         return not r.get("baseline") and not (pd and n - pd > max_age)
-    new24 = [r for r in open_jobs if parse(r["first_seen"]) >= since and fresh(r)]
+    new24 = [r for r in india_open if parse(r["first_seen"]) >= since and fresh(r)]
     closed24 = [r for r in jobs if r["status"] == "closed" and r.get("closed_at") and parse(r["closed_at"]) >= since]
     soon = []
     for r in open_jobs:
@@ -318,7 +367,7 @@ def digest(cfg, state):
         if n <= d <= n + timedelta(days=7):
             soon.append(r)
     by_company = {}
-    for r in sorted(open_jobs, key=lambda r: -r["score"]):
+    for r in sorted(india_open, key=lambda r: -r["score"]):
         by_company.setdefault(r["company"], []).append(r)
     date_str = n.astimezone(IST).strftime("%d %b %Y")
     failures = {k: v for k, v in state["failures"].items() if v["count"] >= 3}
@@ -380,10 +429,12 @@ def digest(cfg, state):
     women = [o for o in cfg.get("opportunities") or [] if o.get("tier") == "Women"]
     bigtech = []
     for w in cfg.get("watchlist") or []:
-        js = sorted((r for r in open_jobs if watch_name(r, [w])), key=lambda r: -r["score"])
-        bigtech.append((w["name"], [(r["title"], r["url"], r["location"], r.get("posted") or "") for r in js]))
+        js = sorted((r for r in india_open if watch_name(r, [w])), key=lambda r: -r["score"])
+        bigtech.append((w["name"], [(r["title"], r["url"], r["location"], r.get("posted") or "") for r in js], sum(1 for r in global_open if watch_name(r, [w]))))
+    g_ok = sorted((r for r in global_open if r.get("elig") in ("ok", "check")), key=lambda r: -r["score"])[:25]
+    g_us = sorted((r for r in global_open if r.get("elig") in ("us", "blocked")), key=lambda r: -r["score"])[:25]
     md = digest_markdown(date_str, {"open": len(open_jobs), "companies": len(by_company)},
-                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps, sources, bigtech, women)
+                         new24, soon, closed24, state["watch"], failures, by_company, progs, opps, sources, bigtech, women, (g_ok, g_us, sum(1 for v in state.get("global_skipped", {}).values() if parse(v) >= since)))
     rdir = ROOT / "reports"
     rdir.mkdir(exist_ok=True)
     (rdir / "latest.md").write_text(md, encoding="utf-8")
@@ -485,7 +536,7 @@ def dispatch_next():
         subprocess.run(["gh", "workflow", "run", "radar.yml"], check=False, cwd=ROOT, capture_output=True)
 
 
-def loop(cfg, minutes=340, every=120, news_every=5, full_every=4, digest_hour=8, sync_every=1200):
+def loop(cfg, minutes=340, every=90, news_every=6, full_every=5, digest_hour=8, sync_every=1200):
     """Two speeds. FAST lane every `every` seconds: the feeds that list new roles within minutes (InternDoor, Amazon).
     FULL scan every `full_every`th round: all sources (Workday, company boards, InternScan...). News searches every
     `news_every`th round. The daily report once after `digest_hour` India time. Hands over to the next run by itself."""

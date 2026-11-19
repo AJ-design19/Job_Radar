@@ -23,6 +23,16 @@ profile:
   india_only: true
   locations: [india, bengaluru, bangalore, hyderabad, pune, gurgaon, gurugram, delhi, "new delhi", noida, mumbai, "navi mumbai", thane, chennai, kolkata, ahmedabad, kochi, jaipur, chandigarh, indore, coimbatore, trivandrum, thiruvananthapuram, lucknow, bhubaneswar, vadodara, nagpur, mysuru, mysore]
 
+  # GLOBAL internships outside India (UK, Europe, US, Singapore...). Only for top / elite companies, to keep volume sane.
+  #   alert_us: false = US roles go in the report only (they almost always need US work authorization).
+  #   fx = rough INR rates used for the "about X lakh a month" estimate. Edit when the rupee moves.
+  global:
+    enabled: true
+    alert_us: false
+    value_companies_only: true
+    include_check: false   # false = ONLY roles clearly open to you (India-based, sponsorship offered, remote-anywhere). true = also 'check the rules' roles
+    fx: {USD: 84, GBP: 106, EUR: 91, CAD: 61, AUD: 55, SGD: 63, CHF: 95}
+
   # "GOOD PACKAGES". Most Indian internship posts do not publish pay, so two signals are combined:
   #   1. a stated stipend (when the posting lists one) must be at least min_stipend_inr_month
   #   2. companies on top_companies get a score boost (my guess at who pays well: edit freely)
@@ -30,8 +40,8 @@ profile:
     min_stipend_inr_month: 40000
     only_known_good: false   # true = if pay is NOT stated, report only companies on top_companies
     # The best-paying employers: score +3 (top_companies get +2). Stipend blogs disagree, so this is rank, not a promise.
-    elite_companies: [google, microsoft, meta, apple, netflix, amazon, atlassian, uber, "goldman sachs", "morgan stanley", "de shaw", "d e shaw", "tower research", arcesium, rubrik, databricks, nvidia, adobe, flipkart, "jane street", optiver, graviton, linkedin, salesforce, intuit, visa, stripe, openai, anthropic]
-    top_companies: [google, microsoft, meta, apple, netflix, visa, mastercard, dell, meta, apple, linkedin, hpe, amazon, atlassian, adobe, uber, stripe, databricks, nvidia, salesforce, "goldman sachs", "morgan stanley", jpmorgan, "american express", intuit, paypal, walmart, flipkart, phonepe, razorpay, cred, meesho, swiggy, zomato, "d e shaw", "de shaw", "tower research", graviton, "jane street", optiver, arcesium, rubrik, nutanix, oracle, sap, cisco, qualcomm, intel, "texas instruments", samsung, vmware, broadcom, servicenow, "palo alto networks", cloudflare, datadog, mongodb, coinbase, figma, openai, anthropic, postman, browserstack, thoughtspot, groww, paytm, airbnb, pinterest, twilio, okta, elastic, gitlab, lyft, asana, vercel, dropbox, duolingo, samsara, carta, webflow, notion, ramp, linear, replit, supabase, palantir, spotify]
+    elite_companies: [datadog, "jane street", citadel, "two sigma", "hudson river", deepmind, google, microsoft, meta, apple, netflix, amazon, atlassian, uber, "goldman sachs", "morgan stanley", "de shaw", "d e shaw", "tower research", arcesium, rubrik, databricks, nvidia, adobe, flipkart, "jane street", optiver, graviton, linkedin, salesforce, intuit, visa, stripe, openai, anthropic]
+    top_companies: [datadog, bloomberg, "two sigma", citadel, "hudson river", imc, "jump trading", arm, revolut, monzo, deepmind, snowflake, roblox, doordash, tesla, plaid, rippling, anduril, waymo, "jane street", google, microsoft, meta, apple, netflix, visa, mastercard, dell, meta, apple, linkedin, hpe, amazon, atlassian, adobe, uber, stripe, databricks, nvidia, salesforce, "goldman sachs", "morgan stanley", jpmorgan, "american express", intuit, paypal, walmart, flipkart, phonepe, razorpay, cred, meesho, swiggy, zomato, "d e shaw", "de shaw", "tower research", graviton, "jane street", optiver, arcesium, rubrik, nutanix, oracle, sap, cisco, qualcomm, intel, "texas instruments", samsung, vmware, broadcom, servicenow, "palo alto networks", cloudflare, datadog, mongodb, coinbase, figma, openai, anthropic, postman, browserstack, thoughtspot, groww, paytm, airbnb, pinterest, twilio, okta, elastic, gitlab, lyft, asana, vercel, dropbox, duolingo, samsara, carta, webflow, notion, ramp, linear, replit, supabase, palantir, spotify]
 
 alerts:
   digest_min_score: 4     # jobs below this are ignored completely
@@ -44,7 +54,7 @@ alerts:
 #   boards.greenhouse.io/<slug>   jobs.lever.co/<slug>   jobs.ashbyhq.com/<slug>
 # A wrong slug is harmless: it shows up under "Source problems" in the digest.
 companies:
-  greenhouse: [rubrik, stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta, anthropic, reddit, pinterest, lyft, asana, vercel, scaleai, dropbox, duolingo, samsara, carta, webflow]
+  greenhouse: [rubrik, monzo, deepmind, gocardless, snyk, stripe, airbnb, databricks, cloudflare, datadog, mongodb, coinbase, figma, discord, robinhood, twilio, elastic, gitlab, okta, anthropic, reddit, pinterest, lyft, asana, vercel, scaleai, dropbox, duolingo, samsara, carta, webflow]
   lever: [palantir, spotify, cred, meesho, paytm]
   ashby: [openai, notion, ramp, linear, replit, supabase]
   # Workday employers (big companies run their careers sites on Workday). Each line is one careers site.
@@ -96,6 +106,13 @@ amazon:
 atlassian:
   enabled: true
 
+# GLOBAL SUMMER 2027 LIST: community-maintained lists (Simplify, vanshb03) of every tech internship worldwide with direct
+# apply links, about 600 posted in the last 3 weeks. This is how roles like Datadog's get caught.
+simplify:
+  enabled: true
+  max_age_days: 21
+  terms: ["Summer 2027"]
+
 # The Muse: free, no key. Lists internships from hundreds of companies.
 themuse:
   enabled: false   # its API address now returns 404 (and it lists few India roles)
@@ -136,6 +153,7 @@ watchlist:
   - {name: LinkedIn, match: [linkedin]}
   - {name: Stripe, match: [stripe]}
   - {name: Databricks, match: [databricks]}
+  - {name: Datadog, match: [datadog]}
 
 # After a program alerts once, stay quiet about it for this many days (no repeats for the same hiring).
 program_cooldown_days: 30
@@ -369,3 +387,29 @@ discovery:
 # ---------------------------------------------------------------
 burst:
   - {name: "LinkedIn software engineering internship window", start: "2026-12-01", end: "2026-12-31", every: 120, full_every: 5}
+
+# ---------------------------------------------------------------
+# FAST LANE (checked every ~90 seconds): boards of the companies you care most about, so a new role there reaches you
+# in about 2 to 4 minutes. Everything else is checked every ~8 minutes. Keys: gh: Greenhouse, lv: Lever, ab: Ashby,
+# wd: Workday (tenant/site). Add more keys here, but each costs requests every 90 seconds.
+# ---------------------------------------------------------------
+fast_lane:
+  - "gh:datadog"
+  - "gh:stripe"
+  - "gh:databricks"
+  - "gh:cloudflare"
+  - "gh:anthropic"
+  - "gh:airbnb"
+  - "gh:coinbase"
+  - "gh:figma"
+  - "gh:rubrik"
+  - "gh:monzo"
+  - "gh:deepmind"
+  - "ab:openai"
+  - "ab:notion"
+  - "ab:ramp"
+  - "wd:visa/Visa_Talent_Portal"
+  - "wd:nvidia/NVIDIAExternalCareerSite"
+  - "wd:salesforce/External_Career_Site"
+  - "wd:adobe/external_experienced"
+  - "wd:mastercard/Campus"

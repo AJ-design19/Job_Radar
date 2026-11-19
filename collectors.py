@@ -85,6 +85,44 @@ def greenhouse(slug):
                  j["absolute_url"], j.get("updated_at"), kind="updated") for j in data.get("jobs", [])]
 
 
+FX = {"USD": 84.0, "GBP": 106.0, "EUR": 91.0, "CAD": 61.0, "AUD": 55.0, "SGD": 63.0, "CHF": 95.0}  # rough INR rates (config: profile.global.fx)
+_SYM = {"USD": "$", "GBP": "£", "EUR": "€", "CAD": "C$", "AUD": "A$", "SGD": "S$", "CHF": "CHF "}
+
+
+def estimate_monthly_inr(lo, hi, cur):
+    """(approx INR per month, label like '$45-55/hour') from a pay range in a foreign currency. Interval is guessed from size."""
+    cur = str(cur).upper()
+    if cur not in FX or not (lo or hi):
+        return None, ""
+    hi = hi or lo
+    lo = lo or hi
+    mid = (lo + hi) / 2
+    unit, factor = ("hour", 160) if mid < 300 else ("month", 1) if mid < 30000 else ("year", 1 / 12)
+    sym = _SYM.get(cur, cur + " ")
+    label = f"{sym}{lo:,.0f}" + (f"-{hi:,.0f}" if hi != lo else "") + f"/{unit}"
+    return int(mid * factor * FX[cur]), label
+
+
+_FPAY = re.compile(r"(\$|£|€)\s?(\d[\d,]*(?:\.\d+)?)\s*(k)?(?:\s*(?:-|to|\u2013)\s*(?:\$|£|€)?\s?(\d[\d,]*(?:\.\d+)?)\s*(k)?)?"
+                   r"\s*(?:per|/|a)\s*(hour|hr|month|mo|week|wk|year|yr|annum)", re.I)
+
+
+def parse_pay_global(text):
+    """Find '$45/hour', '£2,000 per month', '$8k-$10k/month' in a posting -> (approx INR per month, label) or (None, '')."""
+    m = _FPAY.search(text or "")
+    if not m:
+        return None, ""
+    cur = {"$": "USD", "£": "GBP", "€": "EUR"}[m.group(1)]
+    lo = float(m.group(2).replace(",", "")) * (1000 if m.group(3) else 1)
+    hi = float(m.group(4).replace(",", "")) * (1000 if m.group(5) else 1) if m.group(4) else lo
+    unit = m.group(6).lower()
+    per = {"hour": 160, "hr": 160, "week": 4.33, "wk": 4.33, "month": 1, "mo": 1, "year": 1 / 12, "yr": 1 / 12, "annum": 1 / 12}[unit]
+    mid = (lo + hi) / 2
+    sym = _SYM[cur]
+    label = f"{sym}{lo:,.0f}" + (f"-{hi:,.0f}" if hi != lo else "") + f"/{unit}"
+    return int(mid * per * FX[cur]), label
+
+
 def greenhouse_detail(slug, gid):
     """Full description + pay range for ONE Greenhouse posting (used only for likely matches)."""
     try:
@@ -95,11 +133,22 @@ def greenhouse_detail(slug, gid):
     text = re.sub(r"<[^>]+>", " ", html.unescape(d.get("content") or ""))
     out = {"desc": re.sub(r"\s+", " ", text)[:4000]}
     for r in d.get("pay_input_ranges") or []:
-        if str(r.get("currency_type", "")).upper() == "INR":
-            pay = to_month_inr((r.get("min_cents") or 0) / 100)
+        cur = str(r.get("currency_type", "")).upper()
+        lo, hi = (r.get("min_cents") or 0) / 100, (r.get("max_cents") or 0) / 100
+        if cur == "INR":
+            pay = to_month_inr(lo)
             if pay:
                 out["stipend_inr_month"] = pay
                 break
+        else:
+            pay, label = estimate_monthly_inr(lo, hi, cur)
+            if pay:
+                out["stipend_inr_month"], out["pay_label"] = pay, label
+                break
+    if "stipend_inr_month" not in out:
+        pay, label = parse_pay_global(out["desc"])
+        if pay:
+            out["stipend_inr_month"], out["pay_label"] = pay, label
     return out
 
 
@@ -356,6 +405,63 @@ def interndoor_detail(url):
     return out
 
 
+# ---------------- Global Summer 2027 internships (community-maintained lists with direct apply links) ----------------
+_SJ_CACHE = {}
+
+
+def simplify(cfg):
+    """github.com/SimplifyJobs/Summer2027-Internships and vanshb03/Summer2027-Internships publish every listing as JSON.
+    Roughly 600 active roles posted in the last 3 weeks, worldwide. ETag caching: unchanged lists cost almost nothing."""
+    urls = cfg.get("urls") or ["https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+                               "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/dev/.github/scripts/listings.json"]
+    terms = set(cfg.get("terms", ["Summer 2027"]))
+    cats = set(cfg.get("categories", ["Software", "AI/ML/Data", "Quant", "Software Engineering", "Data Science, AI & Machine Learning"]))
+    max_age, now_ts = float(cfg.get("max_age_days", 21)) * 86400, datetime.now(timezone.utc).timestamp()
+    out, seen, loaded, errors = [], set(), 0, []
+    for url in urls:
+        try:
+            hdr = dict(UA)
+            if url in _SJ_CACHE:
+                hdr["If-None-Match"] = _SJ_CACHE[url][0]
+            r = requests.get(url, headers=hdr, timeout=90)
+            if r.status_code == 304:
+                rows = _SJ_CACHE[url][1]
+            else:
+                r.raise_for_status()
+                rows = [x for x in r.json() if x.get("active") and x.get("is_visible", True)]
+                _SJ_CACHE[url] = (r.headers.get("ETag", ""), rows)
+            loaded += 1
+        except Exception as e:
+            errors.append(f"{type(e).__name__}")
+            continue
+        for x in rows:
+            ts = x.get("date_posted") or 0
+            if now_ts - ts > max_age:
+                continue
+            if x.get("terms"):
+                if not (set(x["terms"]) & terms):
+                    continue
+            elif x.get("season") != "Summer":
+                continue
+            if x.get("category") and x["category"] not in cats:
+                continue
+            locs = [l for l in (x.get("locations") or []) if l] or [""]
+            key = (re.sub(r"[^a-z0-9]", "", str(x.get("company_name")).lower()), re.sub(r"[^a-z0-9]", "", str(x.get("title")).lower()), locs[0].lower())
+            if key in seen:
+                continue
+            seen.add(key)
+            job = _job(f"sj:{x.get('id')}", x.get("title"), x.get("company_name"), " | ".join(locs[:4]) + (f" +{len(locs) - 4}" if len(locs) > 4 else ""),
+                       x.get("url"), ts, "", kind="posted")
+            job["sponsorship"] = x.get("sponsorship") or ""
+            job["category"] = x.get("category") or ""
+            job["tech_checked"] = True  # the lists only hold tech roles (category filtered above)
+            out.append(job)
+    if not loaded:
+        raise ValueError("could not read the internship lists: " + ", ".join(errors))
+    LAST_NOTES["simplify"] = f"{loaded}/{len(urls)} lists read, {len(out)} recent Summer 2027 roles"
+    return out
+
+
 # ---------------- InternDoor (India engineering internships, listed within minutes) ----------------
 def interndoor(cfg):
     """InternDoor RSS: newest engineering roles in India, incl. employers on Workday / Oracle / Greenhouse."""
@@ -421,8 +527,10 @@ def collect_all(cfg, light=False, extra=None):
     tasks += [(f"lv:{s}", lever, s) for s in comp.get("lever") or []]
     tasks += [(f"ab:{s}", ashby, s) for s in comp.get("ashby") or []]
     tasks += [(workday_key(e), workday, e) for e in comp.get("workday") or []]
-    if light:  # burst mode: only the fast feeds (company boards and Workday change slowly and are many requests)
-        tasks = []
+    if light:  # fast lane: only your priority boards (config fast_lane) plus learned Greenhouse/Lever/Ashby boards (1 request each)
+        fast = set(cfg.get("fast_lane") or [])
+        learned = {f"{p}:{s}" for p, kind in (("gh", "greenhouse"), ("lv", "lever"), ("ab", "ashby")) for s in (extra or {}).get(kind) or []}
+        tasks = [t for t in tasks if t[0] in fast or t[0] in learned]
 
     def run(t):
         key, fn, arg = t
@@ -445,13 +553,13 @@ def collect_all(cfg, light=False, extra=None):
                 j.update(src=key, verifiable=not capped)
                 jobs.append(j)
 
-    for name, fn in (("internscan", internscan), ("amazon", amazon), ("interndoor", interndoor), ("adzuna", adzuna),
+    for name, fn in (("internscan", internscan), ("simplify", simplify), ("amazon", amazon), ("interndoor", interndoor), ("adzuna", adzuna),
                      ("themuse", themuse), ("atlassian", atlassian)):
         conf = cfg.get(name)
         if not conf or conf.get("enabled") is False:
             continue
-        if light and name not in ("interndoor", "amazon"):
-            continue  # fast lane: only the feeds that list new roles within minutes
+        if light and name not in ("interndoor", "amazon", "simplify"):
+            continue  # fast lane: only the feeds that list new roles within minutes (simplify is ETag-cached: almost free)
         try:
             res = fn(conf)
             if res is not None:
@@ -459,7 +567,7 @@ def collect_all(cfg, light=False, extra=None):
                 capped = any([j.pop("capped", False) for j in res])
                 LAST_STATS[name] = {"fetched": len(res), "capped": capped, "note": LAST_NOTES.pop(name, "")}
                 for j in res:
-                    j.update(src=name, verifiable=(name in ("internscan", "amazon", "atlassian")) and not capped)
+                    j.update(src=name, verifiable=(name in ("internscan", "amazon", "atlassian", "simplify")) and not capped)
                     jobs.append(j)
         except Exception as e:
             failed[name] = f"{type(e).__name__}: {str(e)[:100]}"

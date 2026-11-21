@@ -53,6 +53,7 @@
   "msd|digitalhumanhealthintern": "2026-11-17T17:23:58+00:00",
   "oaknorth|aiintern": "2026-11-18T08:29:08+00:00",
   "oaknorth|interngenai": "2026-11-18T08:37:08+00:00",
+  "parkplacetechnologies|softwaredevelopmentintern": "2026-11-21T22:33:43+00:00",
   "paypal|softwareengineerintern": "2026-11-14T03:15:11+00:00",
   "paytm|backendintern": "2026-11-19T10:28:32+00:00",
   "paytm|backendinternseaeurope": "2026-11-19T08:58:32+00:00",
@@ -79,8 +80,8 @@
   "zebratechnologies|softwareengineeringinterncollegestudents": "2026-11-18T13:57:25+00:00"
  },
  "discovery": {
-  "count": 0,
-  "day": "2026-11-19",
+  "count": 3,
+  "day": "2026-11-21",
   "init": true,
   "seen": [
    "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRGZkMTR6Z0J4X3hJNEZaTWpraldqODRabnVRVDRCM0tvdzROSEZheDljYUd5X01YTE5YdDlRYVlCUl9nNEQ4ZG4xV1loN3I5a3FfUll3RERGYnNTTEpVRm1zNzFtdHgtZGd0Yw?oc=5",
@@ -282,7 +283,50 @@
    "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fUFI5RkliOHRZdEpPVEFXcGt4VnNIN0N5YUNST0JaQXVEYTJDckdTTFZsbDhMdFVWUEx5LXB5ZjEwOHJVR1lFVVl2YUc2Q1FEeTRjcTdpWDNSOEtHUkpDbkZmUEo4dUxaZUE?oc=5",
    "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtQ2dSanQzUlpGbVQ1czlKVEEtVTFqbzZac25lSUZveU50aHpfTzFsTDJqbU9uSXBEaVg5VE1RdGhZZDBLY191a3JlbVBkbW5jTXl4QjZKUWFuV0l0elFfWk9MZl8?oc=5",
    "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcThWM0hpeVFXY1A4ems3SUcxQ2RWUFFuT1RuSXNadHp6eVpaWV9ZNzZTQTBTa2E4eno0TUpVTzhEVlljdHhNX2xBdHhzTmlCVHRMWUVFX2p2WmpwQldHaGNwTE15OHlKVmVDYzBDbndTRTdrYU5RLV94RzRNVTJYVEI0S1JSOG5RdGtlcTZtZWlmWlJIN25JTFRtY1QxSVFQV25xa3FGS0RSeVNiMUhzRmg2ZW01YkFrZ2M3bWZIZ2l5bnFCam8zQzF2bW9zUXdVS3M0bE45Vmg2eEd0WlFFX05ScG5QLWVvRDMtRTFRRlVpZ9IB9wFBVV95cUxNUzNRbTdzU0R3NGdGRVB1U0dKNFRfOWJFcE0wNUFmQVMtQlZqN1hwXzJjVkl6cWxLakphbTduS01EWHZsUFJINDdSeFE0RXM1YzZXRm5TcFpvdHljejRBRGVCUzdJWm1hZ1FmUHJvaVBMekQ0UFg2MENIZl9fU0t0N2NPZU1HclFkNUZfaktRWl83cm9Qdjg1Vk1uYkpOS3NYcm1fUU5tT0lZVjRIaXpEWVFXZ09RY1FXOF9nYmdWdUNnelhoX0tOdFFZQnUyUDNnRTJMSERSUHdTNHphNFAycmhTSGRrMUJWNWh2b2hxV3gtQXJ6NGxj?oc=5",
-   "https://news.google.com/rss/articles/CBMib0FVX3lxTE82c2Q0TUlsSUllVzJDellDMlhfVTJUTkZxLUZLbWNxbjhzWWVoU2w5SEl5MWZ4ZHBDbkxXM3VMMnJNV1AzSGNOZmpsVTNLbHl2OFA4d0FLOXhIejhnTHNzZ2l0UkY3ZnpFM2VDSl9STQ?oc=5"
+   "https://news.google.com/rss/articles/CBMib0FVX3lxTE82c2Q0TUlsSUllVzJDellDMlhfVTJUTkZxLUZLbWNxbjhzWWVoU2w5SEl5MWZ4ZHBDbkxXM3VMMnJNV1AzSGNOZmpsVTNLbHl2OFA4d0FLOXhIejhnTHNzZ2l0UkY3ZnpFM2VDSl9STQ?oc=5",
+   "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObE9FdWQ4TG1RdkoxcG1WWmt2djBMVnltN2pzb1QxbUZueTlWYjE5U2pVSzNOMGp3SEZYdE1rR3FkaHVnZUo5ODBBY0VvdEpldGNZdUg3VWppREthbXVWYlQwRGlZRzF0YURraFEzdnZ5a2NhTzBmVjZ4VTVyTWFaZW1hdjZDRXNTQ1dIMGl0MV9vSV9hZi1xVGNLUjhQUGVTeGFQUkFuOWRRX2lXM0VhUVFhcy0yR3FPM1NQajUyMzBZcWkzWkhtM2Vaek9xaEVBTEFOTkl5S2RjT21RWVRmbW9xWnNiTGPSAewBQVVfeXFMUGJ6ZHNveVRmMVdMdUo5eUctWXgtcm5TeGUzV21IOWJ6N0pIT2hfem5CSTYtRVBzeFpIUjVMZjg0QldiNmRzbGlLYXhDbHAyRTVXLXBQMUh6STRGa2dOOGR4M1hjZUhKUC1MRUY4WUN2WDB4M2JMR0Vab1hDaVAyQjhMWkpuOE9iLXppNEdYLXVCa29XUTVKSEJQcmF5UURJYnJnOVNaaTdCUV9PaGFVUG5Pc3hxOXZDTHVOQmgzMEJEb0wtbkxHLXJTT3IwaWRUclRjb0Q1OWFiRFdVbDZLQkVKWmVRNThlY1N2WHA?oc=5",
+   "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemQ3LWZWeGt2UENBNVBMcHczRTcwbkZYOUhZY09ZaHkxRTJ3cVY0bGdWd0JORU54YkJEb2JwZkMwRXRBQlJ4eEpBakVkbUZSLU54WWw4RkgxVEdmRW9aWGlqa1NvRzFFN2dUdF9CNU9ubV9LRUlTNXpxdF9DNk9WYVk2UERHSFBzQWU0bU56Xy0wenhCaDJUT25Nb0JZTloySmwwRlN5Rm9BeHhQYVc1YTZtRDZEazFLai0wbTRjWXY2QUs2NlQ1d3RaeHA4YlBGUkY2YVhwSHJHcUx0UElHZWN5VkFWTmMyY2phWERZTUZkZw?oc=5",
+   "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPbzdvWTRuQU9kdmZPeGg0ZjJnRF9FMlZTNlVVeGx3bC12eXVqOWJmbTA0aXU1dzF3MG4wTWRQcjFmdUd1MXN0VnRhMFFVZThMZlBPdF8yRzZIcVJkUjJOWHRPX094UFAxb2xuXzVxU0lmWHpVemhmVWN5N0pWRktWNzdONlJ4aW1OWDNuZU54OE9PMzVjUDRKOTA4RXE0dFVza3BSeVZqSXUtcVZrNXh3NUJpV2FuVm5NV2lIOVNTenRoVzdTYlJUUmRGSTd3WWI4V2JUYWJNbURwbUhXZkQ5T19HSlFmYldkWERxQmlPcVRyVlpXXzM5SGJYaG9CT3dCNWpWOTVpX0NDSVpUQ1kwVWZpdTIwM2I4NE1FNEF3azV5YjhPYi1Ud9IBrgJBVV95cUxOeHpFR2RuT3pjbWVCZmxuSWRzaV92ZkpUZmE3ZmgyMk5kUDZ1RjVGOVJqSDdXMkxKTFJVd004LVlKWHNNMHU2am52eU9LNEVfM3FnT2Z1MHczZ2tVdlNBdjNpTnV3SGd5Y214RzNSbzQyb0tZR01mNXZBc25RelpJQkcxNUNqVHFEbVF0Z3RlSW1iWUo4dVFaR0F0TVhGZ2dRQlVDbFdQaHh1cHlpYVliQmF2N0ZySm0xNXZLdmlIbTBCN1hIUDd5a190ZG5NeHdjS1BNaTBNMjRqVWV3MHpwdVNiQ3FLUjB6QXBnSzVMM2UzWWhfWTB1SjlITmdRRFRVTUJqQ1JtM0tQUlhXb0FuUFozR0dYSzBacWJERzA1YkNUeHNSRlJTOFlCWWRmZw?oc=5",
+   "https://news.google.com/rss/articles/CBMizgJBVV95cUxPSGZ3b1NzMjlmMG5QeG5zR1p0QzBNaEZ3RWVQWlNUbE85UXE5QWJTdENzV0dBVlZTbVdNY2lyTmNoNjZrcm1veHZlQ1kwclFwTnliczlwMGZ2dEI4X3Juc3U2SVZqeXNyb0ZiODlmNkpHVHVkZWV4eUxuLVl0WUdoZ2E1QTJJSG5PNHBULUpsQ2tXSGNGRlUzSlg0TDluSXNJZ3dpbk1YaFdXVVNncXZHUnYteXZ2MGxxNlJWUlBVcVdKUW9kVnl0d0taeHh6LUlERHRBRlJQNDd3U3Nhekd0bUtJQzVsWG0tWjE0elFFendWTkNPMUdhM3JwUzhmVEJwMXBPczRyN1ZWQ0JpOXZVNkJldWNFLTNZb0dVdDMxX2cyU0h1YmswM0ZsNE8yck5Ja0QtMlpMeURNQ01oUTRhWThtTkNMbVZBT0FXQ1V30gGDAkFVX3lxTFBwQTY0RU93RWhUa21NbkNEaHplZDRuejZnNnUyV29zOTYyWWxzakhvUGV5R0xMWnh3WXNJZ3FobHcwcHpWVmI2ck0taXFzMW5jc0pZUk53MV85ZWdVR0M1R1MxOXl5TS1jVmpiUUJOemlFMzdTTnZFVFpJZDRlQ3phaEpKVkJ2VF9NUjZ5QWF1Xy1ZSU1Oek1ieFZQRkhWXzlsX3N5OTM2TzVNUkxVU0NlVmRhRVR1UGpLWlNBYXFzbVEyQXRBdTBmR0RCTWFlYjBMTXpCOEtJeXpad0RtZkloV2hnTlBoZGM3X3RwaVhDQlhyX1JuZlFtd2NoZk95cUJBZnM?oc=5",
+   "https://news.google.com/rss/articles/CBMihAJBVV95cUxQQXhaREFJRUFoalprdXREQ3pVX1BDSERGNWc5VGtpUFZaQkhNTmN5SmVjd2RUU2c4eVBydldSUDRSSU9DYkZVSFhBbjh3YnVrVGtseEdaMWwwSU9YU1MzSDBua3VxM18yMUdTRjJvNjkzZFpid1V2V0hmUTFaWnEzMEtyeFgzMlNsSTBNOUlRYlVKZzd6RGNQcDhTNjc5ZmtSUi1VRkRUMlNRTVd1TTRtdUJXT1dRR3FuaDQ2aHZnTXNLT0o0bUhKdHM5Z2p3dFB5aldIWnFfNEI3a1BqemhkaUJhMEVwZ1UzYTRHTlZ5UndMYm1UZnc3cDNsNml5T0tsOFNXeNIBigJBVV95cUxOTEcyeVBBZ2MwcktEeFpXUGZCOElkVTNXVFU5NUE5dE9qUnBKam0yZ0NjcHZnZUVXOVBjVGF1dG9mcmNTazRQNFFySkNuMUhhZEFtNDY0UXhmMEk5WFpnMUh0SkdjRHNWaHNoVWlmYkpXSmkwbHozT3EzSEJhSlp6TEJIT3hPNHlkYjQzVkpaTFAteDA3YTg5a2Q0bS1FRjBEcHJwXzVBektDMTN6WTBzVFVnVVRJWERYTjhWa0kyQlVkdGZqcHFqTnd0T1dPWDltZVVlX0JaQ1FaYTdfNVdXZ2J5azVnN3dlMG5PYm5FZ3BYSUVYTkNRMG9kR29DRFdobWZUOFRtb3RKZw?oc=5",
+   "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOX3hscXIwTGU4NXFUQ196TGJ4NUJUcXZqQ0k2cG1ndE84dXJlV2xxZmhYY2Z1VWMxTkk2THNWOFptNnhlakFZNTdRcS1wTjRoOGh6eHlYTW1Ncm5xVGVld1l4YkJKajduT2ZPUlRRSTFxVkJmczI0VmNYTWxBam5icS1PVE5fd29teG54M0xTcHloQktCSTJQV3NCby1DSXBiR0EyNEFMaTJLakRYUldxWXdEc2NJa3JiVjZMa09Xb3dpaEZHMlBxcXZtcndZdV80Q2lFdFZEYS0tX2lYb2JXdWFReWM2NDdEZlFfNjB0QmpLNUZWcnNEdGlKSV9rdGdySnFRWkJ1Y0XSAY4CQVVfeXFMTklHd0xTakw2SlpaZ3hDNHlCUnRjWUZkR2xGcVdiMlFydG5Wa0U1UU81cmlVYXh1OHR6dk9OeUNLdnVNaDZFM29URUNLR3pnSGxhSUtCcVdpVHR0TzBjcVFmbDUzbzJXVnY5Ymw0aUlDV0xlU2MyTVhhOGpKVVVpVVJjUUxEbWZJdFUzQXhONzNiYm53VFhWQ2RhNndvTHJUN2dHV3loRlE5SWdzNnpDd05hR0xtWEZqcHJnSmZ6VF9rT1BjanEwazFpXzJmbi00SktNREZrUmRnTno3cVpqelZRT0pYOW5HU3JoNXNTUWE0bHliWVBOcHBmLUdvWDhiam5Xb211eVNveVRZeXZR?oc=5",
+   "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kNWpYNjZFaWJ3Tk82SDhwSzVFdktRaGhrcjlLWHNUb2QzTXZwMG5UcVp4enVXVnU3MFh6ZjNnZXZrbUxUWWxQN3RGZHlKVVVkdk5IVS1BeDg4TzBROW5WYlNpWGxPRmZS?oc=5",
+   "https://news.google.com/rss/articles/CBMinAJBVV95cUxNWGhYYlViRkZQOFJJTEZMMTZwdXZSc0FJMjhOeUEzcHYxMkVMbWUwY2FSQU0tU3BGT3I1dTh6djUzYS1ZbWNmOWRsVHNMNHlKSks4ZU4yd3U5blRhM3ZveDJKVDdndU9UcWYtRWk5QTZrdGZoZGVyb2pFdzlYZ3pTMllRUWRCUGRTQTAwUi1BUkFfNUpUMTRQdVVESFdSQmVOWlBCZms3N2hUemRLQkhCUDhzc1BrRHBROHlGV2pGdS1JclhjQ1BHbnl0MWVJQjZQOWdRSFdiRUVNZGZZTUFBbk5RVE9VMUdYR29yWHJwOVFQSHU5QnJZVEQxbmlWamhudThNTFVvZVZxX1dQRWpNY2EzNnhzX0VwdC01R9IBogJBVV95cUxPNlRkMTY4M2lOMDZIWG5IU252cmNmS0FRdC1Lb2lqQXA4QU1SUmVQNFdlal9tVWEwX2RYODR6X0U1eF9TQlVZdWxpbjRuOXdpQm1UVDJyRUNmN3l5SVdfMHNoSkF6ekVLWlNfSjhtYlhNd0M3MHRfSWtDTGNYeEJueFg3Ty1Icm42Q0JmamFMVkV0M2x3Wnc0U3RNdmpHVTExVTBXVHU3Ynlka0E5aGxKMW5FSG1Rd0VMU1haaVE5OU9CRWE0djN4RTkwMmdtLXk3Nm1VdVlBV3ZlNzY3SnA1a19JZnNuNGFpQVE4V2xEbklOak1FdDZ2VWdkZ3JLbmVZMGI3VUdvTkJEQl9vZ1A0N3RNTkkyQWtramYtUFVvRjA5dw?oc=5",
+   "https://news.google.com/rss/articles/CBMia0FVX3lxTFBleUhfSFpXTHhMSHlqSGVQNXgtQlQ1MVFWTmxXOUlRQUxHT0FkRUNGalJfNDQ0WWRuaWFkbEZzTWFiRHI2NFp6ek5hbDdsV3VuYUZjTC1LWWRzUTBhWjVuSFV2eTRVNTlXY0Nz?oc=5",
+   "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaEtuM0tlYnVPalMxekxXSldOOV8xeExTWG5wV01ja24xUGNDTVNnZFhCNF9NMUJxOVpEN2JqYnNEckpIdHpIUk84TWVMc21xQ2VQRTJSdWVRWW1LaEJ4M0dYc2M3S2FJWVRmQXgxbjR3N3Q1TUpsNklUZEVSZURHUC05Ty1hV3hhcmotOUdxaXRuT0FTcEg1bzhzRHhFZk9zLXMwZEVMT1duX2tTMkVWU3dVa0Frc0lTeXhTSFRIMWw5X05aTFZQUlNPcno1UGNSNkVqMHpheWNFcE9RYkMyVGF4NGl4N2Y5QUhkclEtaHFoUVJycEJCRtIB_gFBVV95cUxOZ1dTYS1OV0trTXlpMnlXeVJaS2J6U0JoUU8teXlqMWpnUDBpQm42bXMwNGEtMGtTZnFoMkNKSWZXWl8yVW9ILXczVDlpd2oyUm5LWU5uZGs4RXY2NC1jSVRaMWJKdmgxRnVSTy1Xek11MGVqSGVWdlNZRjNlNkdqbEc2V1RvSDlTMVJVN3ZScWdUTm03cU91aGx4ellpYlZuckNuU25OMk9jVlhmMzhOelVCb3AtbnlCVDdTRUFZSUNyekZzSmlSSVBQTUg5U3BvVVJ6ejg1cFFVcWZiWHVKUE9xUmVJMTJXRE1qbVI1UE1nRjZ5d3g4OVZhVGY0dw?oc=5",
+   "https://news.google.com/rss/articles/CBMiakFVX3lxTE90RHJtYjIzb091dWlMQ3Y5Mlc5WGhQMkFieHQ1T2UyRnhIazFMVXJfVXZ2NUtwODRfYm5uX3QzcHhDTmxmWk51UldtMkF6blZ0cVZFMHBvOXNLRkx4T01rOWVnWW1ySTVqVEE?oc=5",
+   "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPX19iY1lBVlB3UUhsYnRrVVdqYWl1R05JakxQSUNZNmlKZGp4NzlvODBoV00tNEZ1cWcwMmpKOWlCOEpFblQyZjdua1hxb2l6M0cwbmlfcHBpQlhfUDJqRElFM3kya0o4Sjk5TzRZcXhtcGxfZXFuLVdLTDVjWXhadDhzYnZBajV0RV9VS0Z5S0lxTFhSdFY3bFc0QmtoUUpITzhtSlY3Ynk0OVgwcWR1MGFxV05DZlRFdzJTZ0MtZkVvS2NwUzlPcGpVMUp5d3ZxamVPQUpIRGk1ZDBqQWZJLW80bF9zWnRGSXV4QUJOdWRIVFVl0gH6AUFVX3lxTFA5V1ZSanhkRXY2cUc4cW1mRVI4RkhiUThPYmF4Vlg2NkwtajNHOXNwR1FJSWxYN1htd1FnS2pxSEstS3J3QWVxTWhMaUx3akE1OTdPOEozMWN6bVBQV1p5dmtIcUpmNlJvQ0N5eUFuSFozN2hNdXhyVmYyRzlGOFlzQnJJSUo1NHdnWHpkS2oxd0tJdmVtVE96ZWEzQ1BPakFkcjlEWHk4T0tJZUZHelYxSVktakFOOHdiVUJaaFN1bEFQY19HN3MtOWpCTVEzNV9VS0NTZjA0Y3RZYWhGel9VTzFsblFSRnpNdDJKUTFfcXl1TWtEZkZ5b2c?oc=5",
+   "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTN1RWc3RSYjVSem1nb3owVTVpVFRRM1BHT0RsNEtEMlptXzRiVHdqZHkzS042Z3hHMlYzWHpsd3c5c05lZWZnakxsTkMzNHM4VURtanlWX2lrTjhLRjZJS0ZKb2UxMTViSEE?oc=5",
+   "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQNkUtSXJBQWQzY2hZTjlsLWw3Z3JsVlFJc0p3STFlckE0ZnhoVVVWUTBmMjhrZ0VXaVQyalRYdmRsQ0RoRUxFUzFKd25Qd1BDUDY3YS01YnZjVEdnZGhsYjR2TVVNaVhnWXc?oc=5",
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EXzlSU1NlRi04U2RLS3h3dDFXdHVGbWloam1jY0RtWXUxWmZnOXZUVlJXNkVrQ0NVQTFVUkdlMUVrVnFfbXZGVU5ROVJSazFtUkJ2aFNCRUtKRHhGMnNsSVBIRjh3cXA3VkVqNE5iSnQ?oc=5",
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jbm5DVXhqN3hqMWlGeGl1cS1KdkFaSDNpb2FaTFV1a29DRmNXLTVfeEQ3YjNkMlp4bHpiakdLcHBLbkh1dXJud0toN1hnaTVkNjI2WmdNbnB0YkVtdmV0V0hiQ1JwMHVGQXAyblEtaUZsTTJFYUE?oc=5",
+   "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83UlhudmFKcGlJUGE3Y0czVmtETXVlcVNLVjJSbmlLT1FhcC1ZX1NRM055M3I3VDVhbG1JUUlqdExGT2o3c1dEQmxpbnZEYUR1TzVYeXBndURkZzdLOFV5dzJVc0Noc3Nt?oc=5",
+   "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kdEMyRGc3QlZGTm1Rb3k4QXFjcjJYcXZiNWpGSFp6RmRpZndpRHFLMG92T3ZYSG1FdFFTblZmNk5tX0VFNHZ3bE93RzB5LU1ZLV9fTFdEb1RtWENxTkc4UXByOTRpRHA3S1Jz?oc=5",
+   "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vd3FkTUhqcXZ6MjZKQm5iM1JFNFZWcU40ZlFFLVNaVFRGb3B0TzlxQ2tTM2JTaVJPcnpjenZYS05HYXpsOEQxUkt4X3dKUl94UGRESXVwbFhxUkM5dE9ubnRoTzZ1U3ZmTmdDVGV3?oc=5",
+   "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjMmduT1hmdkNEOWJGalZqY0RiTXNlUGtBYnNCOWFfUGdJREMtQlhwUE9XNWpJbTRpQnZ6OFQtRDA3NE9JN0RIdkZjanhNN0lieEpGeVVoel8xRGdEelZBdmxNdXl5OWJlQmc?oc=5",
+   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GWWNDak81YXMyaU5xeE5oaURCYmNrWVZaOGxUQnhuU0FwbWd5M2U4XzlvRGozekJsd084eVJVbnM3U185VEdTeWV3a2JEU3kxOWVXQWYzTkctVTBmcjAxSGhjbjZtZ28?oc=5",
+   "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWU0diT3FwUTk1eXBFWm1hRmlZRDlMZTdMZHBKbGNfQm1CYXFhWkEyRVFLVW90Mm9WLWI3T2xUbFducmk4Mlh3RkxXX081MjhkRUUxV1FoMElweWQ2SVByYVF6SWp2Q1BXQlhfOWZR?oc=5",
+   "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa2FGTFdEMWp3bUhUSXNmZ1FmbURlcm95YlRxYS0zZmRhUHA2NEp1bzlkd2toY3NYcU1YWXVYRTMwd0E4NEVob3hsZFhSSHpNdjg0VGVnaHhEclE4bFJBcEFsbGpRUXNGbWNVNTVIMzRiZktNTHBEa1MtWXRtS0pQQmR0aXpYZ1c5bV9KbjdDbWJnaHc?oc=5",
+   "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWR1dtOGZMUVFybzlGMkZPdXhST0szbEpuMG1hYXZoSmVHUmRKZUROSV9JY1dTMnMwa0J5NGprTkRGeDM4QzhkWnFxUEdZcUFGTGFCM3o5amd3VGpGX29ycURTd0VfdXlI?oc=5",
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wSkl1Q1RMaGhfNFpLSFNISUk5Ri11eGpsdFF1WGQ3Z3pkWW4tTWZiMm04NHNNTzN6eEdGMEJEcDFMeHNGcnFnaHYyYk1ZcGdqN0QwUk9XbDl2bFdtak56Q3ZReUtPZ2pHdkxXR2VGNms?oc=5",
+   "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YLXZxcWd4dmh6RG5wLVJELWVrU2M1a1VMZ3Jrc1BsLXg5TFp0SHJncXFHWnZVZDlpTWY2d3BzUjNESkkxdnMwNWFHUFBIdEtlUjJsQ04wVnNxS2hPTkVFU2V2WTdFWjFpdlY4V2pJenc1VzA3?oc=5",
+   "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHl6NGVrUkxiemtJQnNSS0dXTHhUTHVnRzRSR0pteXEycEp1OXowYjh6TzRBLUhnMDBWWnJzeVRfc3FvclAxcXY2QTJsNVA0TlBBQ3JHV3I1Z3VIcWxhM3lPVmQtVk1seE9MUXZIUlltNTQxUDBUMERuVVdjYkVkZTgtVU1Jb2lwY1JGRXNlckFNNmp3MThqSXBxNXBIM25nRWFCbnZVR2dhTWxfQmh2ME4zS0J3Ylo4MnVDME9B?oc=5",
+   "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVk5BNzBSSGE2QzYxWldjX3FfSFMzbDVVUG5HejlSQ2YzdW1kdXRwT1ktZ08zaWcxTWttT0R6Y2NKUThmTndjaS1yWG1veF9ZNk1jaWRFUS1xOFU0ZnhkdE1NVUppc0xmdUQtTHFwTHdOUF9RSXVYTDY3aTBISWpZOUMyUThNWmxFY2haR2x1Y2ZXZlZxZWRqZXlXdmxKN1ZYOGNQTkx2R2hBcjlPQ0lfM2xQbkpMT1Q3OUZkVG1UQks4SXB2SUgzSjJsTGZLTDBWaG1PWVVVVEFqS09EWHJxSjczV3NoQmNPZFE?oc=5",
+   "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CanZDY3BDQTE5ZnBwaHozek1mY3FSb2VuM3prQ3ZndTZaUW1EZkQwd2x4ZlpFNjBIRmFHbENjWWo3emxtU19fNFBYRVhGNnQ2TGRpMVJXMG04WDItaE5rR1VXWXhjVU9PUjJN?oc=5",
+   "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUms0cHJhbmxhNXg0UVM1ZmNNQll1Ql9QNDk5ekNFeG83YmRfNnFNNm9GUmJGZWlyRXdvbUp4M0NFMy1yNndkTVFyTWZGNWVzOUtqNXBkNHQ0YUZ1amdkNlJxMVJESFJjVW8wT0dmMEZoYnZJQWhFSFB5a0VPOWRMUGM2ZFZuR0IxMWVJWFI0eTM5TVd3bktXeDJyMWlMX0tYZ0JXUVJfNGtzc3NoZkF2WktmdUlJcXFoak1DeVBRZVhIdWIyUGRsbGd6Q1JvOFBHTlhjUE5wd1dSZ3BVSmczZ3g0a2xGaU80NXh2S2lCSG9ydjlJV2FBX0Z5LVV6UdIBgwJBVV95cUxQcEE2NEVPd0VoVGttTW5DRGh6ZWQ0bno2ZzZ1Mldvczk2Mllsc2pIb1BleUdMTFp4d1lzSWdxaGx3MHB6VlZiNnJNLWlxczFuY3NKWVJOdzFfOWVnVUdDNUdTMTl5eU0tY1ZqYlFCTnppRTM3U052RVRaSWQ0ZUN6YWhKSlZCdlRfTVI2eUFhdV8tWUlNTnpNYnhWUEZIVl85bF9zeTkzNk81TVJMVVNDZVZkYUVUdVBqS1pTQWFxc21RMkF0QXUwZkdEQk1hZWIwTE16QjhLSXl6WndEbWZJaFdoZ05QaGRjN190cGlYQ0JYcl9SbmZRbXdjaGZPeXFCQWZz?oc=5",
+   "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVk5BNzBSSGE2QzYxWldjX3FfSFMzbDVVUG5HejlSQ2YzdW1kdXRwT1ktZ08zaWcxTWttT0R6Y2NKUThmTndjaS1yWG1veF9ZNk1jaWRFUS1xOFU0ZnhkdE1NVUppc0xmdUQtTHFwTHdOUF9RSXVYTDY3aTBISWpZOUMyUThNWmxFY2haR2x1Y2ZXZlZxZWRqZXlXdmxKN1ZYOGNQTkx2R2hBcjlPQ0lfM2xQbkpMT1Q3OUZkVG1UQks4SXB2SUgzSjJsTGZLTDBWaG1PWVVVVEFqS09EWHJxSjczV3NoQmNPZFHSAe8BQVVfeXFMTklOQ1pyQnFFelFRZlB3TXBOSk5BYTdObDkyc2FvUFNHMG0tUEtzZmRsVlhMcXludmU2cFJBdk9iZVEyWnkxUUt4Tm50dmt2N3ZnZktpekU5d25USkJSTEpPeVVvRjhSXzMxdjR0c2paTjFuS21YX0F0OE9Falp3cFVlb3pkU2s2aXdvM0tiMGRjOXhocFV5R1h0bHVpdENmUElmNjVxWlpZVFRwWlA0SXlmdTBGMExrb3pFMzJEMThaRHg3Yk9MNXlXbWRWdTRHVnJ2YUxmaDNtX3lvaTRhMldCWGlTX2kxYjdjSUQ3R1k?oc=5",
+   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb1hGVUM4LW5CVEVKanlLNXBuejhWcEE5aXIyOEY0bmMza0gwTmdENHJSbkpEZXk1TmRKd3RBZHYyZ3diVzVLQmU4X2gzdDZvb20wTVV1bHI4SHJ2RXBZOXJiSllhQ0hMOVNWVUFfRE9fRmRWN3NDdV9Rc0pjNUNJOXN6U0dsYU9lRmtwVW9TQko2bFFQRkdScHFrQVd2dEVrZTJBNjhsT3JjQQ?oc=5",
+   "https://news.google.com/rss/articles/CBMipwJBVV95cUxPUnY4YUNRbXBETUJHLXRRTjV1WUEwS21qUEl6bmk0a09JOGQ1MXpmX0tWbXBFZ2VoVVJTQjJ4SUlVX3hnMEgwd3QyRHVPMXE5c09uTnZOVV80NFQ5TTdmd1J3QjJhME5lTFU2VFl5eGhPVmRleWFLZTRqTXlPQVZfNlNlNG9Da1VPUjdLWDEwZFBQRDZ1V0dsUnp0elhPNUF1LVFic2hXeWhmRC1hTDJ5Ui0tVHNKNHlBaXdKRHFlbTBYdkZnUTBaTDgxV2FmUDFScHZ3NGljMXdtQmtqMXVReDR0TlVkYzYxeS1PWm42UGhISVlkeHJCeTBnRGJwcFRwLXV4VFpKcDBzZ2lDTXQyMkVTaUk4cmpwRk8zc2VxRk5odGpwb3dz?oc=5",
+   "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNmF5cEpFak5JbVFMYUtHOWtlS0pVN0JveklkVGRWQ1luamlKYlMzTFJRWDBYRUZvZ08teDdpdHE4Tno5SEdsWVpyMTZJWjRfUTVXYVVjQU5Pend5NnFySlpkdEc3VWdOc1F5T1JPcm9tSnBadkVHV191R1o1ZjZhMElFZUJncXQyY0hIUDJCSXh3LWlKd0pBT3NCR09WVUQyRGNYVk5LZGMtZUd5eFpYb2JTSlhSQ2hRNThpcXpzN21zZE03Qnd5NGpQRXRsNEExQUdiZG5BQURPeUVvckVhUFNQcE4yWUthZTFOazh6MWR5ODRSeUhQUEI1RDMxUdIBgwJBVV95cUxNRzRuc05aUENwYXFKc19oSjVEYzczd1d5R25pNndZS2o0d1QwdEFDM0d5WWh0NVVSU0ZLVEdIY1pqQ0tETEdyWmRnbmVjUldIUVJldW10Q3ZseDNSMDJ6a0trOFdwSlRRZF9uZHJkRGpXNDZFNXpWTHlDcm9PTzVOMUg3THhnNVFCOEZXMThPSTNhcnAtWDA4RmpJcVZ3Ry1kNW51YkQwajh3bW1VajlIc3NZTDN1UFRldDlKZW0wLXBrcURlNmtIeEd3Z1YtOUZnN0hsTWgzcmtoQXFzb1VZNFp2Wm1PMmVydFp0U3dTckd0Tk91emdMYzlnRHhTYmJ1QjY4?oc=5",
+   "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOczRHM0pkX3dNQTByWVBUQjR3Y1E4TlpsaXZ3UjQzcXJSenNwcmFrZzRibHV6WlJBOENZcVpQbW00WWZxa1U1TDNnZkREX2IzMlkwWHdKT2ZPQlphdktsLVg4aUlhd0k4U1YwSUo0UGFhMlU2YWszREtqa2tnUDRPWnliNUdhODYzU0NzazFPekwzeElPTk1xTVQxeVNjOEF4MGhWbHlrRzh5Vk43WHJ0RVdqei1uYUFLVG1rLVctb1IzdHFoOFhwZF9pb2N6QTY5WUNET1k0YzBVeDBUUHQzSUprX3B6Z1NFQlB1cm5MYTItNUFabm5zNl9HOTVweW9GRV8zNmgzYzNST2RXSDREaVJQYmJBTjc1M0xhYlQwaXRTMEJ1SnBjZtIBrgJBVV95cUxOcTVkbHhaS0lFT3JscXp0SWFNN2lSQnFyeFlxTW1jUzhNT3BWc2c0cWlaNGd2ZzN0SlduY3dHWkxlRTFDdmNnZTU1c0laQnNYTzNLUEFNYUZPMjc4XzlZc2xfcXhsTERXejFIajMyMTl5VDN6ZlFmRFJjSi1UM3VzUEI1OUUyd1FOb3BGaDM0aEtZVXRaU21xUTBhSkREX3BkTV8wRmRMbWwzTmpGVTlTWVV6ZkUzUU1fdHFsM1BpYXhCOFdzNUlzZ3VQVnUxNlBVLWlCRGxCREZJRmpHRGw2NjUycjRobWlSR2Y0XzRSaUthYlppSHR0ZDBYZ2hZcC0tdkxoa09rSzJMdmV3NVRJLU9WaUpqNDhaVG1ZSWM4RkozcXVQdlV6LURkZk1EUQ?oc=5",
+   "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQT1EzSmhQT1Y3d1JIZEFNa29hM016MHMwdnNtZk1SQkVYQjliVXFiVHFPdktvaXpKbU4zZERCVXc1ZVJoWV9rQTBNU1Y0LVQ4ZWJZUmZVM01GT1RpQzE0VzFaaHJiMFBtNkxhanNDVWpSQjk2R1FyTk94YU5QaWxnbzJvYkswWXlwak50OU9JdFY0N3dnMHl4SlR0UFE5VEtPdzJSMER4Wnk5SFhOSmVYbFBZVkJtYnV1dTNGVVd2LVVFT1BtYjg1YVQ1THNxUUI5U1hHSzhMZ0ZBTGF4R2lpelZqT0lnRGJlWFZtcXJVdzBFZTFLMHV4TEo3ZGs2Y3PSAYQCQVVfeXFMT010bDQ3dG53SzVqdDBnSXU4TFc3N1NQXzU3anNUSE5IMGIzVEtKcEMtbVNiOWlYdVIwTUZxZThxalJ3R0NvM0pMUWgyOEhPM3VoSFBQVkR3TFdDeDFpR1NJcm5oaXV0eXhsSlgyVWVOLV9iOXpwdXl1MzIzY0ZPd3lNbE5HQ2tKcUJFUkxhQlNZeFZHUUdCU1E0ZkdaYV9Ub0dROWVFX01hangwU3pNOE5hVldzSmNQLWJtMnRnY0VtNFpqdXBaOXNtRVZ5aTlGdGRfS1JsaW5Ibm5xXzdtYWRjMDg4ZG0yd2FoVUduUndZZVUwQVltelZQTHNpX2tTZnJCTS0?oc=5",
+   "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOLUh4eUpkWEszeWdkU0p1WUtmM04tZDF2d3NseGlrT3h4U3JpZDVwcTQwZWoxTm96ck1TTlJrQkszMlJ6VXJkV2VmTTZwenUwaXJxWjFXb0ItOWpEaFpBWjdHQmJ3RGtpUVJPRnkyZVV0RTJ0Vkd3T2ZKU1RJbWFta0ZoLVR2NlJQWTcyaGZYeDJqQXJYYXlNT05hM2JZNUhyMVZuR1FHQ3d2M3BBTkl1WXBkS1F2Xzl3cGJlb3d5WVQyRWdQZ2hnTnpybmJpR2FOWTZxMkowRnMzR3lNdy01MQ?oc=5",
+   "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRHVBSnJ2OXdyaEpBR0haSjlhaUhFLUtEUWZUcEp2R3NBVWZJR2JneDRRTVBOWUhubDI3cV9YWEZFNjNpMWlSREFkSUNvWlFRUmlPLTZGakM3TkZtSm9xVkFRN3BoaGZTU0V2R09jZzRLMTd5d1lnbE9TN1M2QWpBbnRHNzQtdGIxTEJrbFQ2NWVxZjluZjZ5VVIwWQ?oc=5",
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE02WnEyQVZmZXVlenVIVTMtQlRKd09WX3cwb0hGek0xNWVvTkp4MWVoaVNaMEtTTmwwMER6a29fTWp2cGZXVEVjRGJxSk9Ma0xvSHBVVHZTYUpodXU3aHJLQldRVmZoTml3c0J5S2xDeko?oc=5",
+   "https://news.google.com/rss/articles/CBMib0FVX3lxTE10ZFJHcEtZdk9uWHlWZ284eUFTXzBuRllwMXY3bHNaLW1LVU95bHVFckdFdDQzMTNsVW1CdWJ2b0liNHlnWi1JbFJ4TEtha0stUGZRV19kbUNUZHF2RENqSE5NYXNHQVFUUTBSc1VxTQ?oc=5",
+   "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rcjRjZUlLVUJLQnBBaFlXdFVtdVFHQzlhRFVwTnNXSWJKZi1CajEtUzFWdzAtM2tCblNHLV9keUJDVXVLdDVaajRWMGR3ZDVSXzhla0hhWmVLMDZyQ0phTVhMSGtmbVl1YTVB?oc=5",
+   "https://news.google.com/rss/articles/CBMickFVX3lxTE5fdmliT08zMjMzRVJ0WDNuejk4RzV2dGNlTkMyNjFoTTdGM3BBUE9WaWNvdXdIR0FrSE5zZlRhdTZlX3V0TkRiV1FLNnJJMXZ4SU91YTV6Mkg2bGFJRWRhR29DYWFERjJWOVk3aWhCMkFGZw?oc=5",
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zVEZ6YmowWW04dVBZYk85QmFxSzFpdjBOUTBUbFROMEtBR2FIUk4zZnZkNmhIM2MwcmdKdTA5QVR4UENZaG43c2hncDZubUpheG5WTUNaMjYwOV8zeWh3Y1RtMldsdmxEbDJJLWhfYnk?oc=5"
   ],
   "titles": [
    {
@@ -307,49 +351,90 @@
      "vlsi"
     ],
     "t": "top 15 vlsi internships for btech students in 2027 companies stipend  application timeline"
+   },
+   {
+    "at": "2026-11-21T22:33:57+00:00",
+    "k": [
+     "call",
+     "international",
+     "leaders",
+     "pathfinder",
+     "policy",
+     "safety"
+    ],
+    "t": "call for applications pathfinder fellowship 2027 for international ai safety and policy student leaders"
+   },
+   {
+    "at": "2026-11-21T22:33:57+00:00",
+    "k": [
+     "a16z",
+     "deployed",
+     "eight",
+     "forward",
+     "week"
+    ],
+    "t": "a16z fde fellowship 2027  applications open for the eightweek forward deployed engineer fellowship"
+   },
+   {
+    "at": "2026-11-21T22:53:52+00:00",
+    "k": [
+     "monthly",
+     "negd",
+     "november",
+     "posts",
+     "roles",
+     "stipend",
+     "technical",
+     "winter"
+    ],
+    "t": "negd winter internship 2026 for nontechnical students 12 posts rs 15000 monthly stipend eligibility roles and how to apply by 20 november"
    }
   ]
  },
  "failures": {
   "wd:adobe/external_experienced": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
   "wd:cisco/Cisco_Careers": {
-   "count": 2,
+   "count": 5,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 587,
+   "count": 590,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 20,
+   "count": 23,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 587,
+   "count": 590,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 14,
+   "count": 17,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 199,
+   "count": 202,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 17,
+   "count": 20,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
+  },
+  "wd:visa/Visa_Talent_Portal": {
+   "count": 3,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
  "fix_interndoor_closed": true,
@@ -365,7 +450,7 @@
    "elite": false,
    "first_seen": "2026-11-18T08:37:08+00:00",
    "id": "ab:oaknorth:9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Gurugram",
    "posted": "2026-11-18T07:46:43.311+00:00",
    "posted_kind": "posted",
@@ -385,7 +470,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -1802,6 +1887,30 @@
    "verifiable": false,
    "watch": ""
   },
+  "id:https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779": {
+   "apply_url": "https://recruiting.ultipro.com/PAR1035PPTL/JobBoard/e104637a-c3c6-4682-96d2-d7cc2662dc13/OpportunityDetail?opportunityId=bade43a3-270f-49fa-b9c5-e2dd8d17c8d7&source=interndoor&ref=interndoor",
+   "baseline": false,
+   "company": "Park Place Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-21T22:33:43+00:00",
+   "id": "id:https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779",
+   "last_seen": "2026-11-21T22:53:43+00:00",
+   "location": "Hyderabad, Telangana, India",
+   "posted": "2026-11-20T18:59:11+00:00",
+   "posted_kind": "listed",
+   "reason": "",
+   "role_from_desc": true,
+   "score": 4,
+   "src": "interndoor",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "Software Development Intern",
+   "url": "https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779",
+   "verifiable": false,
+   "watch": ""
+  },
   "id:https://interndoor.com/jobs/paytm-backend-intern-sea-and-europe-ats-lever-paytm-0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8": {
    "alerted_at": "2026-11-19T10:28:32+00:00",
    "apply_url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8?ref=interndoor",
@@ -2285,7 +2394,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -2304,7 +2413,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -2325,7 +2434,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -2346,7 +2455,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -2365,7 +2474,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -2404,7 +2513,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -2443,7 +2552,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -2462,7 +2571,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -2481,7 +2590,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -2500,7 +2609,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -2519,7 +2628,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -2538,7 +2647,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -2560,7 +2669,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -2605,7 +2714,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-19T18:38:45+00:00",
+   "last_seen": "2026-11-21T22:49:43+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -2666,6 +2775,7 @@
   "lv:paytm:0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8": {
    "alerted_at": "2026-11-19T08:58:32+00:00",
    "baseline": false,
+   "closed_at": "2026-11-21T22:33:43+00:00",
    "company": "Paytm",
    "deadline": "",
    "desc": "",
@@ -2679,7 +2789,7 @@
    "reason": "",
    "score": 7,
    "src": "lv:paytm",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "Backend - Intern ( SEA & Europe)",
    "url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
@@ -2937,8 +3047,32 @@
    "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Talent_Portal/job/IN---Bengaluru-India/SW-Engineer-Intern_REF084568W",
    "verifiable": false
   },
+  "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237": {
+   "baseline": false,
+   "company": "Zebra Technologies",
+   "deadline": "",
+   "desc": "",
+   "elite": false,
+   "first_seen": "2026-11-21T22:41:43+00:00",
+   "id": "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237",
+   "last_seen": "2026-11-21T22:49:43+00:00",
+   "location": "Bengaluru, India",
+   "old": false,
+   "posted": "2026-11-21",
+   "posted_kind": "listed",
+   "reason": "",
+   "score": 6,
+   "src": "wd:zebra/Zebra_careers",
+   "status": "open",
+   "stipend_inr_month": null,
+   "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237",
+   "verifiable": true,
+   "watch": ""
+  },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -2953,7 +3087,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480",
@@ -2962,6 +3096,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -2976,7 +3111,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606",
@@ -2985,6 +3120,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -2999,7 +3135,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671",
@@ -3008,6 +3144,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -3022,7 +3159,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704",
@@ -3031,6 +3168,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -3045,7 +3183,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778",
@@ -3054,6 +3192,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -3068,7 +3207,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859",
@@ -3077,6 +3216,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -3091,7 +3231,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1",
@@ -3100,6 +3240,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -3114,7 +3255,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863",
@@ -3123,6 +3264,7 @@
   },
   "wd:zebra:Zebra_careers:/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864": {
    "baseline": false,
+   "closed_at": "2026-11-21T22:41:43+00:00",
    "company": "Zebra Technologies",
    "deadline": "",
    "desc": "",
@@ -3137,7 +3279,7 @@
    "reason": "",
    "score": 6,
    "src": "wd:zebra/Zebra_careers",
-   "status": "open",
+   "status": "closed",
    "stipend_inr_month": null,
    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864",
@@ -3326,7 +3468,10 @@
     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTW9sSEtDWjNELUVKaTVxamlrWmZLVG8xcVNKQXBKNFlRLXllMzdxaEphWDFMdExrMXEzVFo0Wk9yS1hXOVlZZ1EwTjVIQXJERGZUQ2EwV0NSQmViRTVnaTZYNGRldzJISjFrYUNVMmxTX2ZBelhpQWFDbmNJMlRIS2JqTGxaZzhiSkFOSFVfekpHVDhjUmZBVThKVVplbldBeURWMk9XZllWbk03T3hTWE11ZDFkNDZ2UHY5QUthN0dmemwwSi1ERTVlbFRuZ2N3eTRiWlpn?oc=5",
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaHBERU8zRV81Y2RxbzVrZVBCRGFqcXVsOHlPTThxYWRzNmhmUm91WVlzcjczZW1zVk1mcFF6RFJYajFybm5BLThadmlhRThUMFRzdlotdE5vTjMxMFkzd3dSQ0ZNUmVjNnBvQldUeGVpRlM3TDBCMTdDaUdpVk4wOTA3ZWVraXA3WDZzbWEwZzdQbGEyQ005MDdvWjJyR3A5ZE40TGZndGNYcU54QkE?oc=5",
     "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdzVaWldOWkxPZHlkWWlwY2w0LThSTjdmOTVIUzF6VWpXUThmRVoyeTJNOElheUpDdDlSdTJKQUxETTVGa2FZWFowX0VqTXdUUE5kNmJTSW1sMVc5bmU1bHQtQ2Vaem1uTVgxX3JiX000SGtFM1RtUVVJZm5SWVQ3VFphNmpBTWxlZ0ZLZUwtVVJzaE5hc19jd05SRHpteGQ3V2ViX1NuZ3UzblZDcEU0Y3BKLVEzTVhiWEtKLUt2bGxJNE5SSktubXA2LUtsV0RCOVdvQXdleUtWMUNjWFNsMkg3OHkyM29FeE4yRVlLaXRFUmZTb0Ew0gH8AUFVX3lxTE5RMnFvdWFmRHhmeGtsQnlpU3k1NHYtSWRaREkyWXZsdnB5V1FRR1ZOQUFacFNQdHhMY0otZEMwdXdpb2FZYWNtVl9sUVAtOEJ3NDRLSnNLRVdPcDFXc19MVnU2bDdaYXhaWmc5YzZBdDlWY0dLYnhiTHdpLXR0a1dpcnZ4MnJrdEgzVE9GWnhjeGMwM1pxNXF4MTFEeXk2aE0tSnJCRU9ialNyeUt3Q01kSUtkMzE5WHBHdlhuQXVXbHlVa2hwblVGRkJGR09wbTZET3BhYUh0U0xhS1ZfMzl1QWtTZWIzLUEtd3dnU1R4TkdFaTZGYzhuSlRqcQ?oc=5",
-    "https://news.google.com/rss/articles/CBMickFVX3lxTE9MZ2VlVVlXTmptOENmd0lOZjM2WUpOOUhBR2VjaHNZQm1rTGRxYk9XcDRydl96djFuMlVhbjluR1FYQXZvZ042X1dkSV9HVlVTbFhfLTZaTFdLUlJEU2NUOXZNbGVQQk9YQjJoUC1BUmNkUQ?oc=5"
+    "https://news.google.com/rss/articles/CBMickFVX3lxTE9MZ2VlVVlXTmptOENmd0lOZjM2WUpOOUhBR2VjaHNZQm1rTGRxYk9XcDRydl96djFuMlVhbjluR1FYQXZvZ042X1dkSV9HVlVTbFhfLTZaTFdLUlJEU2NUOXZNbGVQQk9YQjJoUC1BUmNkUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSE5JekdwZ2diMFF4WHFiSlhFbFlRV3E5ZlkybmpGbnBzQ2VqU0FSU3JVdmI3YjB2LUl0MWo5bHdWS0RDQXIxQmhBWnctbVlLRW4xWjFvRnhRX0xOSEFfR20xa0tXS1NHc2RKQUkzVmNpWTMzbWcxcHNYZk96WlBjZ1J5dTVOZ2h0RzR2TXhOUzM2VW9pS3NVX21KQmRzMl8tMDNBSkpVcGR0MHVucEJWOXpXXzZRU3NuV3IydUlSdjY3QUNHdElpckwzN3Q3Zk1pTHg3SGppbDlqQ0w2dkZkOGhLbkQ2TFExc1Q5YVk5dURROGNVbjliYUxfYmlEb0XSAf8BQVVfeXFMT0hOSXpHcGdnYjBReFhxYkpYRWxZUVdxOWZZMm5qRm5wc0NlalNBUlNyVXZiN2Iwdi1JdDFqOWx3VktEQ0FyMUJoQVp3LW1ZS0VuMVoxb0Z4UV9MTkhBX0dtMWtLV0tTR3NkSkFJM1ZjaVkzM21nMXBzWGZPelpQY2dSeXU1TmdodEc0dk14TlMzNlVvaUtzVV9tSkJkczJfLTAzQUpKVXBkdDB1bnBCVjl6V182UVNzbldyMnVJUnY2N0FDR3RJaXJMMzd0N2ZNaUx4N0hqaWw5akNMNnZGZDhoS25ENkxRMXNUOWFZOXVEUThjVW45YmFMX2JpRG9F?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DUVJOZUZvcGQzNFJhbE95S180Y1V4RUZ0MlczQjZ0M05Ya1QyUlRFd2tzRVdKWnVkU0g4MTdNdWpJdVVDb3o5bUJ3aXZqRVMwdGR6ekNydXNUYXhBajUzTHIyWThEaDhVNEUtNlV6ZjlSVFBDMXFz?oc=5",
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZSHB2ODVOY3NaWmZkV2lySUU4R1RKcWRBWXplTHlWbDBQUE9TS2hmN1ZsRWtldlNWcERCcVlZUW85RUN1OXBDSnlfOUN4MmU1bGlOQ29lUERnUWlVUjlRMldUUThLbXBnd0xxWlFB?oc=5"
    ],
    "pages": {}
   },
@@ -3337,7 +3482,11 @@
   },
   "LinkedIn internships (India)": {
    "init": true,
-   "news_seen": [],
+   "news_seen": [
+    "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4VkRfZElDcHlyaVR4N1lWZHpwWnR5OWRVSEFUd1A4TGhXZTI1M2dCWTJCV0JodThhQXRoTjFmSUVFVGV2WGVvX3VhbWRaaUljaVBPNy1VbUVIcDl4bzN6WkUtOWswYTl4UUE?oc=5",
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTFBleUhfSFpXTHhMSHlqSGVQNXgtQlQ1MVFWTmxXOUlRQUxHT0FkRUNGalJfNDQ0WWRuaWFkbEZzTWFiRHI2NFp6ek5hbDdsV3VuYUZjTC1LWWRzUTBhWjVuSFV2eTRVNTlXY0Nz?oc=5",
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xRWFYWGYzczZTMkFYOG94andPSzBTZHdYVHpaeGdvMGQ3LV9OTmI5aTVuS1BRbFpnZ01hc1Q4elBsUlItTE1LZFhBb1VoMDNScUwwZDQzeUVhOFlxaUFpbmstNGQ2ODJzVjEw?oc=5"
+   ],
    "pages": {}
   },
   "Meta internships (India)": {
@@ -3410,7 +3559,10 @@
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeWdnVzVfLW5uS3FWMnQtNUVrNlo2N1A2UUNXdHFRRXZfUW5VWEhzdC01TDl3cTYzZGROVTVlTXVmUFk4T3BCZXM2WmlOVXpmQ21ZYzFjNTB6aEJuNHZWcTFFdDNNajNrU3lwUHdQMmNhQy1TTFhpOUNPZDEzWUYyNzhRd1BJak1UXzg1ckFkWENjOUZfVnhyeXlPMmNVdXRabVB0ZVp4M2xUMHBaTTRvMVBQaHc0TVhyVzZMTHNBc040V1NFNDlZ?oc=5",
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFc2ZVdHbF9UVEViWG5sdEZXaEdoRXFwd3BZWmFHdGtCeGlxa3dHLVRMVXpOck5QM19wOVRaMm9IdmxRLXd5XzQzZXAzdHZOZjQ0Z1BrejlZUTBnSXo3S0Z6TU14aHd4aEFvU1RHREJCcGRqbVVxZE1LaElWam9pZjJsX2JOcUZFTHFpcXlJUHlCMElDd0EwTEJoaEgybGEzTWRHMEN4TkJmOXJvOVFhX28wZw?oc=5",
     "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNNjhjMlo2NHBab0Y2N3hJTmhCcFJqWGZXQ3RPUS1PNHdVUnRZLUd4dkZnNGhpMGZXLWRYTFc3NmN6NUlZNFhCdTAtQ2tqX0FSaTJPTmJDbGMyemNiRi1QczNrNjVlSjZxTGY2YXppWllIM2tZd3hmc1JJUTROV1FhOTc4QWtwVWczbW5oZlo0eE9jbGp5LXVZQTdhSHdsVXpzUUxRWG1iTWFuS1dhMVFxc2tOeE9rbTJ6cUtyalRyZnJUREVqVUdURVBYUXNOM012WmxEaHJMeW1lVmJOZmlkRWJFbk5CbmJFdnNPc01jdDd1QWYzRTlpR3BhNNIBggJBVV95cUxNOEtQeW4ycTlwMVJ0dmhfQXIxZE1EX3JVOHIzTldIZUM5TWZrdm9nQWVZSW5ORFdDbTJqX24tUm1vRWNxc2lSUGlkWGFCVEVqcXAyNmFBX0VJaFB4M0k1ZXI2SXhHQzR4OVRORGZCUk1PR2pzYzZXZy1HdW81NjMyTHNlOE5TTGR4Rmp0SVRRZ0xKUFNCRTREN0JkNndLMFRSWUlkQ0FWX0dDMC0tem9lVTI0czNlZURBZDJuWXY3emllb2d0NzRMU2p0U0lycDVub0FFNlY1YVp5Qk4yejJUWFJJbEZuOHBPVVpRQUZlUkwzamgyY2FZMkFxVVBqbXBmNmc?oc=5",
-    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMDNDYXEtMXRqd0w2d2tlS1hzcnQ5Wk9pRmFLdXlVTzhYNzVVNUlsZ2UwcFIwMl9sVkFWTXNBTmwzTVpnS1ZuOEhKVUlzRlZaSnJ1VTNoZ24tQ1h6enRWNTZjM0dha2NfUUhIazZQSkQ0Zk5ZY2ZxVmh0dnEtRVE0dEMxRDItUmNnU1poV3BLSGhULTBpY3plV0xnWTJMNno3MEQ0dmtKUjZMekpjb2VRMXNfLURUUGdMcl800gHAAUFVX3lxTFB6XzFlb3hQZE9DVGV0eldvNE9MT2xobktiWjZaUU9DQUZnSXBPaDc3eVNxNEtmbk1wWkUySGNQUkowSmU2aVNCR1VIbWZuVWZpaDhIVkJ0Z04yOFFqRWltdERwNk5RSks4SGxsY2V3RnAwc1BfUlZ6Q2dOTkRtTElsemtkcW5IcVgxQ04xRHgxMUx0WVFQenRaeWpLaU1KdUF4MnVvT081RFhKUmpFRG1CV01oTUdJTFp5MXRIc2E2bg?oc=5"
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMDNDYXEtMXRqd0w2d2tlS1hzcnQ5Wk9pRmFLdXlVTzhYNzVVNUlsZ2UwcFIwMl9sVkFWTXNBTmwzTVpnS1ZuOEhKVUlzRlZaSnJ1VTNoZ24tQ1h6enRWNTZjM0dha2NfUUhIazZQSkQ0Zk5ZY2ZxVmh0dnEtRVE0dEMxRDItUmNnU1poV3BLSGhULTBpY3plV0xnWTJMNno3MEQ0dmtKUjZMekpjb2VRMXNfLURUUGdMcl800gHAAUFVX3lxTFB6XzFlb3hQZE9DVGV0eldvNE9MT2xobktiWjZaUU9DQUZnSXBPaDc3eVNxNEtmbk1wWkUySGNQUkowSmU2aVNCR1VIbWZuVWZpaDhIVkJ0Z04yOFFqRWltdERwNk5RSks4SGxsY2V3RnAwc1BfUlZ6Q2dOTkRtTElsemtkcW5IcVgxQ04xRHgxMUx0WVFQenRaeWpLaU1KdUF4MnVvT081RFhKUmpFRG1CV01oTUdJTFp5MXRIc2E2bg?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVA1aUVPei1tNFlERWc5S3NuY2k5Nk80dHloT1RweW5WQzZqVzJoNFgyRGNTXzlXZVpUNzhlZk00VkVuME54cDNPUTJ4YllmTFRiS2huN3IwV2VRcVBjd0M4SXFuMmg4Xzd0M3FxSGZ6NHZfbGUwSUJlRE1HRU1MWUF1Tk9jajVpM1dIUmdPdVFEbm9uaGZhSkZpSXI2TlpmQzdSd0d5R2F0UQ?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazNUbnJUNzJHT2xLb3NweWJ3UFRubVotQ2R0OExVUXpmN1J0ZEN2Smptbi1kd3pTbUpwTXNFS1RoMnB0ZWlrbFRYbGJ6eGt0QVRTSkFjbG5obWRPQk5CU3owY09laFI5TEZzOEpsOVl2YlFySmNRYWI0UXdDQ0M1OEN2eUhWYXloVEp5bGNWLTZqcmtD?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUjVvNHZzTkMxWXdYaTVsMEhlSjVHNzhzdjE5aU1BQ0hCcUhtTXpuOGVqUlZDb096N2VDOFpuSkY1ZG4zbl8tSW50ckMxd1dKN0daMHRxRXJOaUdKZ1hURUZlVVdFRjBHbGdWWFdkUkxpdVVCTG5kUFBEUnQ4bE1kc1p3VHFMTVBCYWk2N05LYUdKUUZZaVNYaDc4NDB0VUhDSzZfMWxXNC1MV1Ry0gGyAUFVX3lxTE1yQjM3dEdGSnVZaXJwb1JPNDdVLUU5ZGFJWlI3NWtLMHB6NnlpaXJZaHlCcHlVWTJ3QzJVQXVSZjNaTDdFc1JsckR2TGQycGkwRmVhanAxR0ZPM3dXZWI4eDJhZkRrcGdwWXozMTBBQXBGbURQdVJUVVRrUHJ2dWJYS1BmTm1GZDNvTTFoZGhtM21JVlBtaWMxRmVpYWpTSjl3cXlQb0tiWmY2MUVwZ0xIVXc?oc=5"
    ],
    "pages": {}
   },
@@ -3451,6 +3603,7 @@
   }
  },
  "rejected": {
+  "gh:rubrik:8166523": "2026-11-21T22:33:43+00:00",
   "gh:rubrik:8166537": "2026-11-10T10:10:01+00:00",
   "id:https://interndoor.com/jobs/cropin-quality-assurance-intern-4492003252": "2026-11-18T10:05:25+00:00",
   "id:https://interndoor.com/jobs/impact-analytics-production-support-engineer-intern-ats-keka-impactanalytics-95511": "2026-11-16T16:25:57+00:00",
@@ -3460,17 +3613,6 @@
   "id:https://interndoor.com/jobs/wsa-wonderful-sound-for-all-technical-support-intern-product-engineering-4491756625": "2026-11-18T00:36:53+00:00"
  },
  "scan_log": [
-  "2026-11-19T08:20:32+00:00",
-  "2026-11-19T08:22:32+00:00",
-  "2026-11-19T08:24:32+00:00",
-  "2026-11-19T08:26:32+00:00",
-  "2026-11-19T08:28:32+00:00",
-  "2026-11-19T08:30:32+00:00",
-  "2026-11-19T08:32:32+00:00",
-  "2026-11-19T08:34:32+00:00",
-  "2026-11-19T08:36:32+00:00",
-  "2026-11-19T08:38:32+00:00",
-  "2026-11-19T08:40:32+00:00",
   "2026-11-19T08:42:32+00:00",
   "2026-11-19T08:44:32+00:00",
   "2026-11-19T08:46:32+00:00",
@@ -3759,7 +3901,18 @@
   "2026-11-19T18:32:45+00:00",
   "2026-11-19T18:34:45+00:00",
   "2026-11-19T18:36:45+00:00",
-  "2026-11-19T18:38:45+00:00"
+  "2026-11-19T18:38:45+00:00",
+  "2026-11-21T22:33:43+00:00",
+  "2026-11-21T22:35:43+00:00",
+  "2026-11-21T22:37:43+00:00",
+  "2026-11-21T22:39:43+00:00",
+  "2026-11-21T22:41:43+00:00",
+  "2026-11-21T22:43:43+00:00",
+  "2026-11-21T22:45:43+00:00",
+  "2026-11-21T22:47:43+00:00",
+  "2026-11-21T22:49:43+00:00",
+  "2026-11-21T22:51:43+00:00",
+  "2026-11-21T22:53:43+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -3769,32 +3922,32 @@
   },
   "ab:notion": {
    "capped": false,
-   "fetched": 169,
+   "fetched": 170,
    "note": ""
   },
   "ab:oaknorth": {
    "capped": false,
-   "fetched": 32,
+   "fetched": 33,
    "note": ""
   },
   "ab:openai": {
    "capped": false,
-   "fetched": 840,
+   "fetched": 852,
    "note": ""
   },
   "ab:ramp": {
    "capped": false,
-   "fetched": 183,
+   "fetched": 187,
    "note": ""
   },
   "ab:replit": {
    "capped": false,
-   "fetched": 37,
+   "fetched": 38,
    "note": ""
   },
   "ab:supabase": {
    "capped": false,
-   "fetched": 78,
+   "fetched": 80,
    "note": ""
   },
   "amazon": {
@@ -3804,92 +3957,92 @@
   },
   "atlassian": {
    "capped": false,
-   "fetched": 259,
+   "fetched": 234,
    "note": ""
   },
   "gh:airbnb": {
    "capped": false,
-   "fetched": 199,
+   "fetched": 202,
    "note": ""
   },
   "gh:anthropic": {
    "capped": false,
-   "fetched": 640,
+   "fetched": 635,
    "note": ""
   },
   "gh:asana": {
    "capped": false,
-   "fetched": 114,
+   "fetched": 111,
    "note": ""
   },
   "gh:carta": {
    "capped": false,
-   "fetched": 78,
+   "fetched": 80,
    "note": ""
   },
   "gh:cloudflare": {
    "capped": false,
-   "fetched": 497,
+   "fetched": 504,
    "note": ""
   },
   "gh:coinbase": {
    "capped": false,
-   "fetched": 255,
+   "fetched": 252,
    "note": ""
   },
   "gh:databricks": {
    "capped": false,
-   "fetched": 901,
+   "fetched": 895,
    "note": ""
   },
   "gh:datadog": {
    "capped": false,
-   "fetched": 377,
+   "fetched": 382,
    "note": ""
   },
   "gh:discord": {
    "capped": false,
-   "fetched": 27,
+   "fetched": 29,
    "note": ""
   },
   "gh:dropbox": {
    "capped": false,
-   "fetched": 46,
+   "fetched": 47,
    "note": ""
   },
   "gh:duolingo": {
    "capped": false,
-   "fetched": 55,
+   "fetched": 54,
    "note": ""
   },
   "gh:elastic": {
    "capped": false,
-   "fetched": 372,
+   "fetched": 382,
    "note": ""
   },
   "gh:figma": {
    "capped": false,
-   "fetched": 144,
+   "fetched": 147,
    "note": ""
   },
   "gh:gitlab": {
    "capped": false,
-   "fetched": 247,
+   "fetched": 246,
    "note": ""
   },
   "gh:lyft": {
    "capped": false,
-   "fetched": 146,
+   "fetched": 148,
    "note": ""
   },
   "gh:mongodb": {
    "capped": false,
-   "fetched": 407,
+   "fetched": 417,
    "note": ""
   },
   "gh:okta": {
    "capped": false,
-   "fetched": 365,
+   "fetched": 372,
    "note": ""
   },
   "gh:pinterest": {
@@ -3899,42 +4052,42 @@
   },
   "gh:reddit": {
    "capped": false,
-   "fetched": 145,
+   "fetched": 148,
    "note": ""
   },
   "gh:robinhood": {
    "capped": false,
-   "fetched": 165,
+   "fetched": 163,
    "note": ""
   },
   "gh:rubrik": {
    "capped": false,
-   "fetched": 202,
+   "fetched": 208,
    "note": ""
   },
   "gh:samsara": {
    "capped": false,
-   "fetched": 309,
+   "fetched": 299,
    "note": ""
   },
   "gh:scaleai": {
    "capped": false,
-   "fetched": 167,
+   "fetched": 166,
    "note": ""
   },
   "gh:stripe": {
    "capped": false,
-   "fetched": 780,
+   "fetched": 778,
    "note": ""
   },
   "gh:twilio": {
    "capped": false,
-   "fetched": 105,
+   "fetched": 109,
    "note": ""
   },
   "gh:vercel": {
    "capped": false,
-   "fetched": 87,
+   "fetched": 86,
    "note": ""
   },
   "gh:webflow": {
@@ -3949,12 +4102,12 @@
   },
   "internscan": {
    "capped": false,
-   "fetched": 19,
+   "fetched": 20,
    "note": ""
   },
   "lv:cred": {
    "capped": false,
-   "fetched": 12,
+   "fetched": 11,
    "note": ""
   },
   "lv:meesho": {
@@ -3964,28 +4117,23 @@
   },
   "lv:palantir": {
    "capped": false,
-   "fetched": 307,
+   "fetched": 308,
    "note": ""
   },
   "lv:paytm": {
    "capped": false,
-   "fetched": 197,
+   "fetched": 199,
    "note": ""
   },
   "lv:spotify": {
    "capped": false,
-   "fetched": 92,
+   "fetched": 91,
    "note": ""
-  },
-  "wd:visa/Visa_Talent_Portal": {
-   "capped": false,
-   "fetched": 2,
-   "note": "searches: 'intern india' 2, 'intern bangalore' 0"
   },
   "wd:zebra/Zebra_careers": {
    "capped": false,
-   "fetched": 22,
-   "note": "searches: 'intern india' 22, 'intern bangalore' 0"
+   "fetched": 9,
+   "note": "searches: 'intern india' 9, 'intern bangalore' 0"
   }
  },
  "sources_seen": [

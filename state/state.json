@@ -396,44 +396,48 @@
  },
  "failures": {
   "wd:adobe/external_experienced": {
-   "count": 12,
+   "count": 14,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
   "wd:cisco/Cisco_Careers": {
-   "count": 56,
+   "count": 58,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 641,
+   "count": 643,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 74,
+   "count": 76,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 71,
+   "count": 73,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 71,
+   "count": 73,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 641,
+   "count": 643,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 68,
+   "count": 70,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 1,
+   "count": 3,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 71,
+   "count": 73,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
+  },
+  "wd:visa/Visa_Talent_Portal": {
+   "count": 2,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
  "fix_interndoor_closed": true,
@@ -449,7 +453,7 @@
    "elite": false,
    "first_seen": "2026-11-18T08:37:08+00:00",
    "id": "ab:oaknorth:9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Gurugram",
    "posted": "2026-11-18T07:46:43.311+00:00",
    "posted_kind": "posted",
@@ -469,7 +473,7 @@
    "desc": "",
    "first_seen": "2026-10-31T18:24:42+00:00",
    "id": "gh:stripe:8031833",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bengaluru",
    "posted": "2026-10-29T10:42:09-04:00",
    "reason": "",
@@ -1898,7 +1902,7 @@
    "first_seen": "2026-11-21T22:33:43+00:00",
    "id": "id:https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779",
    "last_checked": "2026-11-22T02:31:43+00:00",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:19:56+00:00",
    "location": "Hyderabad, Telangana, India",
    "posted": "2026-11-20T18:59:11+00:00",
    "posted_kind": "listed",
@@ -2403,7 +2407,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -2422,7 +2426,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -2443,7 +2447,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -2464,7 +2468,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -2483,7 +2487,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -2522,7 +2526,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -2561,7 +2565,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -2580,7 +2584,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -2599,7 +2603,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -2618,7 +2622,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -2637,7 +2641,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -2656,7 +2660,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -2678,7 +2682,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -2723,7 +2727,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-22T05:57:56+00:00",
+   "last_seen": "2026-11-22T06:13:56+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -3489,7 +3493,8 @@
    "news_seen": [
     "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4VkRfZElDcHlyaVR4N1lWZHpwWnR5OWRVSEFUd1A4TGhXZTI1M2dCWTJCV0JodThhQXRoTjFmSUVFVGV2WGVvX3VhbWRaaUljaVBPNy1VbUVIcDl4bzN6WkUtOWswYTl4UUE?oc=5",
     "https://news.google.com/rss/articles/CBMia0FVX3lxTFBleUhfSFpXTHhMSHlqSGVQNXgtQlQ1MVFWTmxXOUlRQUxHT0FkRUNGalJfNDQ0WWRuaWFkbEZzTWFiRHI2NFp6ek5hbDdsV3VuYUZjTC1LWWRzUTBhWjVuSFV2eTRVNTlXY0Nz?oc=5",
-    "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xRWFYWGYzczZTMkFYOG94andPSzBTZHdYVHpaeGdvMGQ3LV9OTmI5aTVuS1BRbFpnZ01hc1Q4elBsUlItTE1LZFhBb1VoMDNScUwwZDQzeUVhOFlxaUFpbmstNGQ2ODJzVjEw?oc=5"
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xRWFYWGYzczZTMkFYOG94andPSzBTZHdYVHpaeGdvMGQ3LV9OTmI5aTVuS1BRbFpnZ01hc1Q4elBsUlItTE1LZFhBb1VoMDNScUwwZDQzeUVhOFlxaUFpbmstNGQ2ODJzVjEw?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU1g4UkUwYV9Uanc2OXVqMGh0T292XzdxWDBJYlQzckR6ME01UUZOTjJoLWJ3blBmVHJHZXYxRzhDaXNDTHVsTWhhQmlGM19zRGJBbHY0MG9Vam1sNW1vd2hrVmdvR1dRVERkRnJHekswb1hIRW9CY1J2VVF5bFJlc0xudGtkb0I0enkxZ3RmelR4X3V5OFhJeERZQ01lYWNsamRQd3QzOW5iQXpP?oc=5"
    ],
    "pages": {}
   },
@@ -3617,17 +3622,6 @@
   "id:https://interndoor.com/jobs/wsa-wonderful-sound-for-all-technical-support-intern-product-engineering-4491756625": "2026-11-18T00:36:53+00:00"
  },
  "scan_log": [
-  "2026-11-19T15:46:45+00:00",
-  "2026-11-19T15:48:45+00:00",
-  "2026-11-19T15:50:45+00:00",
-  "2026-11-19T15:52:45+00:00",
-  "2026-11-19T15:54:45+00:00",
-  "2026-11-19T15:56:45+00:00",
-  "2026-11-19T15:58:45+00:00",
-  "2026-11-19T16:00:45+00:00",
-  "2026-11-19T16:02:45+00:00",
-  "2026-11-19T16:04:45+00:00",
-  "2026-11-19T16:06:45+00:00",
   "2026-11-19T16:08:45+00:00",
   "2026-11-19T16:10:45+00:00",
   "2026-11-19T16:12:45+00:00",
@@ -3916,7 +3910,18 @@
   "2026-11-22T05:51:56+00:00",
   "2026-11-22T05:53:56+00:00",
   "2026-11-22T05:55:56+00:00",
-  "2026-11-22T05:57:56+00:00"
+  "2026-11-22T05:57:56+00:00",
+  "2026-11-22T05:59:56+00:00",
+  "2026-11-22T06:01:56+00:00",
+  "2026-11-22T06:03:56+00:00",
+  "2026-11-22T06:05:56+00:00",
+  "2026-11-22T06:07:56+00:00",
+  "2026-11-22T06:09:56+00:00",
+  "2026-11-22T06:11:56+00:00",
+  "2026-11-22T06:13:56+00:00",
+  "2026-11-22T06:15:56+00:00",
+  "2026-11-22T06:17:56+00:00",
+  "2026-11-22T06:19:56+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -4133,11 +4138,6 @@
    "capped": false,
    "fetched": 91,
    "note": ""
-  },
-  "wd:visa/Visa_Talent_Portal": {
-   "capped": false,
-   "fetched": 2,
-   "note": "searches: 'intern india' 2, 'intern bangalore' 0"
   }
  },
  "sources_seen": [

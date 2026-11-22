@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 19 Nov 2026
-**47 companies** hiring interns · 76 open roles · 11 new in 24h · 1 closed in 24h
+# Job Radar daily report - 22 Nov 2026
+**49 companies** hiring interns · 78 open roles · 2 new in 24h · 12 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: 1 open
@@ -32,30 +32,12 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [Intern - Gen AI](https://jobs.ashbyhq.com/oaknorth/9bb335d1-9f05-4034-aee9-e62a9b3dcf97) - Oaknorth · Gurugram · **6/10**
-  - 🕒 posted 18 Nov 2026, 01:16 PM IST · detected 18 Nov 2026, 02:07 PM IST · 🔔 alert sent 18 Nov 2026, 02:07 PM IST
-- [Data analyst intern](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26016525?ref=interndoor) · [listing](https://interndoor.com/jobs/american-express-data-analyst-intern-ats-oraclecloud-egug-fa-us2-oraclecloud-com-26016525) - American Express · Gurugram, HR, India · **6/10**
-  - 🕒 posted 18 Nov 2026, 05:30 AM IST · detected 18 Nov 2026, 02:17 PM IST · 🔔 alert sent 18 Nov 2026, 02:17 PM IST
-- [AI Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/162526/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-masters-ai-4491789989) - Honeywell Technologies · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 18 Nov 2026, 03:19 PM IST · detected 18 Nov 2026, 03:35 PM IST · 🔔 alert sent 18 Nov 2026, 03:35 PM IST
-- [AI Intern](https://jobs.ashbyhq.com/oaknorth/9bb335d1-9f05-4034-aee9-e62a9b3dcf97?ref=interndoor) · [listing](https://interndoor.com/jobs/oaknorth-intern-gen-ai-ats-ashby-oaknorth-9bb335d1-9f05-4034-aee9-e62a9b3dcf97) - OakNorth · Gurugram · **6/10**
-  - 🕒 posted 18 Nov 2026, 01:16 PM IST · detected 18 Nov 2026, 01:59 PM IST · 🔔 alert sent 18 Nov 2026, 01:59 PM IST
-- [Full Stack AI - Trainee Internship in Pune](https://www.linkedin.com/jobs/view/4492239337/) · [listing](https://interndoor.com/jobs/roxiler-systems-full-stack-ai-trainee-internship-in-pune-4492239337) - Roxiler Systems · Pune Division, Maharashtra, India · **6/10**
-  - 🕒 posted 19 Nov 2026, 05:41 AM IST · detected 19 Nov 2026, 06:07 AM IST · 🔔 alert sent 19 Nov 2026, 06:07 AM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-2027-6-month-internship-bengaluru-software-engineering-4490877313) - Zebra Technologies · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 18 Nov 2026, 03:21 PM IST · detected 18 Nov 2026, 03:35 PM IST · 🔔 alert sent 18 Nov 2026, 03:35 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480) · ×9 listings - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [PowerApps Developer Intern](https://www.linkedin.com/jobs/view/4490877817/) · [listing](https://interndoor.com/jobs/pharma-and-powerapps-developer-intern-4490877817) - pharma& · Hyderabad, Telangana, India · **5/10**
-  - 🕒 posted 18 Nov 2026, 05:43 PM IST · detected 18 Nov 2026, 06:25 PM IST
-- [Intern - R&D 1](https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Chennai/Intern---R-D-1_REQ2026079629/apply?ref=interndoor) · [listing](https://interndoor.com/jobs/valeo-intern-r-and-d-1-4492073598) - Valeo · Chennai, Tamil Nadu, India · **5/10**
-  - 🕒 posted 18 Nov 2026, 11:51 PM IST · detected 19 Nov 2026, 01:03 AM IST
-- [Software Engineering Intern (College Students)](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-software-engineering-intern-college-students-4490876419) - Zebra Technologies · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 18 Nov 2026, 03:36 PM IST · detected 18 Nov 2026, 07:27 PM IST
-- [Intern](https://careers.hpe.com/us/en/job/1211844/Intern?utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/hpe-intern-ats-workday-hpe-wd5-jobsathpe-1211844) - Hewlett Packard Enterprise · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 18 Nov 2026, 05:15 PM IST · detected 18 Nov 2026, 05:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 21 Nov 2026 · detected 22 Nov 2026, 04:11 AM IST
+- [Software Development Intern](https://recruiting.ultipro.com/PAR1035PPTL/JobBoard/e104637a-c3c6-4682-96d2-d7cc2662dc13/OpportunityDetail?opportunityId=bade43a3-270f-49fa-b9c5-e2dd8d17c8d7&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779) - Park Place Technologies · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 21 Nov 2026, 12:29 AM IST · detected 22 Nov 2026, 04:03 AM IST
 
-## 🏢 Companies hiring interns right now (47)
+## 🏢 Companies hiring interns right now (49)
 
 <details><summary><b>Honeywell Technologies</b> (6)</summary>
 
@@ -71,6 +53,19 @@
   - 🕒 posted 17 Nov 2026, 03:20 AM IST · detected 17 Nov 2026, 03:32 AM IST
 - [Intern Bachelors Software Eng](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/160864/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235) - Honeywell Technologies · Pune Division, Maharashtra, India · **4/10**
   - 🕒 posted 17 Nov 2026, 09:34 PM IST · detected 17 Nov 2026, 10:03 PM IST
+
+</details>
+
+<details><summary><b>Zebra Technologies</b> (4)</summary>
+
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-2027-6-month-internship-bengaluru-software-engineering-4490877313) - Zebra Technologies · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 18 Nov 2026, 03:21 PM IST · detected 18 Nov 2026, 03:35 PM IST · 🔔 alert sent 18 Nov 2026, 03:35 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 21 Nov 2026 · detected 22 Nov 2026, 04:11 AM IST
+- [Software Engineering Intern (College Students)](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-software-engineering-intern-college-students-4490876419) - Zebra Technologies · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 18 Nov 2026, 03:36 PM IST · detected 18 Nov 2026, 07:27 PM IST
+- [Intern II](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-II_JR103699?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-intern-ii-4491383886) - Zebra Technologies · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 19 Nov 2026, 03:21 PM IST · detected 19 Nov 2026, 03:40 PM IST
 
 </details>
 
@@ -94,17 +89,6 @@
   - 🕒 posted 17 Nov 2026, 11:46 PM IST · detected 18 Nov 2026, 12:15 AM IST · 🔔 alert sent 18 Nov 2026, 12:15 AM IST
 - [NetSuite Technical Intern](https://careers.crowe.com/job/CROCROUSR71049EXTERNALENUS/NetSuite-Technical-Intern?utm_source=interndoor&utm_medium=phenom-feeds&ref=interndoor) · [listing](https://interndoor.com/jobs/crowe-capabilities-center-india-netsuite-technical-intern-4491704717) - Crowe Capabilities Center – India · Noida, Uttar Pradesh, India · **4/10**
   - 🕒 posted 17 Nov 2026, 11:36 PM IST · detected 18 Nov 2026, 12:15 AM IST
-
-</details>
-
-<details><summary><b>Delhivery</b> (3)</summary>
-
-- [AI Developer Intern](https://forms.gle/2QBshuJejtNWHBX87?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-ai-developer-intern-4489522819) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 13 Nov 2026, 09:47 AM IST · detected 13 Nov 2026, 10:48 AM IST · 🔔 alert sent 13 Nov 2026, 10:48 AM IST
-- [Data Science Intern](https://forms.gle/Fdsk6LMACagZNqCy7?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-data-science-intern-4488543648) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 13 Nov 2026, 12:09 AM IST · detected 13 Nov 2026, 12:53 AM IST · 🔔 alert sent 13 Nov 2026, 12:53 AM IST
-- [Software Engineer Intern](https://forms.gle/hEtH2BQ3qWTS6k4f9?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589) - Delhivery · Gurugram, Haryana, India · **6/10**
-  - 🕒 posted 12 Nov 2026, 01:10 PM IST · detected 12 Nov 2026, 02:01 PM IST · 🔔 alert sent 12 Nov 2026, 02:01 PM IST
 
 </details>
 
@@ -141,23 +125,21 @@
 
 </details>
 
-<details><summary><b>Zebra Technologies</b> (3)</summary>
-
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-2027-6-month-internship-bengaluru-software-engineering-4490877313) - Zebra Technologies · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 18 Nov 2026, 03:21 PM IST · detected 18 Nov 2026, 03:35 PM IST · 🔔 alert sent 18 Nov 2026, 03:35 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480) · ×9 listings - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [Software Engineering Intern (College Students)](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/zebra-technologies-software-engineering-intern-college-students-4490876419) - Zebra Technologies · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 18 Nov 2026, 03:36 PM IST · detected 18 Nov 2026, 07:27 PM IST
-
-</details>
-
 <details><summary><b>Carrier</b> (2)</summary>
 
 - [Intern](https://jobs.carrier.com/en/job/hyderabad/intern/29289/103373168944?ref=interndoor) · [listing](https://interndoor.com/jobs/carrier-intern-4490419096) - Carrier · Hyderabad, Telangana, India · **4/10**
   - 🕒 posted 17 Nov 2026, 01:44 PM IST · detected 17 Nov 2026, 02:39 PM IST
 - [Intern, Mech Engrg](https://jobs.carrier.com/job/-/-/29289/103373169184?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/carrier-intern-mech-engrg-4491411049) - Carrier · Hyderabad, Telangana, India · **4/10**
   - 🕒 posted 17 Nov 2026, 11:25 PM IST · detected 18 Nov 2026, 12:15 AM IST
+
+</details>
+
+<details><summary><b>Delhivery</b> (2)</summary>
+
+- [AI Developer Intern](https://forms.gle/2QBshuJejtNWHBX87?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-ai-developer-intern-4489522819) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 13 Nov 2026, 09:47 AM IST · detected 13 Nov 2026, 10:48 AM IST · 🔔 alert sent 13 Nov 2026, 10:48 AM IST
+- [Data Science Intern](https://forms.gle/Fdsk6LMACagZNqCy7?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-data-science-intern-4488543648) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 13 Nov 2026, 12:09 AM IST · detected 13 Nov 2026, 12:53 AM IST · 🔔 alert sent 13 Nov 2026, 12:53 AM IST
 
 </details>
 
@@ -369,10 +351,24 @@
 
 </details>
 
+<details><summary><b>Park Place Technologies</b> (1)</summary>
+
+- [Software Development Intern](https://recruiting.ultipro.com/PAR1035PPTL/JobBoard/e104637a-c3c6-4682-96d2-d7cc2662dc13/OpportunityDetail?opportunityId=bade43a3-270f-49fa-b9c5-e2dd8d17c8d7&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779) - Park Place Technologies · Hyderabad, Telangana, India · **4/10**
+  - 🕒 posted 21 Nov 2026, 12:29 AM IST · detected 22 Nov 2026, 04:03 AM IST
+
+</details>
+
 <details><summary><b>PayPal</b> (1)</summary>
 
 - [Software Engineer Intern](https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921) - PayPal · 2 Locations, Bangalore Karnataka India · **7/10**
   - 🕒 posted 10 Nov 2026 · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
+
+</details>
+
+<details><summary><b>Paytm</b> (1)</summary>
+
+- [Backend Intern](https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8?ref=interndoor) · [listing](https://interndoor.com/jobs/paytm-backend-intern-sea-and-europe-ats-lever-paytm-0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8) - Paytm · Noida, Uttar Pradesh · **8/10**
+  - 🕒 posted 19 Nov 2026, 02:21 PM IST · detected 19 Nov 2026, 03:58 PM IST · 🔔 alert sent 19 Nov 2026, 03:58 PM IST
 
 </details>
 
@@ -397,13 +393,6 @@
 
 </details>
 
-<details><summary><b>Sanas</b> (1)</summary>
-
-- [ML DA Intern](https://ats.rippling.com/sanas/jobs/93d0833e-b03b-4d28-8e32-bdaf572105f0?jobSite=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/sanas-ml-da-intern-4489948266) - Sanas · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 11 Nov 2026, 05:37 PM IST · detected 11 Nov 2026, 06:17 PM IST · 🔔 alert sent 11 Nov 2026, 06:17 PM IST
-
-</details>
-
 <details><summary><b>Sigmoid</b> (1)</summary>
 
 - [DE Intern + SDE Trainee](https://interndoor.com/jobs/sigmoid-de-intern-sde-trainee-off-campus-hiring-2026-ats-greenhouse-sigmoid-8927991002) - Sigmoid · Bengaluru · **6/10**
@@ -422,6 +411,13 @@
 
 - [Python AI Intern](https://hire.techolution.com/video-resume?role=de0c52fc-31d2-4afc-8777-98047c5e187d&ref=interndoor) · [listing](https://interndoor.com/jobs/techolution-python-ai-intern-4490661501) - techolution · Hyderabad, Telangana, India · **6/10**
   - 🕒 posted 16 Nov 2026, 08:52 PM IST · detected 16 Nov 2026, 09:26 PM IST · 🔔 alert sent 16 Nov 2026, 09:26 PM IST
+
+</details>
+
+<details><summary><b>Thermo Fisher Scientific</b> (1)</summary>
+
+- [IT Intern](https://jobs.thermofisher.com/global/en/job/R-01369895/IT-Intern?utm_medium=post&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/thermo-fisher-scientific-it-intern-4491381108) - Thermo Fisher Scientific · Bengaluru East, Karnataka, India · **5/10**
+  - 🕒 posted 19 Nov 2026, 10:57 AM IST · detected 19 Nov 2026, 11:08 AM IST
 
 </details>
 
@@ -528,31 +524,53 @@ _10 more programs open later in the year; see the full list._
 </details>
 
 ## Closed since yesterday
-- [Statistics Intern](https://interndoor.com/jobs/gsk-statistics-intern-4488201918) - GSK · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 11 Nov 2026, 04:15 PM IST · detected 11 Nov 2026, 04:27 PM IST
+- [Software Engineer Intern](https://forms.gle/hEtH2BQ3qWTS6k4f9?ref=interndoor) · [listing](https://interndoor.com/jobs/delhivery-software-engineer-intern-4488286589) - Delhivery · Gurugram, Haryana, India · **6/10**
+  - 🕒 posted 12 Nov 2026, 01:10 PM IST · detected 12 Nov 2026, 02:01 PM IST · 🔔 alert sent 12 Nov 2026, 02:01 PM IST
+- [ML DA Intern](https://ats.rippling.com/sanas/jobs/93d0833e-b03b-4d28-8e32-bdaf572105f0?jobSite=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/sanas-ml-da-intern-4489948266) - Sanas · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 11 Nov 2026, 05:37 PM IST · detected 11 Nov 2026, 06:17 PM IST · 🔔 alert sent 11 Nov 2026, 06:17 PM IST
+- [Backend - Intern ( SEA & Europe)](https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8) - Paytm · Noida, Uttar Pradesh · **7/10**
+  - 🕒 posted 19 Nov 2026, 02:21 PM IST · detected 19 Nov 2026, 02:28 PM IST · 🔔 alert sent 19 Nov 2026, 02:28 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
+- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864) - Zebra Technologies · Bengaluru, India · **6/10**
+  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
 
 <details><summary><b>📡 What the radar read this run</b></summary>
 
 - `amazon`: 2 postings read, 0 match you (query form 1 worked)
-- `atlassian`: 261 postings read, 0 match you
-- `interndoor`: 50 postings read, 58 match you
-- `internscan`: 19 postings read, 13 match you
+- `atlassian`: 234 postings read, 0 match you
+- `interndoor`: 50 postings read, 60 match you
+- `internscan`: 20 postings read, 13 match you
 - `company boards (Greenhouse / Lever / Ashby)`: 39 read fine, 2 match you
-- `scan timing`: 300 scans in the last 24h, longest gap 0h 22m (the radar loop aims for one every 5 minutes)
-- `alert speed`: 6 alerts in 24h: median 42 min after posting, slowest 527 min (target: under 15)
-- `learned boards`: 1 company boards found from InternDoor apply links and now read directly: oaknorth
+- `scan timing`: 120 scans in the last 24h, longest gap 0h 2m (the radar loop aims for one every 5 minutes)
+- `learned boards`: 3 company boards found from InternDoor apply links and now read directly: oaknorth, paytm, Zebra Technologies
 
 </details>
 
 ## Source problems (check slug / network)
-- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x92)
-- `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x92)
-- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x471)
-- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x308)
-- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x72)
-- `wd:mastercard/CorporateCareers`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x170)
-- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x471)
-- `wd:paypal/jobs`: HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo (x72)
-- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x83)
-- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x111)
-- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x8)
+- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x47)
+- `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x32)
+- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x617)
+- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x50)
+- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x47)
+- `wd:mastercard/CorporateCareers`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x47)
+- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x617)
+- `wd:paypal/jobs`: HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo (x44)
+- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x229)
+- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x47)
+- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x25)
+- `wd:zebra/Zebra_careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://zebra.wd501.myworkdayjobs.com/wday/cxs/zebra/Ze (x10)

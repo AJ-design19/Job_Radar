@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 22 Nov 2026
-**49 companies** hiring interns · 78 open roles · 2 new in 24h · 12 closed in 24h
+# Job Radar daily report - 23 Nov 2026
+**50 companies** hiring interns · 79 open roles · 1 new in 24h · 2 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: 1 open
@@ -32,12 +32,10 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 21 Nov 2026 · detected 22 Nov 2026, 04:11 AM IST
-- [Software Development Intern](https://recruiting.ultipro.com/PAR1035PPTL/JobBoard/e104637a-c3c6-4682-96d2-d7cc2662dc13/OpportunityDetail?opportunityId=bade43a3-270f-49fa-b9c5-e2dd8d17c8d7&source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/park-place-technologies-software-development-intern-4477101779) - Park Place Technologies · Hyderabad, Telangana, India · **4/10**
-  - 🕒 posted 21 Nov 2026, 12:29 AM IST · detected 22 Nov 2026, 04:03 AM IST
+- [SDE Intern](https://www.linkedin.com/jobs/view/4493100195/) · [listing](https://interndoor.com/jobs/rapidclaims-sde-intern-4493100195) - RapidClaims · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 21 Nov 2026, 06:26 PM IST · detected 22 Nov 2026, 03:28 PM IST · 🔔 alert sent 22 Nov 2026, 03:28 PM IST
 
-## 🏢 Companies hiring interns right now (49)
+## 🏢 Companies hiring interns right now (50)
 
 <details><summary><b>Honeywell Technologies</b> (6)</summary>
 
@@ -386,6 +384,13 @@
 
 </details>
 
+<details><summary><b>RapidClaims</b> (1)</summary>
+
+- [SDE Intern](https://www.linkedin.com/jobs/view/4493100195/) · [listing](https://interndoor.com/jobs/rapidclaims-sde-intern-4493100195) - RapidClaims · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 21 Nov 2026, 06:26 PM IST · detected 22 Nov 2026, 03:28 PM IST · 🔔 alert sent 22 Nov 2026, 03:28 PM IST
+
+</details>
+
 <details><summary><b>Roxiler Systems</b> (1)</summary>
 
 - [Full Stack AI - Trainee Internship in Pune](https://www.linkedin.com/jobs/view/4492239337/) · [listing](https://interndoor.com/jobs/roxiler-systems-full-stack-ai-trainee-internship-in-pune-4492239337) - Roxiler Systems · Pune Division, Maharashtra, India · **6/10**
@@ -528,49 +533,27 @@ _10 more programs open later in the year; see the full list._
   - 🕒 posted 12 Nov 2026, 01:10 PM IST · detected 12 Nov 2026, 02:01 PM IST · 🔔 alert sent 12 Nov 2026, 02:01 PM IST
 - [ML DA Intern](https://ats.rippling.com/sanas/jobs/93d0833e-b03b-4d28-8e32-bdaf572105f0?jobSite=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/sanas-ml-da-intern-4489948266) - Sanas · Bengaluru, Karnataka, India · **6/10**
   - 🕒 posted 11 Nov 2026, 05:37 PM IST · detected 11 Nov 2026, 06:17 PM IST · 🔔 alert sent 11 Nov 2026, 06:17 PM IST
-- [Backend - Intern ( SEA & Europe)](https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8) - Paytm · Noida, Uttar Pradesh · **7/10**
-  - 🕒 posted 19 Nov 2026, 02:21 PM IST · detected 19 Nov 2026, 02:28 PM IST · 🔔 alert sent 19 Nov 2026, 02:28 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
-- [2027 (6 Month) Internship - (Bengaluru) Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864) - Zebra Technologies · Bengaluru, India · **6/10**
-  - 🕒 posted 18 Nov 2026 · detected 18 Nov 2026, 03:47 PM IST
 
 <details><summary><b>📡 What the radar read this run</b></summary>
 
 - `amazon`: 2 postings read, 0 match you (query form 1 worked)
 - `atlassian`: 234 postings read, 0 match you
-- `interndoor`: 50 postings read, 60 match you
+- `interndoor`: 50 postings read, 61 match you
 - `internscan`: 20 postings read, 13 match you
 - `company boards (Greenhouse / Lever / Ashby)`: 39 read fine, 2 match you
-- `scan timing`: 120 scans in the last 24h, longest gap 0h 2m (the radar loop aims for one every 5 minutes)
-- `learned boards`: 3 company boards found from InternDoor apply links and now read directly: oaknorth, paytm, Zebra Technologies
+- `scan timing`: 300 scans in the last 24h, longest gap 0h 22m (the radar loop aims for one every 5 minutes)
+- `alert speed`: 1 alerts in 24h: median 1262 min after posting, slowest 1262 min (target: under 15)
+- `learned boards`: 2 company boards found from InternDoor apply links and now read directly: oaknorth, paytm
 
 </details>
 
 ## Source problems (check slug / network)
-- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x47)
+- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x28)
 - `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x32)
-- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x617)
-- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x50)
-- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x47)
-- `wd:mastercard/CorporateCareers`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x47)
-- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x617)
-- `wd:paypal/jobs`: HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo (x44)
-- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x229)
-- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x47)
-- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x25)
-- `wd:zebra/Zebra_careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://zebra.wd501.myworkdayjobs.com/wday/cxs/zebra/Ze (x10)
+- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x785)
+- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x218)
+- `wd:mastercard/CorporateCareers`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x215)
+- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x785)
+- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x3)
+- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x215)
+- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x29)

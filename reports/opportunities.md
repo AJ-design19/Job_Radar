@@ -1,9 +1,10 @@
-# Internship opportunity tracker - 23 Nov 2026
+# Internship opportunity tracker - 24 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
 - **Goldman Sachs Summer Analyst 2027 (India)** [A] 2028 graduates · usually Jul, Aug, Sep, Oct, Nov - applications opened 1 Jul for the 2028 batch, rolling review: apply now if you have not _(reported)_ · where: search 'Summer Analyst' + India on higher.gs.com
 - **Microsoft Software Engineering Internship (India)** [A] penultimate-year students · usually Aug, Sep, Oct, Nov, Dec - the regular SWE track targets penultimate-year students, which is you _(reported)_ · where: Microsoft careers, filter India + internship
+  - 🔗 [Applied Sciences Intern](https://interndoor.com/jobs/microsoft-applied-sciences-intern-ats-microsoft-india-1970393556917519) · Multiple Locations, Multiple Locations, India
   - 🔗 [Applied Sciences INTERN](https://apply.careers.microsoft.com/careers/job/1970393556917519) · India, Multiple Locations, Multiple Locations
   - 🔗 [Security Research INTERN](https://apply.careers.microsoft.com/careers/job/1970393557043380) · India, Multiple Locations, Multiple Locations
 - **Morgan Stanley Technology Summer Analyst (India)** [A] 2028 graduates · usually Aug, Sep, Oct, Nov - usually Aug to Nov, check the page today _(typical)_ · where: Morgan Stanley careers

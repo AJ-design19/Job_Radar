@@ -1,4 +1,4 @@
-# Internship opportunity tracker - 24 Nov 2026
+# Internship opportunity tracker - 25 Nov 2026
 Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical' = usual pattern, check the official page.
 
 ## Check / apply now
@@ -24,6 +24,7 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
   - 🔗 [Ph D/Research Intern - AI Research Lab](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) · Bengaluru, Karnātaka, India
   - 🔗 [Software Engineer Intern](https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921) · 2 Locations, Bangalore Karnataka India
 - **NVIDIA, Qualcomm, Texas Instruments, Samsung R&D** [B] check posting · usually Aug, Sep, Oct, Nov, Dec - NVIDIA is read directly; Qualcomm comes via InternScan _(typical)_ · where: each careers page
+  - 🔗 [System Software Engineering Intern - Spring 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineering-Intern---Spring-2027_JR2030374-1) · India, Bengaluru
   - 🔗 [Interim Engineering Intern_2027_HW](https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com) · Bangalore, India, Hyderabad, Telangāna, India
 - **Product startups: Razorpay, CRED, Meesho, Swiggy, Zomato, Groww, PhonePe** [B] check posting · usually Sep, Oct, Nov, Dec - CRED and Meesho are read directly _(typical)_ · where: each careers page
 - **The Big Code (Google)** [Program] check edition · usually Feb, Mar - 2026 deadline was 12 Mar; Rs 6 lakh prize pool _(reported)_ · where: Unstop
@@ -32,9 +33,9 @@ Tier A = best-paying employers. 'confirmed' = seen on a recent edition; 'typical
 
 ## Later in the year
 - **Amazon SDE Intern (India)** [A] current round: 2027 graduates, NOT your batch · usually Aug, Sep, Oct - 6-month internship; radar reads amazon.jobs and flags a 2028-batch round _(confirmed)_ · where: amazon.jobs
+  - 🔗 [Data Scientist I 6M Intern](https://www.amazon.jobs/en/jobs/10443572/data-scientist-i-6m-intern) · Chennai, Tamil Nadu, IND
+  - 🔗 [Data Scientist I Intern](https://interndoor.com/jobs/amazon-data-scientist-i-6m-intern-ats-amazon-ind-10443572) · Chennai, Tamil Nadu, IND
   - 🔗 [SDE I Intern , Amazon University Talent Acquisition](https://interndoor.com/jobs/amazon-sde-i-intern-amazon-university-talent-acquisition-ats-amazon-ind-10508052) · Bengaluru, KA, India
-  - 🔗 [Support Engineer Intern](https://interndoor.com/jobs/amazon-support-engineer-intern-2027-ats-amazon-ind-10498163) · Bengaluru, KA, India
-  - 🔗 [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) · Bengaluru, KA, India
 - **Google Software Engineering Intern, Summer 2027** [A] 2027 and 2028 penultimate · usually May, Jun - applications closed around 28 Jun 2026; you are already in this process, so prepare. Next cycle opens around Jun 2027 _(reported)_ · where: Google careers
   - 🔗 [Forward Deployed Engineer Intern](https://interndoor.com/jobs/google-forward-deployed-engineer-intern-2027-4489727942) · Bengaluru, Karnataka, India
 - **Walmart Global Tech summer intern** [A] check posting · usually Aug, Sep, Oct - InternScan covers Walmart Global Tech _(typical)_ · where: Walmart careers

@@ -453,7 +453,8 @@
    "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBTbFQxbF9QVEJ6TjJoVFBWT0kwWlFZUlJ6X0hCVjZhaTZobnFuLVV5bFNmamdCNS0xbERCbG5QY1prQQ?oc=5",
    "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ua19Qdk42Qm0ybVZYNlNuM3FVWFgxSjRXdWZHalYtQUQ2bHR3TlExNFhqMHN0X1dyOUVPMTVUeGlmbFNqTXh5THFtQXI1ZEdRV3dvQ2JTMy1tOVEwYlMtaFhLRFQzWlA4aW5DeA?oc=5",
    "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxc05BR2t2d1czT3VoeGpLSF9DSExoZXJwb2JrYWRDNE9sNF9JcG1zUE56OGlFU0R3WWhhQXRHSUNSN0lKbGRKOWdNM05CMjNEVGt2N2Z2QVVaZzdXa3ZCVXpsUDJxakYtR0QyWTFXYw?oc=5",
-   "https://news.google.com/rss/articles/CBMib0FVX3lxTE94QmR6dDlHbXp5ay14MTZwQndUbjRtNDB3dDY5QW0wUkFyb2JjM004dVpYVlpJZXozNHphSFFQdFNKRVVUMHMtTUsxMkF4T2h4X3YtQTVYdmpOWTVoU1I1eVUtUlB1T3Zwd0dhc3ByWQ?oc=5"
+   "https://news.google.com/rss/articles/CBMib0FVX3lxTE94QmR6dDlHbXp5ay14MTZwQndUbjRtNDB3dDY5QW0wUkFyb2JjM004dVpYVlpJZXozNHphSFFQdFNKRVVUMHMtTUsxMkF4T2h4X3YtQTVYdmpOWTVoU1I1eVUtUlB1T3Zwd0dhc3ByWQ?oc=5",
+   "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6YUF4YlR6VnBPTWlBUGVOTUEyVkV3aDU1dk43UGhsUGYwNDdqWTc5TzBGbl9CN1RaTVo3TjhlOEtKb01waHdRcElzM2hyODNqbUFwa0JQSFUzR2ZVa1BRNVlvMEVwazJSNEpUa25B?oc=5"
   ],
   "titles": [
    {
@@ -533,47 +534,47 @@
  },
  "failures": {
   "wd:adobe/external_experienced": {
-   "count": 79,
+   "count": 82,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte"
   },
   "wd:cisco/Cisco_Careers": {
-   "count": 85,
+   "count": 88,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc"
   },
   "wd:hpe/Jobsathpe": {
-   "count": 1296,
+   "count": 1299,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp"
   },
   "wd:intel/External": {
-   "count": 76,
+   "count": 79,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte"
   },
   "wd:mastercard/Campus": {
-   "count": 31,
+   "count": 34,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:mastercard/CorporateCareers": {
-   "count": 82,
+   "count": 85,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste"
   },
   "wd:nvidia/NVIDIAExternalCareerSite": {
-   "count": 138,
+   "count": 141,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV"
   },
   "wd:paypal/jobs": {
-   "count": 75,
+   "count": 1,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo"
   },
   "wd:salesforce/External_Career_Site": {
-   "count": 74,
+   "count": 77,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale"
   },
   "wd:visa/Visa": {
-   "count": 85,
+   "count": 88,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j"
   },
   "wd:visa/Visa_Talent_Portal": {
-   "count": 15,
+   "count": 18,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T"
   }
  },
@@ -590,7 +591,7 @@
    "elite": false,
    "first_seen": "2026-11-18T08:37:08+00:00",
    "id": "ab:oaknorth:9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Gurugram",
    "posted": "2026-11-18T07:46:43.311+00:00",
    "posted_kind": "posted",
@@ -613,7 +614,7 @@
    "elite": true,
    "first_seen": "2026-11-24T05:04:27+00:00",
    "id": "am:10443572",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Chennai, Tamil Nadu, IND",
    "posted": "2026-11-24",
    "posted_kind": "posted",
@@ -1519,7 +1520,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-co-op-intern-6-4494941460",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-25T17:47:02+00:00",
    "posted_kind": "listed",
@@ -1545,7 +1546,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-digital-technology-intern-4494947238",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Greater Hyderabad Area",
    "posted": "2026-11-25T17:47:35+00:00",
    "posted_kind": "listed",
@@ -1571,7 +1572,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-grid-automation-intern-4494940471",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Andhra Pradesh, India",
    "posted": "2026-11-25T17:47:38+00:00",
    "posted_kind": "listed",
@@ -1597,7 +1598,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-intern-1-4494947241",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Greater Hyderabad Area",
    "posted": "2026-11-25T17:37:59+00:00",
    "posted_kind": "listed",
@@ -1623,7 +1624,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-intern-aero-thermal-science-4494954004",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-25T17:47:07+00:00",
    "posted_kind": "listed",
@@ -1649,7 +1650,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-power-systems-intern-4494948243",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-25T17:47:43+00:00",
    "posted_kind": "listed",
@@ -1676,7 +1677,7 @@
    "first_seen": "2026-11-25T18:02:14+00:00",
    "id": "id:https://interndoor.com/jobs/ge-vernova-software-engineering-intern-4494953039",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Greater Hyderabad Area",
    "posted": "2026-11-25T17:38:26+00:00",
    "posted_kind": "listed",
@@ -2983,7 +2984,7 @@
    "first_seen": "2026-11-26T01:36:36+00:00",
    "id": "id:https://interndoor.com/jobs/superkalam-yc-w23-mobile-engineer-react-native-internship-4494975562",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-26T01:12:17+00:00",
    "posted_kind": "listed",
@@ -3165,7 +3166,7 @@
    "first_seen": "2026-11-25T19:28:14+00:00",
    "id": "id:https://interndoor.com/jobs/visteon-india-engineer-intern-4494950309",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Greater Chennai Area",
    "posted": "2026-11-25T18:29:44+00:00",
    "posted_kind": "listed",
@@ -3192,7 +3193,7 @@
    "first_seen": "2026-11-26T00:44:36+00:00",
    "id": "id:https://interndoor.com/jobs/wayfair-machine-learning-intern-4495209952",
    "last_checked": "2026-11-26T02:30:37+00:00",
-   "last_seen": "2026-11-26T02:56:36+00:00",
+   "last_seen": "2026-11-26T03:18:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-11-25T23:40:07+00:00",
    "posted_kind": "listed",
@@ -3358,7 +3359,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-26",
    "reason": "",
@@ -3377,7 +3378,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://apply.careers.microsoft.com/careers/job/1970393557043380",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "India, Multiple Locations, Multiple Locations",
    "posted": "2026-10-23",
    "reason": "",
@@ -3398,7 +3399,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1191423",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-11-12",
    "posted_kind": "posted",
@@ -3419,7 +3420,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.hpe.com/us/en/job/1211843",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bengaluru, Karn\u0101taka, 560048, Bengaluru, Karn\u0101taka, India",
    "posted": "2026-09-01",
    "reason": "",
@@ -3438,7 +3439,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://careers.qualcomm.com/careers/job/446719784824?domain=qualcomm.com",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bangalore, India, Hyderabad, Telang\u0101na, India",
    "posted": "2026-09-09",
    "reason": "",
@@ -3477,7 +3478,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/125740",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bangalore, India, Mangaluru, India",
    "posted": "2026-09-17",
    "reason": "",
@@ -3516,7 +3517,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/155175",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bangalore, India",
    "posted": "2026-08-06",
    "reason": "",
@@ -3535,7 +3536,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/164757",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bangalore, India",
    "posted": "2026-10-08",
    "reason": "",
@@ -3554,7 +3555,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://discoverdollar.keka.com/careers/jobdetails/91847",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bangalore",
    "posted": "2026-07-21",
    "reason": "",
@@ -3573,7 +3574,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/cloudsek/jobs/6115382004",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Bengaluru, Karnataka, India",
    "posted": "2026-07-14",
    "reason": "",
@@ -3592,7 +3593,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-15",
    "reason": "",
@@ -3611,7 +3612,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://job-boards.greenhouse.io/hackerrank/jobs/8281055",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "Onsite in Bangalore",
    "posted": "2026-10-30",
    "reason": "",
@@ -3633,7 +3634,7 @@
    "elite": false,
    "first_seen": "2026-11-14T03:15:11+00:00",
    "id": "is:https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-Intern_R0138921",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "2 Locations, Bangalore Karnataka India",
    "posted": "2026-11-10",
    "posted_kind": "posted",
@@ -3678,7 +3679,7 @@
    "desc": "",
    "first_seen": "2026-11-03T04:41:33+00:00",
    "id": "is:https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/XMLNAME--IND--Grad-Intern---No-Work-Experience_R-2557935",
-   "last_seen": "2026-11-26T02:50:36+00:00",
+   "last_seen": "2026-11-26T03:14:36+00:00",
    "location": "IN KA BANGALORE Home Office Building 10",
    "posted": "2026-10-04",
    "reason": "",
@@ -4814,17 +4815,6 @@
   "id:https://interndoor.com/jobs/wsa-wonderful-sound-for-all-technical-support-intern-product-engineering-4491756625": "2026-11-18T00:36:53+00:00"
  },
  "scan_log": [
-  "2026-11-25T16:17:59+00:00",
-  "2026-11-25T16:19:59+00:00",
-  "2026-11-25T16:21:59+00:00",
-  "2026-11-25T16:23:59+00:00",
-  "2026-11-25T16:25:59+00:00",
-  "2026-11-25T16:27:59+00:00",
-  "2026-11-25T16:29:59+00:00",
-  "2026-11-25T16:31:59+00:00",
-  "2026-11-25T16:33:59+00:00",
-  "2026-11-25T16:35:59+00:00",
-  "2026-11-25T16:37:59+00:00",
   "2026-11-25T16:39:59+00:00",
   "2026-11-25T16:41:59+00:00",
   "2026-11-25T16:43:59+00:00",
@@ -5113,7 +5103,18 @@
   "2026-11-26T02:50:36+00:00",
   "2026-11-26T02:52:36+00:00",
   "2026-11-26T02:54:36+00:00",
-  "2026-11-26T02:56:36+00:00"
+  "2026-11-26T02:56:36+00:00",
+  "2026-11-26T02:58:36+00:00",
+  "2026-11-26T03:00:36+00:00",
+  "2026-11-26T03:02:36+00:00",
+  "2026-11-26T03:04:36+00:00",
+  "2026-11-26T03:06:36+00:00",
+  "2026-11-26T03:08:36+00:00",
+  "2026-11-26T03:10:36+00:00",
+  "2026-11-26T03:12:36+00:00",
+  "2026-11-26T03:14:36+00:00",
+  "2026-11-26T03:16:36+00:00",
+  "2026-11-26T03:18:36+00:00"
  ],
  "source_stats": {
   "ab:linear": {
@@ -5183,7 +5184,7 @@
   },
   "gh:cloudflare": {
    "capped": false,
-   "fetched": 524,
+   "fetched": 523,
    "note": ""
   },
   "gh:coinbase": {
@@ -5258,7 +5259,7 @@
   },
   "gh:robinhood": {
    "capped": false,
-   "fetched": 161,
+   "fetched": 162,
    "note": ""
   },
   "gh:rubrik": {

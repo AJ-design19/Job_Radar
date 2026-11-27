@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 26 Nov 2026
-**64 companies** hiring interns · 110 open roles · 15 new in 24h · 1 closed in 24h
+# Job Radar daily report - 27 Nov 2026
+**67 companies** hiring interns · 117 open roles · 9 new in 24h · 2 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: 1 open
@@ -34,38 +34,27 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [Software Engineering Intern](https://careers.gevernova.com/software-engineering-intern/job/R5050069?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-software-engineering-intern-4494953039) - GE Vernova · Greater Hyderabad Area · **6/10**
-  - 🕒 posted 25 Nov 2026, 11:08 PM IST · detected 25 Nov 2026, 11:32 PM IST · 🔔 alert sent 25 Nov 2026, 11:32 PM IST
-- [Software Engineering Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Engineering-Intern---Software-Engineering_594338/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-engineering-intern-software-engineering-4494907630) - Philips · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 25 Nov 2026, 05:45 PM IST · detected 25 Nov 2026, 06:21 PM IST · 🔔 alert sent 25 Nov 2026, 06:21 PM IST
-- [Full Stack AI Engineer Intern](https://www.linkedin.com/jobs/view/4494796445/) · [listing](https://interndoor.com/jobs/uniphore-full-stack-ai-engineer-intern-6-months-internship-4494796445) - Uniphore · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 25 Nov 2026, 02:09 PM IST · detected 25 Nov 2026, 03:47 PM IST · 🔔 alert sent 25 Nov 2026, 03:47 PM IST
-- [Machine Learning Intern](https://wayfair.avature.net/en_US/careers?folderId=21687&src=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/wayfair-machine-learning-intern-4495209952) - Wayfair · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 26 Nov 2026, 05:10 AM IST · detected 26 Nov 2026, 06:14 AM IST · 🔔 alert sent 26 Nov 2026, 06:14 AM IST
-- [Co-Op Intern-6](https://careers.gevernova.com/co-op-intern-6/job/R5054938?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-co-op-intern-6-4494941460) - GE Vernova · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:17 PM IST · detected 25 Nov 2026, 11:32 PM IST
-- [Digital Technology Intern](https://careers.gevernova.com/digital-technology-intern/job/R5055951?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-digital-technology-intern-4494947238) - GE Vernova · Greater Hyderabad Area · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:17 PM IST · detected 25 Nov 2026, 11:32 PM IST
-- [Grid Automation Intern](https://careers.gevernova.com/grid-automation-intern/job/R5058927?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-grid-automation-intern-4494940471) - GE Vernova · Andhra Pradesh, India · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:17 PM IST · detected 25 Nov 2026, 11:32 PM IST
-- [Intern-1](https://careers.gevernova.com/intern-1/job/R5057073?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-intern-1-4494947241) - GE Vernova · Greater Hyderabad Area · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:07 PM IST · detected 25 Nov 2026, 11:32 PM IST
-- [Aero-Thermal Science Intern](https://careers.gevernova.com/intern-aero-thermal-science/job/R5053778?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-intern-aero-thermal-science-4494954004) - GE Vernova · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:17 PM IST · detected 25 Nov 2026, 11:32 PM IST
-- [Power Systems Intern](https://careers.gevernova.com/power-systems-intern/job/R5049954?ref=interndoor) · [listing](https://interndoor.com/jobs/ge-vernova-power-systems-intern-4494948243) - GE Vernova · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:17 PM IST · detected 25 Nov 2026, 11:32 PM IST
-- [React Native Intern](https://www.ycombinator.com/companies/superkalam/jobs/Umo6XZ4-mobile-engineer-react-native-internship?utm_source=syn_li&ref=interndoor) · [listing](https://interndoor.com/jobs/superkalam-yc-w23-mobile-engineer-react-native-internship-4494975562) - SuperKalam (YC W23) · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 06:42 AM IST · detected 26 Nov 2026, 07:06 AM IST
-- [Engineer Intern](https://www.linkedin.com/jobs/view/4494950309/) · [listing](https://interndoor.com/jobs/visteon-india-engineer-intern-4494950309) - Visteon India · Greater Chennai Area · **5/10**
-  - 🕒 posted 25 Nov 2026, 11:59 PM IST · detected 26 Nov 2026, 12:58 AM IST
-- [Engineering Intern](https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/IND-Bangalore-India---WR/Engineering-Intern_J000699833/apply?AdCode=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/aptiv-engineering-intern-4494659575) - Aptiv · Bengaluru East, Karnataka, India · **4/10**
-  - 🕒 posted 25 Nov 2026, 10:17 PM IST · detected 25 Nov 2026, 11:06 PM IST
-- [PHP Laravel Developer Intern](https://www.linkedin.com/jobs/view/4493082989/) · [listing](https://interndoor.com/jobs/menstrupedia-intern-php-laravel-developer-4493082989) - Menstrupedia · Ahmedabad, Gujarat, India · **4/10**
-  - 🕒 posted 25 Nov 2026, 12:38 PM IST · detected 25 Nov 2026, 12:47 PM IST
-- [Taste The Future – Tech Intern , MDS](https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Mumbai-India/Taste-The-Future---Tech-Intern---MDS_R-183184?src=SNS-12680&source=APPLICANT_SOURCE-3-70&utm_source=interndoor&utm_medium=jobboard&utm_campaign=interndoor&utm_term=generic_jobs&ref=interndoor) · [listing](https://interndoor.com/jobs/mondel-z-international-taste-the-future-tech-intern-mds-4494625252) - Mondelēz International · Mumbai Metropolitan Region · **4/10**
-  - 🕒 posted 25 Nov 2026, 05:10 PM IST · detected 25 Nov 2026, 06:21 PM IST
+- [🔥 UI Software Engineer Intern](https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157&ref=interndoor) · [listing](https://interndoor.com/jobs/rubrik-software-engineer-ui-winter-intern-ats-greenhouse-rubrik-8413157) - Rubrik · Bangalore · **10/10**
+  - 🕒 posted 26 Nov 2026, 02:23 PM IST · detected 26 Nov 2026, 03:22 PM IST · 🔔 alert sent 26 Nov 2026, 03:22 PM IST
+  - 🤝 [your connections at Rubrik](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
+- [Backend Engineering Intern](https://www.linkedin.com/jobs/view/4495266686/) · [listing](https://interndoor.com/jobs/fam-backend-engineering-intern-4495266686) - Fam · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 26 Nov 2026, 02:26 PM IST · detected 26 Nov 2026, 02:56 PM IST · 🔔 alert sent 26 Nov 2026, 02:56 PM IST
+- [AI/ML Intern](https://jobsearch.harman.com/careers/searchjobs/R-54016-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-internship-ai-ml-time-series-computer-vision-4493823151) - HARMAN India · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 26 Nov 2026, 05:29 PM IST · detected 26 Nov 2026, 07:03 PM IST · 🔔 alert sent 26 Nov 2026, 07:03 PM IST
+- [Software Engineering Intern](https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2?ref=interndoor) · [listing](https://interndoor.com/jobs/zeta-intern-ats-lever-zeta-331526ff-cb2d-4b93-a812-ff37ebb7edc2) - Zeta · Bangalore - WF · **6/10**
+  - 🕒 posted 26 Nov 2026, 12:10 PM IST · detected 26 Nov 2026, 01:28 PM IST · 🔔 alert sent 26 Nov 2026, 01:28 PM IST
+- [Data Engineer Intern](https://arthrexindia.keka.com/careers/jobdetails/171729?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/arthrex-india-data-engineer-intern-4495014878) - Arthrex India · Pune Division, Maharashtra, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 06:22 PM IST · detected 26 Nov 2026, 07:03 PM IST
+- [Forward Deployed Engineer Intern](https://www.linkedin.com/jobs/view/4495256881/) · [listing](https://interndoor.com/jobs/blue-machines-ai-forward-deployed-engineer-intern-4495256881) - Blue Machines AI · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 01:10 PM IST · detected 26 Nov 2026, 01:28 PM IST
+- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
+- [Software Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Software-Intern_596114/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-software-intern-4495039705) - Philips · Chennai, Tamil Nadu, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 11:56 PM IST · detected 27 Nov 2026, 01:05 AM IST
+- [Intern Bachelors Field Svc Eng](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/163009/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-field-svc-eng-4495284014) - Honeywell Technologies · Pune Division, Maharashtra, India · **4/10**
+  - 🕒 posted 26 Nov 2026, 03:35 PM IST · detected 26 Nov 2026, 04:09 PM IST
 
-## 🏢 Companies hiring interns right now (64)
+## 🏢 Companies hiring interns right now (67)
 
 <details><summary><b>GE Vernova</b> (7)</summary>
 
@@ -86,7 +75,7 @@
 
 </details>
 
-<details><summary><b>Honeywell Technologies</b> (6)</summary>
+<details><summary><b>Honeywell Technologies</b> (7)</summary>
 
 - [AI Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/162526/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-masters-ai-4491789989) - Honeywell Technologies · Bengaluru, Karnataka, India · **6/10**
   - 🕒 posted 18 Nov 2026, 03:19 PM IST · detected 18 Nov 2026, 03:35 PM IST · 🔔 alert sent 18 Nov 2026, 03:35 PM IST
@@ -98,6 +87,8 @@
   - 🕒 posted 17 Nov 2026, 03:19 AM IST · detected 17 Nov 2026, 03:32 AM IST
 - [Intern Bachelors Cyber Sec](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/162488/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-cyber-sec-4491503820) - Honeywell Technologies · Bengaluru, Karnataka, India · **4/10**
   - 🕒 posted 17 Nov 2026, 03:20 AM IST · detected 17 Nov 2026, 03:32 AM IST
+- [Intern Bachelors Field Svc Eng](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/163009/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-field-svc-eng-4495284014) - Honeywell Technologies · Pune Division, Maharashtra, India · **4/10**
+  - 🕒 posted 26 Nov 2026, 03:35 PM IST · detected 26 Nov 2026, 04:09 PM IST
 - [Intern Bachelors Software Eng](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/160864/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4484065235) - Honeywell Technologies · Pune Division, Maharashtra, India · **4/10**
   - 🕒 posted 17 Nov 2026, 09:34 PM IST · detected 17 Nov 2026, 10:03 PM IST
 
@@ -118,6 +109,19 @@
   - 🤝 [your connections at Amazon](https://www.linkedin.com/search/results/people/?keywords=Amazon&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Amazon&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
 - [Data Engineer Intern](https://interndoor.com/jobs/amazon-data-engineer-intern-2027-ats-amazon-ind-10496769) - Amazon · Bengaluru, KA, India · **7/10**
   - 🕒 posted 05 Nov 2026, 11:14 AM IST · detected 05 Nov 2026, 03:49 PM IST · 🔔 alert sent 05 Nov 2026, 03:49 PM IST
+
+</details>
+
+<details><summary><b>HARMAN India</b> (4)</summary>
+
+- [AI/ML Intern](https://jobsearch.harman.com/careers/searchjobs/R-54016-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-internship-ai-ml-time-series-computer-vision-4493823151) - HARMAN India · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 26 Nov 2026, 05:29 PM IST · detected 26 Nov 2026, 07:03 PM IST · 🔔 alert sent 26 Nov 2026, 07:03 PM IST
+- [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
+- [Intern -Connectivity](https://jobsearch.harman.com/careers/searchjobs/R-56287-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-intern-connectivity-4488207839) - HARMAN India · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 11 Nov 2026, 05:15 PM IST · detected 11 Nov 2026, 06:17 PM IST
+- [Android HMI Development Internship](https://jobsearch.harman.com/careers/searchjobs/R-57362-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-internship-android-hmi-development-4492605365) - HARMAN India · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 23 Nov 2026, 05:28 PM IST · detected 23 Nov 2026, 06:27 PM IST
 
 </details>
 
@@ -178,17 +182,6 @@
 
 </details>
 
-<details><summary><b>HARMAN India</b> (3)</summary>
-
-- [Intern](https://interndoor.com/jobs/harman-india-intern-4476659326) - HARMAN India · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 05 Nov 2026, 05:16 PM IST · detected 05 Nov 2026, 11:07 PM IST
-- [Intern -Connectivity](https://jobsearch.harman.com/careers/searchjobs/R-56287-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-intern-connectivity-4488207839) - HARMAN India · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 11 Nov 2026, 05:15 PM IST · detected 11 Nov 2026, 06:17 PM IST
-- [Android HMI Development Internship](https://jobsearch.harman.com/careers/searchjobs/R-57362-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-internship-android-hmi-development-4492605365) - HARMAN India · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 23 Nov 2026, 05:28 PM IST · detected 23 Nov 2026, 06:27 PM IST
-
-</details>
-
 <details><summary><b>HPE</b> (3)</summary>
 
 - [Ph D/Research Intern - AI Research Lab](https://careers.hpe.com/us/en/job/1191423) - HPE · Bengaluru, Karnātaka, 560048, Bengaluru, Karnātaka, India · **8/10**
@@ -218,6 +211,15 @@
   - 🕒 posted 17 Nov 2026, 01:44 PM IST · detected 17 Nov 2026, 02:39 PM IST
 - [Intern, Mech Engrg](https://jobs.carrier.com/job/-/-/29289/103373169184?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/carrier-intern-mech-engrg-4491411049) - Carrier · Hyderabad, Telangana, India · **4/10**
   - 🕒 posted 17 Nov 2026, 11:25 PM IST · detected 18 Nov 2026, 12:15 AM IST
+
+</details>
+
+<details><summary><b>CloudSEK</b> (2)</summary>
+
+- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
+- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - CloudSEK · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 14 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
 
 </details>
 
@@ -320,6 +322,15 @@
 
 </details>
 
+<details><summary><b>Philips</b> (2)</summary>
+
+- [Software Engineering Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Engineering-Intern---Software-Engineering_594338/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-engineering-intern-software-engineering-4494907630) - Philips · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 25 Nov 2026, 05:45 PM IST · detected 25 Nov 2026, 06:21 PM IST · 🔔 alert sent 25 Nov 2026, 06:21 PM IST
+- [Software Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Software-Intern_596114/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-software-intern-4495039705) - Philips · Chennai, Tamil Nadu, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 11:56 PM IST · detected 27 Nov 2026, 01:05 AM IST
+
+</details>
+
 <details><summary><b>Thales</b> (2)</summary>
 
 - [Embedded Software Intern](https://interndoor.com/jobs/thales-embedded-software-intern-4489623386) - Thales · Bengaluru, Karnataka, India · **5/10**
@@ -373,6 +384,20 @@
 
 </details>
 
+<details><summary><b>Arthrex India</b> (1)</summary>
+
+- [Data Engineer Intern](https://arthrexindia.keka.com/careers/jobdetails/171729?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/arthrex-india-data-engineer-intern-4495014878) - Arthrex India · Pune Division, Maharashtra, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 06:22 PM IST · detected 26 Nov 2026, 07:03 PM IST
+
+</details>
+
+<details><summary><b>Blue Machines AI</b> (1)</summary>
+
+- [Forward Deployed Engineer Intern](https://www.linkedin.com/jobs/view/4495256881/) · [listing](https://interndoor.com/jobs/blue-machines-ai-forward-deployed-engineer-intern-4495256881) - Blue Machines AI · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 01:10 PM IST · detected 26 Nov 2026, 01:28 PM IST
+
+</details>
+
 <details><summary><b>BNP Paribas</b> (1)</summary>
 
 - [Data Science Intern](https://interndoor.com/jobs/bnp-paribas-data-science-intern-4488835858) - BNP Paribas · Bengaluru, Karnataka, India · **6/10**
@@ -387,13 +412,6 @@
 
 </details>
 
-<details><summary><b>CloudSEK</b> (1)</summary>
-
-- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - CloudSEK · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 14 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
-
-</details>
-
 <details><summary><b>Codemonk</b> (1)</summary>
 
 - [Machine Learning Intern](https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786) - Codemonk · Bengaluru, Karnataka, India · **6/10**
@@ -405,6 +423,13 @@
 
 - [Software Engineering Intern](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineering-Intern/216554?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/electronic-arts-ea-software-engineering-intern-4492386861) - Electronic Arts (EA) · Hyderabad, Telangana, India · **7/10**
   - 🕒 posted 23 Nov 2026, 04:06 PM IST · detected 23 Nov 2026, 05:05 PM IST · 🔔 alert sent 23 Nov 2026, 05:05 PM IST
+
+</details>
+
+<details><summary><b>Fam</b> (1)</summary>
+
+- [Backend Engineering Intern](https://www.linkedin.com/jobs/view/4495266686/) · [listing](https://interndoor.com/jobs/fam-backend-engineering-intern-4495266686) - Fam · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 26 Nov 2026, 02:26 PM IST · detected 26 Nov 2026, 02:56 PM IST · 🔔 alert sent 26 Nov 2026, 02:56 PM IST
 
 </details>
 
@@ -427,20 +452,6 @@
 
 - [Software Engineering Intern](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-software-eng-4479821514) - Honeywell Aerospace · Hyderabad, Telangana, India · **6/10**
   - 🕒 posted 11 Nov 2026, 03:34 PM IST · detected 11 Nov 2026, 04:27 PM IST · 🔔 alert sent 11 Nov 2026, 04:27 PM IST
-
-</details>
-
-<details><summary><b>Irdeto</b> (1)</summary>
-
-- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
-  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
-
-</details>
-
-<details><summary><b>Isourse</b> (1)</summary>
-
-- [AI/ML Engineer Internship](https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012) - Isourse · Delhi, India · **6/10**
-  - 🕒 posted 14 Nov 2026, 05:40 AM IST · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
 
 </details>
 
@@ -508,13 +519,6 @@
 
 </details>
 
-<details><summary><b>Philips</b> (1)</summary>
-
-- [Software Engineering Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Engineering-Intern---Software-Engineering_594338/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-engineering-intern-software-engineering-4494907630) - Philips · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 25 Nov 2026, 05:45 PM IST · detected 25 Nov 2026, 06:21 PM IST · 🔔 alert sent 25 Nov 2026, 06:21 PM IST
-
-</details>
-
 <details><summary><b>QpiAI</b> (1)</summary>
 
 - [Cybersecurity Intern](https://www.linkedin.com/jobs/view/4493739851/) · [listing](https://interndoor.com/jobs/qpiai-cybersecurity-intern-4493739851) - QpiAI · Bengaluru, Karnataka, India · **4/10**
@@ -540,6 +544,14 @@
 
 - [Full Stack AI - Trainee Internship in Pune](https://www.linkedin.com/jobs/view/4492239337/) · [listing](https://interndoor.com/jobs/roxiler-systems-full-stack-ai-trainee-internship-in-pune-4492239337) - Roxiler Systems · Pune Division, Maharashtra, India · **6/10**
   - 🕒 posted 19 Nov 2026, 05:41 AM IST · detected 19 Nov 2026, 06:07 AM IST · 🔔 alert sent 19 Nov 2026, 06:07 AM IST
+
+</details>
+
+<details><summary><b>Rubrik</b> (1)</summary>
+
+- [🔥 UI Software Engineer Intern](https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157&ref=interndoor) · [listing](https://interndoor.com/jobs/rubrik-software-engineer-ui-winter-intern-ats-greenhouse-rubrik-8413157) - Rubrik · Bangalore · **10/10**
+  - 🕒 posted 26 Nov 2026, 02:23 PM IST · detected 26 Nov 2026, 03:22 PM IST · 🔔 alert sent 26 Nov 2026, 03:22 PM IST
+  - 🤝 [your connections at Rubrik](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
 
 </details>
 
@@ -611,6 +623,13 @@
 
 - [Machine Learning Intern](https://wayfair.avature.net/en_US/careers?folderId=21687&src=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/wayfair-machine-learning-intern-4495209952) - Wayfair · Bengaluru, Karnataka, India · **6/10**
   - 🕒 posted 26 Nov 2026, 05:10 AM IST · detected 26 Nov 2026, 06:14 AM IST · 🔔 alert sent 26 Nov 2026, 06:14 AM IST
+
+</details>
+
+<details><summary><b>Zeta</b> (1)</summary>
+
+- [Software Engineering Intern](https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2?ref=interndoor) · [listing](https://interndoor.com/jobs/zeta-intern-ats-lever-zeta-331526ff-cb2d-4b93-a812-ff37ebb7edc2) - Zeta · Bangalore - WF · **6/10**
+  - 🕒 posted 26 Nov 2026, 12:10 PM IST · detected 26 Nov 2026, 01:28 PM IST · 🔔 alert sent 26 Nov 2026, 01:28 PM IST
 
 </details>
 
@@ -697,31 +716,33 @@ _10 more programs open later in the year; see the full list._
 </details>
 
 ## Closed since yesterday
-- [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) - Stripe · Bengaluru · **8/10**
-  - 🕒 posted 29 Oct 2026, 08:12 PM IST · detected 31 Oct 2026, 11:54 PM IST
+- [SOC Intern](https://interndoor.com/jobs/irdeto-soc-intern-4488194751) - Irdeto · Noida, Uttar Pradesh, India · **5/10**
+  - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
+- [AI/ML Engineer Internship](https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012) - Isourse · Delhi, India · **6/10**
+  - 🕒 posted 14 Nov 2026, 05:40 AM IST · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
 
 <details><summary><b>📡 What the radar read this run</b></summary>
 
-- `amazon`: 4 postings read, 1 match you (query form 1 worked)
-- `atlassian`: 223 postings read, 0 match you
-- `interndoor`: 50 postings read, 89 match you
-- `internscan`: 20 postings read, 13 match you
-- `company boards (Greenhouse / Lever / Ashby)`: 39 read fine, 1 match you
-- `scan timing`: 300 scans in the last 24h, longest gap 0h 22m (the radar loop aims for one every 5 minutes)
-- `alert speed`: 4 alerts in 24h: median 64 min after posting, slowest 98 min (target: under 15)
-- `learned boards`: 2 company boards found from InternDoor apply links and now read directly: oaknorth, paytm
+- `amazon`: 3 postings read, 1 match you (query form 1 worked)
+- `atlassian`: 222 postings read, 0 match you
+- `interndoor`: 50 postings read, 96 match you
+- `internscan`: 19 postings read, 13 match you
+- `wd:mastercard/CorporateCareers`: 46 postings read, 0 match you (searches: 'intern india' 46, 'intern bangalore' 0)
+- `wd:paypal/jobs`: 21 postings read, 0 match you (searches: 'intern india' 21, 'intern bangalore' 0)
+- `company boards (Greenhouse / Lever / Ashby)`: 40 read fine, 1 match you
+- `scan timing`: 300 scans in the last 24h, longest gap 0h 20m (the radar loop aims for one every 5 minutes)
+- `alert speed`: 4 alerts in 24h: median 78 min after posting, slowest 93 min (target: under 15)
+- `learned boards`: 3 company boards found from InternDoor apply links and now read directly: oaknorth, paytm, zeta
 
 </details>
 
 ## Source problems (check slug / network)
-- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x76)
-- `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x82)
-- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x1293)
-- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x73)
-- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x28)
-- `wd:mastercard/CorporateCareers`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x79)
-- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x135)
-- `wd:paypal/jobs`: HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo (x72)
-- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x71)
-- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x82)
-- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x12)
+- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x161)
+- `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x34)
+- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x1465)
+- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x245)
+- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x11)
+- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x307)
+- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x119)
+- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x254)
+- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x36)

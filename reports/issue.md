@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 27 Nov 2026
-**67 companies** hiring interns · 117 open roles · 9 new in 24h · 2 closed in 24h
+# Job Radar daily report - 28 Nov 2026
+**70 companies** hiring interns · 120 open roles · 4 new in 24h · 3 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: 1 open
@@ -34,27 +34,16 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [🔥 UI Software Engineer Intern](https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157&ref=interndoor) · [listing](https://interndoor.com/jobs/rubrik-software-engineer-ui-winter-intern-ats-greenhouse-rubrik-8413157) - Rubrik · Bangalore · **10/10**
-  - 🕒 posted 26 Nov 2026, 02:23 PM IST · detected 26 Nov 2026, 03:22 PM IST · 🔔 alert sent 26 Nov 2026, 03:22 PM IST
-  - 🤝 [your connections at Rubrik](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
-- [Backend Engineering Intern](https://www.linkedin.com/jobs/view/4495266686/) · [listing](https://interndoor.com/jobs/fam-backend-engineering-intern-4495266686) - Fam · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 26 Nov 2026, 02:26 PM IST · detected 26 Nov 2026, 02:56 PM IST · 🔔 alert sent 26 Nov 2026, 02:56 PM IST
-- [AI/ML Intern](https://jobsearch.harman.com/careers/searchjobs/R-54016-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-internship-ai-ml-time-series-computer-vision-4493823151) - HARMAN India · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 26 Nov 2026, 05:29 PM IST · detected 26 Nov 2026, 07:03 PM IST · 🔔 alert sent 26 Nov 2026, 07:03 PM IST
-- [Software Engineering Intern](https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2?ref=interndoor) · [listing](https://interndoor.com/jobs/zeta-intern-ats-lever-zeta-331526ff-cb2d-4b93-a812-ff37ebb7edc2) - Zeta · Bangalore - WF · **6/10**
-  - 🕒 posted 26 Nov 2026, 12:10 PM IST · detected 26 Nov 2026, 01:28 PM IST · 🔔 alert sent 26 Nov 2026, 01:28 PM IST
-- [Data Engineer Intern](https://arthrexindia.keka.com/careers/jobdetails/171729?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/arthrex-india-data-engineer-intern-4495014878) - Arthrex India · Pune Division, Maharashtra, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 06:22 PM IST · detected 26 Nov 2026, 07:03 PM IST
-- [Forward Deployed Engineer Intern](https://www.linkedin.com/jobs/view/4495256881/) · [listing](https://interndoor.com/jobs/blue-machines-ai-forward-deployed-engineer-intern-4495256881) - Blue Machines AI · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 01:10 PM IST · detected 26 Nov 2026, 01:28 PM IST
-- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
-- [Software Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Software-Intern_596114/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-software-intern-4495039705) - Philips · Chennai, Tamil Nadu, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 11:56 PM IST · detected 27 Nov 2026, 01:05 AM IST
-- [Intern Bachelors Field Svc Eng](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/163009/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-field-svc-eng-4495284014) - Honeywell Technologies · Pune Division, Maharashtra, India · **4/10**
-  - 🕒 posted 26 Nov 2026, 03:35 PM IST · detected 26 Nov 2026, 04:09 PM IST
+- [SDE Intern - Frontend   ](https://job-boards.greenhouse.io/cloudsek/jobs/6200261004) - Cloudsek · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 last updated 27 Nov 2026, 03:07 PM IST · detected 27 Nov 2026, 05:18 PM IST · 🔔 alert sent 27 Nov 2026, 05:18 PM IST
+- [Backend Intern](https://www.linkedin.com/jobs/view/4495096028/) · [listing](https://interndoor.com/jobs/convin-backend-intern-4495096028) - Convin · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 27 Nov 2026, 01:58 PM IST · detected 27 Nov 2026, 02:30 PM IST · 🔔 alert sent 27 Nov 2026, 02:30 PM IST
+- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - Cloudsek · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 last updated 27 Nov 2026, 04:52 PM IST · detected 27 Nov 2026, 05:18 PM IST
+- [Full Stack Developer Intern](https://www.linkedin.com/jobs/view/4493869612/) · [listing](https://interndoor.com/jobs/deloitte-intern-4493869612) - Deloitte · Mumbai, Maharashtra, India · **5/10**
+  - 🕒 posted 27 Nov 2026, 11:49 AM IST · detected 27 Nov 2026, 11:59 AM IST
 
-## 🏢 Companies hiring interns right now (67)
+## 🏢 Companies hiring interns right now (70)
 
 <details><summary><b>GE Vernova</b> (7)</summary>
 
@@ -214,12 +203,12 @@
 
 </details>
 
-<details><summary><b>CloudSEK</b> (2)</summary>
+<details><summary><b>Cloudsek</b> (2)</summary>
 
-- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
-- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - CloudSEK · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 14 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
+- [SDE Intern - Frontend   ](https://job-boards.greenhouse.io/cloudsek/jobs/6200261004) - Cloudsek · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 last updated 27 Nov 2026, 03:07 PM IST · detected 27 Nov 2026, 05:18 PM IST · 🔔 alert sent 27 Nov 2026, 05:18 PM IST
+- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - Cloudsek · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 last updated 27 Nov 2026, 04:52 PM IST · detected 27 Nov 2026, 05:18 PM IST
 
 </details>
 
@@ -412,10 +401,31 @@
 
 </details>
 
+<details><summary><b>CloudSEK</b> (1)</summary>
+
+- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
+
+</details>
+
 <details><summary><b>Codemonk</b> (1)</summary>
 
 - [Machine Learning Intern](https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786) - Codemonk · Bengaluru, Karnataka, India · **6/10**
   - 🕒 posted 10 Nov 2026, 05:39 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
+
+</details>
+
+<details><summary><b>Convin</b> (1)</summary>
+
+- [Backend Intern](https://www.linkedin.com/jobs/view/4495096028/) · [listing](https://interndoor.com/jobs/convin-backend-intern-4495096028) - Convin · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 27 Nov 2026, 01:58 PM IST · detected 27 Nov 2026, 02:30 PM IST · 🔔 alert sent 27 Nov 2026, 02:30 PM IST
+
+</details>
+
+<details><summary><b>Deloitte</b> (1)</summary>
+
+- [Full Stack Developer Intern](https://www.linkedin.com/jobs/view/4493869612/) · [listing](https://interndoor.com/jobs/deloitte-intern-4493869612) - Deloitte · Mumbai, Maharashtra, India · **5/10**
+  - 🕒 posted 27 Nov 2026, 11:49 AM IST · detected 27 Nov 2026, 11:59 AM IST
 
 </details>
 
@@ -671,6 +681,16 @@ _10 more programs open later in the year; see the full list._
 - **Flipkart Girls Wanna Code** [Women] 7.0 targeted the 2028 batch · usually Dec, Jan - 7.0 closed 15 Jan 2026. 6.0 was limited to selected women-only colleges, so check whether yours is listed. The next edition may target 2029 _(confirmed)_ · where: Flipkart Early Careers (registration on Unstop)
 - **WiSE@TI Hackathon (Texas Instruments)** [Women] women engineering students graduating 2028 (2026 edition) · usually Apr, May - 2026 deadline was 29 Apr; Rs 3 lakh prizes and internship opportunities _(reported)_ · where: Unstop
 - **BNY Code Divas** [Women] check edition · usually Feb, Mar - 2026 deadline was 31 Mar _(reported)_ · where: Unstop
-- **[Adobe India Women-in-Technology Scholarship](https:/
+- **[Adobe India Women-in-Technology Scholarship](https://research.adobe.com/adobe-india-women-in-technology-scholarship/)** [Women] women in computing - includes a summer internship at Adobe India for the recipient; dates are posted on the portal _(reported)_ · where: official page
+- **Adobe Codiva** [Women] check edition - coding contest for women in engineering; winners get internship opportunities _(reported)_ · where: Adobe
+- **Amazon WoW** [Women] women engineering students - mentorship and networking with Amazon leaders and recruiters, with internship pathways _(reported)_ · where: Amazon
+- **Uber She++ / UberSTAR** [Women] check edition - mentorship and learning programme for women and underrepresented students _(reported)_ · where: Uber
+- **Walmart CodeHers** [Women] check edition - dates not found; radar watches news _(typical)_ · where: Unstop
+- **Microsoft Engage and Codess** [Women] Engage targets 2nd-year students · usually Feb, Mar, Apr - top Engage performers are interviewed for Codess or internships _(reported)_ · where: Microsoft
+
+<details><summary><b>🎯 Programs being watched (32)</b></summary>
+
+- **Google Girl Hackathon** - [latest news](https://news.google.com/search?q=%22Girl+Hackathon%22+Google+India&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://goo.gle/GirlHackathon) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
+- **Flipkart GRiD** - [
 
 _(shortened for GitHub; full report in reports/latest.md)_

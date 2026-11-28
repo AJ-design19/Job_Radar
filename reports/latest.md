@@ -1,7 +1,7 @@
 @AJ-design19
 
-# Job Radar daily report - 27 Nov 2026
-**67 companies** hiring interns · 117 open roles · 9 new in 24h · 2 closed in 24h
+# Job Radar daily report - 28 Nov 2026
+**70 companies** hiring interns · 120 open roles · 4 new in 24h · 3 closed in 24h
 
 ## 🏆 Big-tech watchlist (live roles the radar can see)
 - **Google**: 1 open
@@ -34,27 +34,16 @@
 - **Databricks**: nothing open in India right now (radar keeps checking)
 
 ## New in the last 24 hours
-- [🔥 UI Software Engineer Intern](https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157&ref=interndoor) · [listing](https://interndoor.com/jobs/rubrik-software-engineer-ui-winter-intern-ats-greenhouse-rubrik-8413157) - Rubrik · Bangalore · **10/10**
-  - 🕒 posted 26 Nov 2026, 02:23 PM IST · detected 26 Nov 2026, 03:22 PM IST · 🔔 alert sent 26 Nov 2026, 03:22 PM IST
-  - 🤝 [your connections at Rubrik](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22F%22%5D) · [2nd-degree](https://www.linkedin.com/search/results/people/?keywords=Rubrik&origin=FACETED_SEARCH&network=%5B%22S%22%5D)
-- [Backend Engineering Intern](https://www.linkedin.com/jobs/view/4495266686/) · [listing](https://interndoor.com/jobs/fam-backend-engineering-intern-4495266686) - Fam · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 26 Nov 2026, 02:26 PM IST · detected 26 Nov 2026, 02:56 PM IST · 🔔 alert sent 26 Nov 2026, 02:56 PM IST
-- [AI/ML Intern](https://jobsearch.harman.com/careers/searchjobs/R-54016-2026?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/harman-india-internship-ai-ml-time-series-computer-vision-4493823151) - HARMAN India · Bengaluru, Karnataka, India · **6/10**
-  - 🕒 posted 26 Nov 2026, 05:29 PM IST · detected 26 Nov 2026, 07:03 PM IST · 🔔 alert sent 26 Nov 2026, 07:03 PM IST
-- [Software Engineering Intern](https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2?ref=interndoor) · [listing](https://interndoor.com/jobs/zeta-intern-ats-lever-zeta-331526ff-cb2d-4b93-a812-ff37ebb7edc2) - Zeta · Bangalore - WF · **6/10**
-  - 🕒 posted 26 Nov 2026, 12:10 PM IST · detected 26 Nov 2026, 01:28 PM IST · 🔔 alert sent 26 Nov 2026, 01:28 PM IST
-- [Data Engineer Intern](https://arthrexindia.keka.com/careers/jobdetails/171729?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/arthrex-india-data-engineer-intern-4495014878) - Arthrex India · Pune Division, Maharashtra, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 06:22 PM IST · detected 26 Nov 2026, 07:03 PM IST
-- [Forward Deployed Engineer Intern](https://www.linkedin.com/jobs/view/4495256881/) · [listing](https://interndoor.com/jobs/blue-machines-ai-forward-deployed-engineer-intern-4495256881) - Blue Machines AI · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 01:10 PM IST · detected 26 Nov 2026, 01:28 PM IST
-- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
-- [Software Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Software-Intern_596114/?source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/philips-software-intern-4495039705) - Philips · Chennai, Tamil Nadu, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 11:56 PM IST · detected 27 Nov 2026, 01:05 AM IST
-- [Intern Bachelors Field Svc Eng](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/163009/?utm_medium=jobboard&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/honeywell-technologies-intern-bachelors-field-svc-eng-4495284014) - Honeywell Technologies · Pune Division, Maharashtra, India · **4/10**
-  - 🕒 posted 26 Nov 2026, 03:35 PM IST · detected 26 Nov 2026, 04:09 PM IST
+- [SDE Intern - Frontend   ](https://job-boards.greenhouse.io/cloudsek/jobs/6200261004) - Cloudsek · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 last updated 27 Nov 2026, 03:07 PM IST · detected 27 Nov 2026, 05:18 PM IST · 🔔 alert sent 27 Nov 2026, 05:18 PM IST
+- [Backend Intern](https://www.linkedin.com/jobs/view/4495096028/) · [listing](https://interndoor.com/jobs/convin-backend-intern-4495096028) - Convin · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 27 Nov 2026, 01:58 PM IST · detected 27 Nov 2026, 02:30 PM IST · 🔔 alert sent 27 Nov 2026, 02:30 PM IST
+- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - Cloudsek · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 last updated 27 Nov 2026, 04:52 PM IST · detected 27 Nov 2026, 05:18 PM IST
+- [Full Stack Developer Intern](https://www.linkedin.com/jobs/view/4493869612/) · [listing](https://interndoor.com/jobs/deloitte-intern-4493869612) - Deloitte · Mumbai, Maharashtra, India · **5/10**
+  - 🕒 posted 27 Nov 2026, 11:49 AM IST · detected 27 Nov 2026, 11:59 AM IST
 
-## 🏢 Companies hiring interns right now (67)
+## 🏢 Companies hiring interns right now (70)
 
 <details><summary><b>GE Vernova</b> (7)</summary>
 
@@ -214,12 +203,12 @@
 
 </details>
 
-<details><summary><b>CloudSEK</b> (2)</summary>
+<details><summary><b>Cloudsek</b> (2)</summary>
 
-- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
-  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
-- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - CloudSEK · Bengaluru, Karnataka, India · **4/10**
-  - 🕒 posted 14 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
+- [SDE Intern - Frontend   ](https://job-boards.greenhouse.io/cloudsek/jobs/6200261004) - Cloudsek · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 last updated 27 Nov 2026, 03:07 PM IST · detected 27 Nov 2026, 05:18 PM IST · 🔔 alert sent 27 Nov 2026, 05:18 PM IST
+- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - Cloudsek · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 last updated 27 Nov 2026, 04:52 PM IST · detected 27 Nov 2026, 05:18 PM IST
 
 </details>
 
@@ -412,10 +401,31 @@
 
 </details>
 
+<details><summary><b>CloudSEK</b> (1)</summary>
+
+- [Cybersecurity Intern – Offensive Security](https://www.linkedin.com/jobs/view/4493490905/) · [listing](https://interndoor.com/jobs/cloudsek-cybersecurity-intern-offensive-security-4493490905) - CloudSEK · Bengaluru, Karnataka, India · **5/10**
+  - 🕒 posted 26 Nov 2026, 01:53 PM IST · detected 26 Nov 2026, 02:02 PM IST
+
+</details>
+
 <details><summary><b>Codemonk</b> (1)</summary>
 
 - [Machine Learning Intern](https://interndoor.com/jobs/codemonk-machine-learning-intern-ai-ml-4488324786) - Codemonk · Bengaluru, Karnataka, India · **6/10**
   - 🕒 posted 10 Nov 2026, 05:39 PM IST · detected 10 Nov 2026, 11:31 PM IST · 🔔 alert sent 10 Nov 2026, 11:31 PM IST
+
+</details>
+
+<details><summary><b>Convin</b> (1)</summary>
+
+- [Backend Intern](https://www.linkedin.com/jobs/view/4495096028/) · [listing](https://interndoor.com/jobs/convin-backend-intern-4495096028) - Convin · Bengaluru, Karnataka, India · **6/10**
+  - 🕒 posted 27 Nov 2026, 01:58 PM IST · detected 27 Nov 2026, 02:30 PM IST · 🔔 alert sent 27 Nov 2026, 02:30 PM IST
+
+</details>
+
+<details><summary><b>Deloitte</b> (1)</summary>
+
+- [Full Stack Developer Intern](https://www.linkedin.com/jobs/view/4493869612/) · [listing](https://interndoor.com/jobs/deloitte-intern-4493869612) - Deloitte · Mumbai, Maharashtra, India · **5/10**
+  - 🕒 posted 27 Nov 2026, 11:49 AM IST · detected 27 Nov 2026, 11:59 AM IST
 
 </details>
 
@@ -680,16 +690,16 @@ _10 more programs open later in the year; see the full list._
 
 <details><summary><b>🎯 Programs being watched (32)</b></summary>
 
-- **Google Girl Hackathon** - [latest news](https://news.google.com/search?q=%22Girl+Hackathon%22+Google+India&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://goo.gle/GirlHackathon)
+- **Google Girl Hackathon** - [latest news](https://news.google.com/search?q=%22Girl+Hackathon%22+Google+India&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://goo.gle/GirlHackathon) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
 - **Flipkart GRiD** - [latest news](https://news.google.com/search?q=%22Flipkart+GRiD%22&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://flipkartearlycareers.hirepro.in/)
-- **Flipkart Girls Wanna Code** - [latest news](https://news.google.com/search?q=%22Girls+Wanna+Code%22+Flipkart&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Flipkart Girls Wanna Code** - [latest news](https://news.google.com/search?q=%22Girls+Wanna+Code%22+Flipkart&hl=en-IN&gl=IN&ceid=IN%3Aen) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
 - **Uber HackTag** - [latest news](https://news.google.com/search?q=%22Uber+HackTag%22&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **Walmart CodeHers** - [latest news](https://news.google.com/search?q=%22CodeHers%22+Walmart&hl=en-IN&gl=IN&ceid=IN%3Aen)
-- **Salesforce AI Challenge** - [latest news](https://news.google.com/search?q=Salesforce+%28hackathon+OR+challenge%29+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Salesforce AI Challenge** - [latest news](https://news.google.com/search?q=Salesforce+%28hackathon+OR+challenge%29+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
 - **Goldman Sachs Summer Analyst (India)** - [latest news](https://news.google.com/search?q=%22Goldman+Sachs%22+summer+analyst+India+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **Microsoft internships (India)** - [latest news](https://news.google.com/search?q=Microsoft+internship+India+2027+applications&hl=en-IN&gl=IN&ceid=IN%3Aen)
-- **Amazon internships and challenges (India)** - [latest news](https://news.google.com/search?q=Amazon+internship+India+2027+SDE+intern+OR+%22ML+Challenge%22+OR+HackOn&hl=en-IN&gl=IN&ceid=IN%3Aen)
-- **Atlassian internship (India)** - [latest news](https://news.google.com/search?q=Atlassian+internship+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Amazon internships and challenges (India)** - [latest news](https://news.google.com/search?q=Amazon+internship+India+2027+SDE+intern+OR+%22ML+Challenge%22+OR+HackOn&hl=en-IN&gl=IN&ceid=IN%3Aen) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
+- **Atlassian internship (India)** - [latest news](https://news.google.com/search?q=Atlassian+internship+India&hl=en-IN&gl=IN&ceid=IN%3Aen) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
 - **Uber internship (India)** - [latest news](https://news.google.com/search?q=Uber+internship+India+software+engineering+intern&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **JPMorgan Summer Analyst (India)** - [latest news](https://news.google.com/search?q=JPMorgan+summer+analyst+India+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **Morgan Stanley technology internship (India)** - [latest news](https://news.google.com/search?q=%22Morgan+Stanley%22+technology+summer+analyst+India+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
@@ -702,10 +712,10 @@ _10 more programs open later in the year; see the full list._
 - **Netflix internships** - [latest news](https://news.google.com/search?q=Netflix+internship+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **WiSE@TI Hackathon (women, Texas Instruments)** - [latest news](https://news.google.com/search?q=%22WiSE%40TI%22+hackathon&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **BNY Code Divas (women)** - [latest news](https://news.google.com/search?q=%22Code+Divas%22+BNY&hl=en-IN&gl=IN&ceid=IN%3Aen)
-- **Adobe Codiva (women)** - [latest news](https://news.google.com/search?q=%22Adobe+Codiva%22&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Adobe Codiva (women)** - [latest news](https://news.google.com/search?q=%22Adobe+Codiva%22&hl=en-IN&gl=IN&ceid=IN%3Aen) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
 - **Adobe India Women-in-Technology Scholarship** - [latest news](https://news.google.com/search?q=Adobe+India+%22Women-in-Technology%22+scholarship&hl=en-IN&gl=IN&ceid=IN%3Aen), [official page](https://research.adobe.com/adobe-india-women-in-technology-scholarship/)
 - **Amazon WoW (women)** - [latest news](https://news.google.com/search?q=%22Amazon+WoW%22+women+engineering+students&hl=en-IN&gl=IN&ceid=IN%3Aen)
-- **Amazon Propel Program** - [latest news](https://news.google.com/search?q=%22Amazon+Propel%22+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
+- **Amazon Propel Program** - [latest news](https://news.google.com/search?q=%22Amazon+Propel%22+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen) - news check failing: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
 - **Uber She++ (women)** - [latest news](https://news.google.com/search?q=Uber+%22She%2B%2B%22+OR+UberSTAR+women+engineers&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **Microsoft Codess (women)** - [latest news](https://news.google.com/search?q=%22Microsoft+Codess%22+OR+%22Codess%22+women+engineering+students+India&hl=en-IN&gl=IN&ceid=IN%3Aen)
 - **Goldman Sachs India Hackathon** - [latest news](https://news.google.com/search?q=%22Goldman+Sachs%22+India+Hackathon+2027&hl=en-IN&gl=IN&ceid=IN%3Aen)
@@ -720,29 +730,31 @@ _10 more programs open later in the year; see the full list._
   - 🕒 posted 06 Nov 2026, 11:29 PM IST · detected 07 Nov 2026, 01:10 AM IST
 - [AI/ML Engineer Internship](https://internshala.com/internship/detail/ai-ml-engineer-internship-in-delhi-at-isourse1794546017/?utm_campaign=interndoor&utm_source=interndoor&ref=interndoor) · [listing](https://interndoor.com/jobs/isourse-ai-ml-engineer-internship-in-delhi-4491029012) - Isourse · Delhi, India · **6/10**
   - 🕒 posted 14 Nov 2026, 05:40 AM IST · detected 14 Nov 2026, 08:45 AM IST · 🔔 alert sent 14 Nov 2026, 08:45 AM IST
+- [Security Consultant Intern](https://job-boards.greenhouse.io/cloudsek/jobs/6115382004) - CloudSEK · Bengaluru, Karnataka, India · **4/10**
+  - 🕒 posted 14 Jul 2026 · detected 03 Nov 2026, 10:11 AM IST
 
 <details><summary><b>📡 What the radar read this run</b></summary>
 
 - `amazon`: 3 postings read, 1 match you (query form 1 worked)
-- `atlassian`: 222 postings read, 0 match you
-- `interndoor`: 50 postings read, 96 match you
-- `internscan`: 19 postings read, 13 match you
-- `wd:mastercard/CorporateCareers`: 46 postings read, 0 match you (searches: 'intern india' 46, 'intern bangalore' 0)
-- `wd:paypal/jobs`: 21 postings read, 0 match you (searches: 'intern india' 21, 'intern bangalore' 0)
-- `company boards (Greenhouse / Lever / Ashby)`: 40 read fine, 1 match you
-- `scan timing`: 300 scans in the last 24h, longest gap 0h 20m (the radar loop aims for one every 5 minutes)
-- `alert speed`: 4 alerts in 24h: median 78 min after posting, slowest 93 min (target: under 15)
-- `learned boards`: 3 company boards found from InternDoor apply links and now read directly: oaknorth, paytm, zeta
+- `atlassian`: 218 postings read, 0 match you
+- `interndoor`: 50 postings read, 98 match you
+- `internscan`: 20 postings read, 12 match you
+- `company boards (Greenhouse / Lever / Ashby)`: 41 read fine, 3 match you
+- `scan timing`: 300 scans in the last 24h, longest gap 0h 22m (the radar loop aims for one every 5 minutes)
+- `alert speed`: 2 alerts in 24h: median 130 min after posting, slowest 130 min (target: under 15)
+- `learned boards`: 4 company boards found from InternDoor apply links and now read directly: oaknorth, cloudsek, paytm, zeta
 
 </details>
 
 ## Source problems (check slug / network)
-- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x161)
-- `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x34)
-- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x1465)
-- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x245)
-- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x11)
-- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x307)
-- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x119)
-- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x254)
-- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x36)
+- `wd:adobe/external_experienced`: HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/exte (x44)
+- `wd:cisco/Cisco_Careers`: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisc (x13)
+- `wd:hpe/Jobsathpe`: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathp (x1634)
+- `wd:intel/External`: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/Exte (x149)
+- `wd:mastercard/Campus`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x20)
+- `wd:mastercard/CorporateCareers`: HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/maste (x85)
+- `wd:nvidia/NVIDIAExternalCareerSite`: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NV (x476)
+- `wd:paypal/jobs`: HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jo (x16)
+- `wd:salesforce/External_Career_Site`: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/sale (x31)
+- `wd:visa/Visa`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/j (x20)
+- `wd:visa/Visa_Talent_Portal`: HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa_T (x13)
